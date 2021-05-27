@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teamworks>
+    <participant id="24.cd9860d4-861f-49bb-a0f9-14034214e84a" name="TDSH Admin">
+        <lastModified>1528548869471</lastModified>
+        <lastModifiedBy>asansanwal</lastModifiedBy>
+        <participantId>24.cd9860d4-861f-49bb-a0f9-14034214e84a</participantId>
+        <participantDefinition isNull="true" />
+        <simulationGroupSize>2</simulationGroupSize>
+        <capacityType>1</capacityType>
+        <definitionType>3</definitionType>
+        <percentAvailable isNull="true" />
+        <percentEfficiency isNull="true" />
+        <cost>10</cost>
+        <currencyCode isNull="true" />
+        <image isNull="true" />
+        <serviceMembersRef isNull="true" />
+        <managersRef isNull="true" />
+        <jsonData>{"rootElement":[{"extensionElements":{"team":[{"members":{"Users":[{"name":"asansanwal","declaredType":"com.ibm.bpmsdk.model.bpmn20.ibmteamext.Member"}]},"declaredType":"com.ibm.bpmsdk.model.bpmn20.ibmteamext.TTeamDetails","type":"StandardMembers"}]},"documentation":[{"content":[],"textFormat":"text\/plain"}],"name":"TDSH Admin","declaredType":"resource","id":"24.c2951bbd-ec14-4910-bf5a-e3929f237e7a"}],"targetNamespace":"","typeLanguage":"http:\/\/www.w3.org\/2001\/XMLSchema","expressionLanguage":"http:\/\/www.w3.org\/1999\/XPath","id":"24.c2951bbd-ec14-4910-bf5a-e3929f237e7a"}</jsonData>
+        <externalId isNull="true" />
+        <description isNull="true" />
+        <guid>5c71bcdd-3645-4073-9aff-a2eb88eacdcc</guid>
+        <versionId>92906c5e-7587-443f-9f19-426de76506e5</versionId>
+        <standardMembers>
+            <standardMember>
+                <type>User</type>
+                <name>asansanwal</name>
+            </standardMember>
+        </standardMembers>
+        <teamAssignments />
+    </participant>
+</teamworks>
+

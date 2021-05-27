@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teamworks>
+    <underCoverAgent id="4.aa085242-4064-4c21-b9c4-ed1011e629a7" name="Test Message UCA">
+        <lastModified>1528548872558</lastModified>
+        <lastModifiedBy>asansanwal</lastModifiedBy>
+        <ucaId>4.aa085242-4064-4c21-b9c4-ed1011e629a7</ucaId>
+        <monthList isNull="true" />
+        <freqType isNull="true" />
+        <dayList isNull="true" />
+        <hourList isNull="true" />
+        <minuteList isNull="true" />
+        <processRef>/1.f9e7eec5-f56c-41b8-b752-b377ccbeb96e</processRef>
+        <ucaEventTypeRef>2115.1</ucaEventTypeRef>
+        <variableRef>3eead070-014c-46ed-b858-fe3e6d6b248e/12.db884a3c-c533-44b7-bb2d-47bec8ad4022</variableRef>
+        <schedType>2</schedType>
+        <schedEventName>659c6cf2-6e02-4fb0-974a-47342d704ec3</schedEventName>
+        <implementationType>Variable</implementationType>
+        <isEnabled>true</isEnabled>
+        <description isNull="true" />
+        <guid>b7bc12de-2c1c-462b-a4c4-8fd1a709ea27</guid>
+        <versionId>69168718-0d5c-491a-bc14-ab29b25c4a24</versionId>
+        <parameterMapping name="Input">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <parameterMappingId>2054.46a4d441-a716-4c4b-af27-a659288c0b05</parameterMappingId>
+            <processParameterId>2055.fd6aff1b-bbe7-4699-988b-132480583f12</processParameterId>
+            <parameterMappingParentId>4.aa085242-4064-4c21-b9c4-ed1011e629a7</parameterMappingParentId>
+            <useDefault>false</useDefault>
+            <value>""</value>
+            <classRef>3eead070-014c-46ed-b858-fe3e6d6b248e/12.db884a3c-c533-44b7-bb2d-47bec8ad4022</classRef>
+            <isList>false</isList>
+            <isInput>true</isInput>
+            <guid>b8b408e5-23e8-4119-8ca4-35f6b4a2d2dd</guid>
+            <versionId>3055bd4c-51f9-4573-b366-f91d90d82f3a</versionId>
+            <description isNull="true" />
+        </parameterMapping>
+        <queue>SYNC_QUEUE_1</queue>
+    </underCoverAgent>
+</teamworks>
+

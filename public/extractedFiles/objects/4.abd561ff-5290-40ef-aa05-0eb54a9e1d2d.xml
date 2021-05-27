@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teamworks>
+    <underCoverAgent id="4.abd561ff-5290-40ef-aa05-0eb54a9e1d2d" name="TDSH_Scheduler">
+        <lastModified>1528548877558</lastModified>
+        <lastModifiedBy>asansanwal</lastModifiedBy>
+        <ucaId>4.abd561ff-5290-40ef-aa05-0eb54a9e1d2d</ucaId>
+        <monthList isNull="true" />
+        <freqType>1</freqType>
+        <dayList isNull="true" />
+        <hourList isNull="true" />
+        <minuteList>00</minuteList>
+        <processRef>/1.6389b0b2-4a72-43b6-b572-503f30773f87</processRef>
+        <ucaEventTypeRef>2115.0</ucaEventTypeRef>
+        <variableRef isNull="true" />
+        <schedType>1</schedType>
+        <schedEventName isNull="true" />
+        <implementationType>Service</implementationType>
+        <isEnabled>true</isEnabled>
+        <description isNull="true" />
+        <guid>ec180b3a-1fd2-4912-bbe5-a5ef9785fe9f</guid>
+        <versionId>4a4457af-4abe-4881-ba6f-a49778509d4f</versionId>
+        <queue>Async Queue</queue>
+    </underCoverAgent>
+</teamworks>
+

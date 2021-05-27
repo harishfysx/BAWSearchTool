@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teamworks>
+    <managedAsset id="61.6df47940-1c59-4ab4-b23c-12c643d61296" name="bootstrap.zip">
+        <lastModified>1528548870872</lastModified>
+        <lastModifiedBy>asansanwal</lastModifiedBy>
+        <managedAssetId>61.6df47940-1c59-4ab4-b23c-12c643d61296</managedAssetId>
+        <assetUuid>3fb07345-dd4f-4ce5-953c-a90faf7e3c2c</assetUuid>
+        <mimeType>application/zip</mimeType>
+        <charEncoding isNull="true" />
+        <assetTypeCode>W</assetTypeCode>
+        <length>979040</length>
+        <localLastModification>1521676354529</localLastModification>
+        <description isNull="true" />
+        <isDocumentationFile>false</isDocumentationFile>
+        <guid>de322e76-46d5-4b99-9ae1-a9fb3706786e</guid>
+        <versionId>2f8cda3e-a8fe-4be2-afdb-a061ff93fa9d</versionId>
+    </managedAsset>
+</teamworks>
+

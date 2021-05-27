@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teamworks>
+    <coachView id="64.f7e7710b-9482-4657-a173-7bd337ab56ce" name="Process Steps Single Select">
+        <lastModified>1528548870717</lastModified>
+        <lastModifiedBy>asansanwal</lastModifiedBy>
+        <coachViewId>64.f7e7710b-9482-4657-a173-7bd337ab56ce</coachViewId>
+        <isTemplate>false</isTemplate>
+        <layout>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;&lt;ns2:layout xmlns:ns2="http://www.ibm.com/bpm/CoachDesignerNG" xmlns:ns3="http://www.ibm.com/bpm/coachview"&gt;&lt;ns2:layoutItem xsi:type="ns2:ViewRef" version="8550" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;&lt;ns2:id&gt;6f350da1-6819-454d-8a66-afcad74cdf8c&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;ProcessStepsSingle_Select1&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;be9e85fa-e3b3-4ffa-8008-d6c21a0d9820&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@label&lt;/ns2:optionName&gt;&lt;ns2:value&gt;Process Step&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;d2dcfa5b-4d8d-449e-81e1-5ecdc1fff7f0&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@helpText&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;19f56652-6b31-4626-8fa3-9823a66c6d64&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@labelVisibility&lt;/ns2:optionName&gt;&lt;ns2:value&gt;SHOW&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;6929ff74-9ba0-4f95-8bc9-1888ba409455&lt;/ns2:id&gt;&lt;ns2:optionName&gt;itemLookupMode&lt;/ns2:optionName&gt;&lt;ns2:value&gt;B&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;8ebd0459-9a3b-48e4-8ca5-93ff5735de32&lt;/ns2:id&gt;&lt;ns2:optionName&gt;itemList&lt;/ns2:optionName&gt;&lt;ns2:value&gt;tw.options.userList[]&lt;/ns2:value&gt;&lt;ns2:valueType&gt;dynamic&lt;/ns2:valueType&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;e3cec701-d522-4308-86db-52a14aea2356&lt;/ns2:id&gt;&lt;ns2:optionName&gt;dataMapping&lt;/ns2:optionName&gt;&lt;ns2:value&gt;{"optionValueProperty":"value","optionDisplayProperty":"name"}&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:viewUUID&gt;64.fd4da558-40d8-47be-92ca-c305708dc7b7&lt;/ns2:viewUUID&gt;&lt;ns2:binding&gt;tw.businessData.input&lt;/ns2:binding&gt;&lt;/ns2:layoutItem&gt;&lt;/ns2:layout&gt;</layout>
+        <paletteIcon isNull="true" />
+        <previewImage isNull="true" />
+        <hasLabel>false</hasLabel>
+        <labelPosition>0</labelPosition>
+        <nineSliceX1Coord>0</nineSliceX1Coord>
+        <nineSliceX2Coord>0</nineSliceX2Coord>
+        <nineSliceY1Coord>0</nineSliceY1Coord>
+        <nineSliceY2Coord>0</nineSliceY2Coord>
+        <emitBoundary>false</emitBoundary>
+        <isPrototypeFunc>false</isPrototypeFunc>
+        <enableDevMode>false</enableDevMode>
+        <isMobileReady>true</isMobileReady>
+        <loadJsFunction>_this = this;&#xD;
+_this.getUsersList();</loadJsFunction>
+        <unloadJsFunction isNull="true" />
+        <viewJsFunction isNull="true" />
+        <changeJsFunction>if (event.property == "processID"){&#xD;
+_this.getUsersList();&#xD;
+}</changeJsFunction>
+        <collaborationJsFunction isNull="true" />
+        <description isNull="true" />
+        <validateJsFunction isNull="true" />
+        <previewAdvHtml isNull="true" />
+        <previewAdvJs isNull="true" />
+        <useUrlBinding>false</useUrlBinding>
+        <guid>1742a4b1-c800-4305-b543-ebdf28c8f7cb</guid>
+        <versionId>c9976214-be8f-4c2a-be86-7efa37e6b6fc</versionId>
+        <field1 isNull="true" />
+        <field2 isNull="true" />
+        <field3>0</field3>
+        <field4 isNull="true" />
+        <field5>false</field5>
+        <clobField1 isNull="true" />
+        <bindingType name="input">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <coachViewBindingTypeId>65.d9c52a73-c84e-4046-948c-07ab669cacc7</coachViewBindingTypeId>
+            <coachViewId>64.f7e7710b-9482-4657-a173-7bd337ab56ce</coachViewId>
+            <isList>false</isList>
+            <classId>3eead070-014c-46ed-b858-fe3e6d6b248e/12.c09c9b6e-aabd-4897-bef2-ed61db106297</classId>
+            <seq>0</seq>
+            <description isNull="true" />
+            <guid>53a5dcba-8774-462a-9f8f-0849c38716d2</guid>
+            <versionId>17b30a5b-9238-4c25-bba5-d73faace43e7</versionId>
+        </bindingType>
+        <configOption name="userList">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <coachViewConfigOptionId>66.657dd701-2c91-490b-b0cf-2b9e006d7fc4</coachViewConfigOptionId>
+            <coachViewId>64.f7e7710b-9482-4657-a173-7bd337ab56ce</coachViewId>
+            <isList>true</isList>
+            <propertyType>OBJECT</propertyType>
+            <label isNull="true" />
+            <classId>3eead070-014c-46ed-b858-fe3e6d6b248e/12.d2e5a15a-ea53-4793-9e93-29af5bd80b13</classId>
+            <processId isNull="true" />
+            <actionflowId isNull="true" />
+            <isAdaptive>false</isAdaptive>
+            <seq>0</seq>
+            <description isNull="true" />
+            <groupName isNull="true" />
+            <guid>ada745f7-c121-4587-9fbc-2e6570019e00</guid>
+            <versionId>d40b99ff-2cfd-4841-ad39-e06f31b8e864</versionId>
+        </configOption>
+        <configOption name="snapshotID">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <coachViewConfigOptionId>66.b1acc4bb-4680-4160-ad7f-8f0b2b9d67d0</coachViewConfigOptionId>
+            <coachViewId>64.f7e7710b-9482-4657-a173-7bd337ab56ce</coachViewId>
+            <isList>false</isList>
+            <propertyType>OBJECT</propertyType>
+            <label isNull="true" />
+            <classId>3eead070-014c-46ed-b858-fe3e6d6b248e/12.db884a3c-c533-44b7-bb2d-47bec8ad4022</classId>
+            <processId isNull="true" />
+            <actionflowId isNull="true" />
+            <isAdaptive>false</isAdaptive>
+            <seq>1</seq>
+            <description isNull="true" />
+            <groupName isNull="true" />
+            <guid>41f8cfe5-92bf-4586-b38f-a1ea48a84760</guid>
+            <versionId>a71b2f25-3560-480d-b942-c79cd0e1562a</versionId>
+        </configOption>
+        <configOption name="processID">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <coachViewConfigOptionId>66.1d57127a-b1e6-4451-be34-dc237440e09c</coachViewConfigOptionId>
+            <coachViewId>64.f7e7710b-9482-4657-a173-7bd337ab56ce</coachViewId>
+            <isList>false</isList>
+            <propertyType>OBJECT</propertyType>
+            <label isNull="true" />
+            <classId>3eead070-014c-46ed-b858-fe3e6d6b248e/12.db884a3c-c533-44b7-bb2d-47bec8ad4022</classId>
+            <processId isNull="true" />
+            <actionflowId isNull="true" />
+            <isAdaptive>false</isAdaptive>
+            <seq>2</seq>
+            <description isNull="true" />
+            <groupName isNull="true" />
+            <guid>e5a1a882-867a-4989-9943-c5067414e8be</guid>
+            <versionId>cf74daff-878f-4746-8066-45b7d98162a1</versionId>
+        </configOption>
+        <inlineScript name="Inline Javascript">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <coachViewInlineScriptId>68.092bc919-b471-4894-9e29-7b8a4116d378</coachViewInlineScriptId>
+            <coachViewId>64.f7e7710b-9482-4657-a173-7bd337ab56ce</coachViewId>
+            <scriptType>JS</scriptType>
+            <scriptBlock>var _this = this;&#xD;
+&#xD;
+this.getUsersList = function() {&#xD;
+var processID = _this.context.options.processID.get("value");&#xD;
+var snapshotID = _this.context.options.snapshotID.get("value");&#xD;
+var userlist1 = _this.context.options.userList.get("value");&#xD;
+for (var a=0; a &lt; userlist1.items.length; a++){&#xD;
+userlist1.items.pop();&#xD;
+}&#xD;
+_this.context.options.userList.set("value", userlist1);&#xD;
+&#xD;
+var sdt = this.ui.get("ProcessStepsSingle_Select1");&#xD;
+sdt.clearItems();&#xD;
+//sdt.setSelectedItem("");&#xD;
+&#xD;
+if (processID &amp;&amp; snapshotID) {&#xD;
+var xhrArgs = function(config) { return {&#xD;
+url: "/rest/bpm/wle/v1/processModel/" + processID + "?snapshotId="  + snapshotID + "&amp;parts=diagram", content: {&#xD;
+accept: "application/json"&#xD;
+},&#xD;
+load: displayUsers,&#xD;
+handleAs: "json"} };&#xD;
+&#xD;
+try{&#xD;
+&#xD;
+deferred = dojo.xhrGet(xhrArgs ( { inputs: {}}));&#xD;
+&#xD;
+} catch (error) {&#xD;
+alert(error);&#xD;
+}&#xD;
+}&#xD;
+&#xD;
+function displayUsers(json_results) {&#xD;
+try{&#xD;
+var userlist = _this.context.options.userList.get("value");&#xD;
+for (var a=0; a &lt; userlist.items.length; a++){&#xD;
+userlist.items.pop();&#xD;
+}&#xD;
+&#xD;
+for (var i=0; i &lt; json_results.data.Diagram.step.length; i++){&#xD;
+var userline = userlist.createListElement();&#xD;
+userline.name = json_results.data.Diagram.step[i].name;&#xD;
+userline.value = json_results.data.Diagram.step[i].ID;&#xD;
+userlist.add(userline);&#xD;
+}&#xD;
+_this.context.options.userList.set("value", userlist);&#xD;
+} catch (error) {&#xD;
+alert(error);&#xD;
+}&#xD;
+&#xD;
+}&#xD;
+&#xD;
+}</scriptBlock>
+            <seq>0</seq>
+            <description isNull="true" />
+            <guid>01fc997e-0339-4e33-90a1-558ded5d763d</guid>
+            <versionId>f86ac7ea-42b2-4a6b-9aeb-75b2007aa822</versionId>
+        </inlineScript>
+    </coachView>
+</teamworks>
+

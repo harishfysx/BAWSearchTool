@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teamworks>
+    <coachView id="64.1b935df8-f89f-4182-8255-06f0dce9af9a" name="Scheduled UCAs">
+        <lastModified>1528548869497</lastModified>
+        <lastModifiedBy>asansanwal</lastModifiedBy>
+        <coachViewId>64.1b935df8-f89f-4182-8255-06f0dce9af9a</coachViewId>
+        <isTemplate>false</isTemplate>
+        <layout>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;&lt;ns2:layout xmlns:ns2="http://www.ibm.com/bpm/CoachDesignerNG" xmlns:ns3="http://www.ibm.com/bpm/coachview"&gt;&lt;ns2:layoutItem xsi:type="ns2:ViewRef" version="8550" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;&lt;ns2:id&gt;05e2b988-b7e9-46d9-8d1c-ccc730c6159b&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;Icon1&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;3084aeb6-90fb-486f-85c0-22804d23a890&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@label&lt;/ns2:optionName&gt;&lt;ns2:value&gt;Under Construction&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;e926b9da-c288-465a-8673-355f185ff409&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@helpText&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;424d9b11-2693-428e-8d2e-0aa101dca49e&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@labelVisibility&lt;/ns2:optionName&gt;&lt;ns2:value&gt;SHOW&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;af2be09a-9cb6-454d-8b10-2e6b95dd4bc6&lt;/ns2:id&gt;&lt;ns2:optionName&gt;icon&lt;/ns2:optionName&gt;&lt;ns2:value&gt;wrench&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;6139bebe-cf1f-4461-8f25-a43baa0ea160&lt;/ns2:id&gt;&lt;ns2:optionName&gt;iconSize&lt;/ns2:optionName&gt;&lt;ns2:value&gt;{"isResponsiveData":true,"values":[{"deviceConfigID":"LargeID","value":"100px"}]}&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:viewUUID&gt;64.1b440a6c-8508-4f95-bc28-728a58f2353c&lt;/ns2:viewUUID&gt;&lt;/ns2:layoutItem&gt;&lt;ns2:layoutItem xsi:type="ns2:ViewRef" version="8550" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;&lt;ns2:id&gt;c2b2d986-ae57-449b-8802-ae1d3cb128e3&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;Caption_Box1&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;0da3ad38-424d-4d30-8e91-715591091d46&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@label&lt;/ns2:optionName&gt;&lt;ns2:value&gt;Under Construction !&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;ae2144b7-7718-49d3-8ba3-f7bc424e1e1c&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@helpText&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;851d0683-3298-48ae-8373-33aa86a0cd19&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@labelVisibility&lt;/ns2:optionName&gt;&lt;ns2:value&gt;SHOW&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:viewUUID&gt;64.49c8e80a-9836-44d3-a3a7-97968fc8b4cb&lt;/ns2:viewUUID&gt;&lt;/ns2:layoutItem&gt;&lt;/ns2:layout&gt;</layout>
+        <paletteIcon isNull="true" />
+        <previewImage isNull="true" />
+        <hasLabel>false</hasLabel>
+        <labelPosition>0</labelPosition>
+        <nineSliceX1Coord>0</nineSliceX1Coord>
+        <nineSliceX2Coord>0</nineSliceX2Coord>
+        <nineSliceY1Coord>0</nineSliceY1Coord>
+        <nineSliceY2Coord>0</nineSliceY2Coord>
+        <emitBoundary>false</emitBoundary>
+        <isPrototypeFunc>false</isPrototypeFunc>
+        <enableDevMode>false</enableDevMode>
+        <isMobileReady>true</isMobileReady>
+        <loadJsFunction isNull="true" />
+        <unloadJsFunction isNull="true" />
+        <viewJsFunction isNull="true" />
+        <changeJsFunction isNull="true" />
+        <collaborationJsFunction isNull="true" />
+        <description isNull="true" />
+        <validateJsFunction isNull="true" />
+        <previewAdvHtml isNull="true" />
+        <previewAdvJs isNull="true" />
+        <useUrlBinding>false</useUrlBinding>
+        <guid>c2b2dcd3-4d62-4863-b478-55180b1a11b6</guid>
+        <versionId>78434b88-7239-4f62-8b1a-4346ac75b072</versionId>
+        <field1 isNull="true" />
+        <field2 isNull="true" />
+        <field3>0</field3>
+        <field4 isNull="true" />
+        <field5>false</field5>
+        <clobField1 isNull="true" />
+    </coachView>
+</teamworks>
+

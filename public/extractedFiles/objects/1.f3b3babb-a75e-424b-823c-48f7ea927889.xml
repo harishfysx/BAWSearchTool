@@ -1,0 +1,1097 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teamworks>
+    <process id="1.f3b3babb-a75e-424b-823c-48f7ea927889" name="Test LDAP Connection">
+        <lastModified>1528548870966</lastModified>
+        <lastModifiedBy>asansanwal</lastModifiedBy>
+        <processId>1.f3b3babb-a75e-424b-823c-48f7ea927889</processId>
+        <image isNull="true" />
+        <tabGroup isNull="true" />
+        <startingProcessItemId>2025.7b8de870-558b-4ee6-8f77-cce6ecf23da4</startingProcessItemId>
+        <isRootProcess>false</isRootProcess>
+        <processType>12</processType>
+        <isErrorHandlerEnabled>false</isErrorHandlerEnabled>
+        <errorHandlerItemId isNull="true" />
+        <isLoggingVariables>false</isLoggingVariables>
+        <isTransactional>false</isTransactional>
+        <processTimingLevel isNull="true" />
+        <participantRef isNull="true" />
+        <exposedType>0</exposedType>
+        <isTrackingEnabled>true</isTrackingEnabled>
+        <xmlData isNull="true" />
+        <cachingType>false</cachingType>
+        <itemLabel isNull="true" />
+        <cacheLength>0</cacheLength>
+        <mobileReady>false</mobileReady>
+        <sboSyncEnabled>true</sboSyncEnabled>
+        <externalId isNull="true" />
+        <isSecured>true</isSecured>
+        <isAjaxExposed>true</isAjaxExposed>
+        <description isNull="true" />
+        <guid>79a0224f-d492-4bb4-a8a1-75ef88df0999</guid>
+        <versionId>1f901c63-a867-4603-804f-5b7956e54ef2</versionId>
+        <dependencySummary>&lt;dependencySummary id="2da13470-5e08-4e5e-823e-42440a2b8b94" /&gt;</dependencySummary>
+        <jsonData isNull="true" />
+        <field1 isNull="true" />
+        <field2 isNull="true" />
+        <field3>0</field3>
+        <field4 isNull="true" />
+        <field5>false</field5>
+        <clobField1 isNull="true" />
+        <blobField1 isNull="true" />
+        <processParameter name="ldapHost">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <processParameterId>2055.fedf30e2-7aaf-4a8b-a5df-e92373c00324</processParameterId>
+            <processId>1.f3b3babb-a75e-424b-823c-48f7ea927889</processId>
+            <parameterType>1</parameterType>
+            <isArrayOf>false</isArrayOf>
+            <classId>3eead070-014c-46ed-b858-fe3e6d6b248e/12.db884a3c-c533-44b7-bb2d-47bec8ad4022</classId>
+            <seq>1</seq>
+            <hasDefault>true</hasDefault>
+            <defaultValue>""</defaultValue>
+            <isLocked>false</isLocked>
+            <description isNull="true" />
+            <guid>b882f5b3-0788-44f4-b9c0-dc27d2d3af16</guid>
+            <versionId>4279709d-6a3b-4ab4-ac6b-9465aa79d6bd</versionId>
+        </processParameter>
+        <processParameter name="ldapPort">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <processParameterId>2055.5149679e-50c6-42bb-b2ba-e97c108e5072</processParameterId>
+            <processId>1.f3b3babb-a75e-424b-823c-48f7ea927889</processId>
+            <parameterType>1</parameterType>
+            <isArrayOf>false</isArrayOf>
+            <classId>3eead070-014c-46ed-b858-fe3e6d6b248e/12.db884a3c-c533-44b7-bb2d-47bec8ad4022</classId>
+            <seq>2</seq>
+            <hasDefault>true</hasDefault>
+            <defaultValue>""</defaultValue>
+            <isLocked>false</isLocked>
+            <description isNull="true" />
+            <guid>c11d59bf-c0ab-4678-965e-ad2332d9a91e</guid>
+            <versionId>6c17e29a-0dfc-4f24-9652-52986c3eae50</versionId>
+        </processParameter>
+        <processParameter name="ldapVersion">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <processParameterId>2055.8412184c-8fc8-4976-af04-ef2abaf48a33</processParameterId>
+            <processId>1.f3b3babb-a75e-424b-823c-48f7ea927889</processId>
+            <parameterType>1</parameterType>
+            <isArrayOf>false</isArrayOf>
+            <classId>3eead070-014c-46ed-b858-fe3e6d6b248e/12.db884a3c-c533-44b7-bb2d-47bec8ad4022</classId>
+            <seq>3</seq>
+            <hasDefault>true</hasDefault>
+            <defaultValue>""</defaultValue>
+            <isLocked>false</isLocked>
+            <description isNull="true" />
+            <guid>16eb2932-5db4-4f7d-84db-5bda0bd9f658</guid>
+            <versionId>f9b72d2c-8119-4656-8bfc-7df5eee1f4aa</versionId>
+        </processParameter>
+        <processParameter name="authMethod">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <processParameterId>2055.f07d5043-e57d-467e-93a6-6e18d8e64212</processParameterId>
+            <processId>1.f3b3babb-a75e-424b-823c-48f7ea927889</processId>
+            <parameterType>1</parameterType>
+            <isArrayOf>false</isArrayOf>
+            <classId>3eead070-014c-46ed-b858-fe3e6d6b248e/12.db884a3c-c533-44b7-bb2d-47bec8ad4022</classId>
+            <seq>4</seq>
+            <hasDefault>true</hasDefault>
+            <defaultValue>""</defaultValue>
+            <isLocked>false</isLocked>
+            <description isNull="true" />
+            <guid>23219cfa-c78a-4868-b022-b0c0a9f71add</guid>
+            <versionId>3a4f19a0-9e47-49c8-93fa-1e8e157cff49</versionId>
+        </processParameter>
+        <processParameter name="useLdapDN">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <processParameterId>2055.77d1ca76-d0a0-40f8-96af-c829390cef95</processParameterId>
+            <processId>1.f3b3babb-a75e-424b-823c-48f7ea927889</processId>
+            <parameterType>1</parameterType>
+            <isArrayOf>false</isArrayOf>
+            <classId>3eead070-014c-46ed-b858-fe3e6d6b248e/12.db884a3c-c533-44b7-bb2d-47bec8ad4022</classId>
+            <seq>5</seq>
+            <hasDefault>true</hasDefault>
+            <defaultValue>""</defaultValue>
+            <isLocked>false</isLocked>
+            <description isNull="true" />
+            <guid>93627150-8ebd-4470-911a-f32b12066ae3</guid>
+            <versionId>c2710515-bb48-469f-b80c-20517feac7d1</versionId>
+        </processParameter>
+        <processParameter name="userLDAPPassword">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <processParameterId>2055.6d1ae6d2-7566-487b-a0fb-b8909a9d7c00</processParameterId>
+            <processId>1.f3b3babb-a75e-424b-823c-48f7ea927889</processId>
+            <parameterType>1</parameterType>
+            <isArrayOf>false</isArrayOf>
+            <classId>3eead070-014c-46ed-b858-fe3e6d6b248e/12.db884a3c-c533-44b7-bb2d-47bec8ad4022</classId>
+            <seq>6</seq>
+            <hasDefault>true</hasDefault>
+            <defaultValue>""</defaultValue>
+            <isLocked>false</isLocked>
+            <description isNull="true" />
+            <guid>34e362a3-c0c5-41ff-a243-9c5263f058b1</guid>
+            <versionId>e49437a1-5c37-4501-b489-4ff419795e19</versionId>
+        </processParameter>
+        <processParameter name="BaseDN">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <processParameterId>2055.ca9cabf5-3b17-44f3-8340-a436bbdd7f36</processParameterId>
+            <processId>1.f3b3babb-a75e-424b-823c-48f7ea927889</processId>
+            <parameterType>1</parameterType>
+            <isArrayOf>false</isArrayOf>
+            <classId>3eead070-014c-46ed-b858-fe3e6d6b248e/12.db884a3c-c533-44b7-bb2d-47bec8ad4022</classId>
+            <seq>7</seq>
+            <hasDefault>true</hasDefault>
+            <defaultValue>""</defaultValue>
+            <isLocked>false</isLocked>
+            <description isNull="true" />
+            <guid>e67b720d-dd8f-4c30-85ce-840aad628760</guid>
+            <versionId>97a0a4b3-516d-40d3-b96c-3b2823047f86</versionId>
+        </processParameter>
+        <processParameter name="searchFilter">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <processParameterId>2055.7835188d-2f8a-4b54-bd81-d968de00bbae</processParameterId>
+            <processId>1.f3b3babb-a75e-424b-823c-48f7ea927889</processId>
+            <parameterType>1</parameterType>
+            <isArrayOf>false</isArrayOf>
+            <classId>3eead070-014c-46ed-b858-fe3e6d6b248e/12.db884a3c-c533-44b7-bb2d-47bec8ad4022</classId>
+            <seq>8</seq>
+            <hasDefault>true</hasDefault>
+            <defaultValue>""</defaultValue>
+            <isLocked>false</isLocked>
+            <description isNull="true" />
+            <guid>c46a4c31-e3e5-4364-b1a3-7bb199ecadc4</guid>
+            <versionId>db6d9b79-6900-4076-9c3e-6fc9c751d049</versionId>
+        </processParameter>
+        <processParameter name="results">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <processParameterId>2055.cddba649-5f4a-477e-b04c-def9d232e7b0</processParameterId>
+            <processId>1.f3b3babb-a75e-424b-823c-48f7ea927889</processId>
+            <parameterType>2</parameterType>
+            <isArrayOf>false</isArrayOf>
+            <classId>3eead070-014c-46ed-b858-fe3e6d6b248e/12.db884a3c-c533-44b7-bb2d-47bec8ad4022</classId>
+            <seq>9</seq>
+            <hasDefault>false</hasDefault>
+            <defaultValue isNull="true" />
+            <isLocked>false</isLocked>
+            <description isNull="true" />
+            <guid>9890d606-94c8-402c-b38a-5c8094565270</guid>
+            <versionId>f07bc082-3cf4-473c-959d-ac732a78c23f</versionId>
+        </processParameter>
+        <item>
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <processItemId>2025.7b8de870-558b-4ee6-8f77-cce6ecf23da4</processItemId>
+            <processId>1.f3b3babb-a75e-424b-823c-48f7ea927889</processId>
+            <name>Script Task</name>
+            <tWComponentName>Script</tWComponentName>
+            <tWComponentId>3011.510b34fd-6281-479f-946c-5a7d2816a39d</tWComponentId>
+            <isLogEnabled>false</isLogEnabled>
+            <isTraceEnabled>false</isTraceEnabled>
+            <traceCategory isNull="true" />
+            <traceLevel isNull="true" />
+            <traceMessage isNull="true" />
+            <traceSymbolTable isNull="true" />
+            <isExecutionContextTraced>false</isExecutionContextTraced>
+            <saveExecutionContext>false</saveExecutionContext>
+            <documentation isNull="true" />
+            <isErrorHandlerEnabled>false</isErrorHandlerEnabled>
+            <errorHandlerItemId isNull="true" />
+            <guid>guid:1df100aa714bb228:7f4ddbfc:163e4948e80:-74e4</guid>
+            <versionId>ce4bae34-2a3c-4b72-a8cf-2f9b493f5177</versionId>
+            <externalServiceRef isNull="true" />
+            <externalServiceOp isNull="true" />
+            <nodeColor isNull="true" />
+            <layoutData x="267" y="58">
+                <errorLink>
+                    <controlPoints />
+                    <showEndState>false</showEndState>
+                    <showName>false</showName>
+                </errorLink>
+            </layoutData>
+            <TWComponent>
+                <lastModified isNull="true" />
+                <lastModifiedBy isNull="true" />
+                <scriptId>3011.510b34fd-6281-479f-946c-5a7d2816a39d</scriptId>
+                <scriptTypeId>2</scriptTypeId>
+                <isActive>true</isActive>
+                <script>tw.local.results = "";&#xD;
+&#xD;
+    // set the LDAP authentication method&#xD;
+    // simple&#xD;
+    var auth_method  = "" + tw.local.authMethod;&#xD;
+    // set the LDAP client Version&#xD;
+    // 3&#xD;
+    var ldap_version = tw.local.ldapVersion;&#xD;
+    // This is our LDAP Server's IP&#xD;
+    var ldap_host    = tw.local.ldapHost;&#xD;
+    // This is our LDAP Server's Port&#xD;
+    var ldap_port    = tw.local.ldapPort;&#xD;
+    // This is our access ID&#xD;
+    var ldap_dn      = tw.local.useLdapDN;&#xD;
+   // This is our access PW&#xD;
+    var ldap_pw      = tw.local.userLDAPPassword;&#xD;
+    // This is our base DN&#xD;
+    var base_dn      = tw.local.BaseDN;&#xD;
+&#xD;
+    var ctx      = null;&#xD;
+    var env       = new java.util.Hashtable();&#xD;
+&#xD;
+    // Here we store the returned LDAP object data&#xD;
+    var dn           = "";&#xD;
+    // This will hold the returned attribute list&#xD;
+    var attrs;&#xD;
+&#xD;
+    env.put(javax.naming.Context.INITIAL_CONTEXT_FACTORY,"com.sun.jndi.ldap.LdapCtxFactory");&#xD;
+    env.put(javax.naming.Context.PROVIDER_URL,"ldap://" + ldap_host + ":" + ldap_port);&#xD;
+    env.put(javax.naming.Context.SECURITY_AUTHENTICATION, auth_method);&#xD;
+    env.put(javax.naming.Context.SECURITY_PRINCIPAL, ldap_dn);&#xD;
+    env.put(javax.naming.Context.SECURITY_CREDENTIALS, ldap_pw);&#xD;
+    env.put("java.naming.ldap.version", ldap_version);&#xD;
+&#xD;
+tw.local.results += "Connecting to host " + ldap_host + " at port " + ldap_port + "...\r\n";&#xD;
+ //     System.out.println();&#xD;
+try{&#xD;
+      ctx = new javax.naming.directory.InitialDirContext(env);&#xD;
+tw.local.results += "LDAP authentication successful!\r\n";&#xD;
+&#xD;
+      // Specify the attribute list to be returned&#xD;
+      var attrIDs = [ "memberOf" ];&#xD;
+&#xD;
+      var ctls = new javax.naming.directory.SearchControls();&#xD;
+      ctls.setReturningAttributes(attrIDs);&#xD;
+      ctls.setSearchScope(javax.naming.directory.SearchControls.SUBTREE_SCOPE);&#xD;
+&#xD;
+      // Specify the search filter to match&#xD;
+//      var filter = "(&amp;(objectClass=user)(sAMAccountName=Administrator))";&#xD;
+      var filter = tw.local.searchFilter;&#xD;
+&#xD;
+      // Search the subtree for objects using the given filter&#xD;
+      var answer = ctx.search(base_dn, filter, ctls);&#xD;
+&#xD;
+      // Print the answer&#xD;
+      //Search.printSearchEnumeration(answer);&#xD;
+&#xD;
+      while (answer.hasMoreElements()) {&#xD;
+        var sr = answer.next();&#xD;
+        dn = sr.getName();&#xD;
+        attrs = sr.getAttributes();&#xD;
+&#xD;
+tw.local.results += "Found Object: " + dn + "," + base_dn + "\r\n";&#xD;
+        if (attrs != null) {&#xD;
+          // we have some attributes for this object&#xD;
+          var ae = attrs.getAll();&#xD;
+          while (ae.hasMoreElements()) {&#xD;
+            var attr = ae.next();&#xD;
+            var attrId = attr.getID();&#xD;
+tw.local.results += "Found Attribute: " + attrId + "\r\n";&#xD;
+            var vals = attr.getAll();&#xD;
+            while (vals.hasMoreElements()) {&#xD;
+              var attr_val = vals.nextElement();&#xD;
+tw.local.results += attrId + ": " + attr_val;&#xD;
+            }&#xD;
+          }&#xD;
+        }&#xD;
+     }&#xD;
+&#xD;
+      // Close the context when we're done&#xD;
+      ctx.close();&#xD;
+    } catch (err){&#xD;
+    tw.local.results += err;&#xD;
+    }</script>
+                <isRule>false</isRule>
+                <guid>060a8bfa-16f4-4004-bf31-5ab4a887af06</guid>
+                <versionId>e6e1ecfc-98e0-4061-8049-8f9931af0435</versionId>
+            </TWComponent>
+        </item>
+        <item>
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <processItemId>2025.0468c4b0-5cdb-41c3-8709-c7bed13750c6</processItemId>
+            <processId>1.f3b3babb-a75e-424b-823c-48f7ea927889</processId>
+            <name>End</name>
+            <tWComponentName>ExitPoint</tWComponentName>
+            <tWComponentId>3008.ac7692b5-5fc5-48cf-9971-0d1ccd409979</tWComponentId>
+            <isLogEnabled>false</isLogEnabled>
+            <isTraceEnabled>false</isTraceEnabled>
+            <traceCategory isNull="true" />
+            <traceLevel isNull="true" />
+            <traceMessage isNull="true" />
+            <traceSymbolTable isNull="true" />
+            <isExecutionContextTraced>false</isExecutionContextTraced>
+            <saveExecutionContext>true</saveExecutionContext>
+            <documentation isNull="true" />
+            <isErrorHandlerEnabled>false</isErrorHandlerEnabled>
+            <errorHandlerItemId isNull="true" />
+            <guid>guid:1df100aa714bb228:7f4ddbfc:163e4948e80:-74e5</guid>
+            <versionId>ce502522-f5f8-4a7e-915c-77670fdb0bb2</versionId>
+            <externalServiceRef isNull="true" />
+            <externalServiceOp isNull="true" />
+            <nodeColor isNull="true" />
+            <layoutData x="650" y="80">
+                <errorLink>
+                    <controlPoints />
+                    <showEndState>false</showEndState>
+                    <showName>false</showName>
+                </errorLink>
+            </layoutData>
+            <TWComponent>
+                <lastModified isNull="true" />
+                <lastModifiedBy isNull="true" />
+                <exitPointId>3008.ac7692b5-5fc5-48cf-9971-0d1ccd409979</exitPointId>
+                <haltProcess>false</haltProcess>
+                <guid>da314f15-e9a5-42aa-a67a-672496e1ceaf</guid>
+                <versionId>c8fe5c3b-f093-4525-a104-e957d2a24183</versionId>
+            </TWComponent>
+        </item>
+        <startingProcessItemId>2025.7b8de870-558b-4ee6-8f77-cce6ecf23da4</startingProcessItemId>
+        <errorHandlerItemId isNull="true" />
+        <layoutData noConversion="true">
+            <errorLink>
+                <controlPoints />
+                <showEndState>false</showEndState>
+                <showName>false</showName>
+            </errorLink>
+        </layoutData>
+        <startPoint>
+            <layoutData x="25" y="80">
+                <errorLink>
+                    <controlPoints />
+                    <showEndState>false</showEndState>
+                    <showName>false</showName>
+                </errorLink>
+            </layoutData>
+        </startPoint>
+        <startLink>
+            <fromPort locationId="rightCenter" portType="1" />
+            <toPort locationId="leftCenter" portType="2" />
+            <layoutData>
+                <controlPoints />
+                <showEndState>false</showEndState>
+                <showName>false</showName>
+            </layoutData>
+        </startLink>
+        <bpmn2Model>
+            <ns17:definitions xmlns:ns17="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:ns2="http://www.ibm.com/xmlns/prod/bpm/bpmn/ext/process/case" xmlns:ns3="http://www.ibm.com/xmlns/prod/bpm/bpmn/ext/process" xmlns:ns4="http://www.ibm.com/xmlns/prod/bpm/bpmn/ext/process/wle" xmlns:ns5="http://www.ibm.com/bpm/Extensions" xmlns:ns6="http://www.ibm.com/xmlns/prod/bpm/uca" xmlns:ns7="http://www.ibm.com/xmlns/prod/bpm/bpmn/ext/trackinggroup" xmlns:ns8="http://www.ibm.com/xmlns/prod/bpm/bpmn/ext/team" xmlns:ns9="http://www.ibm.com/xmlns/bpmnx/20100524/v1/BusinessVocabulary" xmlns:ns10="http://www.omg.org/spec/DD/20100524/DI" xmlns:ns11="http://www.omg.org/spec/DD/20100524/DC" xmlns:ns12="http://www.omg.org/spec/BPMN/20100524/BPMNDI" xmlns:ns13="http://www.ibm.com/xmlns/prod/bpm/graph" xmlns:ns14="http://www.ibm.com/xmlns/prod/bpm/bpmn/ext/process/auth" xmlns:ns15="http://www.ibm.com/xmlns/prod/bpm/bpmn/ext/extservice" xmlns:ns16="http://www.ibm.com/xmlns/links" xmlns:ns18="http://www.ibm.com/bpm/CoachDesignerNG" xmlns:ns19="http://www.ibm.com/xmlns/tagging" xmlns:ns20="http://www.ibm.com/bpm/uitheme" xmlns:ns21="http://www.ibm.com/bpm/coachview" targetNamespace="" expressionLanguage="http://www.ibm.com/xmlns/prod/bpm/expression-lang/javascript" typeLanguage="http://www.w3.org/2001/XMLSchema">
+                
+                
+                
+                
+                <ns17:process name="Test LDAP Connection" id="1.f3b3babb-a75e-424b-823c-48f7ea927889" ns3:executionMode="microflow">
+                    
+                    
+                    
+                    
+                    <ns17:documentation textFormat="text/plain" />
+                    
+                    
+                    
+                    
+                    <ns17:extensionElements>
+                        
+                        
+                        
+                        
+                        <ns3:isSecured>true</ns3:isSecured>
+                        
+                        
+                        
+                        
+                        <ns3:isAjaxExposed>true</ns3:isAjaxExposed>
+                        
+                        
+                        
+                        
+                        <ns3:sboSyncEnabled>true</ns3:sboSyncEnabled>
+                        
+                        
+                    
+                    
+                    </ns17:extensionElements>
+                    
+                    
+                    
+                    
+                    <ns17:ioSpecification>
+                        
+                        
+                        
+                        
+                        <ns17:dataInput name="ldapHost" itemSubjectRef="itm.12.db884a3c-c533-44b7-bb2d-47bec8ad4022" isCollection="false" id="2055.fedf30e2-7aaf-4a8b-a5df-e92373c00324">
+                            
+                            
+                            
+                            
+                            <ns17:extensionElements>
+                                
+                                
+                                
+                                
+                                <ns3:defaultValue useDefault="true">""</ns3:defaultValue>
+                                
+                                
+                            
+                            
+                            </ns17:extensionElements>
+                            
+                            
+                        
+                        
+                        </ns17:dataInput>
+                        
+                        
+                        
+                        
+                        <ns17:dataInput name="ldapPort" itemSubjectRef="itm.12.db884a3c-c533-44b7-bb2d-47bec8ad4022" isCollection="false" id="2055.5149679e-50c6-42bb-b2ba-e97c108e5072">
+                            
+                            
+                            
+                            
+                            <ns17:extensionElements>
+                                
+                                
+                                
+                                
+                                <ns3:defaultValue useDefault="true">""</ns3:defaultValue>
+                                
+                                
+                            
+                            
+                            </ns17:extensionElements>
+                            
+                            
+                        
+                        
+                        </ns17:dataInput>
+                        
+                        
+                        
+                        
+                        <ns17:dataInput name="ldapVersion" itemSubjectRef="itm.12.db884a3c-c533-44b7-bb2d-47bec8ad4022" isCollection="false" id="2055.8412184c-8fc8-4976-af04-ef2abaf48a33">
+                            
+                            
+                            
+                            
+                            <ns17:extensionElements>
+                                
+                                
+                                
+                                
+                                <ns3:defaultValue useDefault="true">""</ns3:defaultValue>
+                                
+                                
+                            
+                            
+                            </ns17:extensionElements>
+                            
+                            
+                        
+                        
+                        </ns17:dataInput>
+                        
+                        
+                        
+                        
+                        <ns17:dataInput name="authMethod" itemSubjectRef="itm.12.db884a3c-c533-44b7-bb2d-47bec8ad4022" isCollection="false" id="2055.f07d5043-e57d-467e-93a6-6e18d8e64212">
+                            
+                            
+                            
+                            
+                            <ns17:extensionElements>
+                                
+                                
+                                
+                                
+                                <ns3:defaultValue useDefault="true">""</ns3:defaultValue>
+                                
+                                
+                            
+                            
+                            </ns17:extensionElements>
+                            
+                            
+                        
+                        
+                        </ns17:dataInput>
+                        
+                        
+                        
+                        
+                        <ns17:dataInput name="useLdapDN" itemSubjectRef="itm.12.db884a3c-c533-44b7-bb2d-47bec8ad4022" isCollection="false" id="2055.77d1ca76-d0a0-40f8-96af-c829390cef95">
+                            
+                            
+                            
+                            
+                            <ns17:extensionElements>
+                                
+                                
+                                
+                                
+                                <ns3:defaultValue useDefault="true">""</ns3:defaultValue>
+                                
+                                
+                            
+                            
+                            </ns17:extensionElements>
+                            
+                            
+                        
+                        
+                        </ns17:dataInput>
+                        
+                        
+                        
+                        
+                        <ns17:dataInput name="userLDAPPassword" itemSubjectRef="itm.12.db884a3c-c533-44b7-bb2d-47bec8ad4022" isCollection="false" id="2055.6d1ae6d2-7566-487b-a0fb-b8909a9d7c00">
+                            
+                            
+                            
+                            
+                            <ns17:extensionElements>
+                                
+                                
+                                
+                                
+                                <ns3:defaultValue useDefault="true">""</ns3:defaultValue>
+                                
+                                
+                            
+                            
+                            </ns17:extensionElements>
+                            
+                            
+                        
+                        
+                        </ns17:dataInput>
+                        
+                        
+                        
+                        
+                        <ns17:dataInput name="BaseDN" itemSubjectRef="itm.12.db884a3c-c533-44b7-bb2d-47bec8ad4022" isCollection="false" id="2055.ca9cabf5-3b17-44f3-8340-a436bbdd7f36">
+                            
+                            
+                            
+                            
+                            <ns17:extensionElements>
+                                
+                                
+                                
+                                
+                                <ns3:defaultValue useDefault="true">""</ns3:defaultValue>
+                                
+                                
+                            
+                            
+                            </ns17:extensionElements>
+                            
+                            
+                        
+                        
+                        </ns17:dataInput>
+                        
+                        
+                        
+                        
+                        <ns17:dataInput name="searchFilter" itemSubjectRef="itm.12.db884a3c-c533-44b7-bb2d-47bec8ad4022" isCollection="false" id="2055.7835188d-2f8a-4b54-bd81-d968de00bbae">
+                            
+                            
+                            
+                            
+                            <ns17:extensionElements>
+                                
+                                
+                                
+                                
+                                <ns3:defaultValue useDefault="true">""</ns3:defaultValue>
+                                
+                                
+                            
+                            
+                            </ns17:extensionElements>
+                            
+                            
+                        
+                        
+                        </ns17:dataInput>
+                        
+                        
+                        
+                        
+                        <ns17:dataOutput name="results" itemSubjectRef="itm.12.db884a3c-c533-44b7-bb2d-47bec8ad4022" isCollection="false" id="2055.cddba649-5f4a-477e-b04c-def9d232e7b0" />
+                        
+                        
+                        
+                        
+                        <ns17:inputSet>
+                            
+                            
+                            
+                            
+                            <ns17:dataInputRefs>2055.fedf30e2-7aaf-4a8b-a5df-e92373c00324</ns17:dataInputRefs>
+                            
+                            
+                            
+                            
+                            <ns17:dataInputRefs>2055.5149679e-50c6-42bb-b2ba-e97c108e5072</ns17:dataInputRefs>
+                            
+                            
+                            
+                            
+                            <ns17:dataInputRefs>2055.8412184c-8fc8-4976-af04-ef2abaf48a33</ns17:dataInputRefs>
+                            
+                            
+                            
+                            
+                            <ns17:dataInputRefs>2055.f07d5043-e57d-467e-93a6-6e18d8e64212</ns17:dataInputRefs>
+                            
+                            
+                            
+                            
+                            <ns17:dataInputRefs>2055.77d1ca76-d0a0-40f8-96af-c829390cef95</ns17:dataInputRefs>
+                            
+                            
+                            
+                            
+                            <ns17:dataInputRefs>2055.6d1ae6d2-7566-487b-a0fb-b8909a9d7c00</ns17:dataInputRefs>
+                            
+                            
+                            
+                            
+                            <ns17:dataInputRefs>2055.ca9cabf5-3b17-44f3-8340-a436bbdd7f36</ns17:dataInputRefs>
+                            
+                            
+                            
+                            
+                            <ns17:dataInputRefs>2055.7835188d-2f8a-4b54-bd81-d968de00bbae</ns17:dataInputRefs>
+                            
+                            
+                        
+                        
+                        </ns17:inputSet>
+                        
+                        
+                        
+                        
+                        <ns17:outputSet>
+                            
+                            
+                            
+                            
+                            <ns17:dataOutputRefs>2055.cddba649-5f4a-477e-b04c-def9d232e7b0</ns17:dataOutputRefs>
+                            
+                            
+                        
+                        
+                        </ns17:outputSet>
+                        
+                        
+                    
+                    
+                    </ns17:ioSpecification>
+                    
+                    
+                    
+                    
+                    <ns17:laneSet id="165e7f37-8a7e-4a46-abc4-057ceedc5055">
+                        
+                        
+                        
+                        
+                        <ns17:lane name="System" partitionElementRef="24.6fd38d02-81cf-48ab-bd42-8ff4c0a1628b" id="2442317b-5f12-4c82-a7da-e5b584fb1ca2" ns4:isSystemLane="true">
+                            
+                            
+                            
+                            
+                            <ns17:extensionElements>
+                                
+                                
+                                
+                                
+                                <ns13:nodeVisualInfo x="0" y="0" width="3000" height="500" color="#F8F8F8" />
+                                
+                                
+                            
+                            
+                            </ns17:extensionElements>
+                            
+                            
+                            
+                            
+                            <ns17:flowNodeRef>efc03a3f-b3c5-4ff6-90c5-985841a07f9a</ns17:flowNodeRef>
+                            
+                            
+                            
+                            
+                            <ns17:flowNodeRef>0468c4b0-5cdb-41c3-8709-c7bed13750c6</ns17:flowNodeRef>
+                            
+                            
+                            
+                            
+                            <ns17:flowNodeRef>7b8de870-558b-4ee6-8f77-cce6ecf23da4</ns17:flowNodeRef>
+                            
+                            
+                        
+                        
+                        </ns17:lane>
+                        
+                        
+                    
+                    
+                    </ns17:laneSet>
+                    
+                    
+                    
+                    
+                    <ns17:startEvent isInterrupting="false" parallelMultiple="false" name="Start" id="efc03a3f-b3c5-4ff6-90c5-985841a07f9a">
+                        
+                        
+                        
+                        
+                        <ns17:extensionElements>
+                            
+                            
+                            
+                            
+                            <ns13:nodeVisualInfo x="25" y="80" width="24" height="24" color="#F8F8F8" />
+                            
+                            
+                        
+                        
+                        </ns17:extensionElements>
+                        
+                        
+                        
+                        
+                        <ns17:outgoing>2027.ee073438-670e-4b49-9080-dbdcf02793b1</ns17:outgoing>
+                        
+                        
+                    
+                    
+                    </ns17:startEvent>
+                    
+                    
+                    
+                    
+                    <ns17:endEvent name="End" id="0468c4b0-5cdb-41c3-8709-c7bed13750c6">
+                        
+                        
+                        
+                        
+                        <ns17:extensionElements>
+                            
+                            
+                            
+                            
+                            <ns13:nodeVisualInfo x="650" y="80" width="24" height="24" color="#F8F8F8" />
+                            
+                            
+                            
+                            
+                            <ns4:saveExecutionContext>true</ns4:saveExecutionContext>
+                            
+                            
+                            
+                            
+                            <ns3:endStateId>guid:1df100aa714bb228:7f4ddbfc:163e4948e80:-74e5</ns3:endStateId>
+                            
+                            
+                        
+                        
+                        </ns17:extensionElements>
+                        
+                        
+                        
+                        
+                        <ns17:incoming>caf6ba23-2a2d-4472-9f7f-551c9683d6d4</ns17:incoming>
+                        
+                        
+                    
+                    
+                    </ns17:endEvent>
+                    
+                    
+                    
+                    
+                    <ns17:sequenceFlow sourceRef="efc03a3f-b3c5-4ff6-90c5-985841a07f9a" targetRef="7b8de870-558b-4ee6-8f77-cce6ecf23da4" name="To End" id="2027.ee073438-670e-4b49-9080-dbdcf02793b1">
+                        
+                        
+                        
+                        
+                        <ns17:extensionElements>
+                            
+                            
+                            
+                            
+                            <ns13:linkVisualInfo>
+                                
+                                
+                                
+                                
+                                <ns13:sourcePortLocation>rightCenter</ns13:sourcePortLocation>
+                                
+                                
+                                
+                                
+                                <ns13:targetPortLocation>leftCenter</ns13:targetPortLocation>
+                                
+                                
+                                
+                                
+                                <ns13:showLabel>false</ns13:showLabel>
+                                
+                                
+                                
+                                
+                                <ns13:showCoachControlLabel>false</ns13:showCoachControlLabel>
+                                
+                                
+                                
+                                
+                                <ns13:labelPosition>0.0</ns13:labelPosition>
+                                
+                                
+                                
+                                
+                                <ns13:saveExecutionContext>false</ns13:saveExecutionContext>
+                                
+                                
+                            
+                            
+                            </ns13:linkVisualInfo>
+                            
+                            
+                        
+                        
+                        </ns17:extensionElements>
+                        
+                        
+                    
+                    
+                    </ns17:sequenceFlow>
+                    
+                    
+                    
+                    
+                    <ns17:scriptTask scriptFormat="text/x-javascript" name="Script Task" id="7b8de870-558b-4ee6-8f77-cce6ecf23da4">
+                        
+                        
+                        
+                        
+                        <ns17:extensionElements>
+                            
+                            
+                            
+                            
+                            <ns13:nodeVisualInfo x="267" y="58" width="95" height="70" />
+                            
+                            
+                        
+                        
+                        </ns17:extensionElements>
+                        
+                        
+                        
+                        
+                        <ns17:incoming>2027.ee073438-670e-4b49-9080-dbdcf02793b1</ns17:incoming>
+                        
+                        
+                        
+                        
+                        <ns17:outgoing>caf6ba23-2a2d-4472-9f7f-551c9683d6d4</ns17:outgoing>
+                        
+                        
+                        
+                        
+                        <ns17:script>tw.local.results = "";&#xD;
+&#xD;
+    // set the LDAP authentication method&#xD;
+    // simple&#xD;
+    var auth_method  = "" + tw.local.authMethod;&#xD;
+    // set the LDAP client Version&#xD;
+    // 3&#xD;
+    var ldap_version = tw.local.ldapVersion;&#xD;
+    // This is our LDAP Server's IP&#xD;
+    var ldap_host    = tw.local.ldapHost;&#xD;
+    // This is our LDAP Server's Port&#xD;
+    var ldap_port    = tw.local.ldapPort;&#xD;
+    // This is our access ID&#xD;
+    var ldap_dn      = tw.local.useLdapDN;&#xD;
+   // This is our access PW&#xD;
+    var ldap_pw      = tw.local.userLDAPPassword;&#xD;
+    // This is our base DN&#xD;
+    var base_dn      = tw.local.BaseDN;&#xD;
+&#xD;
+    var ctx      = null;&#xD;
+    var env       = new java.util.Hashtable();&#xD;
+&#xD;
+    // Here we store the returned LDAP object data&#xD;
+    var dn           = "";&#xD;
+    // This will hold the returned attribute list&#xD;
+    var attrs;&#xD;
+&#xD;
+    env.put(javax.naming.Context.INITIAL_CONTEXT_FACTORY,"com.sun.jndi.ldap.LdapCtxFactory");&#xD;
+    env.put(javax.naming.Context.PROVIDER_URL,"ldap://" + ldap_host + ":" + ldap_port);&#xD;
+    env.put(javax.naming.Context.SECURITY_AUTHENTICATION, auth_method);&#xD;
+    env.put(javax.naming.Context.SECURITY_PRINCIPAL, ldap_dn);&#xD;
+    env.put(javax.naming.Context.SECURITY_CREDENTIALS, ldap_pw);&#xD;
+    env.put("java.naming.ldap.version", ldap_version);&#xD;
+&#xD;
+tw.local.results += "Connecting to host " + ldap_host + " at port " + ldap_port + "...\r\n";&#xD;
+ //     System.out.println();&#xD;
+try{&#xD;
+      ctx = new javax.naming.directory.InitialDirContext(env);&#xD;
+tw.local.results += "LDAP authentication successful!\r\n";&#xD;
+&#xD;
+      // Specify the attribute list to be returned&#xD;
+      var attrIDs = [ "memberOf" ];&#xD;
+&#xD;
+      var ctls = new javax.naming.directory.SearchControls();&#xD;
+      ctls.setReturningAttributes(attrIDs);&#xD;
+      ctls.setSearchScope(javax.naming.directory.SearchControls.SUBTREE_SCOPE);&#xD;
+&#xD;
+      // Specify the search filter to match&#xD;
+//      var filter = "(&amp;(objectClass=user)(sAMAccountName=Administrator))";&#xD;
+      var filter = tw.local.searchFilter;&#xD;
+&#xD;
+      // Search the subtree for objects using the given filter&#xD;
+      var answer = ctx.search(base_dn, filter, ctls);&#xD;
+&#xD;
+      // Print the answer&#xD;
+      //Search.printSearchEnumeration(answer);&#xD;
+&#xD;
+      while (answer.hasMoreElements()) {&#xD;
+        var sr = answer.next();&#xD;
+        dn = sr.getName();&#xD;
+        attrs = sr.getAttributes();&#xD;
+&#xD;
+tw.local.results += "Found Object: " + dn + "," + base_dn + "\r\n";&#xD;
+        if (attrs != null) {&#xD;
+          // we have some attributes for this object&#xD;
+          var ae = attrs.getAll();&#xD;
+          while (ae.hasMoreElements()) {&#xD;
+            var attr = ae.next();&#xD;
+            var attrId = attr.getID();&#xD;
+tw.local.results += "Found Attribute: " + attrId + "\r\n";&#xD;
+            var vals = attr.getAll();&#xD;
+            while (vals.hasMoreElements()) {&#xD;
+              var attr_val = vals.nextElement();&#xD;
+tw.local.results += attrId + ": " + attr_val;&#xD;
+            }&#xD;
+          }&#xD;
+        }&#xD;
+     }&#xD;
+&#xD;
+      // Close the context when we're done&#xD;
+      ctx.close();&#xD;
+    } catch (err){&#xD;
+    tw.local.results += err;&#xD;
+    }</ns17:script>
+                        
+                        
+                    
+                    
+                    </ns17:scriptTask>
+                    
+                    
+                    
+                    
+                    <ns17:sequenceFlow sourceRef="7b8de870-558b-4ee6-8f77-cce6ecf23da4" targetRef="0468c4b0-5cdb-41c3-8709-c7bed13750c6" name="To End" id="caf6ba23-2a2d-4472-9f7f-551c9683d6d4">
+                        
+                        
+                        
+                        
+                        <ns17:extensionElements>
+                            
+                            
+                            
+                            
+                            <ns3:sequenceFlowImplementation sboSyncEnabled="true" />
+                            
+                            
+                            
+                            
+                            <ns13:linkVisualInfo>
+                                
+                                
+                                
+                                
+                                <ns13:sourcePortLocation>rightCenter</ns13:sourcePortLocation>
+                                
+                                
+                                
+                                
+                                <ns13:targetPortLocation>leftCenter</ns13:targetPortLocation>
+                                
+                                
+                                
+                                
+                                <ns13:showLabel>false</ns13:showLabel>
+                                
+                                
+                                
+                                
+                                <ns13:showCoachControlLabel>false</ns13:showCoachControlLabel>
+                                
+                                
+                                
+                                
+                                <ns13:labelPosition>0.0</ns13:labelPosition>
+                                
+                                
+                                
+                                
+                                <ns13:saveExecutionContext>true</ns13:saveExecutionContext>
+                                
+                                
+                            
+                            
+                            </ns13:linkVisualInfo>
+                            
+                            
+                        
+                        
+                        </ns17:extensionElements>
+                        
+                        
+                    
+                    
+                    </ns17:sequenceFlow>
+                    
+                    
+                
+                
+                </ns17:process>
+                
+                
+            
+            
+            </ns17:definitions>
+        </bpmn2Model>
+        <link name="To End">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <processLinkId>2027.0a9c3ace-14d9-4db1-a46f-0fb950841984</processLinkId>
+            <processId>1.f3b3babb-a75e-424b-823c-48f7ea927889</processId>
+            <description isNull="true" />
+            <fromProcessItemId>2025.7b8de870-558b-4ee6-8f77-cce6ecf23da4</fromProcessItemId>
+            <endStateId>Out</endStateId>
+            <toProcessItemId>2025.0468c4b0-5cdb-41c3-8709-c7bed13750c6</toProcessItemId>
+            <guid>bc57a4cc-f888-4096-a591-0d38485eb45c</guid>
+            <versionId>5bdda784-391c-493e-9a4f-f3030e68f0b5</versionId>
+            <layoutData>
+                <controlPoints />
+                <showEndState>false</showEndState>
+                <showName>false</showName>
+            </layoutData>
+            <fromItemPort locationId="rightCenter" portType="1" />
+            <toItemPort locationId="leftCenter" portType="2" />
+            <fromProcessItemId>2025.7b8de870-558b-4ee6-8f77-cce6ecf23da4</fromProcessItemId>
+            <toProcessItemId>2025.0468c4b0-5cdb-41c3-8709-c7bed13750c6</toProcessItemId>
+        </link>
+    </process>
+</teamworks>
+

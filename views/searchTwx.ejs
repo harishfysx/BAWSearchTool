@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  
+  <title>Search TWX </title>
+</head>
+<body>
+  <div class="container">
+   
+    
+    <br>
+    <p> </p>
+    
+
+    <form method="POST">
+      <button formaction="/deleteTwx" type="submit" style="background-color: #a62626;" class="btn">Delete <%= typeof fileNames != 'undefined' ? fileNames : '' %></button>
+      <div class="form-group">
+
+     
+      <input type="text" name="searchTerm" class="form-control">  </input>
+      <button formaction="/serchExtracted" type="submit" style="background-color: #21bb5c;" class="btn">Search</button>
+      <br></br>
+      <%= typeof msg != 'undefined' ? msg : '' %>
+      <br></br>
+    </div>
+    </form>
+
+    <% if(typeof matchedObjectNames!= 'undefined') {  %>
+      <table class="striped">
+        <tr>
+           <th>Artifact Name </th><th>Artifact Type</th><th>Location</th>
+        </tr>
+     
+        <% for (var i = 0; i < matchedObjectNames.length; i++) { %>
+         <tr>
+           <td><%= matchedObjectNames[i].objectName %></td>
+           <td><%= matchedObjectNames[i].assetType %></td>
+           <td><%= matchedObjectNames[i].objectName %></td>
+         </tr>    
+        <% } %>
+     </table>
+     <% } %>
+  </div>
+
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>  
+</body>
+</html>

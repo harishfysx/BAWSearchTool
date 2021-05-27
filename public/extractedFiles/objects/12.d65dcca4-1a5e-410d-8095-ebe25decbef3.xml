@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teamworks>
+    <twClass id="12.d65dcca4-1a5e-410d-8095-ebe25decbef3" name="UCAEventDetails">
+        <lastModified>1528548869636</lastModified>
+        <lastModifiedBy>asansanwal</lastModifiedBy>
+        <classId>12.d65dcca4-1a5e-410d-8095-ebe25decbef3</classId>
+        <type>1</type>
+        <isSystem>false</isSystem>
+        <shared>false</shared>
+        <isShadow>false</isShadow>
+        <globalLifetime>false</globalLifetime>
+        <internalName isNull="true" />
+        <extensionType isNull="true" />
+        <saveServiceRef isNull="true" />
+        <bpmn2Data isNull="true" />
+        <externalId>itm.12.d65dcca4-1a5e-410d-8095-ebe25decbef3</externalId>
+        <dependencySummary isNull="true" />
+        <jsonData>{"attributeFormDefault":"unqualified","elementFormDefault":"unqualified","targetNamespace":"http:\/\/TDSH","complexType":[{"annotation":{"documentation":[{}],"appinfo":[{"shared":[false],"advancedProperties":[{}],"shadow":[false]}]},"sequence":{"element":[{"annotation":{"documentation":[{}],"appinfo":[{"propertyName":["ProjectAcronym"],"advancedParameterProperties":[{}]}]},"name":"ProjectAcronym","type":"{http:\/\/lombardi.ibm.com\/schema\/}String","otherAttributes":{"{http:\/\/www.ibm.com\/bpmsdk}refid":"12.db884a3c-c533-44b7-bb2d-47bec8ad4022"}},{"annotation":{"documentation":[{}],"appinfo":[{"propertyName":["IsTip"],"advancedParameterProperties":[{}]}]},"name":"IsTip","type":"{http:\/\/lombardi.ibm.com\/schema\/}String","otherAttributes":{"{http:\/\/www.ibm.com\/bpmsdk}refid":"12.db884a3c-c533-44b7-bb2d-47bec8ad4022"}},{"annotation":{"documentation":[{}],"appinfo":[{"propertyName":["SnapshotID"],"advancedParameterProperties":[{}]}]},"name":"SnapshotID","type":"{http:\/\/lombardi.ibm.com\/schema\/}String","otherAttributes":{"{http:\/\/www.ibm.com\/bpmsdk}refid":"12.db884a3c-c533-44b7-bb2d-47bec8ad4022"}},{"annotation":{"documentation":[{}],"appinfo":[{"propertyName":["Correlation"],"advancedParameterProperties":[{}]}]},"name":"Correlation","type":"{http:\/\/lombardi.ibm.com\/schema\/}String","otherAttributes":{"{http:\/\/www.ibm.com\/bpmsdk}refid":"12.db884a3c-c533-44b7-bb2d-47bec8ad4022"}},{"annotation":{"documentation":[{}],"appinfo":[{"propertyName":["UCAEnabled"],"advancedParameterProperties":[{}]}]},"name":"UCAEnabled","type":"{http:\/\/lombardi.ibm.com\/schema\/}String","otherAttributes":{"{http:\/\/www.ibm.com\/bpmsdk}refid":"12.db884a3c-c533-44b7-bb2d-47bec8ad4022"}},{"annotation":{"documentation":[{}],"appinfo":[{"propertyName":["BPDName"],"advancedParameterProperties":[{}]}]},"name":"BPDName","type":"{http:\/\/lombardi.ibm.com\/schema\/}String","otherAttributes":{"{http:\/\/www.ibm.com\/bpmsdk}refid":"12.db884a3c-c533-44b7-bb2d-47bec8ad4022"}},{"annotation":{"documentation":[{}],"appinfo":[{"propertyName":["UCAImplementationType"],"advancedParameterProperties":[{}]}]},"name":"UCAImplementationType","type":"{http:\/\/lombardi.ibm.com\/schema\/}String","otherAttributes":{"{http:\/\/www.ibm.com\/bpmsdk}refid":"12.db884a3c-c533-44b7-bb2d-47bec8ad4022"}},{"annotation":{"documentation":[{}],"appinfo":[{"propertyName":["InstanceName"],"advancedParameterProperties":[{}]}]},"name":"InstanceName","type":"{http:\/\/lombardi.ibm.com\/schema\/}String","otherAttributes":{"{http:\/\/www.ibm.com\/bpmsdk}refid":"12.db884a3c-c533-44b7-bb2d-47bec8ad4022"}},{"annotation":{"documentation":[{}],"appinfo":[{"propertyName":["InstanceID"],"advancedParameterProperties":[{}]}]},"name":"InstanceID","type":"{http:\/\/lombardi.ibm.com\/schema\/}String","otherAttributes":{"{http:\/\/www.ibm.com\/bpmsdk}refid":"12.db884a3c-c533-44b7-bb2d-47bec8ad4022"}},{"annotation":{"documentation":[{}],"appinfo":[{"propertyName":["ApplicationName"],"advancedParameterProperties":[{}]}]},"name":"ApplicationName","type":"{http:\/\/lombardi.ibm.com\/schema\/}String","otherAttributes":{"{http:\/\/www.ibm.com\/bpmsdk}refid":"12.db884a3c-c533-44b7-bb2d-47bec8ad4022"}},{"annotation":{"documentation":[{}],"appinfo":[{"propertyName":["snapshotName"],"advancedParameterProperties":[{}]}]},"name":"snapshotName","type":"{http:\/\/lombardi.ibm.com\/schema\/}String","otherAttributes":{"{http:\/\/www.ibm.com\/bpmsdk}refid":"12.db884a3c-c533-44b7-bb2d-47bec8ad4022"}},{"annotation":{"documentation":[{}],"appinfo":[{"propertyName":["EventID"],"advancedParameterProperties":[{}]}]},"name":"EventID","type":"{http:\/\/lombardi.ibm.com\/schema\/}String","otherAttributes":{"{http:\/\/www.ibm.com\/bpmsdk}refid":"12.db884a3c-c533-44b7-bb2d-47bec8ad4022"}},{"annotation":{"documentation":[{}],"appinfo":[{"propertyName":["UCAName"],"advancedParameterProperties":[{}]}]},"name":"UCAName","type":"{http:\/\/lombardi.ibm.com\/schema\/}String","otherAttributes":{"{http:\/\/www.ibm.com\/bpmsdk}refid":"12.db884a3c-c533-44b7-bb2d-47bec8ad4022"}},{"annotation":{"documentation":[{}],"appinfo":[{"propertyName":["ServiceName"],"advancedParameterProperties":[{}]}]},"name":"ServiceName","type":"{http:\/\/lombardi.ibm.com\/schema\/}String","otherAttributes":{"{http:\/\/www.ibm.com\/bpmsdk}refid":"12.db884a3c-c533-44b7-bb2d-47bec8ad4022"}},{"annotation":{"documentation":[{}],"appinfo":[{"propertyName":["Params"],"advancedParameterProperties":[{}]}]},"name":"Params","type":"{http:\/\/lombardi.ibm.com\/schema\/}String","otherAttributes":{"{http:\/\/www.ibm.com\/bpmsdk}refid":"12.db884a3c-c533-44b7-bb2d-47bec8ad4022"}},{"annotation":{"documentation":[{}],"appinfo":[{"propertyName":["ID"],"advancedParameterProperties":[{}]}]},"name":"ID","type":"{http:\/\/lombardi.ibm.com\/schema\/}String","otherAttributes":{"{http:\/\/www.ibm.com\/bpmsdk}refid":"12.db884a3c-c533-44b7-bb2d-47bec8ad4022"}},{"annotation":{"documentation":[{}],"appinfo":[{"propertyName":["ParamID"],"advancedParameterProperties":[{}]}]},"name":"ParamID","type":"{http:\/\/lombardi.ibm.com\/schema\/}String","otherAttributes":{"{http:\/\/www.ibm.com\/bpmsdk}refid":"12.db884a3c-c533-44b7-bb2d-47bec8ad4022"}},{"annotation":{"documentation":[{}],"appinfo":[{"propertyName":["ParameterName"],"advancedParameterProperties":[{}]}]},"name":"ParameterName","type":"{http:\/\/lombardi.ibm.com\/schema\/}String","otherAttributes":{"{http:\/\/www.ibm.com\/bpmsdk}refid":"12.db884a3c-c533-44b7-bb2d-47bec8ad4022"}}]},"name":"UCAEventDetails"}],"id":"_12.6e07bd8f-f16b-4ba3-8e84-8c6f321eabd6"}</jsonData>
+        <description isNull="true" />
+        <guid>848e57a1-449b-4205-adc8-3d7d22ca8222</guid>
+        <versionId>cf8f189a-9df3-4b28-8dea-4ac33f7b3530</versionId>
+        <definition>
+            <property>
+                <name>ProjectAcronym</name>
+                <description isNull="true" />
+                <classRef>3eead070-014c-46ed-b858-fe3e6d6b248e/12.db884a3c-c533-44b7-bb2d-47bec8ad4022</classRef>
+                <arrayProperty>false</arrayProperty>
+                <propertyDefault isNull="true" />
+                <propertyRequired>false</propertyRequired>
+                <propertyHidden>false</propertyHidden>
+                <annotation type="com.lombardisoftware.core.xml.XMLFieldAnnotation" version="2.0">
+                    <exclude isNull="true" />
+                    <nodeType isNull="true" />
+                    <name isNull="true" />
+                    <namespace isNull="true" />
+                    <typeName isNull="true" />
+                    <typeNamespace isNull="true" />
+                    <minOccurs isNull="true" />
+                    <maxOccurs isNull="true" />
+                    <nillable isNull="true" />
+                    <order isNull="true" />
+                    <wrapArray isNull="true" />
+                    <arrayTypeName isNull="true" />
+                    <arrayTypeAnonymous isNull="true" />
+                    <arrayItemName isNull="true" />
+                    <arrayItemWildcard isNull="true" />
+                    <wildcard isNull="true" />
+                    <wildcardVariety isNull="true" />
+                    <wildcardMode isNull="true" />
+                    <wildcardNamespace isNull="true" />
+                    <parentModelGroupCompositor isNull="true" />
+                    <timeZone isNull="true" />
+                </annotation>
+            </property>
+            <property>
+                <name>IsTip</name>
+                <description isNull="true" />
+                <classRef>3eead070-014c-46ed-b858-fe3e6d6b248e/12.db884a3c-c533-44b7-bb2d-47bec8ad4022</classRef>
+                <arrayProperty>false</arrayProperty>
+                <propertyDefault isNull="true" />
+                <propertyRequired>false</propertyRequired>
+                <propertyHidden>false</propertyHidden>
+                <annotation type="com.lombardisoftware.core.xml.XMLFieldAnnotation" version="2.0">
+                    <exclude isNull="true" />
+                    <nodeType isNull="true" />
+                    <name isNull="true" />
+                    <namespace isNull="true" />
+                    <typeName isNull="true" />
+                    <typeNamespace isNull="true" />
+                    <minOccurs isNull="true" />
+                    <maxOccurs isNull="true" />
+                    <nillable isNull="true" />
+                    <order isNull="true" />
+                    <wrapArray isNull="true" />
+                    <arrayTypeName isNull="true" />
+                    <arrayTypeAnonymous isNull="true" />
+                    <arrayItemName isNull="true" />
+                    <arrayItemWildcard isNull="true" />
+                    <wildcard isNull="true" />
+                    <wildcardVariety isNull="true" />
+                    <wildcardMode isNull="true" />
+                    <wildcardNamespace isNull="true" />
+                    <parentModelGroupCompositor isNull="true" />
+                    <timeZone isNull="true" />
+                </annotation>
+            </property>
+            <property>
+                <name>SnapshotID</name>
+                <description isNull="true" />
+                <classRef>3eead070-014c-46ed-b858-fe3e6d6b248e/12.db884a3c-c533-44b7-bb2d-47bec8ad4022</classRef>
+                <arrayProperty>false</arrayProperty>
+                <propertyDefault isNull="true" />
+                <propertyRequired>false</propertyRequired>
+                <propertyHidden>false</propertyHidden>
+                <annotation type="com.lombardisoftware.core.xml.XMLFieldAnnotation" version="2.0">
+                    <exclude isNull="true" />
+                    <nodeType isNull="true" />
+                    <name isNull="true" />
+                    <namespace isNull="true" />
+                    <typeName isNull="true" />
+                    <typeNamespace isNull="true" />
+                    <minOccurs isNull="true" />
+                    <maxOccurs isNull="true" />
+                    <nillable isNull="true" />
+                    <order isNull="true" />
+                    <wrapArray isNull="true" />
+                    <arrayTypeName isNull="true" />
+                    <arrayTypeAnonymous isNull="true" />
+                    <arrayItemName isNull="true" />
+                    <arrayItemWildcard isNull="true" />
+                    <wildcard isNull="true" />
+                    <wildcardVariety isNull="true" />
+                    <wildcardMode isNull="true" />
+                    <wildcardNamespace isNull="true" />
+                    <parentModelGroupCompositor isNull="true" />
+                    <timeZone isNull="true" />
+                </annotation>
+            </property>
+            <property>
+                <name>Correlation</name>
+                <description isNull="true" />
+                <classRef>3eead070-014c-46ed-b858-fe3e6d6b248e/12.db884a3c-c533-44b7-bb2d-47bec8ad4022</classRef>
+                <arrayProperty>false</arrayProperty>
+                <propertyDefault isNull="true" />
+                <propertyRequired>false</propertyRequired>
+                <propertyHidden>false</propertyHidden>
+                <annotation type="com.lombardisoftware.core.xml.XMLFieldAnnotation" version="2.0">
+                    <exclude isNull="true" />
+                    <nodeType isNull="true" />
+                    <name isNull="true" />
+                    <namespace isNull="true" />
+                    <typeName isNull="true" />
+                    <typeNamespace isNull="true" />
+                    <minOccurs isNull="true" />
+                    <maxOccurs isNull="true" />
+                    <nillable isNull="true" />
+                    <order isNull="true" />
+                    <wrapArray isNull="true" />
+                    <arrayTypeName isNull="true" />
+                    <arrayTypeAnonymous isNull="true" />
+                    <arrayItemName isNull="true" />
+                    <arrayItemWildcard isNull="true" />
+                    <wildcard isNull="true" />
+                    <wildcardVariety isNull="true" />
+                    <wildcardMode isNull="true" />
+                    <wildcardNamespace isNull="true" />
+                    <parentModelGroupCompositor isNull="true" />
+                    <timeZone isNull="true" />
+                </annotation>
+            </property>
+            <property>
+                <name>UCAEnabled</name>
+                <description isNull="true" />
+                <classRef>3eead070-014c-46ed-b858-fe3e6d6b248e/12.db884a3c-c533-44b7-bb2d-47bec8ad4022</classRef>
+                <arrayProperty>false</arrayProperty>
+                <propertyDefault isNull="true" />
+                <propertyRequired>false</propertyRequired>
+                <propertyHidden>false</propertyHidden>
+                <annotation type="com.lombardisoftware.core.xml.XMLFieldAnnotation" version="2.0">
+                    <exclude isNull="true" />
+                    <nodeType isNull="true" />
+                    <name isNull="true" />
+                    <namespace isNull="true" />
+                    <typeName isNull="true" />
+                    <typeNamespace isNull="true" />
+                    <minOccurs isNull="true" />
+                    <maxOccurs isNull="true" />
+                    <nillable isNull="true" />
+                    <order isNull="true" />
+                    <wrapArray isNull="true" />
+                    <arrayTypeName isNull="true" />
+                    <arrayTypeAnonymous isNull="true" />
+                    <arrayItemName isNull="true" />
+                    <arrayItemWildcard isNull="true" />
+                    <wildcard isNull="true" />
+                    <wildcardVariety isNull="true" />
+                    <wildcardMode isNull="true" />
+                    <wildcardNamespace isNull="true" />
+                    <parentModelGroupCompositor isNull="true" />
+                    <timeZone isNull="true" />
+                </annotation>
+            </property>
+            <property>
+                <name>BPDName</name>
+                <description isNull="true" />
+                <classRef>3eead070-014c-46ed-b858-fe3e6d6b248e/12.db884a3c-c533-44b7-bb2d-47bec8ad4022</classRef>
+                <arrayProperty>false</arrayProperty>
+                <propertyDefault isNull="true" />
+                <propertyRequired>false</propertyRequired>
+                <propertyHidden>false</propertyHidden>
+                <annotation type="com.lombardisoftware.core.xml.XMLFieldAnnotation" version="2.0">
+                    <exclude isNull="true" />
+                    <nodeType isNull="true" />
+                    <name isNull="true" />
+                    <namespace isNull="true" />
+                    <typeName isNull="true" />
+                    <typeNamespace isNull="true" />
+                    <minOccurs isNull="true" />
+                    <maxOccurs isNull="true" />
+                    <nillable isNull="true" />
+                    <order isNull="true" />
+                    <wrapArray isNull="true" />
+                    <arrayTypeName isNull="true" />
+                    <arrayTypeAnonymous isNull="true" />
+                    <arrayItemName isNull="true" />
+                    <arrayItemWildcard isNull="true" />
+                    <wildcard isNull="true" />
+                    <wildcardVariety isNull="true" />
+                    <wildcardMode isNull="true" />
+                    <wildcardNamespace isNull="true" />
+                    <parentModelGroupCompositor isNull="true" />
+                    <timeZone isNull="true" />
+                </annotation>
+            </property>
+            <property>
+                <name>UCAImplementationType</name>
+                <description isNull="true" />
+                <classRef>3eead070-014c-46ed-b858-fe3e6d6b248e/12.db884a3c-c533-44b7-bb2d-47bec8ad4022</classRef>
+                <arrayProperty>false</arrayProperty>
+                <propertyDefault isNull="true" />
+                <propertyRequired>false</propertyRequired>
+                <propertyHidden>false</propertyHidden>
+                <annotation type="com.lombardisoftware.core.xml.XMLFieldAnnotation" version="2.0">
+                    <exclude isNull="true" />
+                    <nodeType isNull="true" />
+                    <name isNull="true" />
+                    <namespace isNull="true" />
+                    <typeName isNull="true" />
+                    <typeNamespace isNull="true" />
+                    <minOccurs isNull="true" />
+                    <maxOccurs isNull="true" />
+                    <nillable isNull="true" />
+                    <order isNull="true" />
+                    <wrapArray isNull="true" />
+                    <arrayTypeName isNull="true" />
+                    <arrayTypeAnonymous isNull="true" />
+                    <arrayItemName isNull="true" />
+                    <arrayItemWildcard isNull="true" />
+                    <wildcard isNull="true" />
+                    <wildcardVariety isNull="true" />
+                    <wildcardMode isNull="true" />
+                    <wildcardNamespace isNull="true" />
+                    <parentModelGroupCompositor isNull="true" />
+                    <timeZone isNull="true" />
+                </annotation>
+            </property>
+            <property>
+                <name>InstanceName</name>
+                <description isNull="true" />
+                <classRef>3eead070-014c-46ed-b858-fe3e6d6b248e/12.db884a3c-c533-44b7-bb2d-47bec8ad4022</classRef>
+                <arrayProperty>false</arrayProperty>
+                <propertyDefault isNull="true" />
+                <propertyRequired>false</propertyRequired>
+                <propertyHidden>false</propertyHidden>
+                <annotation type="com.lombardisoftware.core.xml.XMLFieldAnnotation" version="2.0">
+                    <exclude isNull="true" />
+                    <nodeType isNull="true" />
+                    <name isNull="true" />
+                    <namespace isNull="true" />
+                    <typeName isNull="true" />
+                    <typeNamespace isNull="true" />
+                    <minOccurs isNull="true" />
+                    <maxOccurs isNull="true" />
+                    <nillable isNull="true" />
+                    <order isNull="true" />
+                    <wrapArray isNull="true" />
+                    <arrayTypeName isNull="true" />
+                    <arrayTypeAnonymous isNull="true" />
+                    <arrayItemName isNull="true" />
+                    <arrayItemWildcard isNull="true" />
+                    <wildcard isNull="true" />
+                    <wildcardVariety isNull="true" />
+                    <wildcardMode isNull="true" />
+                    <wildcardNamespace isNull="true" />
+                    <parentModelGroupCompositor isNull="true" />
+                    <timeZone isNull="true" />
+                </annotation>
+            </property>
+            <property>
+                <name>InstanceID</name>
+                <description isNull="true" />
+                <classRef>3eead070-014c-46ed-b858-fe3e6d6b248e/12.db884a3c-c533-44b7-bb2d-47bec8ad4022</classRef>
+                <arrayProperty>false</arrayProperty>
+                <propertyDefault isNull="true" />
+                <propertyRequired>false</propertyRequired>
+                <propertyHidden>false</propertyHidden>
+                <annotation type="com.lombardisoftware.core.xml.XMLFieldAnnotation" version="2.0">
+                    <exclude isNull="true" />
+                    <nodeType isNull="true" />
+                    <name isNull="true" />
+                    <namespace isNull="true" />
+                    <typeName isNull="true" />
+                    <typeNamespace isNull="true" />
+                    <minOccurs isNull="true" />
+                    <maxOccurs isNull="true" />
+                    <nillable isNull="true" />
+                    <order isNull="true" />
+                    <wrapArray isNull="true" />
+                    <arrayTypeName isNull="true" />
+                    <arrayTypeAnonymous isNull="true" />
+                    <arrayItemName isNull="true" />
+                    <arrayItemWildcard isNull="true" />
+                    <wildcard isNull="true" />
+                    <wildcardVariety isNull="true" />
+                    <wildcardMode isNull="true" />
+                    <wildcardNamespace isNull="true" />
+                    <parentModelGroupCompositor isNull="true" />
+                    <timeZone isNull="true" />
+                </annotation>
+            </property>
+            <property>
+                <name>ApplicationName</name>
+                <description isNull="true" />
+                <classRef>3eead070-014c-46ed-b858-fe3e6d6b248e/12.db884a3c-c533-44b7-bb2d-47bec8ad4022</classRef>
+                <arrayProperty>false</arrayProperty>
+                <propertyDefault isNull="true" />
+                <propertyRequired>false</propertyRequired>
+                <propertyHidden>false</propertyHidden>
+                <annotation type="com.lombardisoftware.core.xml.XMLFieldAnnotation" version="2.0">
+                    <exclude isNull="true" />
+                    <nodeType isNull="true" />
+                    <name isNull="true" />
+                    <namespace isNull="true" />
+                    <typeName isNull="true" />
+                    <typeNamespace isNull="true" />
+                    <minOccurs isNull="true" />
+                    <maxOccurs isNull="true" />
+                    <nillable isNull="true" />
+                    <order isNull="true" />
+                    <wrapArray isNull="true" />
+                    <arrayTypeName isNull="true" />
+                    <arrayTypeAnonymous isNull="true" />
+                    <arrayItemName isNull="true" />
+                    <arrayItemWildcard isNull="true" />
+                    <wildcard isNull="true" />
+                    <wildcardVariety isNull="true" />
+                    <wildcardMode isNull="true" />
+                    <wildcardNamespace isNull="true" />
+                    <parentModelGroupCompositor isNull="true" />
+                    <timeZone isNull="true" />
+                </annotation>
+            </property>
+            <property>
+                <name>snapshotName</name>
+                <description isNull="true" />
+                <classRef>3eead070-014c-46ed-b858-fe3e6d6b248e/12.db884a3c-c533-44b7-bb2d-47bec8ad4022</classRef>
+                <arrayProperty>false</arrayProperty>
+                <propertyDefault isNull="true" />
+                <propertyRequired>false</propertyRequired>
+                <propertyHidden>false</propertyHidden>
+                <annotation type="com.lombardisoftware.core.xml.XMLFieldAnnotation" version="2.0">
+                    <exclude isNull="true" />
+                    <nodeType isNull="true" />
+                    <name isNull="true" />
+                    <namespace isNull="true" />
+                    <typeName isNull="true" />
+                    <typeNamespace isNull="true" />
+                    <minOccurs isNull="true" />
+                    <maxOccurs isNull="true" />
+                    <nillable isNull="true" />
+                    <order isNull="true" />
+                    <wrapArray isNull="true" />
+                    <arrayTypeName isNull="true" />
+                    <arrayTypeAnonymous isNull="true" />
+                    <arrayItemName isNull="true" />
+                    <arrayItemWildcard isNull="true" />
+                    <wildcard isNull="true" />
+                    <wildcardVariety isNull="true" />
+                    <wildcardMode isNull="true" />
+                    <wildcardNamespace isNull="true" />
+                    <parentModelGroupCompositor isNull="true" />
+                    <timeZone isNull="true" />
+                </annotation>
+            </property>
+            <property>
+                <name>EventID</name>
+                <description isNull="true" />
+                <classRef>3eead070-014c-46ed-b858-fe3e6d6b248e/12.db884a3c-c533-44b7-bb2d-47bec8ad4022</classRef>
+                <arrayProperty>false</arrayProperty>
+                <propertyDefault isNull="true" />
+                <propertyRequired>false</propertyRequired>
+                <propertyHidden>false</propertyHidden>
+                <annotation type="com.lombardisoftware.core.xml.XMLFieldAnnotation" version="2.0">
+                    <exclude isNull="true" />
+                    <nodeType isNull="true" />
+                    <name isNull="true" />
+                    <namespace isNull="true" />
+                    <typeName isNull="true" />
+                    <typeNamespace isNull="true" />
+                    <minOccurs isNull="true" />
+                    <maxOccurs isNull="true" />
+                    <nillable isNull="true" />
+                    <order isNull="true" />
+                    <wrapArray isNull="true" />
+                    <arrayTypeName isNull="true" />
+                    <arrayTypeAnonymous isNull="true" />
+                    <arrayItemName isNull="true" />
+                    <arrayItemWildcard isNull="true" />
+                    <wildcard isNull="true" />
+                    <wildcardVariety isNull="true" />
+                    <wildcardMode isNull="true" />
+                    <wildcardNamespace isNull="true" />
+                    <parentModelGroupCompositor isNull="true" />
+                    <timeZone isNull="true" />
+                </annotation>
+            </property>
+            <property>
+                <name>UCAName</name>
+                <description isNull="true" />
+                <classRef>3eead070-014c-46ed-b858-fe3e6d6b248e/12.db884a3c-c533-44b7-bb2d-47bec8ad4022</classRef>
+                <arrayProperty>false</arrayProperty>
+                <propertyDefault isNull="true" />
+                <propertyRequired>false</propertyRequired>
+                <propertyHidden>false</propertyHidden>
+                <annotation type="com.lombardisoftware.core.xml.XMLFieldAnnotation" version="2.0">
+                    <exclude isNull="true" />
+                    <nodeType isNull="true" />
+                    <name isNull="true" />
+                    <namespace isNull="true" />
+                    <typeName isNull="true" />
+                    <typeNamespace isNull="true" />
+                    <minOccurs isNull="true" />
+                    <maxOccurs isNull="true" />
+                    <nillable isNull="true" />
+                    <order isNull="true" />
+                    <wrapArray isNull="true" />
+                    <arrayTypeName isNull="true" />
+                    <arrayTypeAnonymous isNull="true" />
+                    <arrayItemName isNull="true" />
+                    <arrayItemWildcard isNull="true" />
+                    <wildcard isNull="true" />
+                    <wildcardVariety isNull="true" />
+                    <wildcardMode isNull="true" />
+                    <wildcardNamespace isNull="true" />
+                    <parentModelGroupCompositor isNull="true" />
+                    <timeZone isNull="true" />
+                </annotation>
+            </property>
+            <property>
+                <name>ServiceName</name>
+                <description isNull="true" />
+                <classRef>3eead070-014c-46ed-b858-fe3e6d6b248e/12.db884a3c-c533-44b7-bb2d-47bec8ad4022</classRef>
+                <arrayProperty>false</arrayProperty>
+                <propertyDefault isNull="true" />
+                <propertyRequired>false</propertyRequired>
+                <propertyHidden>false</propertyHidden>
+                <annotation type="com.lombardisoftware.core.xml.XMLFieldAnnotation" version="2.0">
+                    <exclude isNull="true" />
+                    <nodeType isNull="true" />
+                    <name isNull="true" />
+                    <namespace isNull="true" />
+                    <typeName isNull="true" />
+                    <typeNamespace isNull="true" />
+                    <minOccurs isNull="true" />
+                    <maxOccurs isNull="true" />
+                    <nillable isNull="true" />
+                    <order isNull="true" />
+                    <wrapArray isNull="true" />
+                    <arrayTypeName isNull="true" />
+                    <arrayTypeAnonymous isNull="true" />
+                    <arrayItemName isNull="true" />
+                    <arrayItemWildcard isNull="true" />
+                    <wildcard isNull="true" />
+                    <wildcardVariety isNull="true" />
+                    <wildcardMode isNull="true" />
+                    <wildcardNamespace isNull="true" />
+                    <parentModelGroupCompositor isNull="true" />
+                    <timeZone isNull="true" />
+                </annotation>
+            </property>
+            <property>
+                <name>Params</name>
+                <description isNull="true" />
+                <classRef>3eead070-014c-46ed-b858-fe3e6d6b248e/12.db884a3c-c533-44b7-bb2d-47bec8ad4022</classRef>
+                <arrayProperty>false</arrayProperty>
+                <propertyDefault isNull="true" />
+                <propertyRequired>false</propertyRequired>
+                <propertyHidden>false</propertyHidden>
+                <annotation type="com.lombardisoftware.core.xml.XMLFieldAnnotation" version="2.0">
+                    <exclude isNull="true" />
+                    <nodeType isNull="true" />
+                    <name isNull="true" />
+                    <namespace isNull="true" />
+                    <typeName isNull="true" />
+                    <typeNamespace isNull="true" />
+                    <minOccurs isNull="true" />
+                    <maxOccurs isNull="true" />
+                    <nillable isNull="true" />
+                    <order isNull="true" />
+                    <wrapArray isNull="true" />
+                    <arrayTypeName isNull="true" />
+                    <arrayTypeAnonymous isNull="true" />
+                    <arrayItemName isNull="true" />
+                    <arrayItemWildcard isNull="true" />
+                    <wildcard isNull="true" />
+                    <wildcardVariety isNull="true" />
+                    <wildcardMode isNull="true" />
+                    <wildcardNamespace isNull="true" />
+                    <parentModelGroupCompositor isNull="true" />
+                    <timeZone isNull="true" />
+                </annotation>
+            </property>
+            <property>
+                <name>ID</name>
+                <description isNull="true" />
+                <classRef>3eead070-014c-46ed-b858-fe3e6d6b248e/12.db884a3c-c533-44b7-bb2d-47bec8ad4022</classRef>
+                <arrayProperty>false</arrayProperty>
+                <propertyDefault isNull="true" />
+                <propertyRequired>false</propertyRequired>
+                <propertyHidden>false</propertyHidden>
+                <annotation type="com.lombardisoftware.core.xml.XMLFieldAnnotation" version="2.0">
+                    <exclude isNull="true" />
+                    <nodeType isNull="true" />
+                    <name isNull="true" />
+                    <namespace isNull="true" />
+                    <typeName isNull="true" />
+                    <typeNamespace isNull="true" />
+                    <minOccurs isNull="true" />
+                    <maxOccurs isNull="true" />
+                    <nillable isNull="true" />
+                    <order isNull="true" />
+                    <wrapArray isNull="true" />
+                    <arrayTypeName isNull="true" />
+                    <arrayTypeAnonymous isNull="true" />
+                    <arrayItemName isNull="true" />
+                    <arrayItemWildcard isNull="true" />
+                    <wildcard isNull="true" />
+                    <wildcardVariety isNull="true" />
+                    <wildcardMode isNull="true" />
+                    <wildcardNamespace isNull="true" />
+                    <parentModelGroupCompositor isNull="true" />
+                    <timeZone isNull="true" />
+                </annotation>
+            </property>
+            <property>
+                <name>ParamID</name>
+                <description isNull="true" />
+                <classRef>3eead070-014c-46ed-b858-fe3e6d6b248e/12.db884a3c-c533-44b7-bb2d-47bec8ad4022</classRef>
+                <arrayProperty>false</arrayProperty>
+                <propertyDefault isNull="true" />
+                <propertyRequired>false</propertyRequired>
+                <propertyHidden>false</propertyHidden>
+                <annotation type="com.lombardisoftware.core.xml.XMLFieldAnnotation" version="2.0">
+                    <exclude isNull="true" />
+                    <nodeType isNull="true" />
+                    <name isNull="true" />
+                    <namespace isNull="true" />
+                    <typeName isNull="true" />
+                    <typeNamespace isNull="true" />
+                    <minOccurs isNull="true" />
+                    <maxOccurs isNull="true" />
+                    <nillable isNull="true" />
+                    <order isNull="true" />
+                    <wrapArray isNull="true" />
+                    <arrayTypeName isNull="true" />
+                    <arrayTypeAnonymous isNull="true" />
+                    <arrayItemName isNull="true" />
+                    <arrayItemWildcard isNull="true" />
+                    <wildcard isNull="true" />
+                    <wildcardVariety isNull="true" />
+                    <wildcardMode isNull="true" />
+                    <wildcardNamespace isNull="true" />
+                    <parentModelGroupCompositor isNull="true" />
+                    <timeZone isNull="true" />
+                </annotation>
+            </property>
+            <property>
+                <name>ParameterName</name>
+                <description isNull="true" />
+                <classRef>3eead070-014c-46ed-b858-fe3e6d6b248e/12.db884a3c-c533-44b7-bb2d-47bec8ad4022</classRef>
+                <arrayProperty>false</arrayProperty>
+                <propertyDefault isNull="true" />
+                <propertyRequired>false</propertyRequired>
+                <propertyHidden>false</propertyHidden>
+                <annotation type="com.lombardisoftware.core.xml.XMLFieldAnnotation" version="2.0">
+                    <exclude isNull="true" />
+                    <nodeType isNull="true" />
+                    <name isNull="true" />
+                    <namespace isNull="true" />
+                    <typeName isNull="true" />
+                    <typeNamespace isNull="true" />
+                    <minOccurs isNull="true" />
+                    <maxOccurs isNull="true" />
+                    <nillable isNull="true" />
+                    <order isNull="true" />
+                    <wrapArray isNull="true" />
+                    <arrayTypeName isNull="true" />
+                    <arrayTypeAnonymous isNull="true" />
+                    <arrayItemName isNull="true" />
+                    <arrayItemWildcard isNull="true" />
+                    <wildcard isNull="true" />
+                    <wildcardVariety isNull="true" />
+                    <wildcardMode isNull="true" />
+                    <wildcardNamespace isNull="true" />
+                    <parentModelGroupCompositor isNull="true" />
+                    <timeZone isNull="true" />
+                </annotation>
+            </property>
+            <validator>
+                <className isNull="true" />
+                <errorMessage isNull="true" />
+                <webWidgetJavaClass isNull="true" />
+                <externalType isNull="true" />
+                <configData>
+                    <schema>
+                        <simpleType name="UCAEventDetails">
+                            <restriction base="String" />
+                        </simpleType>
+                    </schema>
+                </configData>
+            </validator>
+            <annotation type="com.lombardisoftware.core.xml.XMLTypeAnnotation" version="2.0">
+                <exclude isNull="true" />
+                <anonymous isNull="true" />
+                <local isNull="true" />
+                <name isNull="true" />
+                <namespace isNull="true" />
+                <elementName isNull="true" />
+                <elementNamespace isNull="true" />
+                <protoTypeName isNull="true" />
+                <baseTypeName isNull="true" />
+                <specialType isNull="true" />
+                <contentTypeVariety isNull="true" />
+                <xscRef isNull="true" />
+            </annotation>
+        </definition>
+    </twClass>
+</teamworks>
+

@@ -1,0 +1,861 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teamworks>
+    <uiTheme id="72.991cce5f-38b0-47b3-9ffe-452ba0ef756d" name="Dashboard Theme">
+        <lastModified>1572368801286</lastModified>
+        <lastModifiedBy>asansanwal</lastModifiedBy>
+        <uithemeId>72.991cce5f-38b0-47b3-9ffe-452ba0ef756d</uithemeId>
+        <themeContent>
+/* Migrated Variables - START */
+@bpm-section-header-primary-light-bg: @bpm-color-primary-light;
+@bpm-section-header-primary-dark-bg:  @bpm-color-primary-dark;
+@bpm-section-header-primary-darker-bg:@bpm-color-primary-darker;
+@bpm-section-header-success-light-bg: @bpm-color-success-light;
+@bpm-section-header-success-dark-bg:  @bpm-color-success-dark;
+@bpm-section-header-success-darker-bg:@bpm-color-success-darker;
+@bpm-section-header-info-light-bg:    @bpm-color-info-light;
+@bpm-section-header-info-dark-bg:     @bpm-color-info-dark;
+@bpm-section-header-info-darker-bg:   @bpm-color-info-darker;
+@bpm-section-header-warning-light-bg: @bpm-color-warning-light;
+@bpm-section-header-warning-dark-bg:  @bpm-color-warning-dark;
+@bpm-section-header-warning-darker-bg:@bpm-color-warning-darker;
+@bpm-section-header-alert-light-bg:   @bpm-color-alert-light;
+@bpm-section-header-alert-dark-bg:    @bpm-color-alert-dark;
+@bpm-section-header-alert-darker-bg:  @bpm-color-alert-darker;
+@bpm-alert-primary-bg:                @bpm-color-primary;
+@bpm-alert-primary-light-bg:          @bpm-color-primary-light;;
+@bpm-alert-info-bg:                   @bpm-color-info;
+@bpm-alert-info-light-bg:             @bpm-color-info-light;
+@bpm-alert-success-bg:                @bpm-color-success;
+@bpm-alert-success-light-bg:          @bpm-color-success-light;
+@bpm-alert-warning-bg:                @bpm-color-warning;
+@bpm--alert-warning-light-bg:         @bpm-color-warning-light;
+@bpm-alert-alert-bg:                  @bpm-color-alert;
+@bpm-alert-alert-light-bg:            @bpm-color-alert-light;
+@bpm-badge-border-radius:             10px;
+@bpm-btn-border-radius-large:         @bpm-border-radius-large;
+@bpm-btn-border-radius-small:         @bpm-border-radius-small;
+@bpm-btn-border-radius-xsmall:        @bpm-border-radius-small;
+/* Migrated Variables - END */
+
+
+/* Migrated Variables - START */
+@bpm-tooltip-bg:                      #000;
+@bpm-tooltip-color:                   #fff;
+@bpm-state-success-bg:                @bpm-color-success;
+@bpm-state-success-text:              darken(@bpm-state-success-bg, 50%);
+@bpm-state-success-border:            darken(spin(@bpm-state-success-bg, -10), 5%);
+@bpm-state-info-bg:                   @bpm-color-info;
+@bpm-state-info-text:                 darken(@bpm-state-info-bg, 50%);
+@bpm-state-info-border:               darken(spin(@bpm-state-info-bg, -10), 5%);
+@bpm-state-warning-bg:                @bpm-color-warning;
+@bpm-state-warning-text:              darken(@bpm-state-warning-bg, 50%);
+@bpm-state-warning-border:            darken(spin(@bpm-state-warning-bg, -10), 5%);
+/* Migrated Variables - END */
+
+&#xD;
+&#xD;
+/* Date: 2015-12-21 */&#xD;
+&#xD;
+/* Theme_Level_Id is a metadata to indicate the theme level of this bpm theme. */ &#xD;
+/* This Id will be updated to match the one in the Default BPM Theme in your dependent System Toolkit when using the theme roller */&#xD;
+// #Theme_Level_Id#fefea6ba-a80f-47ff-ba26-04ce17082017#Theme_Level_Id_End#&#xD;
+&#xD;
+/* The theme definitions are in LESS format: */&#xD;
+/* @variableName:             value; */&#xD;
+/* The value can be a specific value, a formula, another variable, or a combination of these types. */&#xD;
+&#xD;
+/* Global Variables*/&#xD;
+&#xD;
+/* Neutral colors */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010010","type":"color"}|DE|
+@bpm-neutral-darkest:                      #333;                                                       //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010020","type":"color"}|DE|
+@bpm-neutral-darker:                       #a9a9a9;                                                    //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010030","type":"color"}|DE|
+@bpm-neutral-dark:                         #eaeaea;                                                    //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010040","type":"color"}|DE|
+@bpm-neutral:                              #f6f6f6;                                                    //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010050","type":"color"}|DE|&#xD;
+@bpm-neutral-light:                        darken(@bpm-neutral-lightest, 1.5%);                        //|EEM| /* Not used in SPARK UI CSS */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010060","type":"color"}|DE|&#xD;
+@bpm-neutral-lighter:                      darken(@bpm-neutral-lightest, 1%);                          //|EEM| /* Not used in SPARK UI CSS */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010070","type":"color"}|DE|
+@bpm-neutral-lightest:                     #fff;                                                       //|EEM|&#xD;
+&#xD;
+/* Brand colors */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010080","type":"color","targetPane":["SP"]}|DE|
+@bpm-color-primary-light:                  desaturate(lighten(@bpm-color-primary, 42%), 32%);          //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010081","type":"color"}|DE|
+@bpm-color-primary:                        #1f89cd;                                                    //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010082","type":"color","targetPane":["SP"]}|DE|
+@bpm-color-primary-dark:                   darken(@bpm-color-primary, 5%);                             //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010083","type":"color","targetPane":["SP"]}|DE|
+@bpm-color-primary-darker:                 desaturate(darken(@bpm-color-primary, 6%), 19%);            //|EEM| /* Added in SPARK UI Theme */&#xD;
+&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010090","type":"color","targetPane":["SP"]}|DE|
+@bpm-color-info-light:                     lighten(spin(@bpm-color-info, -6), 29%);                    //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010091","type":"color"}|DE|
+@bpm-color-info:                           #5cc0dd;                                                    //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010092","type":"color","targetPane":["SP"]}|DE|
+@bpm-color-info-dark:                      darken(@bpm-color-info, 4%);                                //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010093","type":"color","targetPane":["SP"]}|DE|
+@bpm-color-info-darker:                    desaturate(darken(@bpm-color-info, 7%), 8%);                //|EEM| /* Added in SPARK UI Theme */&#xD;
+&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010100","type":"color","targetPane":["SP"]}|DE|
+@bpm-color-success-light:                  saturate(lighten(spin(@bpm-color-success, 17), 34%), 2%);   //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010101","type":"color"}|DE|
+@bpm-color-success:                        #5cba5c;                                                    //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010102","type":"color","targetPane":["SP"]}|DE|
+@bpm-color-success-dark:                   desaturate(darken(@bpm-color-success, 3%), 6%);             //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010103","type":"color","targetPane":["SP"]}|DE|
+@bpm-color-success-darker:                 desaturate(darken(@bpm-color-success, 6%), 8%);             //|EEM| /* Added in SPARK UI Theme */&#xD;
+&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010110","type":"color","targetPane":["SP"]}|DE|
+@bpm-color-warning-light:                  desaturate(lighten(spin(@bpm-color-warning, -6), 25%), 8%); //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010111","type":"color"}|DE|
+@bpm-color-warning:                        #f3ae4b;                                                    //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010112","type":"color","targetPane":["SP"]}|DE|
+@bpm-color-warning-dark:                   desaturate(darken(@bpm-color-warning, 3%), 6%);             //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010113","type":"color","targetPane":["SP"]}|DE|
+@bpm-color-warning-darker:                 desaturate(darken(@bpm-color-warning, 6%), 9%);             //|EEM| /* Added in SPARK UI Theme */&#xD;
+&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010120","type":"color"}|DE|
+@bpm-color-alert-light:                    desaturate(lighten(spin(@bpm-color-alert, 6), 29%), 32%);   //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010121","type":"color"}|DE|
+@bpm-color-alert:                          #e46151;                                                    //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010122","type":"color","targetPane":["SP"]}|DE|
+@bpm-color-alert-dark:                     desaturate(darken(@bpm-color-alert, 3%), 6%);               //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010123","type":"color","targetPane":["SP"]}|DE|
+@bpm-color-alert-darker:                   desaturate(darken(@bpm-color-alert, 6%), 8%);               //|EEM| /* Added in SPARK UI Theme */&#xD;
+&#xD;
+&#xD;
+/* Scaffolding */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010140","type":"color"}|DE|
+@bpm-body-bg:                              @bpm-neutral;                                               //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010143","type":"color","targetPane":["SP"]}|DE|
+@bpm-modal-bg:                             fade(@bpm-neutral-darkest, 35%);                            //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010145","type":"color","targetPane":["SP"]}|DE|
+@bpm-fill-darker:                  #444;                                                               //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010146","type":"color","targetPane":["SP"]}|DE|
+@bpm-fill-normal:                  #fff;                                                               //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010148","type":"color","targetPane":["SP"]}|DE|
+@bpm-border-normal:                #f8f8f8;                                                            //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010156","type":"color"}|DE|
+@bpm-active-color:                         @bpm-neutral-lightest;                                      //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010157","type":"color"}|DE|
+@bpm-active-bg:                            @bpm-color-primary;                                         //|EEM|&#xD;
+&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010160","type":"color"}|DE|
+@bpm-link-color:                           @bpm-color-primary-dark;                                    //|EEM|&#xD;
+@bpm-link-hover-color:                     @bpm-color-primary-darker;&#xD;
+@bpm-link-decoration:                      none;                                                       /* Added in SPARK UI Theme */&#xD;
+@bpm-link-hover-decoration:                none;&#xD;
+&#xD;
+/*&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010170","type":"text"}|DE|&#xD;
+@bpm-body-padding:                         0px;                                                        //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010180","type":"text"}|DE|&#xD;
+@bpm-body-margin:                          0px;                                                        //|EEM|                                                      &#xD;
+*/&#xD;
+&#xD;
+//-- Unit-less `line-height` for use in components such as buttons.&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010190","type":"text"}|DE|
+@bpm-line-height-small:                    1.33;                                                       //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010200","type":"text"}|DE|
+@bpm-line-height-base:                     1.43;                                                       //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010205","type":"text"}|DE|
+@bpm-line-height-large:                    1.5;                                                        //|EEM|&#xD;
+&#xD;
+//-- Computed "line-height" (`font-size` * `line-height`) for use with `margin`, `padding`, and so on.&#xD;
+@bpm-line-height-computed:                 floor((@bpm-font-size-base * @bpm-line-height-base));       /* Not used in SPARK UI CSS */&#xD;
+&#xD;
+@bpm-headings-font-family:                 inherit;&#xD;
+@bpm-headings-font-weight:                 500;&#xD;
+@bpm-headings-line-height:                 1.1;&#xD;
+@bpm-headings-color:                       inherit;&#xD;
+&#xD;
+/* Grid */&#xD;
+@bpm-half-gutter-width:                    5px;&#xD;
+&#xD;
+/* Components */&#xD;
+// Default margin for any coach view&#xD;
+&#xD;
+@bpm-margin-top:                           6px;     &#xD;
+@bpm-margin-bottom:                        6px;     &#xD;
+&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010210","type":"text"}|DE|
+@bpm-padding-base-vertical:                6px;                                                        //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010220","type":"text"}|DE|
+@bpm-padding-base-horizontal:              12px;                                                       //|EEM|&#xD;
+@bpm-padding-large-vertical:               10px;                                                       /* Not used in SPARK UI CSS */&#xD;
+@bpm-padding-large-horizontal:             16px;                                                       /* Not used in SPARK UI CSS */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010230","type":"text"}|DE|&#xD;
+@bpm-padding-small-vertical:               5px;                                                        //|EEM| /* Not used in SPARK UI CSS */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010240","type":"text"}|DE|&#xD;
+@bpm-padding-small-horizontal:             10px;                                                       //|EEM| /* Not used in SPARK UI CSS */&#xD;
+&#xD;
+&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010250","type":"text"}|DE|
+@bpm-border-radius-small:                  @bpm-border-radius-base;                                    //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010260","type":"text"}|DE|
+@bpm-border-radius-base:                   2px;                                                        //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010263","type":"text"}|DE|
+@bpm-border-radius-large:                  @bpm-border-radius-base + 1;                                //|EEM|&#xD;
+&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010290","type":"color"}|DE|&#xD;
+@bpm-list-group-bg:                        @bpm-body-bg;                                               //|EEM| /* Not used in SPARK UI CSS */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010300","type":"color"}|DE|&#xD;
+@bpm-list-group-border:                    @bpm-neutral-lightest;                                      //|EEM| /* Not used in SPARK UI CSS */&#xD;
+&#xD;
+/* Typography */&#xD;
+&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TYPEOGRAPHY","order":"020002","type":"color"}|DE|
+@bpm-text-color:                           @bpm-neutral-darkest;                                       //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TYPEOGRAPHY","order":"020003","type":"color","targetPane":["SP"]}|DE|
+@bpm-text-color-negative:                  @bpm-neutral-lightest;                                      //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TYPEOGRAPHY","order":"020004","type":"color","targetPane":["SP"]}|DE|
+@bpm-text-color-primary:                   darken(@bpm-color-primary, 8%);                             //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TYPEOGRAPHY","order":"020005","type":"color","targetPane":["SP"]}|DE|
+@bpm-text-color-info:                      darken(@bpm-color-info, 9%);                                //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TYPEOGRAPHY","order":"020006","type":"color","targetPane":["SP"]}|DE|
+@bpm-text-color-success:                   darken(@bpm-color-success, 8%);                             //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TYPEOGRAPHY","order":"020007","type":"color","targetPane":["SP"]}|DE|
+@bpm-text-color-warning:                   darken(@bpm-color-warning, 8%);                             //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TYPEOGRAPHY","order":"020008","type":"color","targetPane":["SP"]}|DE|
+@bpm-text-color-alert:                     darken(@bpm-color-alert, 8%);                               //|EEM| /* Added in SPARK UI Theme */&#xD;
+&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TYPEOGRAPHY","order":"020009","type":"font-family"}|DE|
+@bpm-font-family-sans-serif:               "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;    //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TYPEOGRAPHY","order":"020010","type":"font-family"}|DE|
+@bpm-font-family-serif:                    Georgia, "Times New Roman", Times, serif;                   //|EEM| /* Not used in SPARK UI CSS */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TYPEOGRAPHY","order":"020020","type":"font-family"}|DE|
+@bpm-font-family-monospace:                "Droid Sans Mono";                                          //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TYPEOGRAPHY","order":"020030","type":"font-family"}|DE|
+@bpm-font-family-base:                     @bpm-font-family-sans-serif;                                //|EEM|&#xD;
+&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TYPEOGRAPHY","order":"020040","type":"text","targetPane":["SP"]}|DE|
+@bpm-font-size-xsmall:                     round(@bpm-font-size-base * 0.85);                          //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TYPEOGRAPHY","order":"020050","type":"text"}|DE|
+@bpm-font-size-small:                      round(@bpm-font-size-base * 0.92);                          //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TYPEOGRAPHY","order":"020060","type":"text"}|DE|
+@bpm-font-size-base:                       13px;                                                       //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TYPEOGRAPHY","order":"020070","type":"text"}|DE|
+@bpm-font-size-large:                      round(@bpm-font-size-base * 1.3);                           //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TYPEOGRAPHY","order":"020080","type":"text","targetPane":["SP"]}|DE|
+@bpm-font-size-xlarge:                     round(@bpm-font-size-base * 1.77);                          //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TYPEOGRAPHY","order":"020090","type":"text","targetPane":["SP"]}|DE|
+@bpm-font-size-xxlarge:                    round(@bpm-font-size-base * 2.3);                           //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TYPEOGRAPHY","order":"020100","type":"text","targetPane":["SP"]}|DE|
+@bpm-font-size-xxxlarge:                   round(@bpm-font-size-base * 3.85);                          //|EEM| /* Added in SPARK UI Theme */&#xD;
+&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TYPEOGRAPHY","order":"020110","type":"font-weight","targetPane":["SP"]}|DE|
+@bpm-font-weight-slim:                     @bpm-font-weight-normal * 0.75;                             //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TYPEOGRAPHY","order":"020120","type":"font-weight","targetPane":["SP"]}|DE|
+@bpm-font-weight-normal:                   400;                                                        //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TYPEOGRAPHY","order":"020130","type":"font-weight","targetPane":["SP"]}|DE|
+@bpm-font-weight-semibold:                 @bpm-font-weight-normal * 1.5;                              //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TYPEOGRAPHY","order":"020140","type":"font-weight","targetPane":["SP"]}|DE|
+@bpm-font-weight-bold:                     @bpm-font-weight-normal * 1.75;                             //|EEM| /* Added in SPARK UI Theme */&#xD;
+&#xD;
+&#xD;
+&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TYPEOGRAPHY","order":"020075","type":"text"}|DE|
+@bpm-font-size-h1:                         round(@bpm-font-size-base * 2.77);                          //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TYPEOGRAPHY","order":"020077","type":"text"}|DE|
+@bpm-font-size-h2:                         round(@bpm-font-size-base * 2.3);                           //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TYPEOGRAPHY","order":"020080","type":"text"}|DE|
+@bpm-font-size-h3:                         round(@bpm-font-size-base * 1.85);                          //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TYPEOGRAPHY","order":"020090","type":"text"}|DE|
+@bpm-font-size-h4:                         round(@bpm-font-size-base * 1.38);                          //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TYPEOGRAPHY","order":"020100","type":"text"}|DE|
+@bpm-font-size-h5:                         round(@bpm-font-size-base * 1.07);                          //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TYPEOGRAPHY","order":"020110","type":"text"}|DE|
+@bpm-font-size-h6:                         round(@bpm-font-size-base * 0.92);                          //|EEM|&#xD;
+&#xD;
+&#xD;
+&#xD;
+/* Form inputs */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_FORM_SETTINGS","order":"030040","type":"color"}|DE|
+@bpm-input-bg:                             @bpm-fill-normal;                                           //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_FORM_SETTINGS","order":"030050","type":"color"}|DE|
+@bpm-input-bg-disabled:                    fade(@bpm-neutral-lightest, 50%);                           //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_FORM_SETTINGS","order":"030060","type":"color"}|DE|
+@bpm-input-color:                          lighten(@bpm-text-color, 13%);                              //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_FORM_SETTINGS","order":"030063","type":"color","targetPane":["SP"]}|DE|
+@bpm-input-color-disabled:                 fade(@bpm-text-color, 50%);                                 //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_FORM_SETTINGS","order":"030070","type":"color"}|DE|
+@bpm-input-border:                         darken(@bpm-neutral-dark, 12%);                             //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_FORM_SETTINGS","order":"030072","type":"color","targetPane":["SP"]}|DE|
+@bpm-input-border-disabled:                fade(@bpm-neutral-darkest, 15%);                            //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_FORM_SETTINGS","order":"030075","type":"color"}|DE|
+@bpm-input-border-focus:                   darken(@bpm-color-primary, 6%);                             //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_FORM_SETTINGS","order":"030080","type":"text"}|DE|
+@bpm-input-border-radius-small:            @bpm-border-radius-small;                                   //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_FORM_SETTINGS","order":"030081","type":"text"}|DE|
+@bpm-input-border-radius-base:             @bpm-border-radius-base;                                    //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_FORM_SETTINGS","order":"030082","type":"text"}|DE|
+@bpm-input-border-radius-large:            @bpm-border-radius-large;                                   //|EEM|&#xD;
+&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_FORM_SETTINGS","order":"030090","type":"text","targetPane":["SP"]}|DE|
+@bpm-input-line-height-small:              @bpm-line-height-small * 0.902;                             //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_FORM_SETTINGS","order":"030100","type":"text","targetPane":["SP"]}|DE|
+@bpm-input-line-height-base:               @bpm-line-height-base * 0.979;                              //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_FORM_SETTINGS","order":"030110","type":"text","targetPane":["SP"]}|DE|
+@bpm-input-line-height-large:              @bpm-line-height-large * 1.233;                             //|EEM| /* Added in SPARK UI Theme */&#xD;
+&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_FORM_SETTINGS","order":"030120","type":"font-family"}|DE|
+@bpm-label-font-family:                    @bpm-font-family-base;                                      //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_FORM_SETTINGS","order":"030130","type":"font-weight"}|DE|
+@bpm-label-font-weight:                    600;                                                        //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_FORM_SETTINGS","order":"030140","type":"color"}|DE|
+@bpm-label-text-color:                     @bpm-text-color;                                            //|EEM|&#xD;
+&#xD;
+@bpm-input-color-placeholder:              @bpm-neutral-dark;&#xD;
+&#xD;
+@bpm-state-alert-text:                     @bpm-text-color-alert;                                      /* Not used in SPARK UI CSS */&#xD;
+@bpm-state-alert-bg:                       @bpm-color-alert-light;                                     /* Not used in SPARK UI CSS */&#xD;
+@bpm-state-alert-border:                   @bpm-color-alert;                                           /* Not used in SPARK UI CSS */&#xD;
+&#xD;
+&#xD;
+/* Button */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BUTTONS","order":"040010","type":"color","targetPane":["SP"]}|DE|
+@bpm-btn-default-color:                    @bpm-text-color;                                            //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BUTTONS","order":"040020","type":"color","targetPane":["SP"]}|DE|
+@bpm-btn-default-bg:                       @bpm-neutral;                                               //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BUTTONS","order":"040022","type":"color","targetPane":["SP"]}|DE|&#xD;
+@bpm-btn-default-bg-dark:                  darken(@bpm-btn-default-bg, 5%);                            //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BUTTONS","order":"040024","type":"color","targetPane":["SP"]}|DE|&#xD;
+@bpm-btn-default-bg-darker:                darken(@bpm-btn-default-bg, 10%);                           //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BUTTONS","order":"040030","type":"color","targetPane":["SP"]}|DE|
+@bpm-btn-default-border:                   darken(@bpm-btn-default-bg, 15%);                           //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BUTTONS","order":"040040","type":"color"}|DE|
+@bpm-btn-primary-color:                    @bpm-text-color-negative;                                   //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BUTTONS","order":"040050","type":"color"}|DE|
+@bpm-btn-primary-bg:                       @bpm-color-primary;                                         //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BUTTONS","order":"040055","type":"color","targetPane":["SP"]}|DE|&#xD;
+@bpm-btn-primary-bg-dark:                  saturate(darken(@bpm-btn-primary-bg, 5.3%), 1.4%);          //|EEM|/* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BUTTONS","order":"040057","type":"color","targetPane":["SP"]}|DE|&#xD;
+@bpm-btn-primary-bg-darker:                desaturate(darken(@bpm-btn-primary-bg, 5.9%), 19.4%);       //|EEM|/* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BUTTONS","order":"040060","type":"color"}|DE|
+@bpm-btn-primary-border:                   darken( @bpm-btn-primary-bg, 5%);                           //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BUTTONS","order":"040070","type":"color"}|DE|
+@bpm-btn-info-color:                       @bpm-text-color-negative;                                   //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BUTTONS","order":"040080","type":"color"}|DE|
+@bpm-btn-info-bg:                          @bpm-color-info;                                            //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BUTTONS","order":"040085","type":"color","targetPane":["SP"]}|DE|&#xD;
+@bpm-btn-info-bg-dark:                     darken(@bpm-btn-info-bg, 4.1%);                             //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BUTTONS","order":"040087","type":"color","targetPane":["SP"]}|DE|&#xD;
+@bpm-btn-info-bg-darker:                   desaturate(darken(@bpm-btn-info-bg, 6.9%), 7.7%);           //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BUTTONS","order":"040090","type":"color"}|DE|
+@bpm-btn-info-border:                      darken( @bpm-btn-info-bg, 5%);                              //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BUTTONS","order":"040100","type":"color"}|DE|
+@bpm-btn-success-color:                    @bpm-text-color-negative;                                   //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BUTTONS","order":"040110","type":"color"}|DE|
+@bpm-btn-success-bg:                       @bpm-color-success;                                         //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BUTTONS","order":"040115","type":"color","targetPane":["SP"]}|DE|&#xD;
+@bpm-btn-success-bg-dark:                  desaturate(darken(@bpm-btn-success-bg, 3.1%), 5.8%);        //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BUTTONS","order":"040117","type":"color","targetPane":["SP"]}|DE|&#xD;
+@bpm-btn-success-bg-darker:                desaturate(darken(@bpm-btn-success-bg, 6.1%), 7.7%);        //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BUTTONS","order":"040120","type":"color"}|DE|
+@bpm-btn-success-border:                   darken( @bpm-btn-success-bg, 5%);                           //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BUTTONS","order":"040130","type":"color"}|DE|
+@bpm-btn-warning-color:                    @bpm-text-color-negative;                                   //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BUTTONS","order":"040140","type":"color"}|DE|
+@bpm-btn-warning-bg:                       @bpm-color-warning;                                         //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BUTTONS","order":"040145","type":"color","targetPane":["SP"]}|DE|&#xD;
+@bpm-btn-warning-bg-dark:                  desaturate(darken(@bpm-btn-warning-bg, 2.9%), 5.9%);        //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BUTTONS","order":"040147","type":"color","targetPane":["SP"]}|DE|&#xD;
+@bpm-btn-warning-bg-darker:                desaturate(darken(@bpm-btn-warning-bg, 6.1%), 9.0%);        //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BUTTONS","order":"040150","type":"color"}|DE|
+@bpm-btn-warning-border:                   darken( @bpm-btn-warning-bg, 5%);                           //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BUTTONS","order":"040160","type":"color"}|DE|
+@bpm-btn-alert-color:                      @bpm-text-color-negative;                                   //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BUTTONS","order":"040170","type":"color"}|DE|
+@bpm-btn-alert-bg:                         @bpm-color-alert;                                           //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BUTTONS","order":"040175","type":"color","targetPane":["SP"]}|DE|&#xD;
+@bpm-btn-alert-bg-dark:                    desaturate(darken(@bpm-btn-alert-bg, 2.9%), 5.5%);          //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BUTTONS","order":"040177","type":"color","targetPane":["SP"]}|DE|&#xD;
+@bpm-btn-alert-bg-darker:                  desaturate(darken(@bpm-btn-alert-bg, 6.1%), 7.6%);          //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BUTTONS","order":"040180","type":"color"}|DE|
+@bpm-btn-alert-border:                     darken( @bpm-btn-alert-bg, 5%);                             //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BUTTONS","order":"040190","type":"font-weight"}|DE|&#xD;
+@bpm-btn-font-weight:                      normal;                                                     //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BUTTONS","order":"040200","type":"text","targetPane":["SP"]}|DE|
+@bpm-btn-border-radius:                    @bpm-border-radius-base;                                    //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BUTTONS","order":"040205","type":"text","targetPane":["SP"]}|DE|
+@bpm-btn-bg-use-gradients:                 true;                                                       //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BUTTONS","order":"040206","type":"text"}|DE|
+@bpm-btn-scale:                            1;                                                          //|EEM|&#xD;
+&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BUTTONS","order":"040210","type":"color"}|DE|&#xD;
+@bpm-btn-alternate-color:                  @bpm-btn-default-color;                                     //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BUTTONS","order":"040220","type":"color"}|DE|&#xD;
+@bpm-btn-alternate-bg:                     @bpm-btn-default-bg;                                        //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BUTTONS","order":"040222","type":"color","targetPane":["SP"]}|DE|&#xD;
+@bpm-btn-alternate-bg-dark:                @bpm-btn-default-bg-dark;                                   //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BUTTONS","order":"040224","type":"color","targetPane":["SP"]}|DE|&#xD;
+@bpm-btn-alternate-bg-darker:              @bpm-btn-default-bg-darker;                                 //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BUTTONS","order":"040230","type":"color"}|DE|&#xD;
+@bpm-btn-alternate-border:                 @bpm-btn-default-border;                                    //|EEM|&#xD;
+&#xD;
+@bpm-btn-xsmall-padding:                   round(4px * @bpm-btn-scale);                                /* Added in SPARK UI Theme */&#xD;
+@bpm-btn-small-padding:                    round(4px * @bpm-btn-scale);                                /* Added in SPARK UI Theme */&#xD;
+@bpm-btn-normal-padding:                   round(7px * @bpm-btn-scale);                                /* Added in SPARK UI Theme */&#xD;
+@bpm-btn-large-padding:                    round(9px * @bpm-btn-scale);                                /* Added in SPARK UI Theme */&#xD;
+&#xD;
+/* Switch */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_CHECKBOX_SWITCH","order":"050020","type":"color","targetPane":["SP"]}|DE|
+@bpm-switch-default-bg:                    @bpm-color-primary;                                         //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_CHECKBOX_SWITCH","order":"050030","type":"color"}|DE|
+@bpm-switch-primary-bg:                    @bpm-color-primary;                                         //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_CHECKBOX_SWITCH","order":"050040","type":"color"}|DE|&#xD;
+@bpm-switch-primary-color:                 @bpm-text-color-negative;                                   //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_CHECKBOX_SWITCH","order":"050050","type":"color"}|DE|
+@bpm-switch-info-bg:                       @bpm-color-info;                                            //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_CHECKBOX_SWITCH","order":"050060","type":"color"}|DE|&#xD;
+@bpm-switch-info-color:                    @bpm-text-color-negative;                                   //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_CHECKBOX_SWITCH","order":"050070","type":"color"}|DE|
+@bpm-switch-success-bg:                    @bpm-color-success;                                         //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_CHECKBOX_SWITCH","order":"050080","type":"color"}|DE|&#xD;
+@bpm-switch-success-color:                 @bpm-text-color-negative;                                   //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_CHECKBOX_SWITCH","order":"050090","type":"color"}|DE|
+@bpm-switch-warning-bg:                    @bpm-color-warning;                                         //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_CHECKBOX_SWITCH","order":"050100","type":"color"}|DE|&#xD;
+@bpm-switch-warning-color:                 @bpm-text-color-negative;                                   //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_CHECKBOX_SWITCH","order":"050110","type":"color"}|DE|
+@bpm-switch-alert-bg:                      @bpm-color-alert;                                           //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_CHECKBOX_SWITCH","order":"050120","type":"color"}|DE|&#xD;
+@bpm-switch-alert-color:                   @bpm-text-color-negative;                                   //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_CHECKBOX_SWITCH","order":"050150","type":"color"}|DE|
+@bpm-switch-alternate-bg:                  darken(@bpm-neutral-darker, 30%);                           //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_CHECKBOX_SWITCH","order":"050160","type":"color"}|DE|
+@bpm-switch-color:                         @bpm-text-color-negative;                                   //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_CHECKBOX_SWITCH","order":"050170","type":"color"}|DE|
+@bpm-switch-alternate-color:               @bpm-text-color-negative;                                   //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_CHECKBOX_SWITCH","order":"050130","type":"color"}|DE|&#xD;
+@bpm-switch-border:                        @bpm-neutral-dark;                                          //|EEM| /* Not used in SPARK UI CSS */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_CHECKBOX_SWITCH","order":"050140","type":"text"}|DE|
+@bpm-switch-border-radius:                 9999px;                                                     //|EEM|&#xD;
+&#xD;
+/* Section */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_SECTION","order":"060010","type":"text"}|DE|&#xD;
+@bpm-section-font-size-base:               @bpm-font-size-h3;                                          //|EEM|  /* Not used in SPARK UI CSS */&#xD;
+@bpm-section-font-size-small:              @bpm-font-size-h4;                                          /* Not used in SPARK UI CSS */&#xD;
+@bpm-section-font-size-large:              @bpm-font-size-h2;                                          /* Not used in SPARK UI CSS */&#xD;
+&#xD;
+/* Colors */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABLE","order":"060010","type":"color","targetPane":["SP"]}|DE|
+@bpm-section-header-default-color:         lighten(@bpm-text-color, 20%);                              //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABLE","order":"060012","type":"color","targetPane":["SP"]}|DE|
+@bpm-section-default-bg:                   @bpm-neutral;                                               //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABLE","order":"060014","type":"color","targetPane":["SP"]}|DE|&#xD;
+@bpm-section-default-content-bg:           @bpm-fill-normal;                                           //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABLE","order":"060015","type":"color","targetPane":["SP"]}|DE|&#xD;
+@bpm-section-default-border:               darken(@bpm-neutral, 6%);                                   //|EEM| /* Added in SPARK UI Theme */&#xD;
+&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_SECTION","order":"060020","type":"color"}|DE|
+@bpm-section-header-primary-color:         @bpm-text-color-negative;                                           //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABLE","order":"060030","type":"color","targetPane":["SP"]}|DE|
+@bpm-section-primary-bg:                   @bpm-color-primary;                                         //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABLE","order":"060033","type":"color","targetPane":["SP"]}|DE|&#xD;
+@bpm-section-primary-content-bg:           @bpm-fill-normal;                                           //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABLE","order":"060040","type":"color","targetPane":["SP"]}|DE|&#xD;
+@bpm-section-primary-border:               @bpm-section-primary-bg;                                    //|EEM| /* Added in SPARK UI Theme */&#xD;
+&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_SECTION","order":"060050","type":"color"}|DE|&#xD;
+@bpm-section-header-alternate-color:       @bpm-text-color;                                            //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABLE","order":"060060","type":"color","targetPane":["SP"]}|DE|&#xD;
+@bpm-section-alternate-bg:                 #fff;                                                       //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABLE","order":"060070","type":"color","targetPane":["SP"]}|DE|&#xD;
+@bpm-section-alternate-border:             @bpm-neutral-lighter;                                       //|EEM| /* Added in SPARK UI Theme */&#xD;
+&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_SECTION","order":"060080","type":"color"}|DE|
+@bpm-section-header-info-color:            @bpm-text-color-negative;                                           //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABLE","order":"060090","type":"color","targetPane":["SP"]}|DE|
+@bpm-section-info-bg:                      @bpm-color-info;                                            //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABLE","order":"060093","type":"color","targetPane":["SP"]}|DE|&#xD;
+@bpm-section-info-content-bg:              @bpm-fill-normal;                                           //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABLE","order":"060100","type":"color","targetPane":["SP"]}|DE|&#xD;
+@bpm-section-info-border:                  @bpm-section-info-bg;                                       //|EEM| /* Added in SPARK UI Theme */&#xD;
+&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_SECTION","order":"060110","type":"color"}|DE|
+@bpm-section-header-success-color:         @bpm-text-color-negative;                                           //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABLE","order":"060120","type":"color","targetPane":["SP"]}|DE|
+@bpm-section-success-bg:                   @bpm-color-success;                                         //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABLE","order":"060123","type":"color","targetPane":["SP"]}|DE|&#xD;
+@bpm-section-success-content-bg:           @bpm-fill-normal;                                           //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABLE","order":"060130","type":"color","targetPane":["SP"]}|DE|&#xD;
+@bpm-section-success-border:               @bpm-section-success-bg;                                    //|EEM| /* Added in SPARK UI Theme */&#xD;
+&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_SECTION","order":"060140","type":"color"}|DE|
+@bpm-section-header-warning-color:         @bpm-text-color-negative;                                           //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABLE","order":"060150","type":"color","targetPane":["SP"]}|DE|
+@bpm-section-warning-bg:                   @bpm-color-warning;                                         //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABLE","order":"060153","type":"color","targetPane":["SP"]}|DE|&#xD;
+@bpm-section-warning-content-bg:           @bpm-fill-normal;                                           //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABLE","order":"060160","type":"color","targetPane":["SP"]}|DE|&#xD;
+@bpm-section-warning-border:               @bpm-section-warning-bg;                                    //|EEM| /* Added in SPARK UI Theme */&#xD;
+&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_SECTION","order":"060170","type":"color"}|DE|
+@bpm-section-header-alert-color:           @bpm-text-color-negative;                                           //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABLE","order":"060180","type":"color","targetPane":["SP"]}|DE|
+@bpm-section-alert-bg:                     @bpm-color-alert;                                           //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABLE","order":"060183","type":"color","targetPane":["SP"]}|DE|&#xD;
+@bpm-section-alert-content-bg:             @bpm-fill-normal;                                           //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABLE","order":"060190","type":"color","targetPane":["SP"]}|DE|&#xD;
+@bpm-section-alert-border:                 @bpm-section-alert-bg;                                      //|EEM| /* Added in SPARK UI Theme */&#xD;
+&#xD;
+@bpm-section-border:                       @bpm-color-primary; &#xD;
+&#xD;
+@bpm-section-header-default-border:        @bpm-section-default-border;                                /* Added in SPARK UI Theme */&#xD;
+@bpm-section-header-alternate-border:      @bpm-section-default-border;&#xD;
+@bpm-section-header-primary-border:        @bpm-section-primary-border;&#xD;
+@bpm-section-header-info-border:           @bpm-section-info-border;&#xD;
+@bpm-section-header-success-border:        @bpm-section-success-border;&#xD;
+@bpm-section-header-warning-border:        @bpm-section-warning-border;&#xD;
+@bpm-section-header-alert-border:          @bpm-section-alert-border;&#xD;
+&#xD;
+@bpm-section-header-default-bg:            @bpm-section-default-bg;                                    /* Added in SPARK UI Theme */&#xD;
+@bpm-section-header-alternate-bg:          @bpm-section-alternate-bg;&#xD;
+@bpm-section-header-primary-bg:            @bpm-section-primary-bg;&#xD;
+@bpm-section-header-info-bg:               @bpm-section-info-bg;&#xD;
+@bpm-section-header-success-bg:            @bpm-section-success-bg;&#xD;
+@bpm-section-header-warning-bg:            @bpm-section-warning-bg;&#xD;
+@bpm-section-header-alert-bg:              @bpm-section-alert-bg;&#xD;
+&#xD;
+@bpm-section-separator-border:             rgba(0,0,0,0.05);                                           /* Added in SPARK UI Theme */&#xD;
+&#xD;
+/* Other */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABLE","order":"060200","type":"text","targetPane":["SP"]}|DE|
+@bpm-section-border-radius:                @bpm-border-radius-base;                                    //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABLE","order":"060210","type":"text","targetPane":["SP"]}|DE|
+@bpm-section-border-width:                 1px;                                                        //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABLE","order":"060211","type":"text","targetPane":["SP"]}|DE|
+@bpm-section-header-padding:               @bpm-padding-base-vertical + 3px;                           //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_SECTION","order":"060220","type":"font-weight"}|DE|&#xD;
+@bpm-section-header-weight:                normal;                                                     //|EEM|&#xD;
+&#xD;
+@bpm-section-header-border-radius:         @bpm-section-border-radius;&#xD;
+&#xD;
+&#xD;
+/* Table  */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABLE","order":"070010","type":"color","targetPane":["SP"]}|DE|
+@bpm-section-default-accent-bg:            darken(@bpm-neutral, 6%);                                   //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABLE","order":"070020","type":"color","targetPane":["SP"]}|DE|
+@bpm-section-primary-accent-bg:            @bpm-color-primary-darker;                                  //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABLE","order":"070030","type":"color","targetPane":["SP"]}|DE|
+@bpm-section-info-accent-bg:               @bpm-color-info-darker;                                     //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABLE","order":"070040","type":"color","targetPane":["SP"]}|DE|
+@bpm-section-success-accent-bg:            @bpm-color-success-darker;                                  //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABLE","order":"070050","type":"color","targetPane":["SP"]}|DE|
+@bpm-section-warning-accent-bg:            @bpm-color-warning-darker;                                  //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABLE","order":"070060","type":"color","targetPane":["SP"]}|DE|
+@bpm-section-alert-accent-bg:              @bpm-color-alert-darker;                                    //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABLE","order":"070070","type":"color","targetPane":["SP"]}|DE|
+@bpm-table-delete-icon-color:              desaturate(darken(@bpm-color-alert, 23%), 40%);             //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABLE","order":"070090","type":"text","targetPane":["SP"]}|DE|
+@bpm-table-min-cell-height:                20px;                                                       //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABLE","order":"070100","type":"text","targetPane":["SP"]}|DE|
+@bpm-table-paging-btn-radius:              @bpm-border-radius-base;                                    //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABLE","order":"070110","type":"text","targetPane":["SP"]}|DE|&#xD;
+@bpm-table-paging-outer-btn-radius:        @bpm-table-paging-btn-radius;                               //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABLE","order":"0700120","type":"text","targetPane":["SP"]}|DE|&#xD;
+@bpm-table-paging-inner-btn-radius:        @bpm-table-paging-btn-radius;                               //|EEM| /* Added in SPARK UI Theme */&#xD;
+&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABLE","order":"070130","type":"text"}|DE|&#xD;
+@bpm-table-cell-padding:                   8px;                                                        //|EEM| /* Not used in SPARK UI CSS */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABLE","order":"070140","type":"color"}|DE|&#xD;
+@bpm-table-bg:                             transparent;                                                //|EEM| /* Not used in SPARK UI CSS */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABLE","order":"070150","type":"color"}|DE|&#xD;
+@bpm-table-bg-accent:                      #f5f9f9;                                                    //|EEM| /* Not used in SPARK UI CSS */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABLE","order":"070160","type":"color"}|DE|&#xD;
+@bpm-table-bg-hover:                       @bpm-neutral-lightest;                                      //|EEM| /* Not used in SPARK UI CSS */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABLE","order":"070170","type":"color"}|DE|&#xD;
+@bpm-table-bg-active:                      @bpm-neutral-lighter;                                       //|EEM| /* Not used in SPARK UI CSS */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABLE","order":"070180","type":"color"}|DE|&#xD;
+@bpm-table-bg-select:                      @bpm-color-primary;                                         //|EEM| /* Not used in SPARK UI CSS */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABLE","order":"070190","type":"color"}|DE|&#xD;
+@bpm-table-border-color:                   @bpm-neutral-dark;                                          //|EEM| /* Not used in SPARK UI CSS */&#xD;
+&#xD;
+/* Pagination - used by Table coach view  */&#xD;
+@bpm-pagination-color:                     @bpm-text-color;                                            /* Not used in SPARK UI CSS */&#xD;
+@bpm-pagination-bg:                        #fff;                                                       /* Not used in SPARK UI CSS */&#xD;
+@bpm-pagination-border:                    @bpm-neutral-lighter;                                       /* Not used in SPARK UI CSS */&#xD;
+@bpm-pagination-hover-bg:                  @bpm-neutral-lightest;                                      /* Not used in SPARK UI CSS */&#xD;
+@bpm-pagination-hover-color:               @bpm-link-hover-color;                                      /* Not used in SPARK UI CSS */&#xD;
+@bpm-pagination-active-bg:                 @bpm-color-primary;                                         /* Not used in SPARK UI CSS */&#xD;
+@bpm-pagination-active-color:              #fff;                                                       /* Not used in SPARK UI CSS */&#xD;
+@bpm-pagination-active-border:             @bpm-color-primary;                                         /* Not used in SPARK UI CSS */&#xD;
+&#xD;
+/* Tabs */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABS","order":"080010","type":"text"}|DE|&#xD;
+@bpm-nav-link-padding:                     10px 15px;                                                  //|EEM| /* Not used in SPARK UI CSS */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABS","order":"080020","type":"color"}|DE|&#xD;
+@bpm-nav-tabs-border-color:                @bpm-neutral-dark;                                          //|EEM| /* Not used in SPARK UI CSS */&#xD;
+&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABS","order":"080030","type":"color"}|DE|
+@bpm-tabs-inactive-color:                  lighten(@bpm-text-color, 20%);                              //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABS","order":"080033","type":"color"}|DE|
+@bpm-tabs-inactive-bg:                     @bpm-neutral;                                               //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABS","order":"080036","type":"color"}|DE|&#xD;
+@bpm-tabs-inactive-border:                 darken(@bpm-neutral, 6%);                                   //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABS","order":"080039","type":"color"}|DE|
+@bpm-tabs-default-color:                   @bpm-active-color;                                          //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABS","order":"080040","type":"color"}|DE|
+@bpm-tabs-default-bg:                      @bpm-active-bg;                                             //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABS","order":"080050","type":"color"}|DE|&#xD;
+@bpm-tabs-default-border:                  desaturate(darken(@bpm-active-bg, 6%), 19%);                //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABS","order":"080052","type":"color"}|DE|&#xD;
+@bpm-tabs-default-accent:                  desaturate(lighten(@bpm-active-bg, 30%), 30%);              //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABS","order":"080053","type":"color"}|DE|&#xD;
+@bpm-tabs-default-content-bg:              @bpm-fill-normal;                                           //|EEM|&#xD;
+&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABS","order":"080067","type":"color"}|DE|&#xD;
+@bpm-tabs-alternate-color:                 @bpm-text-color;                                            //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABS","order":"080070","type":"color"}|DE|&#xD;
+@bpm-tabs-alternate-bg:                    #fff;                                                       //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABS","order":"080080","type":"color"}|DE|&#xD;
+@bpm-tabs-alternate-border:                @bpm-neutral-lighter;                                       //|EEM|&#xD;
+&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABS","order":"080054","type":"color"}|DE|
+@bpm-tabs-primary-color:                   @bpm-text-color-negative;                                   //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABS","order":"080055","type":"color","targetPane":["SP"]}|DE|
+@bpm-tabs-primary-simple-color:            @bpm-text-color;                                            //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABS","order":"080056","type":"color"}|DE|
+@bpm-tabs-primary-bg:                      @bpm-color-primary;                                         //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABS","order":"080058","type":"color"}|DE|&#xD;
+@bpm-tabs-primary-border:                  @bpm-color-primary-darker;                                  //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABS","order":"080069","type":"color","targetPane":["SP"]}|DE|&#xD;
+@bpm-tabs-primary-accent:                  desaturate(lighten(@bpm-tabs-primary-bg, 30%), 30%);        //|EEM| /* Added in SPARK UI Theme */&#xD;
+&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABS","order":"080090","type":"color"}|DE|
+@bpm-tabs-info-color:                      @bpm-text-color-negative;                                   //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABS","order":"080095","type":"color","targetPane":["SP"]}|DE|
+@bpm-tabs-info-simple-color:               @bpm-text-color;                                            //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABS","order":"080100","type":"color"}|DE|
+@bpm-tabs-info-bg:                         lighten( @bpm-color-info, 5%);                              //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABS","order":"080110","type":"color"}|DE|&#xD;
+@bpm-tabs-info-border:                     darken( @bpm-tabs-info-bg, 5%);                             //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABS","order":"080120","type":"color","targetPane":["SP"]}|DE|&#xD;
+@bpm-tabs-info-accent:                     desaturate(lighten(@bpm-tabs-info-bg, 25%), 5%);            //|EEM| /* Added in SPARK UI Theme */&#xD;
+&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABS","order":"080130","type":"color"}|DE|
+@bpm-tabs-success-color:                   @bpm-text-color-negative;                                   //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABS","order":"080133","type":"color","targetPane":["SP"]}|DE|
+@bpm-tabs-success-simple-color:            @bpm-text-color;                                            //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABS","order":"080135","type":"color"}|DE|
+@bpm-tabs-success-bg:                      lighten( @bpm-color-success, 5%);                           //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABS","order":"080140","type":"color"}|DE|&#xD;
+@bpm-tabs-success-border:                  darken( @bpm-tabs-success-bg, 5%);                          //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABS","order":"080145","type":"color","targetPane":["SP"]}|DE|&#xD;
+@bpm-tabs-success-accent:                  desaturate(lighten(@bpm-tabs-success-bg, 30%), 5%);         //|EEM| /* Added in SPARK UI Theme */&#xD;
+&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABS","order":"080150","type":"color"}|DE|
+@bpm-tabs-warning-color:                   @bpm-text-color-negative;                                   //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABS","order":"080155","type":"color","targetPane":["SP"]}|DE|
+@bpm-tabs-warning-simple-color:            @bpm-text-color;                                            //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABS","order":"080160","type":"color"}|DE|
+@bpm-tabs-warning-bg:                      lighten( @bpm-color-warning, 5%);                           //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABS","order":"080170","type":"color"}|DE|&#xD;
+@bpm-tabs-warning-border:                  darken( @bpm-tabs-warning-bg, 5%);                          //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABS","order":"080175","type":"color","targetPane":["SP"]}|DE|&#xD;
+@bpm-tabs-warning-accent:                  desaturate(lighten(@bpm-tabs-warning-bg, 25%), 5%);         //|EEM| /* Added in SPARK UI Theme */&#xD;
+&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABS","order":"080180","type":"color"}|DE|
+@bpm-tabs-alert-color:                     @bpm-text-color-negative;                                   //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABS","order":"080185","type":"color","targetPane":["SP"]}|DE|
+@bpm-tabs-alert-simple-color:              @bpm-text-color;                                            //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABS","order":"080190","type":"color"}|DE|
+@bpm-tabs-alert-bg:                        darken( @bpm-color-alert, 5%);                              //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABS","order":"080200","type":"color"}|DE|&#xD;
+@bpm-tabs-alert-border:                    darken( @bpm-tabs-alert-bg, 5%);                            //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABS","order":"080175","type":"color","targetPane":["SP"]}|DE|&#xD;
+@bpm-tabs-alert-accent:                    desaturate(lighten(@bpm-tabs-alert-bg, 30%), 5%);           //|EEM| /* Added in SPARK UI Theme */&#xD;
+&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABS","order":"080210","type":"text"}|DE|
+@bpm-tabs-border-radius:                   @bpm-border-radius-base;                                    //|EEM|&#xD;
+&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_TABS","order":"080220","type":"text","targetPane":["SP"]}|DE|
+@bpm-tabs-height:                          36px;                                                       //|EEM| /* Added in SPARK UI Theme */&#xD;
+&#xD;
+/* Notes */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_NOTES","order":"080010","type":"color","targetPane":["SP"]}|DE|
+@bpm-note-default-bg:                      lighten(@bpm-neutral, 2%);                                  //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_NOTES","order":"080020","type":"color","targetPane":["SP"]}|DE|
+@bpm-note-default-accent-bg:               @bpm-neutral-dark;                                          //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_NOTES","order":"080030","type":"color","targetPane":["SP"]}|DE|
+@bpm-note-default-color:                   lighten(@bpm-text-color, 8%);                               //|EEM| /* Added in SPARK UI Theme */&#xD;
+&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_NOTES","order":"080040","type":"color","targetPane":["SP"]}|DE|
+@bpm-note-primary-bg:                      lighten(@bpm-color-primary-light, 8%);                      //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_NOTES","order":"080050","type":"color","targetPane":["SP"]}|DE|
+@bpm-note-primary-accent-bg:               @bpm-color-primary-dark;                                    //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_NOTES","order":"080060","type":"color","targetPane":["SP"]}|DE|
+@bpm-note-primary-color:                   @bpm-text-color-primary;                                    //|EEM| /* Added in SPARK UI Theme */&#xD;
+&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_NOTES","order":"080070","type":"color","targetPane":["SP"]}|DE|
+@bpm-note-info-bg:                         lighten(@bpm-color-info-light, 8%);                         //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_NOTES","order":"080080","type":"color","targetPane":["SP"]}|DE|
+@bpm-note-info-accent-bg:                  @bpm-color-info-dark;                                       //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_NOTES","order":"080090","type":"color","targetPane":["SP"]}|DE|
+@bpm-note-info-color:                      @bpm-text-color-info;                                       //|EEM| /* Added in SPARK UI Theme */&#xD;
+ &#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_NOTES","order":"080100","type":"color","targetPane":["SP"]}|DE|
+@bpm-note-success-bg:                      lighten(@bpm-color-success-light, 8%);                      //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_NOTES","order":"080110","type":"color","targetPane":["SP"]}|DE|
+@bpm-note-success-accent-bg:               @bpm-color-success-dark;                                    //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_NOTES","order":"080120","type":"color","targetPane":["SP"]}|DE|
+@bpm-note-success-color:                   @bpm-text-color-success;                                    //|EEM| /* Added in SPARK UI Theme */&#xD;
+&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_NOTES","order":"080130","type":"color","targetPane":["SP"]}|DE|
+@bpm-note-warning-bg:                      lighten(@bpm-color-warning-light, 8%);                      //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_NOTES","order":"080140","type":"color","targetPane":["SP"]}|DE|
+@bpm-note-warning-accent-bg:               @bpm-color-warning-dark;                                    //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_NOTES","order":"080150","type":"color","targetPane":["SP"]}|DE|
+@bpm-note-warning-color:                   @bpm-text-color-warning;                                    //|EEM| /* Added in SPARK UI Theme */&#xD;
+&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_NOTES","order":"080160","type":"color","targetPane":["SP"]}|DE|
+@bpm-note-alert-bg:                        lighten(@bpm-color-alert-light, 8%);                        //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_NOTES","order":"080170","type":"color","targetPane":["SP"]}|DE|
+@bpm-note-alert-accent-bg:                 @bpm-color-alert-dark;                                      //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_NOTES","order":"080180","type":"color","targetPane":["SP"]}|DE|
+@bpm-note-alert-color:                     @bpm-text-color-alert;                                      //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_NOTES","order":"080190","type":"text","targetPane":["SP"]}|DE|
+@bpm-note-border-width:                    3px;                                                        //|EEM| /* Added in SPARK UI Theme */&#xD;
+&#xD;
+&#xD;
+/* Progress bars */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_PROGRESS_AND_SLIDERS","order":"090010","type":"color","targetPane":["SP"]}|DE|
+@bpm-progress-empty-bg:                    @bpm-neutral-dark;                                          //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_PROGRESS_AND_SLIDERS","order":"090020","type":"color","targetPane":["SP"]}|DE|
+@bpm-progress-default-bg:                  @bpm-neutral-darker;                                        //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_PROGRESS_AND_SLIDERS","order":"090030","type":"color","targetPane":["SP"]}|DE|&#xD;
+@bpm-progress-default-border:              darken(@bpm-neutral-darker,10%);                            //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_PROGRESS_AND_SLIDERS","order":"090040","type":"color","targetPane":["SP"]}|DE|
+@bpm-progress-primary-bg:                  @bpm-color-primary;                                         //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_PROGRESS_AND_SLIDERS","order":"090050","type":"color","targetPane":["SP"]}|DE|&#xD;
+@bpm-progress-primary-border:              darken(@bpm-progress-primary-bg, 5%);                       //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_PROGRESS_AND_SLIDERS","order":"090060","type":"color","targetPane":["SP"]}|DE|
+@bpm-progress-info-bg:                     @bpm-color-info;                                            //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_PROGRESS_AND_SLIDERS","order":"090070","type":"color","targetPane":["SP"]}|DE|&#xD;
+@bpm-progress-info-border:                 darken(@bpm-progress-info-bg, 5%);                          //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_PROGRESS_AND_SLIDERS","order":"090080","type":"color","targetPane":["SP"]}|DE|
+@bpm-progress-success-bg:                  @bpm-color-success;                                         //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_PROGRESS_AND_SLIDERS","order":"090090","type":"color","targetPane":["SP"]}|DE|&#xD;
+@bpm-progress-success-border:              darken(@bpm-progress-success-bg, 5%);                       //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_PROGRESS_AND_SLIDERS","order":"090100","type":"color","targetPane":["SP"]}|DE|
+@bpm-progress-warning-bg:                  @bpm-color-warning;                                         //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_PROGRESS_AND_SLIDERS","order":"090110","type":"color","targetPane":["SP"]}|DE|&#xD;
+@bpm-progress-warning-border:              darken(@bpm-progress-warning-bg, 5%);                       //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_PROGRESS_AND_SLIDERS","order":"090120","type":"color","targetPane":["SP"]}|DE|
+@bpm-progress-alert-bg:                    @bpm-color-alert;                                           //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_PROGRESS_AND_SLIDERS","order":"090130","type":"color","targetPane":["SP"]}|DE|&#xD;
+@bpm-progress-alert-border:                darken(@bpm-progress-alert-bg, 5%);                         //|EEM| /* Added in SPARK UI Theme */&#xD;
+&#xD;
+&#xD;
+/* Menus */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_MENUS","order":"100010","type":"color","targetPane":["SP"]}|DE|
+@bpm-menu-item-active-color:               @bpm-active-color;                                          //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_MENUS","order":"100020","type":"color","targetPane":["SP"]}|DE|
+@bpm-menu-item-active-bg:                  @bpm-active-bg;                                             //|EEM| /* Added in SPARK UI Theme */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_MENUS","order":"100030","type":"text","targetPane":["SP"]}|DE|
+@bpm-menu-border-radius:                   @bpm-border-radius-base + 2;                                //|EEM| /* Added in SPARK UI Theme */&#xD;
+&#xD;
+&#xD;
+/* Alerts &amp; Notifications */&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_ALERTS","order":"100110","type":"color","targetPane":["SP"]}|DE|
+@bpm-modal-alert-header-primary-bg:        @bpm-color-primary;                                         //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_ALERTS","order":"100115","type":"color","targetPane":["SP"]}|DE|
+@bpm-modal-alert-header-primary-color:     @bpm-active-color;                                          //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_ALERTS","order":"100120","type":"color","targetPane":["SP"]}|DE|
+@bpm-modal-alert-header-info-bg:           @bpm-color-info;                                            //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_ALERTS","order":"100125","type":"color","targetPane":["SP"]}|DE|
+@bpm-modal-alert-header-info-color:        @bpm-active-color;                                          //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_ALERTS","order":"100130","type":"color","targetPane":["SP"]}|DE|
+@bpm-modal-alert-header-success-bg:        @bpm-color-success;                                         //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_ALERTS","order":"100135","type":"color","targetPane":["SP"]}|DE|
+@bpm-modal-alert-header-success-color:     @bpm-active-color;                                          //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_ALERTS","order":"100140","type":"color","targetPane":["SP"]}|DE|
+@bpm-modal-alert-header-warning-bg:        @bpm-color-warning;                                         //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_ALERTS","order":"100145","type":"color","targetPane":["SP"]}|DE|
+@bpm-modal-alert-header-warning-color:     @bpm-active-color;                                          //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_ALERTS","order":"100150","type":"color","targetPane":["SP"]}|DE|
+@bpm-modal-alert-header-danger-bg:         @bpm-color-alert;                                           //|EEM|&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_ALERTS","order":"100155","type":"color","targetPane":["SP"]}|DE|
+@bpm-modal-alert-header-danger-color:      @bpm-active-color;                                          //|EEM|&#xD;
+&#xD;
+                                                                                                       //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"110000","type":"text"}|DE|&#xD;
+@bpm-positioning-mode:                     1;                                                          //|EEM|&#xD;
+&#xD;
+/* Title Bar */&#xD;
+@bpm-portal-titlebar-bg:                   @bpm-color-primary;&#xD;
+@bpm-portal-titlebar-font-family:          @bpm-headings-font-family;&#xD;
+@bpm-portal-titlebar-font-weight:          @bpm-headings-font-weight;&#xD;
+@bpm-portal-titlebar-font-size:            24px;&#xD;
+@bpm-portal-titlebar-color:                #ffffff;&#xD;
+@bpm-portal-titlebar-padding-vertical:     6px;&#xD;
+@bpm-portal-titlebar-padding-horizontal:   5px;&#xD;
+&#xD;
+/* Sidebars */&#xD;
+@bpm-portal-sidebar-bg:                    @bpm-neutral-darkest;&#xD;
+@bpm-portal-sidebar-color:                 #ffffff;&#xD;
+@bpm-portal-sidebar-padding:               0px;&#xD;
+@bpm-portal-sidebar-font-family:           @bpm-font-family-base;&#xD;
+@bpm-portal-sidebar-font-weight:           normal;&#xD;
+@bpm-portal-sidebar-font-size:             1.4em;&#xD;
+@bpm-portal-sidebar-link-color:            #ffffff;&#xD;
+@bpm-portal-sidebar-link-hover-color:      darken( @bpm-portal-sidebar-link-color, 15%);&#xD;
+@bpm-portal-sidebar-link-hover-decoration: @bpm-link-hover-decoration;&#xD;
+@bpm-portal-sidebar-heading-color:         @bpm-portal-sidebar-color;&#xD;
+@bpm-portal-sidebar-heading-weight:        normal;&#xD;
+@bpm-portal-sidebar-heading-size:          1em;&#xD;
+@bpm-portal-sidebar-separator:             @bpm-neutral-lighter;&#xD;
+@bpm-portal-sidebar-level1-bg:             @bpm-neutral-dark;&#xD;
+@bpm-portal-sidebar-level1-font-weight:    normal;&#xD;
+@bpm-portal-sidebar-level1-font-size:      1.2em;&#xD;
+@bpm-portal-sidebar-level1-padding:        8px;&#xD;
+@bpm-portal-sidebar-level2-bg:             @bpm-neutral;&#xD;
+@bpm-portal-sidebar-level2-font-weight:    normal;&#xD;
+@bpm-portal-sidebar-level2-font-size:      1em;&#xD;
+@bpm-portal-sidebar-level2-padding:        15px 25px 15px 15px;&#xD;
+@bpm-portal-sidebar-level3-bg:             #ffffff;&#xD;
+@bpm-portal-sidebar-level3-font-weight:    normal;&#xD;
+@bpm-portal-sidebar-level3-font-size:      @bpm-font-size-base;&#xD;
+@bpm-portal-sidebar-level3-padding:        0px;&#xD;
+@bpm-portal-sidebar-content-bg:            @bpm-neutral-lightest;&#xD;
+@bpm-portal-sidebar-content-padding:       10px;&#xD;
+@bpm-portal-badge-bg:                      @bpm-neutral-light;&#xD;
+@bpm-portal-badge-color:                   #ffffff;&#xD;
+@bpm-portal-badge-link-hover-color:        #ffffff;&#xD;
+@bpm-portal-badge-font-weight:             bold;&#xD;
+@bpm-portal-badge-border-radius:           10px;&#xD;
+&#xD;
+/* Dialogs */&#xD;
+@bpm-modal-inner-padding:                  15px;&#xD;
+@bpm-modal-title-padding:                  15px;&#xD;
+@bpm-modal-content-bg:                     #ffffff;&#xD;
+@bpm-modal-content-border-color:           @bpm-neutral-lightest;&#xD;
+@bpm-modal-backdrop-bg:                    @bpm-neutral-darker;&#xD;
+@bpm-modal-backdrop-opacity:               0.95;&#xD;
+@bpm-modal-header-border-color:            @bpm-neutral-lightest;&#xD;
+@bpm-modal-footer-border-color:            @bpm-neutral-lightest;&#xD;
+&#xD;
+/* Task List */&#xD;
+@bpm-color-priority-5:                     @bpm-color-alert-light;&#xD;
+@bpm-color-priority-4:                     #ffd4a0;&#xD;
+@bpm-color-priority-3:                     #fde876;&#xD;
+@bpm-color-priority-2:                     #c8f08f;&#xD;
+@bpm-color-priority-1:                     #c0e6ff;&#xD;
+@bpm-color-ontrack:                        #d9ede5;&#xD;
+@bpm-color-atrisk:                         #fef4dc;&#xD;
+@bpm-color-overdue:                        #f9dcdf;&#xD;
+@bpm-tasklist-padding:                     8px;&#xD;
+@bpm-tasklist-bg:                          transparent;&#xD;
+@bpm-tasklist-details-bg:                  #f5f9f9;&#xD;
+@bpm-tasklist-border-color:                @bpm-neutral-lighter;</themeContent>
+        <description>&lt;div&gt;&lt;i&gt;Replace this documentation text and describe your theme.&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;&lt;div&gt;In a theme, you define the variables that coach views use in their dynamic stylesheets. When a coach view is used in a coach of a human service, the runtime CSS file for the coach view is created from combining the variable values with the dynamic stylesheets.&lt;/div&gt;</description>
+        <guid>d303b2d1-2b8d-4e38-bd35-050122ff9c54</guid>
+        <versionId>42a0278e-4813-47b4-a45f-a54bc2b9ccc6</versionId>
+    </uiTheme>
+</teamworks>
+

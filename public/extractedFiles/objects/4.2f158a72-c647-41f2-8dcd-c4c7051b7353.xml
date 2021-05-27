@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teamworks>
+    <underCoverAgent id="4.2f158a72-c647-41f2-8dcd-c4c7051b7353" name="Test Messaging UCA New">
+        <lastModified>1528548874455</lastModified>
+        <lastModifiedBy>asansanwal</lastModifiedBy>
+        <ucaId>4.2f158a72-c647-41f2-8dcd-c4c7051b7353</ucaId>
+        <monthList isNull="true" />
+        <freqType isNull="true" />
+        <dayList isNull="true" />
+        <hourList isNull="true" />
+        <minuteList isNull="true" />
+        <processRef>/1.54d0f687-642c-4e25-bb2c-5f009cff270f</processRef>
+        <ucaEventTypeRef>2115.1</ucaEventTypeRef>
+        <variableRef isNull="true" />
+        <schedType>2</schedType>
+        <schedEventName>73e53f68-d33c-4855-83fc-26249bf29424</schedEventName>
+        <implementationType>Service</implementationType>
+        <isEnabled>true</isEnabled>
+        <description isNull="true" />
+        <guid>3bfbc55b-5447-4255-8e19-22bb97ccb7cf</guid>
+        <versionId>6e36dfb0-6f90-45e4-8c57-d22da3e5b840</versionId>
+        <parameterMapping name="tdsh1">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <parameterMappingId>2054.a5c28917-f6f9-429d-8f6e-d71d28ddb282</parameterMappingId>
+            <processParameterId>2055.aecd425e-b528-456f-a062-89a90b45791d</processParameterId>
+            <parameterMappingParentId>4.2f158a72-c647-41f2-8dcd-c4c7051b7353</parameterMappingParentId>
+            <useDefault>false</useDefault>
+            <value>""</value>
+            <classRef>3eead070-014c-46ed-b858-fe3e6d6b248e/12.db884a3c-c533-44b7-bb2d-47bec8ad4022</classRef>
+            <isList>false</isList>
+            <isInput>true</isInput>
+            <guid>7766bcf5-25fa-425f-85eb-dbff82139473</guid>
+            <versionId>1ed0fe06-32d6-48f8-8b00-ae15f87dc29d</versionId>
+            <description isNull="true" />
+        </parameterMapping>
+        <parameterMapping name="tdsh3">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <parameterMappingId>2054.20dd6f3b-8934-47aa-9bf9-c29644ca9abd</parameterMappingId>
+            <processParameterId>2055.68ebcc13-cf54-442d-b95a-78dd715e3d5f</processParameterId>
+            <parameterMappingParentId>4.2f158a72-c647-41f2-8dcd-c4c7051b7353</parameterMappingParentId>
+            <useDefault>false</useDefault>
+            <value>1</value>
+            <classRef>3eead070-014c-46ed-b858-fe3e6d6b248e/12.3fa0d7a0-828a-4d60-99cc-db5ed143fc2d</classRef>
+            <isList>false</isList>
+            <isInput>true</isInput>
+            <guid>f43080bd-1356-4946-a6db-af056d91031f</guid>
+            <versionId>6f3a0155-88cc-4b01-919d-5ed1cd7bda10</versionId>
+            <description isNull="true" />
+        </parameterMapping>
+        <parameterMapping name="tdsh2">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <parameterMappingId>2054.b8d0a502-66ad-47e5-8c76-9103a7b60f3b</parameterMappingId>
+            <processParameterId>2055.2653d14e-ca0f-46e3-ada0-b3bd46d4da99</processParameterId>
+            <parameterMappingParentId>4.2f158a72-c647-41f2-8dcd-c4c7051b7353</parameterMappingParentId>
+            <useDefault>false</useDefault>
+            <value>""</value>
+            <classRef>3eead070-014c-46ed-b858-fe3e6d6b248e/12.db884a3c-c533-44b7-bb2d-47bec8ad4022</classRef>
+            <isList>false</isList>
+            <isInput>true</isInput>
+            <guid>c5caa75c-90bc-4e90-b801-8b0a95400fb6</guid>
+            <versionId>4924b8e5-02ff-475c-9000-ea9520c56a8a</versionId>
+            <description isNull="true" />
+        </parameterMapping>
+        <queue>Async Queue</queue>
+    </underCoverAgent>
+</teamworks>
+

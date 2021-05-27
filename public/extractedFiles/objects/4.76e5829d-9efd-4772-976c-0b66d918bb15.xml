@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teamworks>
+    <underCoverAgent id="4.76e5829d-9efd-4772-976c-0b66d918bb15" name="Complex variable messaging UCA">
+        <lastModified>1528548877193</lastModified>
+        <lastModifiedBy>asansanwal</lastModifiedBy>
+        <ucaId>4.76e5829d-9efd-4772-976c-0b66d918bb15</ucaId>
+        <monthList isNull="true" />
+        <freqType isNull="true" />
+        <dayList isNull="true" />
+        <hourList isNull="true" />
+        <minuteList isNull="true" />
+        <processRef>/1.7de8b444-c9f8-40b0-a1d2-239f98d91330</processRef>
+        <ucaEventTypeRef>2115.1</ucaEventTypeRef>
+        <variableRef>/12.b2a529f7-b286-4bf8-bdbd-ac2cddb60cae</variableRef>
+        <schedType>2</schedType>
+        <schedEventName>b1ba0b42-f1c8-4912-a89b-f481f18e0881</schedEventName>
+        <implementationType>Variable</implementationType>
+        <isEnabled>true</isEnabled>
+        <description isNull="true" />
+        <guid>d2452b14-2ec8-4830-8892-8f9815ed64aa</guid>
+        <versionId>f97aed36-da8f-42ad-9b01-e86c3cd2d831</versionId>
+        <queue>Async Queue</queue>
+    </underCoverAgent>
+</teamworks>
+

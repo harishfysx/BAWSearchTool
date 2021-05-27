@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teamworks>
+    <coachView id="64.40beaad6-6ecf-4c25-83e5-1a52aa7967ea" name="Update Task Data">
+        <lastModified>1528548874586</lastModified>
+        <lastModifiedBy>asansanwal</lastModifiedBy>
+        <coachViewId>64.40beaad6-6ecf-4c25-83e5-1a52aa7967ea</coachViewId>
+        <isTemplate>false</isTemplate>
+        <layout>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;&lt;ns2:layout xmlns:ns2="http://www.ibm.com/bpm/CoachDesignerNG" xmlns:ns3="http://www.ibm.com/bpm/coachview"&gt;&lt;ns2:layoutItem xsi:type="ns2:ViewRef" version="8550" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;&lt;ns2:id&gt;51b33f56-3a9f-455a-8b98-ff13405f052c&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;Deferred_Section1&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;c0ef1d77-d666-4d9e-87c5-78cfc17db17a&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@label&lt;/ns2:optionName&gt;&lt;ns2:value&gt;Deferred Section&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;92dc02cf-f6c4-47b6-8e4f-7a90f3d42020&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@helpText&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;6ef5ef06-4c04-4699-8fd6-ed73493e5122&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@labelVisibility&lt;/ns2:optionName&gt;&lt;ns2:value&gt;SHOW&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;976886a7-4ac3-401a-88c6-0fd3cc174550&lt;/ns2:id&gt;&lt;ns2:optionName&gt;autoLoad&lt;/ns2:optionName&gt;&lt;ns2:value&gt;true&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;8f8011c5-15f0-48d2-8710-383c39f24e07&lt;/ns2:id&gt;&lt;ns2:optionName&gt;autoLoadDelay&lt;/ns2:optionName&gt;&lt;ns2:value&gt;2150&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:viewUUID&gt;64.9ee7a0fd-5b25-497d-85fc-1cc09795f524&lt;/ns2:viewUUID&gt;&lt;ns2:contentBoxContrib&gt;&lt;ns2:id&gt;c5b9b8ed-bd7c-4d97-830b-a013f81476bb&lt;/ns2:id&gt;&lt;ns2:contentBoxId&gt;ContentBox1&lt;/ns2:contentBoxId&gt;&lt;ns2:contributions xsi:type="ns2:ViewRef" version="8550"&gt;&lt;ns2:id&gt;62b879fc-6fd6-4b29-8265-e52ad59e1289&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;Horizontal_Layout1&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;f6c5ff16-3e31-45bd-80d5-cd5880ddb03e&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@label&lt;/ns2:optionName&gt;&lt;ns2:value&gt;Horizontal Layout&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;94132085-c90f-4463-8fd3-09456b9b63a8&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@helpText&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;ede389cd-c3a9-47c8-8860-9ea5fe16de93&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@labelVisibility&lt;/ns2:optionName&gt;&lt;ns2:value&gt;SHOW&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;402b4b90-7269-4c85-8a57-d888d4994d35&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@width&lt;/ns2:optionName&gt;&lt;ns2:value&gt;{"isResponsiveData":true,"values":[{"deviceConfigID":"LargeID","value":"100%"}]}&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:viewUUID&gt;64.44f463cc-615b-43d0-834f-c398a82e0363&lt;/ns2:viewUUID&gt;&lt;ns2:contentBoxContrib&gt;&lt;ns2:id&gt;a9829a02-4c99-461d-8bb4-ce6d13545708&lt;/ns2:id&gt;&lt;ns2:contentBoxId&gt;ContentBox1&lt;/ns2:contentBoxId&gt;&lt;ns2:contributions xsi:type="ns2:ViewRef" version="8550"&gt;&lt;ns2:id&gt;3446918c-ee22-4fce-8883-e5612e37537b&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;Vertical_Layout1&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;e6aec0c1-26aa-4d13-86e0-a6e7a9146169&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@label&lt;/ns2:optionName&gt;&lt;ns2:value&gt;Vertical Layout&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;7287fec1-9641-4ba7-859d-f7a4b2fff529&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@helpText&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;14d1d00d-1fde-4275-84be-fa8d02cbf2ab&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@labelVisibility&lt;/ns2:optionName&gt;&lt;ns2:value&gt;SHOW&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:viewUUID&gt;64.44f463cc-615b-43d0-834f-c398a82e0363&lt;/ns2:viewUUID&gt;&lt;ns2:contentBoxContrib&gt;&lt;ns2:id&gt;2ce87b0e-6fd9-485a-8f2c-2df173710d5d&lt;/ns2:id&gt;&lt;ns2:contentBoxId&gt;ContentBox1&lt;/ns2:contentBoxId&gt;&lt;ns2:contributions xsi:type="ns2:ViewRef" version="8550"&gt;&lt;ns2:id&gt;7725ee20-3fa6-4d47-8b9a-a0c08e1594ce&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;Vertical_Layout5&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;67281983-9d8b-4e7c-8354-34833163d718&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@label&lt;/ns2:optionName&gt;&lt;ns2:value&gt;Vertical Layout 5&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;002f307a-c571-4011-8e3e-23ff494d7c6a&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@helpText&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;4bb64184-e3a9-4540-845e-8a2a4f28bb22&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@labelVisibility&lt;/ns2:optionName&gt;&lt;ns2:value&gt;SHOW&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:viewUUID&gt;64.ef447b87-24a2-42a7-b2b9-cd471e9f7b67&lt;/ns2:viewUUID&gt;&lt;ns2:contentBoxContrib&gt;&lt;ns2:id&gt;f718cb8d-d62a-42da-8a31-5e9be71f7245&lt;/ns2:id&gt;&lt;ns2:contentBoxId&gt;ContentBox1&lt;/ns2:contentBoxId&gt;&lt;ns2:contributions xsi:type="ns2:ViewRef" version="8550"&gt;&lt;ns2:id&gt;8639e15a-2da3-4268-82fd-c3b50be00c93&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;Text1&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;5220796d-3983-49d9-874c-1d576fffc50d&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@label&lt;/ns2:optionName&gt;&lt;ns2:value&gt;Search by Application Name, Activity Name, Task Subject, User Name, Group Name, Task ID or Instance ID&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;b8e74445-76d3-4cb5-85a0-b17158100d80&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@helpText&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;444ea9fc-b33b-4780-8e93-13bfef0a209c&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@labelVisibility&lt;/ns2:optionName&gt;&lt;ns2:value&gt;SHOW&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:viewUUID&gt;64.5663dd71-ff18-4d33-bea0-468d0b869816&lt;/ns2:viewUUID&gt;&lt;ns2:binding&gt;tw.options.searchString&lt;/ns2:binding&gt;&lt;/ns2:contributions&gt;&lt;/ns2:contentBoxContrib&gt;&lt;/ns2:contributions&gt;&lt;ns2:contributions xsi:type="ns2:ViewRef" version="8550"&gt;&lt;ns2:id&gt;8968807b-2ec2-4a9a-8b7e-e9cf044af82e&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;Vertical_Layout6&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;d58ccbeb-1be7-40ae-81e4-4878c82a3709&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@label&lt;/ns2:optionName&gt;&lt;ns2:value&gt;Vertical Layout 6&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;500ebb13-93f4-4ff0-812f-21627ee264c5&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@helpText&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;695fd6d4-5047-4696-8059-b58ec53349cb&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@labelVisibility&lt;/ns2:optionName&gt;&lt;ns2:value&gt;SHOW&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:viewUUID&gt;64.ef447b87-24a2-42a7-b2b9-cd471e9f7b67&lt;/ns2:viewUUID&gt;&lt;ns2:contentBoxContrib&gt;&lt;ns2:id&gt;f2bf35f9-0f24-4e3b-8b05-533e2cceed05&lt;/ns2:id&gt;&lt;ns2:contentBoxId&gt;ContentBox1&lt;/ns2:contentBoxId&gt;&lt;ns2:contributions xsi:type="ns2:ViewRef" version="8550"&gt;&lt;ns2:id&gt;f2ef0e32-17c0-4774-8b94-761adcee9442&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;FindTasksButton1&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;8c632e2a-cedc-401e-80bb-1ef38f846eb6&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@label&lt;/ns2:optionName&gt;&lt;ns2:value&gt;Find Task(s)&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;c218f195-d00e-431b-8e5f-c0447c82f188&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@helpText&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;38fe625a-8065-4085-8a7b-1e6b2560f325&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@labelVisibility&lt;/ns2:optionName&gt;&lt;ns2:value&gt;SHOW&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;4c0c424d-a959-46df-869b-b5c5ec861bca&lt;/ns2:id&gt;&lt;ns2:optionName&gt;eventON_CLICK&lt;/ns2:optionName&gt;&lt;ns2:value&gt;${MatchingTasks2}.refresh();&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;d512ddd0-44ad-48a3-892c-a9db01ed23a9&lt;/ns2:id&gt;&lt;ns2:optionName&gt;icon&lt;/ns2:optionName&gt;&lt;ns2:value&gt;{"isResponsiveData":true,"values":[{"deviceConfigID":"LargeID","value":"search"}]}&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;bf2ecda4-0c19-41d7-8633-6058b95c3b45&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@margin&lt;/ns2:optionName&gt;&lt;ns2:value&gt;{"isResponsiveData":true,"values":[{"deviceConfigID":"LargeID","value":"22px"}]}&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;46f7443f-91d0-411b-8fd4-398af854762f&lt;/ns2:id&gt;&lt;ns2:optionName&gt;colorStyle&lt;/ns2:optionName&gt;&lt;ns2:value&gt;I&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;6289f1e1-41be-4d51-80a3-7bdbf05532ee&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@width&lt;/ns2:optionName&gt;&lt;ns2:value&gt;{"isResponsiveData":true,"values":[{"deviceConfigID":"LargeID","value":"150px"}]}&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:viewUUID&gt;64.7133c7d4-1a54-45c8-89cd-a8e8fa4a8e36&lt;/ns2:viewUUID&gt;&lt;/ns2:contributions&gt;&lt;/ns2:contentBoxContrib&gt;&lt;/ns2:contributions&gt;&lt;/ns2:contentBoxContrib&gt;&lt;/ns2:contributions&gt;&lt;/ns2:contentBoxContrib&gt;&lt;/ns2:contributions&gt;&lt;ns2:contributions xsi:type="ns2:ViewRef" version="8550"&gt;&lt;ns2:id&gt;b0dec049-07c8-49d3-8feb-4af2e98b26d4&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;MatchingTasks2&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;836f8462-3256-463c-8e6c-634d580610d1&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@label&lt;/ns2:optionName&gt;&lt;ns2:value&gt;Matching Tasks&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;983b8cd5-2895-4990-847e-8191f4d52bc4&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@helpText&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;e7f93047-3f66-416f-856e-4f9cbd821cfc&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@labelVisibility&lt;/ns2:optionName&gt;&lt;ns2:value&gt;SHOW&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;0824ad3f-28f3-4d70-8f04-88175d1f2b04&lt;/ns2:id&gt;&lt;ns2:optionName&gt;dataService&lt;/ns2:optionName&gt;&lt;ns2:value&gt;1.31d14c84-5425-4072-9202-f9f2b9a8ce1f&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;90bf6a7d-1ce3-4663-877d-884c7996fb2b&lt;/ns2:id&gt;&lt;ns2:optionName&gt;queryData&lt;/ns2:optionName&gt;&lt;ns2:value&gt;tw.options.searchString&lt;/ns2:value&gt;&lt;ns2:valueType&gt;dynamic&lt;/ns2:valueType&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;15645c92-c6cf-4ac6-885a-c8a2fbe76927&lt;/ns2:id&gt;&lt;ns2:optionName&gt;showPager&lt;/ns2:optionName&gt;&lt;ns2:value&gt;{"isResponsiveData":true,"values":[{"deviceConfigID":"LargeID","value":true}]}&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;588113a0-fa27-41fa-82b4-9d07be8127f4&lt;/ns2:id&gt;&lt;ns2:optionName&gt;showPageSizer&lt;/ns2:optionName&gt;&lt;ns2:value&gt;{"isResponsiveData":true,"values":[{"deviceConfigID":"LargeID","value":true}]}&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;6db7ceab-b773-489a-880f-493465ffaf1f&lt;/ns2:id&gt;&lt;ns2:optionName&gt;pageSize&lt;/ns2:optionName&gt;&lt;ns2:value&gt;{"isResponsiveData":true,"values":[{"deviceConfigID":"LargeID","value":20}]}&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;0957f4d9-1289-4d0f-87d5-4004ed1870ee&lt;/ns2:id&gt;&lt;ns2:optionName&gt;columnSpecs&lt;/ns2:optionName&gt;&lt;ns2:value&gt;[{"dataElementName":"TaskID","renderAs":"H","visibility":"V","sortable":true,"options":"","css":"","width":"","label":"Task ID"},{"dataElementName":"TaskSubject","renderAs":"H","visibility":"V","sortable":true,"options":"","css":"","width":"","label":"Task Subject"},{"dataElementName":"ActivityName","renderAs":"H","visibility":"V","sortable":true,"options":"","css":"","width":"","label":"Activity Name"},{"dataElementName":"ApplicationName","renderAs":"H","visibility":"V","sortable":true,"options":"","css":"","width":"","label":"ApplicationName"},{"dataElementName":"UserName","renderAs":"H","visibility":"V","sortable":true,"options":"","css":"","width":"","label":"User Name"},{"dataElementName":"groupName","renderAs":"H","visibility":"V","sortable":true,"options":"","css":"","width":"","label":"Group Name"},{"dataElementName":"InstanceID","renderAs":"H","visibility":"V","sortable":true,"options":"","css":"","width":"","label":"Instance ID"},{"dataElementName":"Status","renderAs":"H","visibility":"V","sortable":true,"options":"","css":"","width":"","label":"Task Status"},{"dataElementName":"","renderAs":"C","visibility":"V","sortable":false,"options":"","css":"","width":"","label":"ReAssign"}]&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;89ce867c-3396-4e69-82d5-e77991dc152f&lt;/ns2:id&gt;&lt;ns2:optionName&gt;startEmpty&lt;/ns2:optionName&gt;&lt;ns2:value&gt;true&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;0ab3b7b9-ce3b-4491-8342-92a621236a79&lt;/ns2:id&gt;&lt;ns2:optionName&gt;showFooter&lt;/ns2:optionName&gt;&lt;ns2:value&gt;{"isResponsiveData":true,"values":[{"deviceConfigID":"LargeID","value":true}]}&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;a75b968f-b993-4664-897f-b7febfe5397b&lt;/ns2:id&gt;&lt;ns2:optionName&gt;tableStyle&lt;/ns2:optionName&gt;&lt;ns2:value&gt;S&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;787986d2-0304-42b5-8804-4694b8ed4b0f&lt;/ns2:id&gt;&lt;ns2:optionName&gt;selectionMode&lt;/ns2:optionName&gt;&lt;ns2:value&gt;S&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;7ff994ef-3c9e-4780-84d7-a9d3c46223fa&lt;/ns2:id&gt;&lt;ns2:optionName&gt;eventON_ROWSEL&lt;/ns2:optionName&gt;&lt;ns2:value&gt;${../Update_Task_Data1}.setData( me.getData().items[me.getSelectedIndex()]); 
+${SelectedTaskID_Data1}.setData(me.getData().items[me.getSelectedIndex()].TaskID);
+${UpdateTaskData_Modal_Section2}.setVisible(true);
+&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;f3f1cc3d-75a5-4af0-8acd-b6294d6da642&lt;/ns2:id&gt;&lt;ns2:optionName&gt;eventON_LOAD&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;bdce3aed-b557-4cec-8c43-d064760a68fd&lt;/ns2:id&gt;&lt;ns2:optionName&gt;showTableStats&lt;/ns2:optionName&gt;&lt;ns2:value&gt;{"isResponsiveData":true,"values":[{"deviceConfigID":"LargeID","value":true}]}&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;19dca864-8e7a-41e1-8177-f75c608a20b9&lt;/ns2:id&gt;&lt;ns2:optionName&gt;eventON_DATALOADED&lt;/ns2:optionName&gt;&lt;ns2:value&gt;if (me.getData().items.length == 0){
+${../Data1}.setValue(" Info: No Tasks for data update found for the search criteria, Please try changing the criteria. ");
+}&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;649099ad-0c8d-4fa7-806b-6d589109da79&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@width&lt;/ns2:optionName&gt;&lt;ns2:value&gt;{"isResponsiveData":true,"values":[{"deviceConfigID":"LargeID","value":"100%"}]}&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:viewUUID&gt;64.6b29c1bc-c211-43ce-8fbc-904e6e4d57f7&lt;/ns2:viewUUID&gt;&lt;ns2:binding&gt;tw.options.TaskList[]&lt;/ns2:binding&gt;&lt;ns2:contentBoxContrib&gt;&lt;ns2:id&gt;25d315f5-7b26-4b7b-8a5e-2b64a5b85647&lt;/ns2:id&gt;&lt;ns2:contentBoxId&gt;ContentBox1&lt;/ns2:contentBoxId&gt;&lt;ns2:contributions xsi:type="ns2:ViewRef" version="8550"&gt;&lt;ns2:id&gt;dc3d919d-cee0-44b3-8e7d-8d139b20d4f8&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;Output_Text1&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;a4791567-87b1-433a-80f1-1728be18d0a6&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@label&lt;/ns2:optionName&gt;&lt;ns2:value&gt;Output Text&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;b0222020-5e3d-439f-81e1-c5cff17c7769&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@helpText&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;87ad6deb-e4eb-4a1c-81b1-949aa0f268a6&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@labelVisibility&lt;/ns2:optionName&gt;&lt;ns2:value&gt;SHOW&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:viewUUID&gt;64.f634f22e-7800-4bd7-9f1e-87177acfb3bc&lt;/ns2:viewUUID&gt;&lt;ns2:binding&gt;tw.options.TaskList.currentItem.TaskID&lt;/ns2:binding&gt;&lt;/ns2:contributions&gt;&lt;ns2:contributions xsi:type="ns2:ViewRef" version="8550"&gt;&lt;ns2:id&gt;ff7b4693-40b9-4c65-8640-273bd8f6e498&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;Output_Text2&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;86802ae9-0440-445d-8060-b8b8ce2036fd&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@label&lt;/ns2:optionName&gt;&lt;ns2:value&gt;Output Text 2&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;b4fce519-6677-4311-8c63-f0b230230b92&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@helpText&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;ab47ea0d-9134-4abd-8f80-dc2b7dcc02fe&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@labelVisibility&lt;/ns2:optionName&gt;&lt;ns2:value&gt;SHOW&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:viewUUID&gt;64.f634f22e-7800-4bd7-9f1e-87177acfb3bc&lt;/ns2:viewUUID&gt;&lt;ns2:binding&gt;tw.options.TaskList.currentItem.TaskSubject&lt;/ns2:binding&gt;&lt;/ns2:contributions&gt;&lt;ns2:contributions xsi:type="ns2:ViewRef" version="8550"&gt;&lt;ns2:id&gt;ce79c812-60d8-4d40-8d70-8969ccaf112c&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;Output_Text7&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;83bc42b2-0b96-4fcc-8f93-8bbe1cc9ed65&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@label&lt;/ns2:optionName&gt;&lt;ns2:value&gt;Output Text 7&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;0d99c82d-46b2-4d49-82c1-5c5d78e3381d&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@helpText&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;c8c6e903-40ff-46b6-8730-c8886c3842ca&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@labelVisibility&lt;/ns2:optionName&gt;&lt;ns2:value&gt;SHOW&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:viewUUID&gt;64.f634f22e-7800-4bd7-9f1e-87177acfb3bc&lt;/ns2:viewUUID&gt;&lt;ns2:binding&gt;tw.options.TaskList.currentItem.ActivityName&lt;/ns2:binding&gt;&lt;/ns2:contributions&gt;&lt;ns2:contributions xsi:type="ns2:ViewRef" version="8550"&gt;&lt;ns2:id&gt;c3686440-1fc9-4ac1-8c0b-6abdfd83e414&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;Output_Text3&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;25cc4a81-2d85-4287-86cc-049d4228decc&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@label&lt;/ns2:optionName&gt;&lt;ns2:value&gt;Output Text 3&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;29915127-5037-41d2-81e3-8e7d39689896&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@helpText&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;c691b7b0-6141-4ba1-8409-3aee0f63f6af&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@labelVisibility&lt;/ns2:optionName&gt;&lt;ns2:value&gt;SHOW&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:viewUUID&gt;64.f634f22e-7800-4bd7-9f1e-87177acfb3bc&lt;/ns2:viewUUID&gt;&lt;ns2:binding&gt;tw.options.TaskList.currentItem.ApplicationName&lt;/ns2:binding&gt;&lt;/ns2:contributions&gt;&lt;ns2:contributions xsi:type="ns2:ViewRef" version="8550"&gt;&lt;ns2:id&gt;20a9416f-a31c-4052-8706-3f01eb5b8825&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;Output_Text4&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;22b6046e-481a-4e97-8b7f-d29d00bd3a91&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@label&lt;/ns2:optionName&gt;&lt;ns2:value&gt;Output Text 4&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;587182f5-5f89-41c1-8bfe-0d650d1da381&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@helpText&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;3078a8f4-e18c-4cd7-8006-81d5c1be56cb&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@labelVisibility&lt;/ns2:optionName&gt;&lt;ns2:value&gt;SHOW&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:viewUUID&gt;64.f634f22e-7800-4bd7-9f1e-87177acfb3bc&lt;/ns2:viewUUID&gt;&lt;ns2:binding&gt;tw.options.TaskList.currentItem.UserName&lt;/ns2:binding&gt;&lt;/ns2:contributions&gt;&lt;ns2:contributions xsi:type="ns2:ViewRef" version="8550"&gt;&lt;ns2:id&gt;b0af600d-050a-4a4e-8bb9-d5a8b5b2ed99&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;Output_Text11&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;4bfa9604-fbc1-46d5-877b-5d9593b10a7a&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@label&lt;/ns2:optionName&gt;&lt;ns2:value&gt;Group Name&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;a627a18c-85a9-4ce3-871f-75e404f21119&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@helpText&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;1702ce18-16d7-45ff-8432-704a6aa90d49&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@labelVisibility&lt;/ns2:optionName&gt;&lt;ns2:value&gt;SHOW&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:viewUUID&gt;64.f634f22e-7800-4bd7-9f1e-87177acfb3bc&lt;/ns2:viewUUID&gt;&lt;ns2:binding&gt;tw.options.TaskList.currentItem.groupName&lt;/ns2:binding&gt;&lt;/ns2:contributions&gt;&lt;ns2:contributions xsi:type="ns2:ViewRef" version="8550"&gt;&lt;ns2:id&gt;24cd1f62-4494-400c-8e8b-2280a80ef01a&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;Output_Text5&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;fa8b2771-356f-4c6f-8593-db96780fbc6d&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@label&lt;/ns2:optionName&gt;&lt;ns2:value&gt;Output Text 5&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;a62d8550-6852-43b9-876a-735454c79d5d&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@helpText&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;b75937d6-2e24-4278-8f52-539b85b01806&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@labelVisibility&lt;/ns2:optionName&gt;&lt;ns2:value&gt;SHOW&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:viewUUID&gt;64.f634f22e-7800-4bd7-9f1e-87177acfb3bc&lt;/ns2:viewUUID&gt;&lt;ns2:binding&gt;tw.options.TaskList.currentItem.InstanceID&lt;/ns2:binding&gt;&lt;/ns2:contributions&gt;&lt;ns2:contributions xsi:type="ns2:ViewRef" version="8550"&gt;&lt;ns2:id&gt;c65a6f89-008f-42ba-863e-5cb618811b8a&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;Output_Text6&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;fcd52498-1bd3-44f5-886f-df78d14eb617&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@label&lt;/ns2:optionName&gt;&lt;ns2:value&gt;Output Text 6&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;37909b10-77bb-46fb-884e-8422d381c73a&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@helpText&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;3629a68e-c640-4058-8909-4d3235cbeaaa&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@labelVisibility&lt;/ns2:optionName&gt;&lt;ns2:value&gt;SHOW&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:viewUUID&gt;64.f634f22e-7800-4bd7-9f1e-87177acfb3bc&lt;/ns2:viewUUID&gt;&lt;ns2:binding&gt;tw.options.TaskList.currentItem.Status&lt;/ns2:binding&gt;&lt;/ns2:contributions&gt;&lt;/ns2:contentBoxContrib&gt;&lt;/ns2:contributions&gt;&lt;ns2:contributions xsi:type="ns2:ViewRef" version="8550"&gt;&lt;ns2:id&gt;de8a085e-2cef-4da8-8fd7-c132b8cb51d0&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;SelectedTaskID_Data1&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;5b63aefa-ac7e-471a-8b54-8ca2ab878ec1&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@label&lt;/ns2:optionName&gt;&lt;ns2:value&gt;Data&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;3092b695-e39f-47fc-8e52-d4bc392cfa93&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@helpText&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;3c3ef5f4-2ca7-48a7-8a45-6513947b2cab&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@labelVisibility&lt;/ns2:optionName&gt;&lt;ns2:value&gt;SHOW&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;f17fe33f-70ea-455b-8ab6-f479362079a1&lt;/ns2:id&gt;&lt;ns2:optionName&gt;eventON_CHANGE&lt;/ns2:optionName&gt;&lt;ns2:value&gt;@retrieveTaskData();&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:viewUUID&gt;64.9b679256-e93b-4400-89f2-bd15b0c5578d&lt;/ns2:viewUUID&gt;&lt;/ns2:contributions&gt;&lt;ns2:contributions xsi:type="ns2:ViewRef" version="8550"&gt;&lt;ns2:id&gt;31723f50-4d8b-420a-820e-f3dd3942d791&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;UpdateTaskData_Modal_Section2&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;e0ee04ab-5d7e-45b8-891d-042f6c47ea5d&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@label&lt;/ns2:optionName&gt;&lt;ns2:value&gt;Modal Section&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;78dac424-f859-45e9-8d95-9a825d9e0e96&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@helpText&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;4ce0f855-28a8-4d44-8093-35b234cabdd6&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@labelVisibility&lt;/ns2:optionName&gt;&lt;ns2:value&gt;SHOW&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;058f734c-c424-49d2-83aa-41fef76827c9&lt;/ns2:id&gt;&lt;ns2:optionName&gt;closeOnClick&lt;/ns2:optionName&gt;&lt;ns2:value&gt;true&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;43decbf8-eba4-4558-8568-c2dd6fc5b3e5&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@visibility&lt;/ns2:optionName&gt;&lt;ns2:value&gt;{"isResponsiveData":true,"values":[{"deviceConfigID":"LargeID","value":"HIDDEN"}]}&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;2b9b45eb-4752-4db3-858b-40a6e933e05c&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@width&lt;/ns2:optionName&gt;&lt;ns2:value&gt;{"isResponsiveData":true,"values":[{"deviceConfigID":"LargeID","value":""}]}&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;6c1a07ae-2d82-446b-89f5-3ad6c79046ae&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@height&lt;/ns2:optionName&gt;&lt;ns2:value&gt;{"isResponsiveData":true,"values":[{"deviceConfigID":"LargeID","value":""}]}&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;bc984061-c2d2-4885-8645-3a35b4082af7&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@minWidth&lt;/ns2:optionName&gt;&lt;ns2:value&gt;{"isResponsiveData":true,"values":[{"deviceConfigID":"LargeID","value":""}]}&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;0582d47a-d9d8-42c9-8655-fd7b079f3a2d&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@minHeight&lt;/ns2:optionName&gt;&lt;ns2:value&gt;{"isResponsiveData":true,"values":[{"deviceConfigID":"LargeID","value":""}]}&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:viewUUID&gt;64.66286dff-19bf-447a-ad5c-4fc385fea67d&lt;/ns2:viewUUID&gt;&lt;ns2:binding&gt;&lt;/ns2:binding&gt;&lt;ns2:contentBoxContrib&gt;&lt;ns2:id&gt;3d08322c-77a8-43f1-8827-850be6fc396a&lt;/ns2:id&gt;&lt;ns2:contentBoxId&gt;ContentBox1&lt;/ns2:contentBoxId&gt;&lt;ns2:contributions xsi:type="ns2:ViewRef" version="8550"&gt;&lt;ns2:id&gt;c6ac3024-b61c-4363-80c8-54141c2d1539&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;Horizontal_Layout3&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;d398e7c3-136e-4c4a-8519-26177a3f7ed4&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@label&lt;/ns2:optionName&gt;&lt;ns2:value&gt;Horizontal Layout 3&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;1b7141db-0a34-45ed-838b-32f001781525&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@helpText&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;8a88a8fa-fb67-456b-8c1e-1733c6b68c0b&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@labelVisibility&lt;/ns2:optionName&gt;&lt;ns2:value&gt;SHOW&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:viewUUID&gt;64.44f463cc-615b-43d0-834f-c398a82e0363&lt;/ns2:viewUUID&gt;&lt;ns2:contentBoxContrib&gt;&lt;ns2:id&gt;ba2c9461-4c39-4228-80a9-691d5f418000&lt;/ns2:id&gt;&lt;ns2:contentBoxId&gt;ContentBox1&lt;/ns2:contentBoxId&gt;&lt;ns2:contributions xsi:type="ns2:ViewRef" version="8550"&gt;&lt;ns2:id&gt;03215874-d4ac-4f0d-88ce-d9e14aa538db&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;Output_Text8&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;aef87be0-d1b7-46b6-8478-25270788899d&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@label&lt;/ns2:optionName&gt;&lt;ns2:value&gt;Task ID&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;821523ee-c950-426b-8c3e-badeab64e68f&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@helpText&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;e229d45b-eefc-4887-8970-803fb9655fd6&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@labelVisibility&lt;/ns2:optionName&gt;&lt;ns2:value&gt;SHOW&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:viewUUID&gt;64.f634f22e-7800-4bd7-9f1e-87177acfb3bc&lt;/ns2:viewUUID&gt;&lt;ns2:binding&gt;tw.businessData.selectedTask.TaskID&lt;/ns2:binding&gt;&lt;/ns2:contributions&gt;&lt;ns2:contributions xsi:type="ns2:ViewRef" version="8550"&gt;&lt;ns2:id&gt;028db116-75d5-4577-8a61-7a1acf30a38b&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;Output_Text9&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;1847ff73-8fab-4f85-8ae7-c19fcf9679b3&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@label&lt;/ns2:optionName&gt;&lt;ns2:value&gt;Task Subject&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;c504dbc6-1d34-4b95-8938-e70ac2b86b93&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@helpText&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;0f58f00a-0357-43ae-8632-09fcbc2fd6ed&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@labelVisibility&lt;/ns2:optionName&gt;&lt;ns2:value&gt;SHOW&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:viewUUID&gt;64.f634f22e-7800-4bd7-9f1e-87177acfb3bc&lt;/ns2:viewUUID&gt;&lt;ns2:binding&gt;tw.businessData.selectedTask.TaskSubject&lt;/ns2:binding&gt;&lt;/ns2:contributions&gt;&lt;ns2:contributions xsi:type="ns2:ViewRef" version="8550"&gt;&lt;ns2:id&gt;e25388f0-ff2f-4e30-846f-92234a7cb0ae&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;Output_Text10&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;161d3cf2-64e8-4ed8-88bc-9493e7953cca&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@label&lt;/ns2:optionName&gt;&lt;ns2:value&gt;Activity Name&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;48f4fb40-0cae-4e3f-8533-460eb9f54c42&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@helpText&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;9c414896-09c0-4d57-834b-d6ef3d08d061&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@labelVisibility&lt;/ns2:optionName&gt;&lt;ns2:value&gt;SHOW&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:viewUUID&gt;64.f634f22e-7800-4bd7-9f1e-87177acfb3bc&lt;/ns2:viewUUID&gt;&lt;ns2:binding&gt;tw.businessData.selectedTask.ActivityName&lt;/ns2:binding&gt;&lt;/ns2:contributions&gt;&lt;/ns2:contentBoxContrib&gt;&lt;/ns2:contributions&gt;&lt;ns2:contributions xsi:type="ns2:ViewRef" version="8550"&gt;&lt;ns2:id&gt;517a0147-40a3-4aff-8b80-9bc98dccca27&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;Horizontal_Layout2&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;746f172e-f93a-4108-8f11-0eb97189f7a7&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@label&lt;/ns2:optionName&gt;&lt;ns2:value&gt;Horizontal Layout 2&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;053f0f74-6a4d-4910-89dc-6e2696856182&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@helpText&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;ecf51d9a-98a9-4497-8e28-a16b71506ab9&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@labelVisibility&lt;/ns2:optionName&gt;&lt;ns2:value&gt;SHOW&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:viewUUID&gt;64.44f463cc-615b-43d0-834f-c398a82e0363&lt;/ns2:viewUUID&gt;&lt;ns2:contentBoxContrib&gt;&lt;ns2:id&gt;5774e9a4-1d6d-4988-86fb-267a53cda009&lt;/ns2:id&gt;&lt;ns2:contentBoxId&gt;ContentBox1&lt;/ns2:contentBoxId&gt;&lt;ns2:contributions xsi:type="ns2:ViewRef" version="8550"&gt;&lt;ns2:id&gt;7166bf4e-352d-45a6-8d6a-96439deb4c31&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;Vertical_Layout3&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;1f04c6e2-a91d-4300-8c37-0fd2d293fe86&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@label&lt;/ns2:optionName&gt;&lt;ns2:value&gt;Vertical Layout 3&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;28ed460c-9331-4965-8ee8-aa028d0b57fd&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@helpText&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;1ecf27a8-9061-4d2f-8d5b-95a2f6a81300&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@labelVisibility&lt;/ns2:optionName&gt;&lt;ns2:value&gt;SHOW&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:viewUUID&gt;64.ef447b87-24a2-42a7-b2b9-cd471e9f7b67&lt;/ns2:viewUUID&gt;&lt;ns2:contentBoxContrib&gt;&lt;ns2:id&gt;9f8e3d6d-e6f0-44a0-83aa-9b010f44715d&lt;/ns2:id&gt;&lt;ns2:contentBoxId&gt;ContentBox1&lt;/ns2:contentBoxId&gt;&lt;ns2:contributions xsi:type="ns2:ViewRef" version="8550"&gt;&lt;ns2:id&gt;137cfdd1-47b2-449a-8a1f-4881b038d0e7&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;TaskJSONData_Text_Area1&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;34cd9277-e7b2-43eb-875b-3d668681d226&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@label&lt;/ns2:optionName&gt;&lt;ns2:value&gt;Edit Task JSON Data&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;3bbd50ad-aa59-4bc0-846f-5596b8f1dddf&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@helpText&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;c22e0ff4-17a4-4d65-8d9c-a78ee69b8cab&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@labelVisibility&lt;/ns2:optionName&gt;&lt;ns2:value&gt;SHOW&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;0396d999-bd47-4d94-8523-b65502ed65a3&lt;/ns2:id&gt;&lt;ns2:optionName&gt;width&lt;/ns2:optionName&gt;&lt;ns2:value&gt;{"isResponsiveData":true,"values":[{"deviceConfigID":"LargeID","value":"570"}]}&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;5bd0ef1f-08a6-4a3f-8f7a-fb189bf573ad&lt;/ns2:id&gt;&lt;ns2:optionName&gt;height&lt;/ns2:optionName&gt;&lt;ns2:value&gt;{"isResponsiveData":true,"values":[{"deviceConfigID":"LargeID","value":"600"}]}&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:viewUUID&gt;64.0e61869e-73fd-4401-b156-8c11adaec3f8&lt;/ns2:viewUUID&gt;&lt;/ns2:contributions&gt;&lt;ns2:contributions xsi:type="ns2:ViewRef" version="8550"&gt;&lt;ns2:id&gt;5365ce71-ab61-46a4-8e23-d727df31e925&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;ExecuteButton&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;232fdc32-680a-4439-80e8-c4a0953a8d9b&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@label&lt;/ns2:optionName&gt;&lt;ns2:value&gt;Execute with REST API&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;9ee71126-e490-48b8-8428-af341d410c32&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@helpText&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;a7ae5d17-3b03-44e3-8674-7d3447a6562c&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@labelVisibility&lt;/ns2:optionName&gt;&lt;ns2:value&gt;SHOW&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;0957a302-1a73-42da-8a13-c4bb48d8a739&lt;/ns2:id&gt;&lt;ns2:optionName&gt;eventON_CLICK&lt;/ns2:optionName&gt;&lt;ns2:value&gt;@updateTaskData();
+
+&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;8dc76282-3501-4a41-82c8-c67c27c56ba8&lt;/ns2:id&gt;&lt;ns2:optionName&gt;colorStyle&lt;/ns2:optionName&gt;&lt;ns2:value&gt;P&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;7d0c4100-7148-43c3-82a3-3a0512585924&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@width&lt;/ns2:optionName&gt;&lt;ns2:value&gt;{"isResponsiveData":true,"values":[{"deviceConfigID":"LargeID","value":"200px"}]}&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;42d9d6a2-a861-4883-8a0e-89edf5bb3586&lt;/ns2:id&gt;&lt;ns2:optionName&gt;icon&lt;/ns2:optionName&gt;&lt;ns2:value&gt;{"isResponsiveData":true,"values":[{"deviceConfigID":"LargeID","value":"play"}]}&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;0fb697a2-fe72-470a-81bf-feff9f2f3ae7&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@htmlOverrides&lt;/ns2:optionName&gt;&lt;ns2:value&gt;"style":"float:right;"&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:viewUUID&gt;64.7133c7d4-1a54-45c8-89cd-a8e8fa4a8e36&lt;/ns2:viewUUID&gt;&lt;/ns2:contributions&gt;&lt;/ns2:contentBoxContrib&gt;&lt;/ns2:contributions&gt;&lt;/ns2:contentBoxContrib&gt;&lt;/ns2:contributions&gt;&lt;/ns2:contentBoxContrib&gt;&lt;/ns2:contributions&gt;&lt;/ns2:contentBoxContrib&gt;&lt;/ns2:layoutItem&gt;&lt;/ns2:layout&gt;</layout>
+        <paletteIcon isNull="true" />
+        <previewImage isNull="true" />
+        <hasLabel>false</hasLabel>
+        <labelPosition>0</labelPosition>
+        <nineSliceX1Coord>0</nineSliceX1Coord>
+        <nineSliceX2Coord>0</nineSliceX2Coord>
+        <nineSliceY1Coord>0</nineSliceY1Coord>
+        <nineSliceY2Coord>0</nineSliceY2Coord>
+        <emitBoundary>false</emitBoundary>
+        <isPrototypeFunc>false</isPrototypeFunc>
+        <enableDevMode>false</enableDevMode>
+        <isMobileReady>true</isMobileReady>
+        <loadJsFunction>bpmext.ui.loadView(this);</loadJsFunction>
+        <unloadJsFunction> bpmext.ui.unloadView(this);</unloadJsFunction>
+        <viewJsFunction isNull="true" />
+        <changeJsFunction isNull="true" />
+        <collaborationJsFunction isNull="true" />
+        <description isNull="true" />
+        <validateJsFunction isNull="true" />
+        <previewAdvHtml isNull="true" />
+        <previewAdvJs isNull="true" />
+        <useUrlBinding>false</useUrlBinding>
+        <guid>42d2fd24-a7e7-497e-9bde-e75f92d293f5</guid>
+        <versionId>50cbc4a7-d41d-47fb-af1b-d81dfa0f7cd9</versionId>
+        <field1 isNull="true" />
+        <field2 isNull="true" />
+        <field3>0</field3>
+        <field4 isNull="true" />
+        <field5>false</field5>
+        <clobField1 isNull="true" />
+        <bindingType name="selectedTask">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <coachViewBindingTypeId>65.06b92bb1-de04-4be7-ad87-f70bc4af8f48</coachViewBindingTypeId>
+            <coachViewId>64.40beaad6-6ecf-4c25-83e5-1a52aa7967ea</coachViewId>
+            <isList>false</isList>
+            <classId>/12.4765b604-ccd7-4779-b695-61ad55eca898</classId>
+            <seq>0</seq>
+            <description isNull="true" />
+            <guid>e87885ed-6ddb-4058-a52a-63485392d90c</guid>
+            <versionId>c965019a-8d6b-4036-be49-278a53c7e722</versionId>
+        </bindingType>
+        <configOption name="TaskList">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <coachViewConfigOptionId>66.7b49f825-85a6-491b-b358-800e444b2933</coachViewConfigOptionId>
+            <coachViewId>64.40beaad6-6ecf-4c25-83e5-1a52aa7967ea</coachViewId>
+            <isList>true</isList>
+            <propertyType>OBJECT</propertyType>
+            <label isNull="true" />
+            <classId>/12.4765b604-ccd7-4779-b695-61ad55eca898</classId>
+            <processId isNull="true" />
+            <actionflowId isNull="true" />
+            <isAdaptive>false</isAdaptive>
+            <seq>0</seq>
+            <description isNull="true" />
+            <groupName isNull="true" />
+            <guid>f7ecb074-f222-4b46-ab25-1246c7419187</guid>
+            <versionId>155df7ff-1077-493a-8e73-341d678d77c2</versionId>
+        </configOption>
+        <configOption name="searchString">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <coachViewConfigOptionId>66.f741d795-4e78-40c4-901b-0ae1c4120ad8</coachViewConfigOptionId>
+            <coachViewId>64.40beaad6-6ecf-4c25-83e5-1a52aa7967ea</coachViewId>
+            <isList>false</isList>
+            <propertyType>OBJECT</propertyType>
+            <label isNull="true" />
+            <classId>3eead070-014c-46ed-b858-fe3e6d6b248e/12.db884a3c-c533-44b7-bb2d-47bec8ad4022</classId>
+            <processId isNull="true" />
+            <actionflowId isNull="true" />
+            <isAdaptive>false</isAdaptive>
+            <seq>1</seq>
+            <description isNull="true" />
+            <groupName isNull="true" />
+            <guid>6bcf2d38-36e1-4321-a595-46ae342278d9</guid>
+            <versionId>8a9d66cb-5766-44b0-bd43-2c4b7ef765d7</versionId>
+        </configOption>
+        <inlineScript name="Inline Javascript">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <coachViewInlineScriptId>68.708a70db-1470-4e01-a047-e42d022b5cc5</coachViewInlineScriptId>
+            <coachViewId>64.40beaad6-6ecf-4c25-83e5-1a52aa7967ea</coachViewId>
+            <scriptType>JS</scriptType>
+            <scriptBlock>var _this = this;&#xD;
+var data1;&#xD;
+var sdt;&#xD;
+var sdt5;&#xD;
+var grid;&#xD;
+var modal;&#xD;
+var message = "";&#xD;
+var message1 = "";&#xD;
+var myobj ;&#xD;
+var taskID = "";&#xD;
+var key1="";&#xD;
+this.updateTaskData= function () {&#xD;
+	sdt5 = this.ui.get("TaskJSONData_Text_Area1");&#xD;
+	grid = this.ui.get("MatchingTasks2");&#xD;
+	modal = this.ui.get("UpdateTaskData_Modal_Section2");&#xD;
+	taskID= this.ui.get("SelectedTaskID_Data1").getData();&#xD;
+&#xD;
+      message1 = sdt5.getData();&#xD;
+//      message1 = JSON.stringify(JSON.parse(message1),null,0);&#xD;
+      message1 = encodeURIComponent(message1);&#xD;
+	data1 = this.ui.get("../Data1");&#xD;
+//	myobj = eval("(" + message1 + ')');&#xD;
+/*	var xhrArgs = {&#xD;
+			url: "/rest/bpm/wle/v1/process/" + instanceID + "/variable/"+key1,&#xD;
+			headers: {&#xD;
+				'Content-Type': 'application/json',&#xD;
+ 				'Accept':'application/json',&#xD;
+ 				'Accept-Language': 'en'&#xD;
+			},&#xD;
+			content: { json_string:JSON.stringify(message1) },&#xD;
+			load: displayImage, &#xD;
+			handle: displayImage, &#xD;
+			handleAs: "json",&#xD;
+		}&#xD;
+	deferred = dojo.xhrPut(xhrArgs);&#xD;
+	*/&#xD;
+var url = "/rest/bpm/wle/v1/task/" + taskID+ "?action=setData&amp;params=" + message1;&#xD;
+&#xD;
+var json = message1;&#xD;
+json = "";&#xD;
+var xhr = new XMLHttpRequest();&#xD;
+xhr.open("PUT", url, true);&#xD;
+xhr.setRequestHeader('Content-type','application/json; charset=utf-8');&#xD;
+xhr.onload = function () {&#xD;
+//	var users = JSON.parse(xhr.responseText);&#xD;
+	if (xhr.readyState == 4 &amp;&amp; xhr.status == "200") {&#xD;
+		data1.setValue(" Success: Data for Task ID " + taskID+ " Updated Successfully" + new Date());&#xD;
+		modal.setVisible(false);&#xD;
+	} else {&#xD;
+					modal.setVisible(false);&#xD;
+						if (xhr.responseText){&#xD;
+							var r = jQuery.parseJSON(xhr.responseText);&#xD;
+							data1.setValue(" Error: " + r.Data.errorMessage + new Date());&#xD;
+						}else {&#xD;
+							data1.setValue(" Error:  Unknowon Error" +  new Date());&#xD;
+&#xD;
+						}&#xD;
+&#xD;
+	}&#xD;
+}&#xD;
+xhr.send(json);&#xD;
+&#xD;
+/*	function displayImage(json_results) {&#xD;
+		if (json_results &amp;&amp; json_results.status == "200") {&#xD;
+		data1.setValue(" Success: Data Updated Successfully" + new Date());&#xD;
+		//grid.refresh();&#xD;
+		modal.setVisible(false);&#xD;
+&#xD;
+		} else {&#xD;
+				modal.setVisible(false);&#xD;
+						if (json_results.responseText){&#xD;
+							var r = jQuery.parseJSON(json_results.responseText);&#xD;
+							data1.setValue(" Error: " + r.Data.errorMessage + new Date());&#xD;
+						}else {&#xD;
+							data1.setValue(" Error:  Unknowon Error" +  new Date());&#xD;
+&#xD;
+						}&#xD;
+				}&#xD;
+}*/&#xD;
+}&#xD;
+&#xD;
+this.retrieveTaskData= function () {&#xD;
+	sdt = this.ui.get("TaskJSONData_Text_Area1");&#xD;
+	grid = this.ui.get("MatchingTasks2");&#xD;
+	taskID= this.ui.get("SelectedTaskID_Data1").getData();&#xD;
+	modal = this.ui.get("UpdateTaskData_Modal_Section2");&#xD;
+&#xD;
+      message = sdt.getData();&#xD;
+      message = encodeURIComponent(message);&#xD;
+	data1 = this.ui.get("../Data1");&#xD;
+&#xD;
+	var xhrArgs = function (config) {&#xD;
+		return {&#xD;
+			url:  "/rest/bpm/wle/v1/task/" + taskID+ "?parts=data",&#xD;
+			content: {&#xD;
+				accept: "application/json"&#xD;
+			},&#xD;
+			load: displayImage, &#xD;
+			handle: displayImage, &#xD;
+			handleAs: "json"&#xD;
+		}&#xD;
+	}&#xD;
+&#xD;
+	deferred = setTimeout(dojo.xhrGet(xhrArgs({&#xD;
+					inputs: {}&#xD;
+				})), 0);&#xD;
+&#xD;
+	function displayImage(json_results) {&#xD;
+		if (json_results &amp;&amp; json_results.status == "200") {&#xD;
+		//data1.setValue(" Success: Message Sent Successfully" + new Date());&#xD;
+		//grid.refresh();&#xD;
+		//modal.setVisible(false);&#xD;
+&#xD;
+		var jsonString = JSON.stringify(json_results.data.data.variables, null,"\t");&#xD;
+		//sdt.setData(jsonString.substring(1).substring(0, jsonString.length - 2));&#xD;
+		 // alert(jsonString);&#xD;
+		sdt.setData(jsonString);&#xD;
+  /*          var obj = JSON.parse(jsonString.substring(1).substring(0, jsonString.length - 2));&#xD;
+		for (var key in obj) {&#xD;
+  		if (obj.hasOwnProperty(key)) {&#xD;
+    		//alert(key + ": " + obj[key]);&#xD;
+    		key1 = key;&#xD;
+    		sdt.setData(JSON.stringify(obj[key]));&#xD;
+    		break;&#xD;
+  		}&#xD;
+		}*/&#xD;
+&#xD;
+		} else {&#xD;
+				modal.setVisible(false);&#xD;
+						if (json_results.responseText){&#xD;
+							var r = jQuery.parseJSON(json_results.responseText);&#xD;
+							data1.setValue(" Error: " + r.Data.errorMessage + new Date());&#xD;
+						}else {&#xD;
+							data1.setValue(" Error:  Unknowon Error" +  new Date());&#xD;
+&#xD;
+						}&#xD;
+				}&#xD;
+}&#xD;
+}&#xD;
+</scriptBlock>
+            <seq>0</seq>
+            <description isNull="true" />
+            <guid>78453587-a49f-4170-8bc1-30ce1965b07c</guid>
+            <versionId>0c37c5c6-7320-4bd3-81a3-9f70aff08b4b</versionId>
+        </inlineScript>
+    </coachView>
+</teamworks>
+

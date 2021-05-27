@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teamworks>
+    <twClass id="12.377c67ee-9c76-4c8f-9aa7-46b369e1a708" name="TDSHStatistics">
+        <lastModified>1528548869413</lastModified>
+        <lastModifiedBy>asansanwal</lastModifiedBy>
+        <classId>12.377c67ee-9c76-4c8f-9aa7-46b369e1a708</classId>
+        <type>1</type>
+        <isSystem>false</isSystem>
+        <shared>false</shared>
+        <isShadow>false</isShadow>
+        <globalLifetime>false</globalLifetime>
+        <internalName isNull="true" />
+        <extensionType isNull="true" />
+        <saveServiceRef isNull="true" />
+        <bpmn2Data isNull="true" />
+        <externalId>itm.12.377c67ee-9c76-4c8f-9aa7-46b369e1a708</externalId>
+        <dependencySummary isNull="true" />
+        <jsonData>{"id":"_12.5d78f7e7-0dc2-49e6-8384-7d1aad6b79c3","complexType":[{"annotation":{"appinfo":[{"shared":[false],"advancedProperties":[{}],"shadow":[false]}],"documentation":[{}]},"sequence":{"element":[{"annotation":{"documentation":[{}],"appinfo":[{"advancedParameterProperties":[{}],"propertyName":["TOTALUSERS"]}]},"name":"TOTALUSERS","otherAttributes":{"{http:\/\/www.ibm.com\/bpmsdk}refid":"12.db884a3c-c533-44b7-bb2d-47bec8ad4022"},"type":"{http:\/\/lombardi.ibm.com\/schema\/}String"},{"annotation":{"documentation":[{}],"appinfo":[{"advancedParameterProperties":[{}],"propertyName":["ACTIVEPCUSERS"]}]},"name":"ACTIVEPCUSERS","otherAttributes":{"{http:\/\/www.ibm.com\/bpmsdk}refid":"12.db884a3c-c533-44b7-bb2d-47bec8ad4022"},"type":"{http:\/\/lombardi.ibm.com\/schema\/}String"},{"annotation":{"documentation":[{}],"appinfo":[{"advancedParameterProperties":[{}],"propertyName":["ACTIVEPORTALUSERS"]}]},"name":"ACTIVEPORTALUSERS","otherAttributes":{"{http:\/\/www.ibm.com\/bpmsdk}refid":"12.db884a3c-c533-44b7-bb2d-47bec8ad4022"},"type":"{http:\/\/lombardi.ibm.com\/schema\/}String"},{"annotation":{"documentation":[{}],"appinfo":[{"advancedParameterProperties":[{}],"propertyName":["ACTIVEBPDS"]}]},"name":"ACTIVEBPDS","otherAttributes":{"{http:\/\/www.ibm.com\/bpmsdk}refid":"12.db884a3c-c533-44b7-bb2d-47bec8ad4022"},"type":"{http:\/\/lombardi.ibm.com\/schema\/}String"},{"annotation":{"documentation":[{}],"appinfo":[{"advancedParameterProperties":[{}],"propertyName":["ACTIVETASKS"]}]},"name":"ACTIVETASKS","otherAttributes":{"{http:\/\/www.ibm.com\/bpmsdk}refid":"12.db884a3c-c533-44b7-bb2d-47bec8ad4022"},"type":"{http:\/\/lombardi.ibm.com\/schema\/}String"},{"annotation":{"documentation":[{}],"appinfo":[{"advancedParameterProperties":[{}],"propertyName":["ACTIVEACTIVITIES"]}]},"name":"ACTIVEACTIVITIES","otherAttributes":{"{http:\/\/www.ibm.com\/bpmsdk}refid":"12.db884a3c-c533-44b7-bb2d-47bec8ad4022"},"type":"{http:\/\/lombardi.ibm.com\/schema\/}String"},{"annotation":{"documentation":[{}],"appinfo":[{"advancedParameterProperties":[{}],"propertyName":["RECORDEDAT"]}]},"name":"RECORDEDAT","otherAttributes":{"{http:\/\/www.ibm.com\/bpmsdk}refid":"12.68474ab0-d56f-47ee-b7e9-510b45a2a8be"},"type":"{http:\/\/lombardi.ibm.com\/schema\/}Date"}]},"name":"TDSHStatistics"}],"targetNamespace":"http:\/\/TDSH","attributeFormDefault":"unqualified","elementFormDefault":"unqualified"}</jsonData>
+        <description isNull="true" />
+        <guid>62886787-1d79-463e-9e6d-33dad55d4c88</guid>
+        <versionId>ad2b5fbe-b194-4dea-9a7d-5ab3b857181f</versionId>
+        <definition>
+            <property>
+                <name>TOTALUSERS</name>
+                <description isNull="true" />
+                <classRef>3eead070-014c-46ed-b858-fe3e6d6b248e/12.db884a3c-c533-44b7-bb2d-47bec8ad4022</classRef>
+                <arrayProperty>false</arrayProperty>
+                <propertyDefault isNull="true" />
+                <propertyRequired>false</propertyRequired>
+                <propertyHidden>false</propertyHidden>
+                <annotation type="com.lombardisoftware.core.xml.XMLFieldAnnotation" version="2.0">
+                    <exclude isNull="true" />
+                    <nodeType isNull="true" />
+                    <name isNull="true" />
+                    <namespace isNull="true" />
+                    <typeName isNull="true" />
+                    <typeNamespace isNull="true" />
+                    <minOccurs isNull="true" />
+                    <maxOccurs isNull="true" />
+                    <nillable isNull="true" />
+                    <order isNull="true" />
+                    <wrapArray isNull="true" />
+                    <arrayTypeName isNull="true" />
+                    <arrayTypeAnonymous isNull="true" />
+                    <arrayItemName isNull="true" />
+                    <arrayItemWildcard isNull="true" />
+                    <wildcard isNull="true" />
+                    <wildcardVariety isNull="true" />
+                    <wildcardMode isNull="true" />
+                    <wildcardNamespace isNull="true" />
+                    <parentModelGroupCompositor isNull="true" />
+                    <timeZone isNull="true" />
+                </annotation>
+            </property>
+            <property>
+                <name>ACTIVEPCUSERS</name>
+                <description isNull="true" />
+                <classRef>3eead070-014c-46ed-b858-fe3e6d6b248e/12.db884a3c-c533-44b7-bb2d-47bec8ad4022</classRef>
+                <arrayProperty>false</arrayProperty>
+                <propertyDefault isNull="true" />
+                <propertyRequired>false</propertyRequired>
+                <propertyHidden>false</propertyHidden>
+                <annotation type="com.lombardisoftware.core.xml.XMLFieldAnnotation" version="2.0">
+                    <exclude isNull="true" />
+                    <nodeType isNull="true" />
+                    <name isNull="true" />
+                    <namespace isNull="true" />
+                    <typeName isNull="true" />
+                    <typeNamespace isNull="true" />
+                    <minOccurs isNull="true" />
+                    <maxOccurs isNull="true" />
+                    <nillable isNull="true" />
+                    <order isNull="true" />
+                    <wrapArray isNull="true" />
+                    <arrayTypeName isNull="true" />
+                    <arrayTypeAnonymous isNull="true" />
+                    <arrayItemName isNull="true" />
+                    <arrayItemWildcard isNull="true" />
+                    <wildcard isNull="true" />
+                    <wildcardVariety isNull="true" />
+                    <wildcardMode isNull="true" />
+                    <wildcardNamespace isNull="true" />
+                    <parentModelGroupCompositor isNull="true" />
+                    <timeZone isNull="true" />
+                </annotation>
+            </property>
+            <property>
+                <name>ACTIVEPORTALUSERS</name>
+                <description isNull="true" />
+                <classRef>3eead070-014c-46ed-b858-fe3e6d6b248e/12.db884a3c-c533-44b7-bb2d-47bec8ad4022</classRef>
+                <arrayProperty>false</arrayProperty>
+                <propertyDefault isNull="true" />
+                <propertyRequired>false</propertyRequired>
+                <propertyHidden>false</propertyHidden>
+                <annotation type="com.lombardisoftware.core.xml.XMLFieldAnnotation" version="2.0">
+                    <exclude isNull="true" />
+                    <nodeType isNull="true" />
+                    <name isNull="true" />
+                    <namespace isNull="true" />
+                    <typeName isNull="true" />
+                    <typeNamespace isNull="true" />
+                    <minOccurs isNull="true" />
+                    <maxOccurs isNull="true" />
+                    <nillable isNull="true" />
+                    <order isNull="true" />
+                    <wrapArray isNull="true" />
+                    <arrayTypeName isNull="true" />
+                    <arrayTypeAnonymous isNull="true" />
+                    <arrayItemName isNull="true" />
+                    <arrayItemWildcard isNull="true" />
+                    <wildcard isNull="true" />
+                    <wildcardVariety isNull="true" />
+                    <wildcardMode isNull="true" />
+                    <wildcardNamespace isNull="true" />
+                    <parentModelGroupCompositor isNull="true" />
+                    <timeZone isNull="true" />
+                </annotation>
+            </property>
+            <property>
+                <name>ACTIVEBPDS</name>
+                <description isNull="true" />
+                <classRef>3eead070-014c-46ed-b858-fe3e6d6b248e/12.db884a3c-c533-44b7-bb2d-47bec8ad4022</classRef>
+                <arrayProperty>false</arrayProperty>
+                <propertyDefault isNull="true" />
+                <propertyRequired>false</propertyRequired>
+                <propertyHidden>false</propertyHidden>
+                <annotation type="com.lombardisoftware.core.xml.XMLFieldAnnotation" version="2.0">
+                    <exclude isNull="true" />
+                    <nodeType isNull="true" />
+                    <name isNull="true" />
+                    <namespace isNull="true" />
+                    <typeName isNull="true" />
+                    <typeNamespace isNull="true" />
+                    <minOccurs isNull="true" />
+                    <maxOccurs isNull="true" />
+                    <nillable isNull="true" />
+                    <order isNull="true" />
+                    <wrapArray isNull="true" />
+                    <arrayTypeName isNull="true" />
+                    <arrayTypeAnonymous isNull="true" />
+                    <arrayItemName isNull="true" />
+                    <arrayItemWildcard isNull="true" />
+                    <wildcard isNull="true" />
+                    <wildcardVariety isNull="true" />
+                    <wildcardMode isNull="true" />
+                    <wildcardNamespace isNull="true" />
+                    <parentModelGroupCompositor isNull="true" />
+                    <timeZone isNull="true" />
+                </annotation>
+            </property>
+            <property>
+                <name>ACTIVETASKS</name>
+                <description isNull="true" />
+                <classRef>3eead070-014c-46ed-b858-fe3e6d6b248e/12.db884a3c-c533-44b7-bb2d-47bec8ad4022</classRef>
+                <arrayProperty>false</arrayProperty>
+                <propertyDefault isNull="true" />
+                <propertyRequired>false</propertyRequired>
+                <propertyHidden>false</propertyHidden>
+                <annotation type="com.lombardisoftware.core.xml.XMLFieldAnnotation" version="2.0">
+                    <exclude isNull="true" />
+                    <nodeType isNull="true" />
+                    <name isNull="true" />
+                    <namespace isNull="true" />
+                    <typeName isNull="true" />
+                    <typeNamespace isNull="true" />
+                    <minOccurs isNull="true" />
+                    <maxOccurs isNull="true" />
+                    <nillable isNull="true" />
+                    <order isNull="true" />
+                    <wrapArray isNull="true" />
+                    <arrayTypeName isNull="true" />
+                    <arrayTypeAnonymous isNull="true" />
+                    <arrayItemName isNull="true" />
+                    <arrayItemWildcard isNull="true" />
+                    <wildcard isNull="true" />
+                    <wildcardVariety isNull="true" />
+                    <wildcardMode isNull="true" />
+                    <wildcardNamespace isNull="true" />
+                    <parentModelGroupCompositor isNull="true" />
+                    <timeZone isNull="true" />
+                </annotation>
+            </property>
+            <property>
+                <name>ACTIVEACTIVITIES</name>
+                <description isNull="true" />
+                <classRef>3eead070-014c-46ed-b858-fe3e6d6b248e/12.db884a3c-c533-44b7-bb2d-47bec8ad4022</classRef>
+                <arrayProperty>false</arrayProperty>
+                <propertyDefault isNull="true" />
+                <propertyRequired>false</propertyRequired>
+                <propertyHidden>false</propertyHidden>
+                <annotation type="com.lombardisoftware.core.xml.XMLFieldAnnotation" version="2.0">
+                    <exclude isNull="true" />
+                    <nodeType isNull="true" />
+                    <name isNull="true" />
+                    <namespace isNull="true" />
+                    <typeName isNull="true" />
+                    <typeNamespace isNull="true" />
+                    <minOccurs isNull="true" />
+                    <maxOccurs isNull="true" />
+                    <nillable isNull="true" />
+                    <order isNull="true" />
+                    <wrapArray isNull="true" />
+                    <arrayTypeName isNull="true" />
+                    <arrayTypeAnonymous isNull="true" />
+                    <arrayItemName isNull="true" />
+                    <arrayItemWildcard isNull="true" />
+                    <wildcard isNull="true" />
+                    <wildcardVariety isNull="true" />
+                    <wildcardMode isNull="true" />
+                    <wildcardNamespace isNull="true" />
+                    <parentModelGroupCompositor isNull="true" />
+                    <timeZone isNull="true" />
+                </annotation>
+            </property>
+            <property>
+                <name>RECORDEDAT</name>
+                <description isNull="true" />
+                <classRef>3eead070-014c-46ed-b858-fe3e6d6b248e/12.68474ab0-d56f-47ee-b7e9-510b45a2a8be</classRef>
+                <arrayProperty>false</arrayProperty>
+                <propertyDefault isNull="true" />
+                <propertyRequired>false</propertyRequired>
+                <propertyHidden>false</propertyHidden>
+                <annotation type="com.lombardisoftware.core.xml.XMLFieldAnnotation" version="2.0">
+                    <exclude isNull="true" />
+                    <nodeType isNull="true" />
+                    <name isNull="true" />
+                    <namespace isNull="true" />
+                    <typeName isNull="true" />
+                    <typeNamespace isNull="true" />
+                    <minOccurs isNull="true" />
+                    <maxOccurs isNull="true" />
+                    <nillable isNull="true" />
+                    <order isNull="true" />
+                    <wrapArray isNull="true" />
+                    <arrayTypeName isNull="true" />
+                    <arrayTypeAnonymous isNull="true" />
+                    <arrayItemName isNull="true" />
+                    <arrayItemWildcard isNull="true" />
+                    <wildcard isNull="true" />
+                    <wildcardVariety isNull="true" />
+                    <wildcardMode isNull="true" />
+                    <wildcardNamespace isNull="true" />
+                    <parentModelGroupCompositor isNull="true" />
+                    <timeZone isNull="true" />
+                </annotation>
+            </property>
+            <validator>
+                <className isNull="true" />
+                <errorMessage isNull="true" />
+                <webWidgetJavaClass isNull="true" />
+                <externalType isNull="true" />
+                <configData>
+                    <schema>
+                        <simpleType name="TDSHStatistics">
+                            <restriction base="String" />
+                        </simpleType>
+                    </schema>
+                </configData>
+            </validator>
+            <annotation type="com.lombardisoftware.core.xml.XMLTypeAnnotation" version="2.0">
+                <exclude isNull="true" />
+                <anonymous isNull="true" />
+                <local isNull="true" />
+                <name isNull="true" />
+                <namespace isNull="true" />
+                <elementName isNull="true" />
+                <elementNamespace isNull="true" />
+                <protoTypeName isNull="true" />
+                <baseTypeName isNull="true" />
+                <specialType isNull="true" />
+                <contentTypeVariety isNull="true" />
+                <xscRef isNull="true" />
+            </annotation>
+        </definition>
+    </twClass>
+</teamworks>
+

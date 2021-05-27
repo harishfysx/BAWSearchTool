@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teamworks>
+    <coachView id="64.c0aa3ee6-fdce-4219-b63f-646c910ca5bb" name="Fire Timer">
+        <lastModified>1528548874586</lastModified>
+        <lastModifiedBy>asansanwal</lastModifiedBy>
+        <coachViewId>64.c0aa3ee6-fdce-4219-b63f-646c910ca5bb</coachViewId>
+        <isTemplate>false</isTemplate>
+        <layout>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;&lt;ns2:layout xmlns:ns2="http://www.ibm.com/bpm/CoachDesignerNG" xmlns:ns3="http://www.ibm.com/bpm/coachview"&gt;&lt;ns2:layoutItem xsi:type="ns2:ViewRef" version="8550" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;&lt;ns2:id&gt;d934c424-cb93-4bd6-85af-f680ae2ebddd&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;Deferred_Section1&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;677e0c77-88c6-4ce7-84a0-004edfb47fe2&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@label&lt;/ns2:optionName&gt;&lt;ns2:value&gt;Deferred Section&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;94afa455-a5d6-46c4-8ca2-31c5cc9719d6&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@helpText&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;a57f8eec-a480-4e76-8714-2ba1680f9bd9&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@labelVisibility&lt;/ns2:optionName&gt;&lt;ns2:value&gt;SHOW&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;ba940ad3-ffc0-4b67-8011-85682d9be12b&lt;/ns2:id&gt;&lt;ns2:optionName&gt;autoLoad&lt;/ns2:optionName&gt;&lt;ns2:value&gt;true&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;feb5269b-3f95-4ed4-871f-84e7a2257894&lt;/ns2:id&gt;&lt;ns2:optionName&gt;autoLoadDelay&lt;/ns2:optionName&gt;&lt;ns2:value&gt;2000&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:viewUUID&gt;64.9ee7a0fd-5b25-497d-85fc-1cc09795f524&lt;/ns2:viewUUID&gt;&lt;ns2:contentBoxContrib&gt;&lt;ns2:id&gt;075ea0c1-0e6d-42f9-8ded-70c9f2407231&lt;/ns2:id&gt;&lt;ns2:contentBoxId&gt;ContentBox1&lt;/ns2:contentBoxId&gt;&lt;ns2:contributions xsi:type="ns2:ViewRef" version="8550"&gt;&lt;ns2:id&gt;62b879fc-6fd6-4b29-8265-e52ad59e1289&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;Horizontal_Layout1&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;f6c5ff16-3e31-45bd-80d5-cd5880ddb03e&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@label&lt;/ns2:optionName&gt;&lt;ns2:value&gt;Horizontal Layout&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;94132085-c90f-4463-8fd3-09456b9b63a8&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@helpText&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;ede389cd-c3a9-47c8-8860-9ea5fe16de93&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@labelVisibility&lt;/ns2:optionName&gt;&lt;ns2:value&gt;SHOW&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;a8f30a8f-1bf2-4eff-8ba5-95ca1f4598ef&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@width&lt;/ns2:optionName&gt;&lt;ns2:value&gt;{"isResponsiveData":true,"values":[{"deviceConfigID":"LargeID","value":"100%"}]}&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:viewUUID&gt;64.44f463cc-615b-43d0-834f-c398a82e0363&lt;/ns2:viewUUID&gt;&lt;ns2:contentBoxContrib&gt;&lt;ns2:id&gt;a9829a02-4c99-461d-8bb4-ce6d13545708&lt;/ns2:id&gt;&lt;ns2:contentBoxId&gt;ContentBox1&lt;/ns2:contentBoxId&gt;&lt;ns2:contributions xsi:type="ns2:ViewRef" version="8550"&gt;&lt;ns2:id&gt;3446918c-ee22-4fce-8883-e5612e37537b&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;Vertical_Layout1&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;e6aec0c1-26aa-4d13-86e0-a6e7a9146169&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@label&lt;/ns2:optionName&gt;&lt;ns2:value&gt;Vertical Layout&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;7287fec1-9641-4ba7-859d-f7a4b2fff529&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@helpText&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;14d1d00d-1fde-4275-84be-fa8d02cbf2ab&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@labelVisibility&lt;/ns2:optionName&gt;&lt;ns2:value&gt;SHOW&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:viewUUID&gt;64.ef447b87-24a2-42a7-b2b9-cd471e9f7b67&lt;/ns2:viewUUID&gt;&lt;ns2:contentBoxContrib&gt;&lt;ns2:id&gt;2ce87b0e-6fd9-485a-8f2c-2df173710d5d&lt;/ns2:id&gt;&lt;ns2:contentBoxId&gt;ContentBox1&lt;/ns2:contentBoxId&gt;&lt;ns2:contributions xsi:type="ns2:ViewRef" version="8550"&gt;&lt;ns2:id&gt;8639e15a-2da3-4268-82fd-c3b50be00c93&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;Text1&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;5220796d-3983-49d9-874c-1d576fffc50d&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@label&lt;/ns2:optionName&gt;&lt;ns2:value&gt;Search Timer Tokens by Application Name, Instance Name, BPD Name, Started by User Name, Instance Status, BPD Ref ID&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;b8e74445-76d3-4cb5-85a0-b17158100d80&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@helpText&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;444ea9fc-b33b-4780-8e93-13bfef0a209c&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@labelVisibility&lt;/ns2:optionName&gt;&lt;ns2:value&gt;SHOW&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:viewUUID&gt;64.5663dd71-ff18-4d33-bea0-468d0b869816&lt;/ns2:viewUUID&gt;&lt;ns2:binding&gt;tw.options.timerSearchString&lt;/ns2:binding&gt;&lt;/ns2:contributions&gt;&lt;/ns2:contentBoxContrib&gt;&lt;/ns2:contributions&gt;&lt;ns2:contributions xsi:type="ns2:ViewRef" version="8550"&gt;&lt;ns2:id&gt;ed5c226c-c223-4f81-8af0-05fe052202b0&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;Vertical_Layout2&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;e5044280-fd08-4042-897a-cf43a0a8f3d8&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@label&lt;/ns2:optionName&gt;&lt;ns2:value&gt;Vertical Layout 2&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;9a873522-44b1-4791-8da6-a8031a5ec561&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@helpText&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;5b4eb997-5061-41e7-8c49-04d62d6c5d73&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@labelVisibility&lt;/ns2:optionName&gt;&lt;ns2:value&gt;SHOW&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:viewUUID&gt;64.ef447b87-24a2-42a7-b2b9-cd471e9f7b67&lt;/ns2:viewUUID&gt;&lt;ns2:contentBoxContrib&gt;&lt;ns2:id&gt;e471d94b-d7c7-479f-82bb-1535501900c7&lt;/ns2:id&gt;&lt;ns2:contentBoxId&gt;ContentBox1&lt;/ns2:contentBoxId&gt;&lt;ns2:contributions xsi:type="ns2:ViewRef" version="8550"&gt;&lt;ns2:id&gt;a6684177-a202-4b10-8647-0f153a3e7c7b&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;Button1&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;6d58db9a-f277-470d-8dda-f0085647b595&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@label&lt;/ns2:optionName&gt;&lt;ns2:value&gt;Lookup Timer(s)&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;85084f9b-7a8c-48d6-87dc-da5526077f8a&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@helpText&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;178095fe-ad1f-4c02-8467-4438e5f05455&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@labelVisibility&lt;/ns2:optionName&gt;&lt;ns2:value&gt;SHOW&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;511f4c8f-8207-4729-82ad-995d6da44320&lt;/ns2:id&gt;&lt;ns2:optionName&gt;eventON_CLICK&lt;/ns2:optionName&gt;&lt;ns2:value&gt;${TimerDetails2}.refresh();&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;76469548-c225-4d3c-83c4-0dd66a6534f5&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@margin&lt;/ns2:optionName&gt;&lt;ns2:value&gt;{"isResponsiveData":true,"values":[{"deviceConfigID":"LargeID","value":"22px"}]}&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;e34518c6-df7c-4415-8798-2b1f97138c50&lt;/ns2:id&gt;&lt;ns2:optionName&gt;colorStyle&lt;/ns2:optionName&gt;&lt;ns2:value&gt;I&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;87483828-f87b-4a88-86f8-a0e8f052fbfd&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@padding&lt;/ns2:optionName&gt;&lt;ns2:value&gt;{"isResponsiveData":true,"values":[{"deviceConfigID":"LargeID","value":""}]}&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;3ae66670-d827-4efa-882b-0fef988871af&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@width&lt;/ns2:optionName&gt;&lt;ns2:value&gt;{"isResponsiveData":true,"values":[{"deviceConfigID":"LargeID","value":"180px"}]}&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;b14b01d2-a418-4856-8096-f6a132892d94&lt;/ns2:id&gt;&lt;ns2:optionName&gt;icon&lt;/ns2:optionName&gt;&lt;ns2:value&gt;{"isResponsiveData":true,"values":[{"deviceConfigID":"LargeID","value":"search"}]}&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:viewUUID&gt;64.7133c7d4-1a54-45c8-89cd-a8e8fa4a8e36&lt;/ns2:viewUUID&gt;&lt;/ns2:contributions&gt;&lt;/ns2:contentBoxContrib&gt;&lt;/ns2:contributions&gt;&lt;/ns2:contentBoxContrib&gt;&lt;/ns2:contributions&gt;&lt;ns2:contributions xsi:type="ns2:ViewRef" version="8550"&gt;&lt;ns2:id&gt;a5435cb9-33c8-4f5c-87c5-c5284dbe0d8f&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;Horizontal_Layout2&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;3f0024ab-461d-404b-8008-a90c7ce94792&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@label&lt;/ns2:optionName&gt;&lt;ns2:value&gt;Horizontal Layout 2&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;262bcfec-4fe8-4ab0-86b9-2ba801d2ff69&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@helpText&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;8b1a0503-4f6e-4a80-8817-14ae98154a51&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@labelVisibility&lt;/ns2:optionName&gt;&lt;ns2:value&gt;SHOW&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;84498547-7c63-4e1d-8a4c-41afd12f73f0&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@width&lt;/ns2:optionName&gt;&lt;ns2:value&gt;{"isResponsiveData":true,"values":[{"deviceConfigID":"LargeID","value":"100%"}]}&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:viewUUID&gt;64.44f463cc-615b-43d0-834f-c398a82e0363&lt;/ns2:viewUUID&gt;&lt;ns2:contentBoxContrib&gt;&lt;ns2:id&gt;f5e8a626-465e-418a-8803-2b1b1fc63f2e&lt;/ns2:id&gt;&lt;ns2:contentBoxId&gt;ContentBox1&lt;/ns2:contentBoxId&gt;&lt;ns2:contributions xsi:type="ns2:ViewRef" version="8550"&gt;&lt;ns2:id&gt;600df0df-6d62-42b7-894e-b3070ce6e054&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;Vertical_Layout3&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;61bbd9ff-0afb-4a9e-8a98-33fb56615d69&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@label&lt;/ns2:optionName&gt;&lt;ns2:value&gt;Vertical Layout 3&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;ac13e3f6-c93c-4d14-8972-f240ec21dd7a&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@helpText&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;dc14e55c-3dcb-49de-8e2c-02a5922e9576&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@labelVisibility&lt;/ns2:optionName&gt;&lt;ns2:value&gt;SHOW&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:viewUUID&gt;64.ef447b87-24a2-42a7-b2b9-cd471e9f7b67&lt;/ns2:viewUUID&gt;&lt;ns2:contentBoxContrib&gt;&lt;ns2:id&gt;3349b390-071b-4fb1-8945-6f5510ce79c8&lt;/ns2:id&gt;&lt;ns2:contentBoxId&gt;ContentBox1&lt;/ns2:contentBoxId&gt;&lt;ns2:contributions xsi:type="ns2:ViewRef" version="8550"&gt;&lt;ns2:id&gt;5365ce71-ab61-46a4-8e23-d727df31e925&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;ExecuteButton&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;232fdc32-680a-4439-80e8-c4a0953a8d9b&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@label&lt;/ns2:optionName&gt;&lt;ns2:value&gt;Fire Timer(s) with REST API&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;9ee71126-e490-48b8-8428-af341d410c32&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@helpText&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;a7ae5d17-3b03-44e3-8674-7d3447a6562c&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@labelVisibility&lt;/ns2:optionName&gt;&lt;ns2:value&gt;SHOW&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;0957a302-1a73-42da-8a13-c4bb48d8a739&lt;/ns2:id&gt;&lt;ns2:optionName&gt;eventON_CLICK&lt;/ns2:optionName&gt;&lt;ns2:value&gt;@fireTimer()
+
+
+&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;8dc76282-3501-4a41-82c8-c67c27c56ba8&lt;/ns2:id&gt;&lt;ns2:optionName&gt;colorStyle&lt;/ns2:optionName&gt;&lt;ns2:value&gt;P&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;7d0c4100-7148-43c3-82a3-3a0512585924&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@width&lt;/ns2:optionName&gt;&lt;ns2:value&gt;{"isResponsiveData":true,"values":[{"deviceConfigID":"LargeID","value":"250px"}]}&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;42d9d6a2-a861-4883-8a0e-89edf5bb3586&lt;/ns2:id&gt;&lt;ns2:optionName&gt;icon&lt;/ns2:optionName&gt;&lt;ns2:value&gt;{"isResponsiveData":true,"values":[{"deviceConfigID":"LargeID","value":"fire"}]}&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;19304f30-7e6a-42e0-8546-50fb188fff09&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@htmlOverrides&lt;/ns2:optionName&gt;&lt;ns2:value&gt;"style":"float:right;"&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:viewUUID&gt;64.7133c7d4-1a54-45c8-89cd-a8e8fa4a8e36&lt;/ns2:viewUUID&gt;&lt;/ns2:contributions&gt;&lt;/ns2:contentBoxContrib&gt;&lt;/ns2:contributions&gt;&lt;/ns2:contentBoxContrib&gt;&lt;/ns2:contributions&gt;&lt;ns2:contributions xsi:type="ns2:ViewRef" version="8550"&gt;&lt;ns2:id&gt;5948b320-36fc-404f-8724-0c5604119623&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;TimerDetails1&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;60352ef2-7879-4844-84eb-c4f3cb85af43&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@label&lt;/ns2:optionName&gt;&lt;ns2:value&gt;Timer Details&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;475be4d1-cc8e-405d-86d3-ddfbfbaea788&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@helpText&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;a79b8f43-fc98-47cb-8e75-3614c48ea8b9&lt;/ns2:id&gt;&lt;ns2:optionName&gt;selectionMode&lt;/ns2:optionName&gt;&lt;ns2:value&gt;M&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;55d6bc1c-2111-4761-8ecf-1700491c3841&lt;/ns2:id&gt;&lt;ns2:optionName&gt;showFooter&lt;/ns2:optionName&gt;&lt;ns2:value&gt;{"isResponsiveData":true,"values":[{"deviceConfigID":"LargeID","value":true}]}&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;47fbd05a-84e9-40f9-86f7-e83091de0226&lt;/ns2:id&gt;&lt;ns2:optionName&gt;showPager&lt;/ns2:optionName&gt;&lt;ns2:value&gt;{"isResponsiveData":true,"values":[{"deviceConfigID":"LargeID","value":true}]}&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;8401f055-e349-43dc-84b7-1e81b581e86d&lt;/ns2:id&gt;&lt;ns2:optionName&gt;showPageSizer&lt;/ns2:optionName&gt;&lt;ns2:value&gt;{"isResponsiveData":true,"values":[{"deviceConfigID":"LargeID","value":true}]}&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;75bb138f-7071-4099-8523-7895628a2cca&lt;/ns2:id&gt;&lt;ns2:optionName&gt;pageSize&lt;/ns2:optionName&gt;&lt;ns2:value&gt;{"isResponsiveData":true,"values":[{"deviceConfigID":"LargeID","value":20}]}&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;eaa742fd-398c-4aeb-8686-b864e25a50d5&lt;/ns2:id&gt;&lt;ns2:optionName&gt;showTableStats&lt;/ns2:optionName&gt;&lt;ns2:value&gt;{"isResponsiveData":true,"values":[{"deviceConfigID":"LargeID","value":true}]}&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;e0707116-71f4-45b9-8b70-ce7e19c5c12f&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@width&lt;/ns2:optionName&gt;&lt;ns2:value&gt;{"isResponsiveData":true,"values":[{"deviceConfigID":"LargeID","value":"100%"}]}&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:viewUUID&gt;64.f515b79f-fe61-4bd3-8e26-72f00155d139&lt;/ns2:viewUUID&gt;&lt;ns2:binding&gt;tw.businessData.TimerDetails[]&lt;/ns2:binding&gt;&lt;ns2:contentBoxContrib&gt;&lt;ns2:id&gt;99a0e5ac-02ce-4aab-8673-a35eb126a83a&lt;/ns2:id&gt;&lt;ns2:contentBoxId&gt;ContentBox1&lt;/ns2:contentBoxId&gt;&lt;ns2:contributions xsi:type="ns2:ViewRef" version="8550"&gt;&lt;ns2:id&gt;b4944e8e-1c9e-44c4-81b7-3556bcfdb9e0&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;TimerTokenID1&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;9b0ed2d3-9ac8-4a7b-8f7f-3c9fc230cede&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@label&lt;/ns2:optionName&gt;&lt;ns2:value&gt;Timer Token #&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;1a2dd3ec-bc3f-4f3e-8891-3410d2f8c3cf&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@helpText&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:viewUUID&gt;64.f634f22e-7800-4bd7-9f1e-87177acfb3bc&lt;/ns2:viewUUID&gt;&lt;ns2:binding&gt;tw.businessData.TimerDetails.currentItem.TimerTokenID&lt;/ns2:binding&gt;&lt;/ns2:contributions&gt;&lt;ns2:contributions xsi:type="ns2:ViewRef" version="8550"&gt;&lt;ns2:id&gt;485ccb41-71d8-4402-825e-eaa51035c59e&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;TimerName1&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;e845df59-9082-496f-8539-b571962f6c59&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@label&lt;/ns2:optionName&gt;&lt;ns2:value&gt;Timer Name&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;a8336406-0caf-4dac-8e00-953621ab8b11&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@helpText&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:viewUUID&gt;64.f634f22e-7800-4bd7-9f1e-87177acfb3bc&lt;/ns2:viewUUID&gt;&lt;ns2:binding&gt;tw.businessData.TimerDetails.currentItem.TimerName&lt;/ns2:binding&gt;&lt;/ns2:contributions&gt;&lt;ns2:contributions xsi:type="ns2:ViewRef" version="8550"&gt;&lt;ns2:id&gt;de241f64-3e8d-4567-896e-a7c948e9b4d6&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;instanceID2&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;2c8f353e-e472-4e08-87a2-af00513611fd&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@label&lt;/ns2:optionName&gt;&lt;ns2:value&gt;Instance ID&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;4c45e148-6f09-44dd-8320-fe6be324810f&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@helpText&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:viewUUID&gt;64.f634f22e-7800-4bd7-9f1e-87177acfb3bc&lt;/ns2:viewUUID&gt;&lt;ns2:binding&gt;tw.businessData.TimerDetails.currentItem.instanceID&lt;/ns2:binding&gt;&lt;/ns2:contributions&gt;&lt;ns2:contributions xsi:type="ns2:ViewRef" version="8550"&gt;&lt;ns2:id&gt;09f5e018-6b78-4781-839c-3e61ad1fe933&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;instanceName2&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;375c574e-ed6e-463d-83be-a5fa70b04b6d&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@label&lt;/ns2:optionName&gt;&lt;ns2:value&gt;Instance Name&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;bfb65803-7150-48b8-84b2-8e5d73f5c90b&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@helpText&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:viewUUID&gt;64.f634f22e-7800-4bd7-9f1e-87177acfb3bc&lt;/ns2:viewUUID&gt;&lt;ns2:binding&gt;tw.businessData.TimerDetails.currentItem.instanceName&lt;/ns2:binding&gt;&lt;/ns2:contributions&gt;&lt;ns2:contributions xsi:type="ns2:ViewRef" version="8550"&gt;&lt;ns2:id&gt;11cab403-7906-478d-87b9-8d237dbe4689&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;applicationName2&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;6ef698b0-52c8-4fba-8f7f-5c0a0439d290&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@label&lt;/ns2:optionName&gt;&lt;ns2:value&gt;Application Name&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;2ed333c9-3233-43f7-89f2-9556f11bbcd2&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@helpText&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:viewUUID&gt;64.f634f22e-7800-4bd7-9f1e-87177acfb3bc&lt;/ns2:viewUUID&gt;&lt;ns2:binding&gt;tw.businessData.TimerDetails.currentItem.applicationName&lt;/ns2:binding&gt;&lt;/ns2:contributions&gt;&lt;ns2:contributions xsi:type="ns2:ViewRef" version="8550"&gt;&lt;ns2:id&gt;080026a0-148b-49f9-8822-43c921c57242&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;BPDReferenceID2&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;ba70929c-e146-4f39-8f8b-4a2e48841653&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@label&lt;/ns2:optionName&gt;&lt;ns2:value&gt;BPD Reference ID&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;aaff0ce3-2457-4f87-863b-4a92c5d35e5e&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@helpText&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:viewUUID&gt;64.f634f22e-7800-4bd7-9f1e-87177acfb3bc&lt;/ns2:viewUUID&gt;&lt;ns2:binding&gt;tw.businessData.TimerDetails.currentItem.BPDReferenceID&lt;/ns2:binding&gt;&lt;/ns2:contributions&gt;&lt;ns2:contributions xsi:type="ns2:ViewRef" version="8550"&gt;&lt;ns2:id&gt;5921ad6d-a08f-4408-88c8-90e00c04987d&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;createdDateTime2&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;80a27032-5232-4e3f-88fe-bbd6bc535080&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@label&lt;/ns2:optionName&gt;&lt;ns2:value&gt;Created Date Time&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;00c35616-04e6-447a-8eb3-efd4f958719f&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@helpText&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:viewUUID&gt;64.f634f22e-7800-4bd7-9f1e-87177acfb3bc&lt;/ns2:viewUUID&gt;&lt;ns2:binding&gt;tw.businessData.TimerDetails.currentItem.createdDateTime&lt;/ns2:binding&gt;&lt;/ns2:contributions&gt;&lt;ns2:contributions xsi:type="ns2:ViewRef" version="8550"&gt;&lt;ns2:id&gt;5e7e0027-8ffe-432b-88c7-c213d2323cc5&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;executionStatus2&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;fc2988eb-6a20-4785-84d7-83ed81997ef7&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@label&lt;/ns2:optionName&gt;&lt;ns2:value&gt;Execution Status&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;1c7d0f8c-3da7-4c46-8951-1b13d08262b0&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@helpText&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:viewUUID&gt;64.f634f22e-7800-4bd7-9f1e-87177acfb3bc&lt;/ns2:viewUUID&gt;&lt;ns2:binding&gt;tw.businessData.TimerDetails.currentItem.executionStatus&lt;/ns2:binding&gt;&lt;/ns2:contributions&gt;&lt;ns2:contributions xsi:type="ns2:ViewRef" version="8550"&gt;&lt;ns2:id&gt;4b4ff2d6-6c2f-4867-89ff-0c50549b4354&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;BPDName2&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;d0a00f96-1944-4718-8488-6a99deec3836&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@label&lt;/ns2:optionName&gt;&lt;ns2:value&gt;BPD Name&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;807b8b27-3c75-48ce-8e7a-2c6b12669989&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@helpText&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:viewUUID&gt;64.f634f22e-7800-4bd7-9f1e-87177acfb3bc&lt;/ns2:viewUUID&gt;&lt;ns2:binding&gt;tw.businessData.TimerDetails.currentItem.BPDName&lt;/ns2:binding&gt;&lt;/ns2:contributions&gt;&lt;ns2:contributions xsi:type="ns2:ViewRef" version="8550"&gt;&lt;ns2:id&gt;eea1c3d1-5687-4cfd-8feb-dbb02a99afb7&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;isTip2&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;1c70bf2f-cbb2-4fd0-8d56-29740fa2ffd1&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@label&lt;/ns2:optionName&gt;&lt;ns2:value&gt;Is Tip?&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;b4ec4813-e3f8-4678-8ec5-ee7ceeb1fbc0&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@helpText&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:viewUUID&gt;64.f634f22e-7800-4bd7-9f1e-87177acfb3bc&lt;/ns2:viewUUID&gt;&lt;ns2:binding&gt;tw.businessData.TimerDetails.currentItem.isTip&lt;/ns2:binding&gt;&lt;/ns2:contributions&gt;&lt;ns2:contributions xsi:type="ns2:ViewRef" version="8550"&gt;&lt;ns2:id&gt;e5d3c5b9-3769-437f-884a-3ccf29b44254&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;startedByUserName2&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;7f2d058c-fdbc-4c4d-89f1-64c6b9706645&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@label&lt;/ns2:optionName&gt;&lt;ns2:value&gt;Started By&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;770ac055-de71-43c9-8721-eec6d7794354&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@helpText&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:viewUUID&gt;64.f634f22e-7800-4bd7-9f1e-87177acfb3bc&lt;/ns2:viewUUID&gt;&lt;ns2:binding&gt;tw.businessData.TimerDetails.currentItem.startedByUserName&lt;/ns2:binding&gt;&lt;/ns2:contributions&gt;&lt;/ns2:contentBoxContrib&gt;&lt;/ns2:contributions&gt;&lt;ns2:contributions xsi:type="ns2:ViewRef" version="8550"&gt;&lt;ns2:id&gt;b4baf131-30ae-4603-8820-6e177d9e39b4&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;Instances_Data_Export1&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;2cc521fc-1ff3-4ee2-8d97-5df842f83d52&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@label&lt;/ns2:optionName&gt;&lt;ns2:value&gt;Export Timers&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;e82cdce1-a72d-4811-8fba-07c45861f4bf&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@helpText&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;dc16e74f-0ea5-4766-8006-7378ad71851a&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@labelVisibility&lt;/ns2:optionName&gt;&lt;ns2:value&gt;SHOW&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;a6d58440-3e22-4bdc-8500-59f383c9d73b&lt;/ns2:id&gt;&lt;ns2:optionName&gt;tableName&lt;/ns2:optionName&gt;&lt;ns2:value&gt;TimerDetails1&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;9cc878ba-f752-4e32-8ad8-f7df48632f59&lt;/ns2:id&gt;&lt;ns2:optionName&gt;defName&lt;/ns2:optionName&gt;&lt;ns2:value&gt;SelectedInstances&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;8e5ff116-fee6-4a83-87c0-8a6b8383e062&lt;/ns2:id&gt;&lt;ns2:optionName&gt;colNames&lt;/ns2:optionName&gt;&lt;ns2:value&gt;false&lt;/ns2:value&gt;&lt;ns2:valueType&gt;static&lt;/ns2:valueType&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;30b41440-5a7c-405e-8a00-3b984277e13f&lt;/ns2:id&gt;&lt;ns2:optionName&gt;inclInvis&lt;/ns2:optionName&gt;&lt;ns2:value&gt;false&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;06bed95b-1217-4339-8f29-7c2cd6049c48&lt;/ns2:id&gt;&lt;ns2:optionName&gt;eventON_CLICK&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;cd0be95c-943e-49bf-832d-3bc4306467c8&lt;/ns2:id&gt;&lt;ns2:optionName&gt;colSpecs&lt;/ns2:optionName&gt;&lt;ns2:value&gt;[{"columnFormatString":"\"Instance ID\""},{"columnFormatString":"\"Instance Name\""},{"columnFormatString":"\"Application Name\""},{"columnFormatString":"\"BPD Reference ID\""},{"columnFormatString":"\"Created Date Time\""},{"columnFormatString":"\"Execution Status\""},{"columnFormatString":"\"BPD Name\""},{"columnFormatString":"\"Is Tip\""},{"columnFormatString":"\"Started By Username\""}]&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;5d702c63-b16d-468f-80b0-69cd07270430&lt;/ns2:id&gt;&lt;ns2:optionName&gt;colorStyle&lt;/ns2:optionName&gt;&lt;ns2:value&gt;W&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;ab9a8b0a-01f0-4284-8045-67b55415abae&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@width&lt;/ns2:optionName&gt;&lt;ns2:value&gt;{"isResponsiveData":true,"values":[{"deviceConfigID":"LargeID","value":"170px"}]}&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;8b1fed67-5bf5-4df9-8f94-1ea34eb2161a&lt;/ns2:id&gt;&lt;ns2:optionName&gt;icon&lt;/ns2:optionName&gt;&lt;ns2:value&gt;file-excel-o&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:viewUUID&gt;64.90bf9818-cbe7-4435-842a-8ae4559a376c&lt;/ns2:viewUUID&gt;&lt;ns2:binding&gt;&lt;/ns2:binding&gt;&lt;/ns2:contributions&gt;&lt;ns2:contributions xsi:type="ns2:ViewRef" version="8550"&gt;&lt;ns2:id&gt;0d122948-8cb3-40eb-8044-93fedc8cc0a8&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;TimerDetails2&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;fede4e39-cdf2-4d74-897a-e9e1602846b9&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@label&lt;/ns2:optionName&gt;&lt;ns2:value&gt;Timer Details&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;c5042306-8641-4510-83d7-4d84379aed6f&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@helpText&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;2107c774-a59a-474f-8e55-8910b3328f97&lt;/ns2:id&gt;&lt;ns2:optionName&gt;dataService&lt;/ns2:optionName&gt;&lt;ns2:value&gt;1.52e37e58-201a-4159-afde-d64509ddf637&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;2b16a8ba-434b-4e53-83b2-5709d6fb6faf&lt;/ns2:id&gt;&lt;ns2:optionName&gt;pageSize&lt;/ns2:optionName&gt;&lt;ns2:value&gt;{"isResponsiveData":true,"values":[{"deviceConfigID":"LargeID","value":20}]}&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;21571048-3305-43cf-8f66-b382f5c4af8b&lt;/ns2:id&gt;&lt;ns2:optionName&gt;showPageSizer&lt;/ns2:optionName&gt;&lt;ns2:value&gt;{"isResponsiveData":true,"values":[{"deviceConfigID":"LargeID","value":true}]}&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;08d8515c-51af-43d0-883c-687fb9cfa80b&lt;/ns2:id&gt;&lt;ns2:optionName&gt;showPager&lt;/ns2:optionName&gt;&lt;ns2:value&gt;{"isResponsiveData":true,"values":[{"deviceConfigID":"LargeID","value":true}]}&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;011a0e56-4a6d-4151-82b5-1ed17ca40ec9&lt;/ns2:id&gt;&lt;ns2:optionName&gt;showFooter&lt;/ns2:optionName&gt;&lt;ns2:value&gt;{"isResponsiveData":true,"values":[{"deviceConfigID":"LargeID","value":true}]}&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;83e71fcf-ab65-41c0-8b91-3b5485411f59&lt;/ns2:id&gt;&lt;ns2:optionName&gt;columnSpecs&lt;/ns2:optionName&gt;&lt;ns2:value&gt;[{"dataElementName":"TimerTokenID","renderAs":"H","visibility":"V","sortable":true,"options":"","css":"","width":"","label":"Token Number"},{"dataElementName":"TimerName","renderAs":"H","visibility":"V","sortable":true,"options":"","css":"","width":"","label":"Timer Name"},{"dataElementName":"instanceID","renderAs":"H","visibility":"V","sortable":true,"options":"","css":"","width":"","label":"Instance ID"},{"dataElementName":"instanceName","renderAs":"H","visibility":"V","sortable":true,"options":"","css":"","width":"","label":"Instance Name"},{"dataElementName":"applicationName","renderAs":"H","visibility":"V","sortable":true,"options":"","css":"","width":"","label":"Application Name"},{"dataElementName":"BPDReferenceID","renderAs":"H","visibility":"V","sortable":true,"options":"","css":"","width":"","label":"BPD Ref ID"},{"dataElementName":"createdDateTime","renderAs":"H","visibility":"V","sortable":true,"options":"","css":"","width":"","label":"Created Date"},{"dataElementName":"executionStatus","renderAs":"H","visibility":"V","sortable":true,"options":"","css":"","width":"","label":"Status"},{"dataElementName":"BPDName","renderAs":"H","visibility":"V","sortable":true,"options":"","css":"","width":"","label":"BPD Name"},{"dataElementName":"isTip","renderAs":"H","visibility":"V","sortable":true,"options":"","css":"","width":"","label":"Tip?"},{"dataElementName":"startedByUserName","renderAs":"H","visibility":"V","sortable":true,"options":"","css":"","width":"","label":"Started by User"}]&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;84353e09-2285-4d15-8ce9-7c22d995e862&lt;/ns2:id&gt;&lt;ns2:optionName&gt;queryData&lt;/ns2:optionName&gt;&lt;ns2:value&gt;tw.options.timerSearchString&lt;/ns2:value&gt;&lt;ns2:valueType&gt;dynamic&lt;/ns2:valueType&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;7e5620e7-adbc-4a93-8861-34606c15dbff&lt;/ns2:id&gt;&lt;ns2:optionName&gt;selectionMode&lt;/ns2:optionName&gt;&lt;ns2:value&gt;M&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;bf48a0fe-36dc-4af0-8163-cc30a23fd8fa&lt;/ns2:id&gt;&lt;ns2:optionName&gt;tableStyle&lt;/ns2:optionName&gt;&lt;ns2:value&gt;S&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;7d63ec80-49cb-497e-86e9-02f910a7a428&lt;/ns2:id&gt;&lt;ns2:optionName&gt;eventON_ROWSEL&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;a616ed74-8241-4fbb-8e27-c729a7f1ce4e&lt;/ns2:id&gt;&lt;ns2:optionName&gt;eventON_DATALOADED&lt;/ns2:optionName&gt;&lt;ns2:value&gt;@addTimerTokens()&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;b074fccd-cc9e-4bc9-85a8-1baa0a383eab&lt;/ns2:id&gt;&lt;ns2:optionName&gt;startEmpty&lt;/ns2:optionName&gt;&lt;ns2:value&gt;true&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;1548d494-0591-460b-8236-dd0cfc429b1b&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@visibility&lt;/ns2:optionName&gt;&lt;ns2:value&gt;{"isResponsiveData":true,"values":[{"deviceConfigID":"LargeID","value":"HIDDEN"}]}&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;e6f61902-7108-44ba-8861-94defa7628d4&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@height&lt;/ns2:optionName&gt;&lt;ns2:value&gt;{"isResponsiveData":true,"values":[{"deviceConfigID":"LargeID","value":"0"}]}&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:viewUUID&gt;64.6b29c1bc-c211-43ce-8fbc-904e6e4d57f7&lt;/ns2:viewUUID&gt;&lt;ns2:binding&gt;tw.options.TimerDetails1[]&lt;/ns2:binding&gt;&lt;ns2:contentBoxContrib&gt;&lt;ns2:id&gt;c014f776-50b6-454b-8447-ede6cc7b8c57&lt;/ns2:id&gt;&lt;ns2:contentBoxId&gt;ContentBox1&lt;/ns2:contentBoxId&gt;&lt;ns2:contributions xsi:type="ns2:ViewRef" version="8550"&gt;&lt;ns2:id&gt;532d4d46-7d89-4987-8d84-03da3557ae8e&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;instanceID1&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;e62149f8-f4ce-43ba-8cc1-84353aabb2bc&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@label&lt;/ns2:optionName&gt;&lt;ns2:value&gt;Instance I D&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;a2081802-cb0f-4514-83da-70e8d7125c25&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@helpText&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:viewUUID&gt;64.f634f22e-7800-4bd7-9f1e-87177acfb3bc&lt;/ns2:viewUUID&gt;&lt;ns2:binding&gt;tw.options.instanceDetails.currentItem.instanceID&lt;/ns2:binding&gt;&lt;/ns2:contributions&gt;&lt;ns2:contributions xsi:type="ns2:ViewRef" version="8550"&gt;&lt;ns2:id&gt;1f97d416-3694-4797-8038-344f204ffd48&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;instanceName1&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;1980b0d7-a73b-464b-86b1-2312e2d5241a&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@label&lt;/ns2:optionName&gt;&lt;ns2:value&gt;Instance Name&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;f774650a-0b53-412d-8ee4-945528ee9935&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@helpText&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:viewUUID&gt;64.f634f22e-7800-4bd7-9f1e-87177acfb3bc&lt;/ns2:viewUUID&gt;&lt;ns2:binding&gt;tw.options.instanceDetails.currentItem.instanceName&lt;/ns2:binding&gt;&lt;/ns2:contributions&gt;&lt;ns2:contributions xsi:type="ns2:ViewRef" version="8550"&gt;&lt;ns2:id&gt;b55503ac-e756-4d39-86e2-d425fb4fa528&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;applicationName1&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;9b5de68d-04eb-4b6d-8c33-e8b8cccb44c3&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@label&lt;/ns2:optionName&gt;&lt;ns2:value&gt;Application Name&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;7d9f9325-44d8-4ede-8c5b-43916a09bb77&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@helpText&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:viewUUID&gt;64.f634f22e-7800-4bd7-9f1e-87177acfb3bc&lt;/ns2:viewUUID&gt;&lt;ns2:binding&gt;tw.options.instanceDetails.currentItem.applicationName&lt;/ns2:binding&gt;&lt;/ns2:contributions&gt;&lt;ns2:contributions xsi:type="ns2:ViewRef" version="8550"&gt;&lt;ns2:id&gt;958cded5-6663-4276-858a-59fe43dfb508&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;BPDReferenceID1&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;dd13d656-1a8c-4d83-8bcb-43ff7725f9cf&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@label&lt;/ns2:optionName&gt;&lt;ns2:value&gt;B P D Reference I D&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;2814b099-7993-47c3-8e58-6cc071b6091e&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@helpText&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:viewUUID&gt;64.f634f22e-7800-4bd7-9f1e-87177acfb3bc&lt;/ns2:viewUUID&gt;&lt;ns2:binding&gt;tw.options.instanceDetails.currentItem.BPDReferenceID&lt;/ns2:binding&gt;&lt;/ns2:contributions&gt;&lt;ns2:contributions xsi:type="ns2:ViewRef" version="8550"&gt;&lt;ns2:id&gt;00741b4a-ff69-4f4b-89e5-e069058f9f64&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;createdDateTime1&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;72924f18-dd6d-4354-86ab-a4438f2dd3b7&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@label&lt;/ns2:optionName&gt;&lt;ns2:value&gt;Created Date Time&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;c7f88c2a-1036-4574-83f5-a86fff809a7d&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@helpText&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:viewUUID&gt;64.f634f22e-7800-4bd7-9f1e-87177acfb3bc&lt;/ns2:viewUUID&gt;&lt;ns2:binding&gt;tw.options.instanceDetails.currentItem.createdDateTime&lt;/ns2:binding&gt;&lt;/ns2:contributions&gt;&lt;ns2:contributions xsi:type="ns2:ViewRef" version="8550"&gt;&lt;ns2:id&gt;7566f4bc-3312-4fc4-8388-afadd01cfa51&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;executionStatus1&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;fb0b9ec0-066e-4741-8813-9b09417c5c19&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@label&lt;/ns2:optionName&gt;&lt;ns2:value&gt;Execution Status&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;0d34551d-dee2-4fd8-8fbb-20ef73bd9bca&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@helpText&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:viewUUID&gt;64.f634f22e-7800-4bd7-9f1e-87177acfb3bc&lt;/ns2:viewUUID&gt;&lt;ns2:binding&gt;tw.options.instanceDetails.currentItem.executionStatus&lt;/ns2:binding&gt;&lt;/ns2:contributions&gt;&lt;ns2:contributions xsi:type="ns2:ViewRef" version="8550"&gt;&lt;ns2:id&gt;ac2118a3-2e00-4688-8097-fb189f866d17&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;BPDName1&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;084d99f2-cf2c-4599-8030-886bd477e562&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@label&lt;/ns2:optionName&gt;&lt;ns2:value&gt;B P D Name&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;a7ba0417-83b3-4f97-88b0-34cfe79f0956&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@helpText&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:viewUUID&gt;64.f634f22e-7800-4bd7-9f1e-87177acfb3bc&lt;/ns2:viewUUID&gt;&lt;ns2:binding&gt;tw.options.instanceDetails.currentItem.BPDName&lt;/ns2:binding&gt;&lt;/ns2:contributions&gt;&lt;ns2:contributions xsi:type="ns2:ViewRef" version="8550"&gt;&lt;ns2:id&gt;e7105d7a-338e-4041-88fe-7636b4a4bc18&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;isTip1&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;c85f18e6-17f5-4dd7-8ac0-90bebef5ed67&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@label&lt;/ns2:optionName&gt;&lt;ns2:value&gt;Is Tip&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;a4d128c3-296a-4cd9-8238-0b5aa701c895&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@helpText&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:viewUUID&gt;64.f634f22e-7800-4bd7-9f1e-87177acfb3bc&lt;/ns2:viewUUID&gt;&lt;ns2:binding&gt;tw.options.instanceDetails.currentItem.isTip&lt;/ns2:binding&gt;&lt;/ns2:contributions&gt;&lt;ns2:contributions xsi:type="ns2:ViewRef" version="8550"&gt;&lt;ns2:id&gt;e71635a3-8399-4529-828c-7377fa102a46&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;startedByUserName1&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;3cc31196-2979-47ed-80ad-8c7f7061dc63&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@label&lt;/ns2:optionName&gt;&lt;ns2:value&gt;Started By User Name&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;814f50e1-dbb9-49ae-81b9-4964fcba6de3&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@helpText&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:viewUUID&gt;64.f634f22e-7800-4bd7-9f1e-87177acfb3bc&lt;/ns2:viewUUID&gt;&lt;ns2:binding&gt;tw.options.instanceDetails.currentItem.startedByUserName&lt;/ns2:binding&gt;&lt;/ns2:contributions&gt;&lt;/ns2:contentBoxContrib&gt;&lt;/ns2:contributions&gt;&lt;/ns2:contentBoxContrib&gt;&lt;/ns2:layoutItem&gt;&lt;/ns2:layout&gt;</layout>
+        <paletteIcon isNull="true" />
+        <previewImage isNull="true" />
+        <hasLabel>false</hasLabel>
+        <labelPosition>0</labelPosition>
+        <nineSliceX1Coord>0</nineSliceX1Coord>
+        <nineSliceX2Coord>0</nineSliceX2Coord>
+        <nineSliceY1Coord>0</nineSliceY1Coord>
+        <nineSliceY2Coord>0</nineSliceY2Coord>
+        <emitBoundary>false</emitBoundary>
+        <isPrototypeFunc>false</isPrototypeFunc>
+        <enableDevMode>false</enableDevMode>
+        <isMobileReady>true</isMobileReady>
+        <loadJsFunction> bpmext.ui.loadView(this);</loadJsFunction>
+        <unloadJsFunction> bpmext.ui.unloadView(this);</unloadJsFunction>
+        <viewJsFunction isNull="true" />
+        <changeJsFunction isNull="true" />
+        <collaborationJsFunction isNull="true" />
+        <description isNull="true" />
+        <validateJsFunction isNull="true" />
+        <previewAdvHtml isNull="true" />
+        <previewAdvJs isNull="true" />
+        <useUrlBinding>false</useUrlBinding>
+        <guid>2e832eda-efe8-4841-b362-33a0b9a4ca53</guid>
+        <versionId>849eef9f-2565-4b9f-9eba-00f8847311c5</versionId>
+        <field1 isNull="true" />
+        <field2 isNull="true" />
+        <field3>0</field3>
+        <field4 isNull="true" />
+        <field5>false</field5>
+        <clobField1 isNull="true" />
+        <bindingType name="TimerDetails">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <coachViewBindingTypeId>65.b3dd6c07-c55a-400f-89b5-36ffe43565d1</coachViewBindingTypeId>
+            <coachViewId>64.c0aa3ee6-fdce-4219-b63f-646c910ca5bb</coachViewId>
+            <isList>true</isList>
+            <classId>/12.31686036-6825-4b57-88a5-1c19919ec79a</classId>
+            <seq>0</seq>
+            <description isNull="true" />
+            <guid>d4f115b1-0592-46cd-b28c-2640088c2821</guid>
+            <versionId>5fc5c294-fb40-45af-bdbe-44e8f636351f</versionId>
+        </bindingType>
+        <configOption name="timerSearchString">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <coachViewConfigOptionId>66.7dc879a9-14ae-47de-9832-53fe97a66147</coachViewConfigOptionId>
+            <coachViewId>64.c0aa3ee6-fdce-4219-b63f-646c910ca5bb</coachViewId>
+            <isList>false</isList>
+            <propertyType>OBJECT</propertyType>
+            <label isNull="true" />
+            <classId>3eead070-014c-46ed-b858-fe3e6d6b248e/12.db884a3c-c533-44b7-bb2d-47bec8ad4022</classId>
+            <processId isNull="true" />
+            <actionflowId isNull="true" />
+            <isAdaptive>false</isAdaptive>
+            <seq>0</seq>
+            <description isNull="true" />
+            <groupName isNull="true" />
+            <guid>395bff61-676b-445d-8a23-814dd5a08893</guid>
+            <versionId>179e9937-69e5-46da-971a-a613553753ba</versionId>
+        </configOption>
+        <configOption name="TimerDetails1">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <coachViewConfigOptionId>66.1a22c6a8-56b9-4c2b-82d9-b2b62a48a1ee</coachViewConfigOptionId>
+            <coachViewId>64.c0aa3ee6-fdce-4219-b63f-646c910ca5bb</coachViewId>
+            <isList>true</isList>
+            <propertyType>OBJECT</propertyType>
+            <label isNull="true" />
+            <classId>/12.31686036-6825-4b57-88a5-1c19919ec79a</classId>
+            <processId isNull="true" />
+            <actionflowId isNull="true" />
+            <isAdaptive>false</isAdaptive>
+            <seq>1</seq>
+            <description isNull="true" />
+            <groupName isNull="true" />
+            <guid>76977e51-4a19-4f06-9a6d-3c07007b5202</guid>
+            <versionId>561740ed-9329-4069-b9aa-09c2f7788c71</versionId>
+        </configOption>
+        <inlineScript name="Inline Javascript">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <coachViewInlineScriptId>68.d2a5182d-e2d3-48c6-a344-0e4ae772bede</coachViewInlineScriptId>
+            <coachViewId>64.c0aa3ee6-fdce-4219-b63f-646c910ca5bb</coachViewId>
+            <scriptType>JS</scriptType>
+            <scriptBlock>var _this = this;&#xD;
+var items, items1, items2;&#xD;
+var data1;&#xD;
+var sdt;&#xD;
+var sdt1;&#xD;
+var searchlimit = 100;&#xD;
+this.addTimerTokens = function () {&#xD;
+	sdt = this.ui.get("TimerDetails2");&#xD;
+	sdt1 = this.ui.get("TimerDetails1");&#xD;
+&#xD;
+	items1 = sdt.getRecords(true);&#xD;
+	items2 = sdt1.getData();&#xD;
+&#xD;
+	//alert(items1.length);&#xD;
+	data1 = this.ui.get("../Data1");&#xD;
+	if (items1.length == 0) {&#xD;
+	data1.setValue(" Info: No tokens found please check your search criteria. " + new Date());&#xD;
+		//data1.setValue(" Error: You have not selected any instances Please select instances to continue " + new Date());&#xD;
+	} else if (items1.length &gt;= searchlimit) {&#xD;
+		data1.setValue(" Info: More than " + searchlimit  + " rows returned, only the first " + searchlimit  +" are available. " + new Date());&#xD;
+	}&#xD;
+	var instances = '';&#xD;
+	for (var i = 0; i &lt; items1.length &amp;&amp; i &lt; searchlimit; i++) {&#xD;
+		instances += items1[i].instanceID + ",";&#xD;
+	}&#xD;
+	instances += '999999';&#xD;
+&#xD;
+	var xhrArgs = function (config) {&#xD;
+		return {&#xD;
+			url: "/rest/bpm/wle/v1/process?action=getdetails&amp;instanceIds=" + instances + "&amp;parts=all",&#xD;
+			content: {&#xD;
+				accept: "application/json"&#xD;
+			},&#xD;
+			load: displayImage,&#xD;
+			handle: displayImage, &#xD;
+			handleAs: "json"&#xD;
+		}&#xD;
+	}&#xD;
+&#xD;
+	deferred = setTimeout(dojo.xhrGet(xhrArgs({&#xD;
+					inputs: {}&#xD;
+				})), 0);&#xD;
+&#xD;
+	function displayImage(json_results) {&#xD;
+		if (json_results &amp;&amp; json_results.status == "200") {&#xD;
+			//alert(json_results.data);&#xD;
+			if (json_results.data.processDetails) {&#xD;
+				for (var j = 0; j &lt; json_results.data.processDetails.length; j++) {&#xD;
+					if (json_results.data.processDetails[j].diagram.step) {&#xD;
+						for (var l = 0; l &lt; json_results.data.processDetails[j].diagram.step.length; l++) {&#xD;
+							var found = false;&#xD;
+							for (m = 0; m &lt; items1.length; m++) {&#xD;
+								if (items1[m].instanceID == json_results.data.processDetails[j].piid) {&#xD;
+									found = true;&#xD;
+									if (json_results.data.processDetails[j].diagram.step[l].tokenID &amp;&amp; json_results.data.processDetails[j].diagram.step[l].activityType == "timer") {&#xD;
+										if (json_results.data.processDetails[j].diagram.step[l].tokenID.length == 1) {&#xD;
+&#xD;
+											items1[m].TimerName = json_results.data.processDetails[j].diagram.step[l].name;&#xD;
+											items1[m].currentBPDID = json_results.data.processDetails[j].diagram.step[l].ID;&#xD;
+											items1[m].TimerTokenID = json_results.data.processDetails[j].diagram.step[l].tokenID[0];&#xD;
+											items1[m].processID = json_results.data.processDetails[j].processTemplateID;&#xD;
+											items1[m].snapshotID = json_results.data.processDetails[j].snapshotID;&#xD;
+										} else {&#xD;
+											for (var n = 1; n &lt; json_results.data.processDetails[j].diagram.step[l].tokenID.length; n++) {&#xD;
+												var newitem = items1[m];&#xD;
+												newitem.TimerName = json_results.data.processDetails[j].diagram.step[l].name;&#xD;
+&#xD;
+												newitem.currentBPDID = json_results.data.processDetails[j].diagram.step[l].ID;&#xD;
+												newitem.TimerTokenID = json_results.data.processDetails[j].diagram.step[l].tokenID[n];&#xD;
+												newitem.processID = json_results.data.processDetails[j].processTemplateID;&#xD;
+												newitem.snapshotID = json_results.data.processDetails[j].snapshotID;&#xD;
+												items1.add(newitem);&#xD;
+											}&#xD;
+										}&#xD;
+									} else {&#xD;
+										/*				if (json_results.data.processDetails[j].diagram.step[l].tokenID &amp;&amp; json_results.data.processDetails[j].diagram.step[l].tokenID.length &gt; 0) {&#xD;
+										for(var n=0; n &lt; json_results.data.processDetails[j].diagram.step[l].tokenID.length; n++) {&#xD;
+										if (json_results.data.processDetails[j].piid == items1[m].instanceID) {&#xD;
+										items1[m].currentBPDID = json_results.data.processDetails[j].diagram.step[l].ID;&#xD;
+										items1[m].tokenID = json_results.data.processDetails[j].diagram.step[l].tokenID[n];&#xD;
+										//items1[m].TaskID = json_results.data.processDetails[j].diagram.step[l].taskID;&#xD;
+										//items1[m].TaskSubject = "";&#xD;
+										//items1[m].ActivityName = json_results.data.processDetails[j].diagram.step[l].name;&#xD;
+										}&#xD;
+										}&#xD;
+										}*/&#xD;
+									}&#xD;
+								}&#xD;
+							}&#xD;
+							if (!found) {&#xD;
+								//var row = items1.createListElement();&#xD;
+								//row.tokednID&#xD;
+							}&#xD;
+&#xD;
+						}&#xD;
+					}&#xD;
+					/*&#xD;
+					for (var x=0; x &lt; json_results.data.processDetails[j].executionTree.root.children.length; x++){&#xD;
+					if (json_results.data.processDetails[j].executionTree.root.children[x].children){&#xD;
+					for (var y=0; y &lt; json_results.data.processDetails[j].executionTree.root.children[x].children.length; y++){&#xD;
+					if (json_results.data.processDetails[j].executionTree.root.children[x].children[y].children){&#xD;
+					for (var z=0; z &lt; json_results.data.processDetails[j].executionTree.root.children[x].children[y].children.length; z++){&#xD;
+					for (m=0; m &lt; items1.length; m++){&#xD;
+					if (json_results.data.processDetails[j].executionTree.root.children[x].children[y].children[z].children &amp;&amp; json_results.data.processDetails[j].executionTree.root.children[x].children[y].children[z].children[0].createdTaskIDs &amp;&amp; items1[m].TaskID + "" == json_results.data.processDetails[j].executionTree.root.children[x].children[y].children[z].children[0].createdTaskIDs[0]) {&#xD;
+					items1[m].currentBPDID =  json_results.data.processDetails[j].executionTree.root.children[x].children[y].children[z].children[0].flowObjectId;&#xD;
+					items1[m].TimerTokenID = json_results.data.processDetails[j].executionTree.root.children[x].children[y].children[z].children[0].tokenId;&#xD;
+					items1[m].processID = json_results.data.processDetails[j].executionTree.root.children[x].children[y].children[z].processId;&#xD;
+					items1[m].BPDName = json_results.data.processDetails[j].executionTree.root.children[x].children[y].children[z].name&#xD;
+					items1[m].snapshotID = json_results.data.processDetails[j].snapshotID;&#xD;
+					}&#xD;
+					}&#xD;
+					}&#xD;
+					}&#xD;
+					}&#xD;
+					}&#xD;
+					}*/&#xD;
+&#xD;
+				}&#xD;
+			}&#xD;
+			sdt1.clear();&#xD;
+			for (var x = 0; x &lt; items1.length &amp;&amp; x &lt; searchlimit; x++) {&#xD;
+				if (items1[x].TimerTokenID &amp;&amp; items1[x].TimerTokenID != "") {&#xD;
+					items2.add(items1[x]);&#xD;
+				}&#xD;
+			}&#xD;
+			sdt1.appendElements(items2);&#xD;
+		} else {&#xD;
+						if (json_results.responseText){&#xD;
+							var r = jQuery.parseJSON(json_results.responseText);&#xD;
+							data1.setValue(" Error: " + r.Data.errorMessage + new Date());&#xD;
+&#xD;
+						}else {&#xD;
+							data1.setValue(" Error:  Unknowon Error" +  new Date());&#xD;
+&#xD;
+						}&#xD;
+				}&#xD;
+	}&#xD;
+}&#xD;
+&#xD;
+this.fireTimer = function () {&#xD;
+	sdt = this.ui.get("TimerDetails2");&#xD;
+	sdt1 = this.ui.get("TimerDetails1");&#xD;
+	items = sdt1.getSelectedRecords();&#xD;
+			data1 = this.ui.get("../Data1");&#xD;
+		if (!items || items.length == 0) {&#xD;
+			data1.setValue(" Error: You have not selected any Timer Token Please select Token to continue" + new Date());&#xD;
+		}&#xD;
+&#xD;
+	for (var i = 0; i &lt; items.length; i++) {&#xD;
+&#xD;
+&#xD;
+		var xhrArgs = function (config) {&#xD;
+			return {&#xD;
+				url: "/rest/bpm/wle/v1/process/" + items[i].instanceID + "?action=fireTimer&amp;timerTokenId=" + items[i].TimerTokenID + "&amp;&amp;parts=none",&#xD;
+				content: {&#xD;
+					accept: "application/json"&#xD;
+				},&#xD;
+				load: displayImage,&#xD;
+				handle: displayImage, &#xD;
+				handleAs: "json"&#xD;
+			}&#xD;
+		}&#xD;
+&#xD;
+		deferred = setTimeout(dojo.xhrPost(xhrArgs({&#xD;
+						inputs: {}&#xD;
+					})), i * 1000);&#xD;
+	}&#xD;
+&#xD;
+	function displayImage(json_results) {&#xD;
+		if (json_results &amp;&amp; json_results.status == "200") {&#xD;
+			data1.setValue(" Success: Fired " + items.length + "Timer(s)  " + new Date());&#xD;
+			sdt.refresh();&#xD;
+			sdt1.setAllRecordsSelected(false);&#xD;
+		}  else {&#xD;
+						if (json_results.responseText){&#xD;
+							var r = jQuery.parseJSON(json_results.responseText);&#xD;
+							data1.setValue(" Error: " + r.Data.errorMessage + new Date());&#xD;
+							data1.setValue(" Error: Not Fired" + items.length + " Timer(s)  " + "  " + json_results.Data.errorMessage);&#xD;
+&#xD;
+						}else {&#xD;
+							data1.setValue(" Error:  Unknowon Error" +  new Date());&#xD;
+							data1.setValue(" Error: Not Fired" + items.length + " Timer(s)  " + "  " + json_results.Data.errorMessage);&#xD;
+&#xD;
+						}&#xD;
+				}&#xD;
+		&#xD;
+	}&#xD;
+&#xD;
+}&#xD;
+</scriptBlock>
+            <seq>0</seq>
+            <description isNull="true" />
+            <guid>7cea16ff-772b-4cd0-95f6-c8c43074c39f</guid>
+            <versionId>a3e937bd-db87-4f73-a16b-5a4d547e553c</versionId>
+        </inlineScript>
+    </coachView>
+</teamworks>
+

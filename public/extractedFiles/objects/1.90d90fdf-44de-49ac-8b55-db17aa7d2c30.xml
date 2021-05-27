@@ -1,0 +1,786 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teamworks>
+    <process id="1.90d90fdf-44de-49ac-8b55-db17aa7d2c30" name="Generate MemoryUsage Data">
+        <lastModified>1528548870667</lastModified>
+        <lastModifiedBy>asansanwal</lastModifiedBy>
+        <processId>1.90d90fdf-44de-49ac-8b55-db17aa7d2c30</processId>
+        <image isNull="true" />
+        <tabGroup isNull="true" />
+        <startingProcessItemId>2025.559c2576-54e6-4a79-8cce-81989a21bb2d</startingProcessItemId>
+        <isRootProcess>false</isRootProcess>
+        <processType>12</processType>
+        <isErrorHandlerEnabled>false</isErrorHandlerEnabled>
+        <errorHandlerItemId isNull="true" />
+        <isLoggingVariables>false</isLoggingVariables>
+        <isTransactional>false</isTransactional>
+        <processTimingLevel isNull="true" />
+        <participantRef isNull="true" />
+        <exposedType>0</exposedType>
+        <isTrackingEnabled>true</isTrackingEnabled>
+        <xmlData isNull="true" />
+        <cachingType>false</cachingType>
+        <itemLabel isNull="true" />
+        <cacheLength>0</cacheLength>
+        <mobileReady>false</mobileReady>
+        <sboSyncEnabled>true</sboSyncEnabled>
+        <externalId isNull="true" />
+        <isSecured>true</isSecured>
+        <isAjaxExposed>true</isAjaxExposed>
+        <description isNull="true" />
+        <guid>eaeea7da-33d8-4108-abcc-a0ca20936619</guid>
+        <versionId>a81bb2e3-7732-466f-ab6a-e9ba53ed2584</versionId>
+        <dependencySummary>&lt;dependencySummary id="9965ca6f-1f2c-4dd5-81b8-b980f9785c4e" /&gt;</dependencySummary>
+        <jsonData isNull="true" />
+        <field1 isNull="true" />
+        <field2 isNull="true" />
+        <field3>0</field3>
+        <field4 isNull="true" />
+        <field5>false</field5>
+        <clobField1 isNull="true" />
+        <blobField1 isNull="true" />
+        <processParameter name="input">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <processParameterId>2055.f05115ae-59f9-4ad8-88cc-38dd30a3747c</processParameterId>
+            <processId>1.90d90fdf-44de-49ac-8b55-db17aa7d2c30</processId>
+            <parameterType>1</parameterType>
+            <isArrayOf>false</isArrayOf>
+            <classId>3eead070-014c-46ed-b858-fe3e6d6b248e/12.c09c9b6e-aabd-4897-bef2-ed61db106297</classId>
+            <seq>1</seq>
+            <hasDefault>false</hasDefault>
+            <defaultValue isNull="true" />
+            <isLocked>false</isLocked>
+            <description isNull="true" />
+            <guid>6e921c17-d1cc-4a96-a26a-aed655bacb1f</guid>
+            <versionId>43026d41-3587-40b2-815a-6e0a67013e5c</versionId>
+        </processParameter>
+        <processParameter name="drillDownStack">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <processParameterId>2055.0e814dba-1216-4841-a1bc-a98912382c14</processParameterId>
+            <processId>1.90d90fdf-44de-49ac-8b55-db17aa7d2c30</processId>
+            <parameterType>1</parameterType>
+            <isArrayOf>true</isArrayOf>
+            <classId>1486ffce-93b8-4f98-862d-48b380e1a24f/12.a2c20ada-cdaa-4883-bc96-3ca7a3a27e6b</classId>
+            <seq>2</seq>
+            <hasDefault>false</hasDefault>
+            <defaultValue isNull="true" />
+            <isLocked>false</isLocked>
+            <description isNull="true" />
+            <guid>c453fb90-57c0-424f-921d-a1d73b6b2919</guid>
+            <versionId>b660347a-2d0f-4626-a7cc-ee711bcc4df5</versionId>
+        </processParameter>
+        <processParameter name="dataSeries">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <processParameterId>2055.9dcc6b3f-60e6-465d-93f4-6cee0acf4a43</processParameterId>
+            <processId>1.90d90fdf-44de-49ac-8b55-db17aa7d2c30</processId>
+            <parameterType>2</parameterType>
+            <isArrayOf>false</isArrayOf>
+            <classId>1486ffce-93b8-4f98-862d-48b380e1a24f/12.63a604e8-e026-4605-aae1-272b67822cc7</classId>
+            <seq>3</seq>
+            <hasDefault>false</hasDefault>
+            <defaultValue isNull="true" />
+            <isLocked>false</isLocked>
+            <description isNull="true" />
+            <guid>dbc35710-7fa5-416f-b541-8646e2fd31c1</guid>
+            <versionId>2ea45eef-1cf6-4352-8015-f21adc4048e0</versionId>
+        </processParameter>
+        <processParameter name="drillDownStack">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <processParameterId>2055.c9bb2613-e0e7-4b98-b7a6-cee6101362b2</processParameterId>
+            <processId>1.90d90fdf-44de-49ac-8b55-db17aa7d2c30</processId>
+            <parameterType>2</parameterType>
+            <isArrayOf>true</isArrayOf>
+            <classId>1486ffce-93b8-4f98-862d-48b380e1a24f/12.a2c20ada-cdaa-4883-bc96-3ca7a3a27e6b</classId>
+            <seq>4</seq>
+            <hasDefault>false</hasDefault>
+            <defaultValue isNull="true" />
+            <isLocked>false</isLocked>
+            <description isNull="true" />
+            <guid>b19e927d-b55a-4600-a939-b4d0c19bb63c</guid>
+            <versionId>05ea6de2-eb4d-446f-9943-8098c32f53d3</versionId>
+        </processParameter>
+        <processParameter name="availableForDrillDown">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <processParameterId>2055.fbf63fca-1c61-4c6b-ad79-5e64b639373e</processParameterId>
+            <processId>1.90d90fdf-44de-49ac-8b55-db17aa7d2c30</processId>
+            <parameterType>2</parameterType>
+            <isArrayOf>true</isArrayOf>
+            <classId>1486ffce-93b8-4f98-862d-48b380e1a24f/12.a2c20ada-cdaa-4883-bc96-3ca7a3a27e6b</classId>
+            <seq>5</seq>
+            <hasDefault>false</hasDefault>
+            <defaultValue isNull="true" />
+            <isLocked>false</isLocked>
+            <description isNull="true" />
+            <guid>82a19b1d-3918-4706-aa4c-483b5158c579</guid>
+            <versionId>11422f1a-87d1-4b54-9841-1e009fffcf6a</versionId>
+        </processParameter>
+        <processVariable name="dataSeries1">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <processVariableId>2056.2d32cb46-b377-432f-8c35-33eb90bb8ade</processVariableId>
+            <description isNull="true" />
+            <processId>1.90d90fdf-44de-49ac-8b55-db17aa7d2c30</processId>
+            <namespace>2</namespace>
+            <seq>1</seq>
+            <isArrayOf>false</isArrayOf>
+            <isTransient>false</isTransient>
+            <classId>1486ffce-93b8-4f98-862d-48b380e1a24f/12.63a604e8-e026-4605-aae1-272b67822cc7</classId>
+            <hasDefault>true</hasDefault>
+            <defaultValue>var autoObject = new tw.object.toolkit.SYSBPMUI.DataSeries();
+autoObject.seriesName = "Memory Usage";
+autoObject.dataPoints = new tw.object.listOf.toolkit.SYSBPMUI.DataPoint();
+autoObject.dataPoints[0] = new tw.object.toolkit.SYSBPMUI.DataPoint();
+autoObject.dataPoints[0].value = 0.0;
+autoObject.dataPoints[0].label = "";
+autoObject</defaultValue>
+            <guid>4d8acd01-10eb-407a-a9fa-fdcb478f54f5</guid>
+            <versionId>9f9dc1ae-a996-47db-b44b-dc1c12f1db50</versionId>
+        </processVariable>
+        <item>
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <processItemId>2025.559c2576-54e6-4a79-8cce-81989a21bb2d</processItemId>
+            <processId>1.90d90fdf-44de-49ac-8b55-db17aa7d2c30</processId>
+            <name>Script Task</name>
+            <tWComponentName>Script</tWComponentName>
+            <tWComponentId>3011.ecc49322-ecfa-420c-bb6b-b61cf08b31f0</tWComponentId>
+            <isLogEnabled>false</isLogEnabled>
+            <isTraceEnabled>false</isTraceEnabled>
+            <traceCategory isNull="true" />
+            <traceLevel isNull="true" />
+            <traceMessage isNull="true" />
+            <traceSymbolTable isNull="true" />
+            <isExecutionContextTraced>false</isExecutionContextTraced>
+            <saveExecutionContext>false</saveExecutionContext>
+            <documentation isNull="true" />
+            <isErrorHandlerEnabled>false</isErrorHandlerEnabled>
+            <errorHandlerItemId isNull="true" />
+            <guid>guid:1df100aa714bb228:7f4ddbfc:163e4948e80:-76e2</guid>
+            <versionId>bce12b22-fb47-4100-90e5-7802150b65d1</versionId>
+            <externalServiceRef isNull="true" />
+            <externalServiceOp isNull="true" />
+            <nodeColor isNull="true" />
+            <layoutData x="283" y="42">
+                <errorLink>
+                    <controlPoints />
+                    <showEndState>false</showEndState>
+                    <showName>false</showName>
+                </errorLink>
+            </layoutData>
+            <TWComponent>
+                <lastModified isNull="true" />
+                <lastModifiedBy isNull="true" />
+                <scriptId>3011.ecc49322-ecfa-420c-bb6b-b61cf08b31f0</scriptId>
+                <scriptTypeId>2</scriptTypeId>
+                <isActive>true</isActive>
+                <script>function formatBytes(bytes,decimals) {&#xD;
+   if(bytes == 0) return '0 Bytes';&#xD;
+   var k = 1024,&#xD;
+       dm = decimals || 2,&#xD;
+       sizes = ['Bytes', 'KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB'],&#xD;
+       i = Math.floor(Math.log(bytes) / Math.log(k));&#xD;
+   return parseFloat((bytes / Math.pow(k, i)).toFixed(dm)) + ' ' + sizes[i];&#xD;
+}&#xD;
+&#xD;
+function formatBytesSize(bytes,decimals) {&#xD;
+   if(bytes == 0) return '0 Bytes';&#xD;
+   var k = 1024,&#xD;
+       dm = decimals || 2,&#xD;
+       sizes = ['Bytes', 'KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB'],&#xD;
+       i = Math.floor(Math.log(bytes) / Math.log(k));&#xD;
+   return sizes[i];&#xD;
+}&#xD;
+&#xD;
+&#xD;
+var rt = java.lang.Runtime.getRuntime(); &#xD;
+var total_mem = rt.totalMemory(); &#xD;
+var free_mem = rt.freeMemory();&#xD;
+var used_mem = rt.totalMemory() - rt.freeMemory(); &#xD;
+&#xD;
+tw.local.dataSeries1.dataPoints = new tw.object.listOf.toolkit.SYSBPMUI.DataPoint();&#xD;
+tw.local.dataSeries1.dataPoints[0] = new tw.object.toolkit.SYSBPMUI.DataPoint();&#xD;
+tw.local.dataSeries1.dataPoints[0].value = formatBytes(used_mem, 2);&#xD;
+tw.local.dataSeries1.dataPoints[0].label = "Used " + formatBytesSize(used_mem, 2) ;&#xD;
+&#xD;
+tw.local.dataSeries1.dataPoints[1] = new tw.object.toolkit.SYSBPMUI.DataPoint();&#xD;
+tw.local.dataSeries1.dataPoints[1].value = formatBytes(free_mem, 2);&#xD;
+tw.local.dataSeries1.dataPoints[1].label = "Free " + formatBytesSize(free_mem, 2) ;&#xD;
+&#xD;
+tw.local.dataseries = tw.local.dataSeries1;</script>
+                <isRule>false</isRule>
+                <guid>84eb8992-4fbe-4554-9c29-befe4490fdf6</guid>
+                <versionId>b9fc8c01-7fc2-4734-8e4c-44b392d78ea0</versionId>
+            </TWComponent>
+        </item>
+        <item>
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <processItemId>2025.4729de06-0d82-4105-91df-439e778d2360</processItemId>
+            <processId>1.90d90fdf-44de-49ac-8b55-db17aa7d2c30</processId>
+            <name>End</name>
+            <tWComponentName>ExitPoint</tWComponentName>
+            <tWComponentId>3008.5109345e-85c4-4bf7-ac60-bd7dc593918e</tWComponentId>
+            <isLogEnabled>false</isLogEnabled>
+            <isTraceEnabled>false</isTraceEnabled>
+            <traceCategory isNull="true" />
+            <traceLevel isNull="true" />
+            <traceMessage isNull="true" />
+            <traceSymbolTable isNull="true" />
+            <isExecutionContextTraced>false</isExecutionContextTraced>
+            <saveExecutionContext>true</saveExecutionContext>
+            <documentation isNull="true" />
+            <isErrorHandlerEnabled>false</isErrorHandlerEnabled>
+            <errorHandlerItemId isNull="true" />
+            <guid>guid:1df100aa714bb228:7f4ddbfc:163e4948e80:-76e3</guid>
+            <versionId>ddf4d125-265e-4ea7-9539-31060b576f75</versionId>
+            <externalServiceRef isNull="true" />
+            <externalServiceOp isNull="true" />
+            <nodeColor isNull="true" />
+            <layoutData x="650" y="80">
+                <errorLink>
+                    <controlPoints />
+                    <showEndState>false</showEndState>
+                    <showName>false</showName>
+                </errorLink>
+            </layoutData>
+            <TWComponent>
+                <lastModified isNull="true" />
+                <lastModifiedBy isNull="true" />
+                <exitPointId>3008.5109345e-85c4-4bf7-ac60-bd7dc593918e</exitPointId>
+                <haltProcess>false</haltProcess>
+                <guid>8f789bed-66b4-4e39-a526-30b000eaebb7</guid>
+                <versionId>47012b23-6e71-4044-953f-f87e48aa439c</versionId>
+            </TWComponent>
+        </item>
+        <startingProcessItemId>2025.559c2576-54e6-4a79-8cce-81989a21bb2d</startingProcessItemId>
+        <errorHandlerItemId isNull="true" />
+        <layoutData noConversion="true">
+            <errorLink>
+                <controlPoints />
+                <showEndState>false</showEndState>
+                <showName>false</showName>
+            </errorLink>
+        </layoutData>
+        <startPoint>
+            <layoutData x="25" y="80">
+                <errorLink>
+                    <controlPoints />
+                    <showEndState>false</showEndState>
+                    <showName>false</showName>
+                </errorLink>
+            </layoutData>
+        </startPoint>
+        <startLink>
+            <fromPort locationId="rightCenter" portType="1" />
+            <toPort locationId="leftCenter" portType="2" />
+            <layoutData>
+                <controlPoints />
+                <showEndState>false</showEndState>
+                <showName>false</showName>
+            </layoutData>
+        </startLink>
+        <bpmn2Model>
+            <ns17:definitions xmlns:ns17="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:ns2="http://www.ibm.com/xmlns/prod/bpm/bpmn/ext/process/case" xmlns:ns3="http://www.ibm.com/xmlns/prod/bpm/bpmn/ext/process" xmlns:ns4="http://www.ibm.com/xmlns/prod/bpm/bpmn/ext/process/wle" xmlns:ns5="http://www.ibm.com/bpm/Extensions" xmlns:ns6="http://www.ibm.com/xmlns/prod/bpm/uca" xmlns:ns7="http://www.ibm.com/xmlns/prod/bpm/bpmn/ext/trackinggroup" xmlns:ns8="http://www.ibm.com/xmlns/prod/bpm/bpmn/ext/team" xmlns:ns9="http://www.ibm.com/xmlns/bpmnx/20100524/v1/BusinessVocabulary" xmlns:ns10="http://www.omg.org/spec/DD/20100524/DI" xmlns:ns11="http://www.omg.org/spec/DD/20100524/DC" xmlns:ns12="http://www.omg.org/spec/BPMN/20100524/BPMNDI" xmlns:ns13="http://www.ibm.com/xmlns/prod/bpm/graph" xmlns:ns14="http://www.ibm.com/xmlns/prod/bpm/bpmn/ext/process/auth" xmlns:ns15="http://www.ibm.com/xmlns/prod/bpm/bpmn/ext/extservice" xmlns:ns16="http://www.ibm.com/xmlns/links" xmlns:ns18="http://www.ibm.com/bpm/CoachDesignerNG" xmlns:ns19="http://www.ibm.com/xmlns/tagging" xmlns:ns20="http://www.ibm.com/bpm/uitheme" xmlns:ns21="http://www.ibm.com/bpm/coachview" targetNamespace="" expressionLanguage="http://www.ibm.com/xmlns/prod/bpm/expression-lang/javascript" typeLanguage="http://www.w3.org/2001/XMLSchema">
+                
+                
+                
+                
+                <ns17:process name="Generate MemoryUsage Data" id="1.90d90fdf-44de-49ac-8b55-db17aa7d2c30" ns3:executionMode="microflow">
+                    
+                    
+                    
+                    
+                    <ns17:documentation textFormat="text/plain" />
+                    
+                    
+                    
+                    
+                    <ns17:extensionElements>
+                        
+                        
+                        
+                        
+                        <ns3:isSecured>true</ns3:isSecured>
+                        
+                        
+                        
+                        
+                        <ns3:isAjaxExposed>true</ns3:isAjaxExposed>
+                        
+                        
+                        
+                        
+                        <ns3:sboSyncEnabled>true</ns3:sboSyncEnabled>
+                        
+                        
+                    
+                    
+                    </ns17:extensionElements>
+                    
+                    
+                    
+                    
+                    <ns17:ioSpecification>
+                        
+                        
+                        
+                        
+                        <ns17:dataInput name="input" itemSubjectRef="itm.12.c09c9b6e-aabd-4897-bef2-ed61db106297" isCollection="false" id="2055.f05115ae-59f9-4ad8-88cc-38dd30a3747c" />
+                        
+                        
+                        
+                        
+                        <ns17:dataInput name="drillDownStack" itemSubjectRef="itm.12.a2c20ada-cdaa-4883-bc96-3ca7a3a27e6b" isCollection="true" id="2055.0e814dba-1216-4841-a1bc-a98912382c14" />
+                        
+                        
+                        
+                        
+                        <ns17:dataOutput name="dataSeries" itemSubjectRef="itm.12.63a604e8-e026-4605-aae1-272b67822cc7" isCollection="false" id="2055.9dcc6b3f-60e6-465d-93f4-6cee0acf4a43" />
+                        
+                        
+                        
+                        
+                        <ns17:dataOutput name="drillDownStack" itemSubjectRef="itm.12.a2c20ada-cdaa-4883-bc96-3ca7a3a27e6b" isCollection="true" id="2055.c9bb2613-e0e7-4b98-b7a6-cee6101362b2" />
+                        
+                        
+                        
+                        
+                        <ns17:dataOutput name="availableForDrillDown" itemSubjectRef="itm.12.a2c20ada-cdaa-4883-bc96-3ca7a3a27e6b" isCollection="true" id="2055.fbf63fca-1c61-4c6b-ad79-5e64b639373e" />
+                        
+                        
+                        
+                        
+                        <ns17:inputSet>
+                            
+                            
+                            
+                            
+                            <ns17:dataInputRefs>2055.f05115ae-59f9-4ad8-88cc-38dd30a3747c</ns17:dataInputRefs>
+                            
+                            
+                            
+                            
+                            <ns17:dataInputRefs>2055.0e814dba-1216-4841-a1bc-a98912382c14</ns17:dataInputRefs>
+                            
+                            
+                        
+                        
+                        </ns17:inputSet>
+                        
+                        
+                        
+                        
+                        <ns17:outputSet>
+                            
+                            
+                            
+                            
+                            <ns17:dataOutputRefs>2055.9dcc6b3f-60e6-465d-93f4-6cee0acf4a43</ns17:dataOutputRefs>
+                            
+                            
+                            
+                            
+                            <ns17:dataOutputRefs>2055.c9bb2613-e0e7-4b98-b7a6-cee6101362b2</ns17:dataOutputRefs>
+                            
+                            
+                            
+                            
+                            <ns17:dataOutputRefs>2055.fbf63fca-1c61-4c6b-ad79-5e64b639373e</ns17:dataOutputRefs>
+                            
+                            
+                        
+                        
+                        </ns17:outputSet>
+                        
+                        
+                    
+                    
+                    </ns17:ioSpecification>
+                    
+                    
+                    
+                    
+                    <ns17:laneSet id="2dff39b8-04c0-46cf-a9c4-d79b72d74426">
+                        
+                        
+                        
+                        
+                        <ns17:lane name="System" partitionElementRef="24.6fd38d02-81cf-48ab-bd42-8ff4c0a1628b" id="35799c18-ee44-47cb-acec-14687f7d65ac" ns4:isSystemLane="true">
+                            
+                            
+                            
+                            
+                            <ns17:extensionElements>
+                                
+                                
+                                
+                                
+                                <ns13:nodeVisualInfo x="0" y="0" width="3000" height="500" color="#F8F8F8" />
+                                
+                                
+                            
+                            
+                            </ns17:extensionElements>
+                            
+                            
+                            
+                            
+                            <ns17:flowNodeRef>dacdca51-0bb1-4c0d-bb58-04419aa5e3e8</ns17:flowNodeRef>
+                            
+                            
+                            
+                            
+                            <ns17:flowNodeRef>4729de06-0d82-4105-91df-439e778d2360</ns17:flowNodeRef>
+                            
+                            
+                            
+                            
+                            <ns17:flowNodeRef>559c2576-54e6-4a79-8cce-81989a21bb2d</ns17:flowNodeRef>
+                            
+                            
+                        
+                        
+                        </ns17:lane>
+                        
+                        
+                    
+                    
+                    </ns17:laneSet>
+                    
+                    
+                    
+                    
+                    <ns17:startEvent isInterrupting="false" parallelMultiple="false" name="Start" id="dacdca51-0bb1-4c0d-bb58-04419aa5e3e8">
+                        
+                        
+                        
+                        
+                        <ns17:extensionElements>
+                            
+                            
+                            
+                            
+                            <ns13:nodeVisualInfo x="25" y="80" width="24" height="24" color="#F8F8F8" />
+                            
+                            
+                        
+                        
+                        </ns17:extensionElements>
+                        
+                        
+                        
+                        
+                        <ns17:outgoing>2027.866ebb4e-1809-4d4b-82c3-967c502488f6</ns17:outgoing>
+                        
+                        
+                    
+                    
+                    </ns17:startEvent>
+                    
+                    
+                    
+                    
+                    <ns17:endEvent name="End" id="4729de06-0d82-4105-91df-439e778d2360">
+                        
+                        
+                        
+                        
+                        <ns17:extensionElements>
+                            
+                            
+                            
+                            
+                            <ns13:nodeVisualInfo x="650" y="80" width="24" height="24" color="#F8F8F8" />
+                            
+                            
+                            
+                            
+                            <ns4:saveExecutionContext>true</ns4:saveExecutionContext>
+                            
+                            
+                            
+                            
+                            <ns3:endStateId>guid:1df100aa714bb228:7f4ddbfc:163e4948e80:-76e3</ns3:endStateId>
+                            
+                            
+                        
+                        
+                        </ns17:extensionElements>
+                        
+                        
+                        
+                        
+                        <ns17:incoming>00d5a7ec-c2a1-466f-8e6b-975dd48b92f8</ns17:incoming>
+                        
+                        
+                    
+                    
+                    </ns17:endEvent>
+                    
+                    
+                    
+                    
+                    <ns17:sequenceFlow sourceRef="dacdca51-0bb1-4c0d-bb58-04419aa5e3e8" targetRef="559c2576-54e6-4a79-8cce-81989a21bb2d" name="To End" id="2027.866ebb4e-1809-4d4b-82c3-967c502488f6">
+                        
+                        
+                        
+                        
+                        <ns17:extensionElements>
+                            
+                            
+                            
+                            
+                            <ns13:linkVisualInfo>
+                                
+                                
+                                
+                                
+                                <ns13:sourcePortLocation>rightCenter</ns13:sourcePortLocation>
+                                
+                                
+                                
+                                
+                                <ns13:targetPortLocation>leftCenter</ns13:targetPortLocation>
+                                
+                                
+                                
+                                
+                                <ns13:showLabel>false</ns13:showLabel>
+                                
+                                
+                                
+                                
+                                <ns13:showCoachControlLabel>false</ns13:showCoachControlLabel>
+                                
+                                
+                                
+                                
+                                <ns13:labelPosition>0.0</ns13:labelPosition>
+                                
+                                
+                                
+                                
+                                <ns13:saveExecutionContext>false</ns13:saveExecutionContext>
+                                
+                                
+                            
+                            
+                            </ns13:linkVisualInfo>
+                            
+                            
+                        
+                        
+                        </ns17:extensionElements>
+                        
+                        
+                    
+                    
+                    </ns17:sequenceFlow>
+                    
+                    
+                    
+                    
+                    <ns17:dataObject itemSubjectRef="itm.12.63a604e8-e026-4605-aae1-272b67822cc7" isCollection="false" name="dataSeries1" id="2056.2d32cb46-b377-432f-8c35-33eb90bb8ade">
+                        
+                        
+                        
+                        
+                        <ns17:extensionElements>
+                            
+                            
+                            
+                            
+                            <ns3:defaultValue useDefault="true">var autoObject = new tw.object.toolkit.SYSBPMUI.DataSeries();
+autoObject.seriesName = "Memory Usage";
+autoObject.dataPoints = new tw.object.listOf.toolkit.SYSBPMUI.DataPoint();
+autoObject.dataPoints[0] = new tw.object.toolkit.SYSBPMUI.DataPoint();
+autoObject.dataPoints[0].value = 0.0;
+autoObject.dataPoints[0].label = "";
+autoObject</ns3:defaultValue>
+                            
+                            
+                        
+                        
+                        </ns17:extensionElements>
+                        
+                        
+                    
+                    
+                    </ns17:dataObject>
+                    
+                    
+                    
+                    
+                    <ns17:scriptTask scriptFormat="text/x-javascript" name="Script Task" id="559c2576-54e6-4a79-8cce-81989a21bb2d">
+                        
+                        
+                        
+                        
+                        <ns17:extensionElements>
+                            
+                            
+                            
+                            
+                            <ns13:nodeVisualInfo x="283" y="42" width="95" height="70" />
+                            
+                            
+                        
+                        
+                        </ns17:extensionElements>
+                        
+                        
+                        
+                        
+                        <ns17:incoming>2027.866ebb4e-1809-4d4b-82c3-967c502488f6</ns17:incoming>
+                        
+                        
+                        
+                        
+                        <ns17:outgoing>00d5a7ec-c2a1-466f-8e6b-975dd48b92f8</ns17:outgoing>
+                        
+                        
+                        
+                        
+                        <ns17:script>function formatBytes(bytes,decimals) {&#xD;
+   if(bytes == 0) return '0 Bytes';&#xD;
+   var k = 1024,&#xD;
+       dm = decimals || 2,&#xD;
+       sizes = ['Bytes', 'KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB'],&#xD;
+       i = Math.floor(Math.log(bytes) / Math.log(k));&#xD;
+   return parseFloat((bytes / Math.pow(k, i)).toFixed(dm)) + ' ' + sizes[i];&#xD;
+}&#xD;
+&#xD;
+function formatBytesSize(bytes,decimals) {&#xD;
+   if(bytes == 0) return '0 Bytes';&#xD;
+   var k = 1024,&#xD;
+       dm = decimals || 2,&#xD;
+       sizes = ['Bytes', 'KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB'],&#xD;
+       i = Math.floor(Math.log(bytes) / Math.log(k));&#xD;
+   return sizes[i];&#xD;
+}&#xD;
+&#xD;
+&#xD;
+var rt = java.lang.Runtime.getRuntime(); &#xD;
+var total_mem = rt.totalMemory(); &#xD;
+var free_mem = rt.freeMemory();&#xD;
+var used_mem = rt.totalMemory() - rt.freeMemory(); &#xD;
+&#xD;
+tw.local.dataSeries1.dataPoints = new tw.object.listOf.toolkit.SYSBPMUI.DataPoint();&#xD;
+tw.local.dataSeries1.dataPoints[0] = new tw.object.toolkit.SYSBPMUI.DataPoint();&#xD;
+tw.local.dataSeries1.dataPoints[0].value = formatBytes(used_mem, 2);&#xD;
+tw.local.dataSeries1.dataPoints[0].label = "Used " + formatBytesSize(used_mem, 2) ;&#xD;
+&#xD;
+tw.local.dataSeries1.dataPoints[1] = new tw.object.toolkit.SYSBPMUI.DataPoint();&#xD;
+tw.local.dataSeries1.dataPoints[1].value = formatBytes(free_mem, 2);&#xD;
+tw.local.dataSeries1.dataPoints[1].label = "Free " + formatBytesSize(free_mem, 2) ;&#xD;
+&#xD;
+tw.local.dataseries = tw.local.dataSeries1;</ns17:script>
+                        
+                        
+                    
+                    
+                    </ns17:scriptTask>
+                    
+                    
+                    
+                    
+                    <ns17:sequenceFlow sourceRef="559c2576-54e6-4a79-8cce-81989a21bb2d" targetRef="4729de06-0d82-4105-91df-439e778d2360" name="To End" id="00d5a7ec-c2a1-466f-8e6b-975dd48b92f8">
+                        
+                        
+                        
+                        
+                        <ns17:extensionElements>
+                            
+                            
+                            
+                            
+                            <ns3:sequenceFlowImplementation sboSyncEnabled="true" />
+                            
+                            
+                            
+                            
+                            <ns13:linkVisualInfo>
+                                
+                                
+                                
+                                
+                                <ns13:sourcePortLocation>rightCenter</ns13:sourcePortLocation>
+                                
+                                
+                                
+                                
+                                <ns13:targetPortLocation>leftCenter</ns13:targetPortLocation>
+                                
+                                
+                                
+                                
+                                <ns13:showLabel>false</ns13:showLabel>
+                                
+                                
+                                
+                                
+                                <ns13:showCoachControlLabel>false</ns13:showCoachControlLabel>
+                                
+                                
+                                
+                                
+                                <ns13:labelPosition>0.0</ns13:labelPosition>
+                                
+                                
+                                
+                                
+                                <ns13:saveExecutionContext>true</ns13:saveExecutionContext>
+                                
+                                
+                            
+                            
+                            </ns13:linkVisualInfo>
+                            
+                            
+                        
+                        
+                        </ns17:extensionElements>
+                        
+                        
+                    
+                    
+                    </ns17:sequenceFlow>
+                    
+                    
+                
+                
+                </ns17:process>
+                
+                
+            
+            
+            </ns17:definitions>
+        </bpmn2Model>
+        <link name="To End">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <processLinkId>2027.2916ce4a-8eea-4adc-83cf-310de18140ae</processLinkId>
+            <processId>1.90d90fdf-44de-49ac-8b55-db17aa7d2c30</processId>
+            <description isNull="true" />
+            <fromProcessItemId>2025.559c2576-54e6-4a79-8cce-81989a21bb2d</fromProcessItemId>
+            <endStateId>Out</endStateId>
+            <toProcessItemId>2025.4729de06-0d82-4105-91df-439e778d2360</toProcessItemId>
+            <guid>b117ffb9-9574-4b52-8d0c-2fd03245c5bb</guid>
+            <versionId>5ba86431-6c3c-4032-8cdd-9e444d0456e5</versionId>
+            <layoutData>
+                <controlPoints />
+                <showEndState>false</showEndState>
+                <showName>false</showName>
+            </layoutData>
+            <fromItemPort locationId="rightCenter" portType="1" />
+            <toItemPort locationId="leftCenter" portType="2" />
+            <fromProcessItemId>2025.559c2576-54e6-4a79-8cce-81989a21bb2d</fromProcessItemId>
+            <toProcessItemId>2025.4729de06-0d82-4105-91df-439e778d2360</toProcessItemId>
+        </link>
+    </process>
+</teamworks>
+

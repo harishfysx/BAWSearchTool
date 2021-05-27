@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teamworks>
+    <projectDefaults id="63.c47ce87e-a6f0-426e-9f9b-b1b1f8c7edca" name="Process App Settings">
+        <lastModified>1572713944883</lastModified>
+        <lastModifiedBy>asansanwal</lastModifiedBy>
+        <projectDefaultsId>63.c47ce87e-a6f0-426e-9f9b-b1b1f8c7edca</projectDefaultsId>
+        <description isNull="true" />
+        <guid>56010cb3-e36c-4a50-81fe-0e3013bb1c4d</guid>
+        <versionId>0e45cee4-77eb-461c-914b-bf76b8431d51</versionId>
+        <participantRef>/24.cd9860d4-861f-49bb-a0f9-14034214e84a</participantRef>
+        <defaultXslRef>3eead070-014c-46ed-b858-fe3e6d6b248e/61.140920b1-a53c-4d72-b6bb-60776f49f7f2</defaultXslRef>
+        <defaultCssRef>3eead070-014c-46ed-b858-fe3e6d6b248e/61.aabe9f91-df4b-43db-857c-41dbed4820a3</defaultCssRef>
+        <defaultTheme>/72.991cce5f-38b0-47b3-9ffe-452ba0ef756d</defaultTheme>
+        <themeVersion isNull="true" />
+        <defaultJsRefs isNull="true" />
+        <isWbmEnabled>false</isWbmEnabled>
+        <namespace>http://TDSH</namespace>
+        <isIidOptimized>true</isIidOptimized>
+        <isQueueBypass>1</isQueueBypass>
+        <templateAcronymReference isNull="true" />
+        <templateSnapshotReference isNull="true" />
+        <targetEnvironment>BAW_tWAS</targetEnvironment>
+    </projectDefaults>
+</teamworks>
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teamworks>
+    <managedAsset id="61.5a776f80-bd04-437e-b755-b772e52bb9ae" name="bootstrap.min.css">
+        <lastModified>1528548870106</lastModified>
+        <lastModifiedBy>asansanwal</lastModifiedBy>
+        <managedAssetId>61.5a776f80-bd04-437e-b755-b772e52bb9ae</managedAssetId>
+        <assetUuid>7a2f788f-8c04-4290-81a9-d4461bf4d4f5</assetUuid>
+        <mimeType>text/css</mimeType>
+        <charEncoding isNull="true" />
+        <assetTypeCode>W</assetTypeCode>
+        <length>121200</length>
+        <localLastModification>1506823652524</localLastModification>
+        <description isNull="true" />
+        <isDocumentationFile>false</isDocumentationFile>
+        <guid>b5705162-478e-4568-b0a6-6605a6ecc3a6</guid>
+        <versionId>aa626b76-0691-4135-84ee-0ef5c409e36f</versionId>
+    </managedAsset>
+</teamworks>
+

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teamworks>
+    <underCoverAgent id="4.7ad8456b-8ca6-4185-a77a-03dc44203cd7" name="Launch Monitor Instance">
+        <lastModified>1528548877488</lastModified>
+        <lastModifiedBy>asansanwal</lastModifiedBy>
+        <ucaId>4.7ad8456b-8ca6-4185-a77a-03dc44203cd7</ucaId>
+        <monthList isNull="true" />
+        <freqType>1</freqType>
+        <dayList isNull="true" />
+        <hourList isNull="true" />
+        <minuteList>00</minuteList>
+        <processRef>/1.6389b0b2-4a72-43b6-b572-503f30773f87</processRef>
+        <ucaEventTypeRef>2115.0</ucaEventTypeRef>
+        <variableRef isNull="true" />
+        <schedType>1</schedType>
+        <schedEventName isNull="true" />
+        <implementationType>Service</implementationType>
+        <isEnabled>true</isEnabled>
+        <description isNull="true" />
+        <guid>4dafb301-2f55-4441-8b63-befa245ac06e</guid>
+        <versionId>e56cae41-7290-4f02-956d-efa4c6fd6bcc</versionId>
+        <queue>Async Queue</queue>
+    </underCoverAgent>
+</teamworks>
+

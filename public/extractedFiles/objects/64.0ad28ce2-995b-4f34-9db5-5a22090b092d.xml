@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teamworks>
+    <coachView id="64.0ad28ce2-995b-4f34-9db5-5a22090b092d" name="User List Single Select">
+        <lastModified>1528548872139</lastModified>
+        <lastModifiedBy>asansanwal</lastModifiedBy>
+        <coachViewId>64.0ad28ce2-995b-4f34-9db5-5a22090b092d</coachViewId>
+        <isTemplate>false</isTemplate>
+        <layout>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;&lt;ns2:layout xmlns:ns2="http://www.ibm.com/bpm/CoachDesignerNG" xmlns:ns3="http://www.ibm.com/bpm/coachview"&gt;&lt;ns2:layoutItem xsi:type="ns2:ViewRef" version="8550" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;&lt;ns2:id&gt;1bb14aed-fb30-471b-819d-1fb9f1654dcd&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;Deferred_Section1&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;ccb45398-7bd3-4913-8acd-009c0d65b43b&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@label&lt;/ns2:optionName&gt;&lt;ns2:value&gt;Deferred Section&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;c22894ce-96bf-4443-8f2c-ca938a59005c&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@helpText&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;f47430a3-5b87-4f08-8d30-80f4c448a105&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@labelVisibility&lt;/ns2:optionName&gt;&lt;ns2:value&gt;SHOW&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;553e5e20-9f3c-437e-8ad1-7fb198b5e433&lt;/ns2:id&gt;&lt;ns2:optionName&gt;autoLoad&lt;/ns2:optionName&gt;&lt;ns2:value&gt;true&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;776f4e3a-b74a-4acf-82c8-b265e29c22f4&lt;/ns2:id&gt;&lt;ns2:optionName&gt;autoLoadDelay&lt;/ns2:optionName&gt;&lt;ns2:value&gt;1000&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:viewUUID&gt;64.9ee7a0fd-5b25-497d-85fc-1cc09795f524&lt;/ns2:viewUUID&gt;&lt;ns2:contentBoxContrib&gt;&lt;ns2:id&gt;562edc04-7204-48aa-8a35-6d31f62f359e&lt;/ns2:id&gt;&lt;ns2:contentBoxId&gt;ContentBox1&lt;/ns2:contentBoxId&gt;&lt;ns2:contributions xsi:type="ns2:ViewRef" version="8550"&gt;&lt;ns2:id&gt;6f350da1-6819-454d-8a66-afcad74cdf8c&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;Single_Select1&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;be9e85fa-e3b3-4ffa-8008-d6c21a0d9820&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@label&lt;/ns2:optionName&gt;&lt;ns2:value&gt;User Name&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;d2dcfa5b-4d8d-449e-81e1-5ecdc1fff7f0&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@helpText&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;19f56652-6b31-4626-8fa3-9823a66c6d64&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@labelVisibility&lt;/ns2:optionName&gt;&lt;ns2:value&gt;SHOW&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;6929ff74-9ba0-4f95-8bc9-1888ba409455&lt;/ns2:id&gt;&lt;ns2:optionName&gt;itemLookupMode&lt;/ns2:optionName&gt;&lt;ns2:value&gt;S&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;8ebd0459-9a3b-48e4-8ca5-93ff5735de32&lt;/ns2:id&gt;&lt;ns2:optionName&gt;itemList&lt;/ns2:optionName&gt;&lt;ns2:value&gt;tw.options.userList[]&lt;/ns2:value&gt;&lt;ns2:valueType&gt;dynamic&lt;/ns2:valueType&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;e3cec701-d522-4308-86db-52a14aea2356&lt;/ns2:id&gt;&lt;ns2:optionName&gt;dataMapping&lt;/ns2:optionName&gt;&lt;ns2:value&gt;{"optionValueProperty":"value","optionDisplayProperty":"name"}&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;68621995-bdb5-4de4-895f-617d3fef39a7&lt;/ns2:id&gt;&lt;ns2:optionName&gt;itemService&lt;/ns2:optionName&gt;&lt;ns2:value&gt;1.4c546f14-30d6-4aab-906f-06ece5dcc168&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:viewUUID&gt;64.fd4da558-40d8-47be-92ca-c305708dc7b7&lt;/ns2:viewUUID&gt;&lt;ns2:binding&gt;tw.businessData.input&lt;/ns2:binding&gt;&lt;/ns2:contributions&gt;&lt;/ns2:contentBoxContrib&gt;&lt;/ns2:layoutItem&gt;&lt;/ns2:layout&gt;</layout>
+        <paletteIcon isNull="true" />
+        <previewImage isNull="true" />
+        <hasLabel>false</hasLabel>
+        <labelPosition>0</labelPosition>
+        <nineSliceX1Coord>0</nineSliceX1Coord>
+        <nineSliceX2Coord>0</nineSliceX2Coord>
+        <nineSliceY1Coord>0</nineSliceY1Coord>
+        <nineSliceY2Coord>0</nineSliceY2Coord>
+        <emitBoundary>false</emitBoundary>
+        <isPrototypeFunc>false</isPrototypeFunc>
+        <enableDevMode>false</enableDevMode>
+        <isMobileReady>true</isMobileReady>
+        <loadJsFunction> var groupName = "";&#xD;
+bpmext.ui.loadView(this);&#xD;
+//getUsersList(groupName);</loadJsFunction>
+        <unloadJsFunction> bpmext.ui.unloadView(this);</unloadJsFunction>
+        <viewJsFunction isNull="true" />
+        <changeJsFunction isNull="true" />
+        <collaborationJsFunction isNull="true" />
+        <description isNull="true" />
+        <validateJsFunction isNull="true" />
+        <previewAdvHtml isNull="true" />
+        <previewAdvJs isNull="true" />
+        <useUrlBinding>false</useUrlBinding>
+        <guid>6557d251-fe88-4d24-bc86-3286491c4a94</guid>
+        <versionId>c4c44006-d1e6-4148-a884-52e8370bd49b</versionId>
+        <field1 isNull="true" />
+        <field2 isNull="true" />
+        <field3>0</field3>
+        <field4 isNull="true" />
+        <field5>false</field5>
+        <clobField1 isNull="true" />
+        <bindingType name="input">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <coachViewBindingTypeId>65.8eca1c69-1f2a-4c5b-b679-acc731acd236</coachViewBindingTypeId>
+            <coachViewId>64.0ad28ce2-995b-4f34-9db5-5a22090b092d</coachViewId>
+            <isList>false</isList>
+            <classId>3eead070-014c-46ed-b858-fe3e6d6b248e/12.c09c9b6e-aabd-4897-bef2-ed61db106297</classId>
+            <seq>0</seq>
+            <description isNull="true" />
+            <guid>a7a41948-9c72-4180-891c-515c3d98b2f6</guid>
+            <versionId>bf4fccf3-3538-4958-9e80-8c0f08adf6f3</versionId>
+        </bindingType>
+        <configOption name="userList">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <coachViewConfigOptionId>66.978260b6-73d5-4f43-a23e-b93e5e0c27cf</coachViewConfigOptionId>
+            <coachViewId>64.0ad28ce2-995b-4f34-9db5-5a22090b092d</coachViewId>
+            <isList>true</isList>
+            <propertyType>OBJECT</propertyType>
+            <label isNull="true" />
+            <classId>3eead070-014c-46ed-b858-fe3e6d6b248e/12.d2e5a15a-ea53-4793-9e93-29af5bd80b13</classId>
+            <processId isNull="true" />
+            <actionflowId isNull="true" />
+            <isAdaptive>false</isAdaptive>
+            <seq>0</seq>
+            <description isNull="true" />
+            <groupName isNull="true" />
+            <guid>8141e919-89cb-428d-8d51-2b20bcbca251</guid>
+            <versionId>88d9cd97-63a9-4b22-8b4b-486f99514a73</versionId>
+        </configOption>
+        <inlineScript name="Inline Javascript">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <coachViewInlineScriptId>68.b6765abb-ecce-4c32-badd-861ccc3e79a4</coachViewInlineScriptId>
+            <coachViewId>64.0ad28ce2-995b-4f34-9db5-5a22090b092d</coachViewId>
+            <scriptType>JS</scriptType>
+            <scriptBlock>var _this = this;&#xD;
+var userlimit = 1000;&#xD;
+&#xD;
+function getUsersList(groupname) {&#xD;
+var xhrArgs = function(config) { return {&#xD;
+url: "/rest/bpm/wle/v1/users?includeTaskExperts=true&amp;sort=true&amp;includeInternalMemberships=true&amp;refreshUser=false&amp;parts=all", content: {&#xD;
+accept: "application/json"&#xD;
+},&#xD;
+load: displayUsers,&#xD;
+handleAs: "json"} };&#xD;
+&#xD;
+try{&#xD;
+&#xD;
+deferred = dojo.xhrGet(xhrArgs ( { inputs: {}}));&#xD;
+&#xD;
+} catch (error) {&#xD;
+alert(error);&#xD;
+}&#xD;
+&#xD;
+function displayUsers(json_results) {&#xD;
+try{&#xD;
+var userlist = _this.context.options.userList.get("value");&#xD;
+for (var a=0; a &lt; userlist.listlength; a++){&#xD;
+userlist.pop();&#xD;
+}&#xD;
+&#xD;
+for (var i=0; i &lt; json_results.data.users.length &amp;&amp; i &lt; userlimit; i++){&#xD;
+var exists = false;&#xD;
+for (var j=0; j &lt; userlist.items.length; j++){&#xD;
+if (json_results.data.users[i].userName.length &gt; 73 || userlist.items[j].name == json_results.data.users[i].userName){&#xD;
+exists = true;&#xD;
+break;&#xD;
+}&#xD;
+}&#xD;
+if (!exists){&#xD;
+var userline = userlist.createListElement();&#xD;
+userline.name = json_results.data.users[i].userName;&#xD;
+userline.value = json_results.data.users[i].userID;&#xD;
+userlist.add(userline);&#xD;
+}&#xD;
+}&#xD;
+_this.context.options.userList.set("value", userlist);&#xD;
+} catch (error) {&#xD;
+alert(error);&#xD;
+}&#xD;
+&#xD;
+}&#xD;
+&#xD;
+}</scriptBlock>
+            <seq>0</seq>
+            <description isNull="true" />
+            <guid>fa699a46-9c0f-44a9-9b67-85d4885823e7</guid>
+            <versionId>873cf2ce-ae8a-4583-93a9-8f0d781606ad</versionId>
+        </inlineScript>
+    </coachView>
+</teamworks>
+

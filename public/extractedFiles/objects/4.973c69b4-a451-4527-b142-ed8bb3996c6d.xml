@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teamworks>
+    <underCoverAgent id="4.973c69b4-a451-4527-b142-ed8bb3996c6d" name="Launch Monitor BPD">
+        <lastModified>1528548873255</lastModified>
+        <lastModifiedBy>asansanwal</lastModifiedBy>
+        <ucaId>4.973c69b4-a451-4527-b142-ed8bb3996c6d</ucaId>
+        <monthList isNull="true" />
+        <freqType isNull="true" />
+        <dayList isNull="true" />
+        <hourList isNull="true" />
+        <minuteList isNull="true" />
+        <processRef>/1.858f3f2f-1a64-4668-93c7-c7cbbde92392</processRef>
+        <ucaEventTypeRef>2115.1</ucaEventTypeRef>
+        <variableRef>3eead070-014c-46ed-b858-fe3e6d6b248e/12.d2e5a15a-ea53-4793-9e93-29af5bd80b13</variableRef>
+        <schedType>2</schedType>
+        <schedEventName>00c49c32-7b18-4847-a796-187bd32400d1</schedEventName>
+        <implementationType>Variable</implementationType>
+        <isEnabled>true</isEnabled>
+        <description isNull="true" />
+        <guid>430e6026-d07d-446e-ac39-61ef16996ec8</guid>
+        <versionId>c6de8929-1d0f-4ef9-952c-8adee998e098</versionId>
+        <queue>Async Queue</queue>
+    </underCoverAgent>
+</teamworks>
+

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teamworks>
+    <participant id="24.458d8687-5e22-41bb-9a64-f1b76d68de64" name="TDSH Tester">
+        <lastModified>1528548870453</lastModified>
+        <lastModifiedBy>asansanwal</lastModifiedBy>
+        <participantId>24.458d8687-5e22-41bb-9a64-f1b76d68de64</participantId>
+        <participantDefinition isNull="true" />
+        <simulationGroupSize>2</simulationGroupSize>
+        <capacityType>1</capacityType>
+        <definitionType>3</definitionType>
+        <percentAvailable isNull="true" />
+        <percentEfficiency isNull="true" />
+        <cost>10</cost>
+        <currencyCode isNull="true" />
+        <image isNull="true" />
+        <serviceMembersRef isNull="true" />
+        <managersRef isNull="true" />
+        <jsonData>{"rootElement":[{"extensionElements":{"team":[{"members":{"Users":[{"name":"asansanwal","declaredType":"com.ibm.bpmsdk.model.bpmn20.ibmteamext.Member"},{"name":"reviewer","declaredType":"com.ibm.bpmsdk.model.bpmn20.ibmteamext.Member"}]},"declaredType":"com.ibm.bpmsdk.model.bpmn20.ibmteamext.TTeamDetails","type":"StandardMembers"}]},"documentation":[{"content":[],"textFormat":"text\/plain"}],"name":"TDSH Tester","declaredType":"resource","id":"24.99aea373-08f7-4bd7-acdf-f32f2667c690"}],"targetNamespace":"","typeLanguage":"http:\/\/www.w3.org\/2001\/XMLSchema","expressionLanguage":"http:\/\/www.w3.org\/1999\/XPath","id":"24.99aea373-08f7-4bd7-acdf-f32f2667c690"}</jsonData>
+        <externalId isNull="true" />
+        <description isNull="true" />
+        <guid>29c9f152-7b79-485c-8eca-b015185a5deb</guid>
+        <versionId>22b7d37a-e094-433a-b88f-b32129bf1ea5</versionId>
+        <standardMembers>
+            <standardMember>
+                <type>User</type>
+                <name>asansanwal</name>
+            </standardMember>
+            <standardMember>
+                <type>User</type>
+                <name>reviewer</name>
+            </standardMember>
+        </standardMembers>
+        <teamAssignments />
+    </participant>
+</teamworks>
+

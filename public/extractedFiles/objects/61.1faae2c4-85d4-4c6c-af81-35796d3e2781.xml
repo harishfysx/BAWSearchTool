@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teamworks>
+    <managedAsset id="61.1faae2c4-85d4-4c6c-af81-35796d3e2781" name="vendorjs.zip">
+        <lastModified>1552010168541</lastModified>
+        <lastModifiedBy>asansanwal</lastModifiedBy>
+        <managedAssetId>61.1faae2c4-85d4-4c6c-af81-35796d3e2781</managedAssetId>
+        <assetUuid>9e66dea2-c303-4e39-b2eb-a0c7ab1f0840</assetUuid>
+        <mimeType>application/zip</mimeType>
+        <charEncoding isNull="true" />
+        <assetTypeCode>W</assetTypeCode>
+        <length>1290553</length>
+        <localLastModification>1552002067953</localLastModification>
+        <description isNull="true" />
+        <isDocumentationFile>false</isDocumentationFile>
+        <guid>f0ab3de8-372c-4dcf-9646-3e7cedd73ba0</guid>
+        <versionId>b021fe81-065f-4366-b48a-ab583f2460e6</versionId>
+    </managedAsset>
+</teamworks>
+

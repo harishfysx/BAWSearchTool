@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teamworks>
+    <epv id="21.a7da2b36-190a-4037-9bf9-b6925025bfee" name="Configuration">
+        <lastModified>1572469965737</lastModified>
+        <lastModifiedBy>asansanwal</lastModifiedBy>
+        <epvId>21.a7da2b36-190a-4037-9bf9-b6925025bfee</epvId>
+        <extDescription>&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;</extDescription>
+        <participantRef>3eead070-014c-46ed-b858-fe3e6d6b248e/24.da7e4d23-78cb-4483-98ed-b9c238308a03</participantRef>
+        <feedback isNull="true" />
+        <description>&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;</description>
+        <guid>guid:9b2e6686e7173e33:-504314e3:16e15dab961:-4df1</guid>
+        <versionId>a6350203-a23b-4261-84be-a70a0a5e338c</versionId>
+        <EPV_VAR>
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <epvVarId>2013.1d471e46-a996-4598-8d85-db528e70b474</epvVarId>
+            <epvId>21.a7da2b36-190a-4037-9bf9-b6925025bfee</epvId>
+            <name>smtpstarttls</name>
+            <varName>smtpstarttls</varName>
+            <extDescription>&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;</extDescription>
+            <variableTypeRef>3eead070-014c-46ed-b858-fe3e6d6b248e/12.83ff975e-8dbc-42e5-b738-fa8bc08274a2</variableTypeRef>
+            <defaultValue isNull="true" />
+            <isChgActiveProc>true</isChgActiveProc>
+            <guid>90b0c1d3-7393-4a5c-b983-9a00a95f1976</guid>
+            <versionId>5dd1936d-39fb-45d9-816f-e570c64e77e4</versionId>
+        </EPV_VAR>
+        <EPV_VAR>
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <epvVarId>2013.685082f3-b962-45e4-86a4-9f2f789c190e</epvVarId>
+            <epvId>21.a7da2b36-190a-4037-9bf9-b6925025bfee</epvId>
+            <name>smtpsendemailfrom</name>
+            <varName>smtpsendemailfrom</varName>
+            <extDescription>&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;</extDescription>
+            <variableTypeRef>3eead070-014c-46ed-b858-fe3e6d6b248e/12.db884a3c-c533-44b7-bb2d-47bec8ad4022</variableTypeRef>
+            <defaultValue isNull="true" />
+            <isChgActiveProc>true</isChgActiveProc>
+            <guid>934a6f41-f466-4422-86d7-fc709bc116a1</guid>
+            <versionId>5ecd4676-3b17-4f99-be41-6204a21af1fa</versionId>
+        </EPV_VAR>
+        <EPV_VAR>
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <epvVarId>2013.808d05e6-8ae5-4cf4-8ff2-a3ebd22ecf4e</epvVarId>
+            <epvId>21.a7da2b36-190a-4037-9bf9-b6925025bfee</epvId>
+            <name>smtpserverhostname</name>
+            <varName>smtpserverhostname</varName>
+            <extDescription>&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;</extDescription>
+            <variableTypeRef>3eead070-014c-46ed-b858-fe3e6d6b248e/12.db884a3c-c533-44b7-bb2d-47bec8ad4022</variableTypeRef>
+            <defaultValue>smtp.sendgrid.net</defaultValue>
+            <isChgActiveProc>true</isChgActiveProc>
+            <guid>584e3aa7-56ea-449b-9680-c87ac6f63f34</guid>
+            <versionId>81c64a02-f579-4361-b116-5770d922048f</versionId>
+        </EPV_VAR>
+        <EPV_VAR>
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <epvVarId>2013.9dc8c960-9ea2-4fa2-8785-dfe9353790b8</epvVarId>
+            <epvId>21.a7da2b36-190a-4037-9bf9-b6925025bfee</epvId>
+            <name>smtpserverport</name>
+            <varName>smtpserverport</varName>
+            <extDescription>&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;</extDescription>
+            <variableTypeRef>3eead070-014c-46ed-b858-fe3e6d6b248e/12.3fa0d7a0-828a-4d60-99cc-db5ed143fc2d</variableTypeRef>
+            <defaultValue>25</defaultValue>
+            <isChgActiveProc>true</isChgActiveProc>
+            <guid>8ca0bb49-5743-4ac9-8127-1773f4518aec</guid>
+            <versionId>8f27b30f-1cb5-45f3-b703-b3ba38efdc6e</versionId>
+        </EPV_VAR>
+        <EPV_VAR>
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <epvVarId>2013.0d0db19f-7ed7-4e8d-8051-ff079b8a1e2a</epvVarId>
+            <epvId>21.a7da2b36-190a-4037-9bf9-b6925025bfee</epvId>
+            <name>smtpserverusername</name>
+            <varName>smtpserverusername</varName>
+            <extDescription>&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;</extDescription>
+            <variableTypeRef>3eead070-014c-46ed-b858-fe3e6d6b248e/12.db884a3c-c533-44b7-bb2d-47bec8ad4022</variableTypeRef>
+            <defaultValue isNull="true" />
+            <isChgActiveProc>true</isChgActiveProc>
+            <guid>c8ef3b7e-ee1e-4c24-a9a8-c35084a73b2d</guid>
+            <versionId>d0a76f16-e499-474e-ae42-9484f26b26b6</versionId>
+        </EPV_VAR>
+        <EPV_VAR>
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <epvVarId>2013.a6fcbf9a-d287-43df-8287-ea8d234b6386</epvVarId>
+            <epvId>21.a7da2b36-190a-4037-9bf9-b6925025bfee</epvId>
+            <name>smtpserverpassword</name>
+            <varName>smtpserverpassword</varName>
+            <extDescription>&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;</extDescription>
+            <variableTypeRef>3eead070-014c-46ed-b858-fe3e6d6b248e/12.db884a3c-c533-44b7-bb2d-47bec8ad4022</variableTypeRef>
+            <defaultValue isNull="true" />
+            <isChgActiveProc>true</isChgActiveProc>
+            <guid>2f96fd1e-cd74-44d6-a28a-2abb043877b2</guid>
+            <versionId>d123993b-8e9c-49cd-9b5f-e5d797fc3601</versionId>
+        </EPV_VAR>
+    </epv>
+</teamworks>
+

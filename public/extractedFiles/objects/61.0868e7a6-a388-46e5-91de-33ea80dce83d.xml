@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teamworks>
+    <managedAsset id="61.0868e7a6-a388-46e5-91de-33ea80dce83d" name="jquery.min.js">
+        <lastModified>1528548870872</lastModified>
+        <lastModifiedBy>asansanwal</lastModifiedBy>
+        <managedAssetId>61.0868e7a6-a388-46e5-91de-33ea80dce83d</managedAssetId>
+        <assetUuid>b9eea2af-7e8e-45a3-8f90-9eef38775567</assetUuid>
+        <mimeType>application/javascript</mimeType>
+        <charEncoding isNull="true" />
+        <assetTypeCode>W</assetTypeCode>
+        <length>85578</length>
+        <localLastModification>1506824410840</localLastModification>
+        <description isNull="true" />
+        <isDocumentationFile>false</isDocumentationFile>
+        <guid>78d261e7-9322-4a41-95f8-c321bed213de</guid>
+        <versionId>d84505d0-2730-4e82-aa65-1519f6a21154</versionId>
+    </managedAsset>
+</teamworks>
+

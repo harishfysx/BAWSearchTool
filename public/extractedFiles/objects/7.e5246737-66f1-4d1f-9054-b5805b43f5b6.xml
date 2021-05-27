@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teamworks>
+    <webService id="7.e5246737-66f1-4d1f-9054-b5805b43f5b6" name="TestWebService">
+        <lastModified>1528548873478</lastModified>
+        <lastModifiedBy>asansanwal</lastModifiedBy>
+        <webServiceId>7.e5246737-66f1-4d1f-9054-b5805b43f5b6</webServiceId>
+        <isProtected>false</isProtected>
+        <targetNamespaceScheme>processApp</targetNamespaceScheme>
+        <targetNamespace>##processAppNamespace##</targetNamespace>
+        <bindingStyle>soapmixed</bindingStyle>
+        <policySet isNull="true" />
+        <policyBinding isNull="true" />
+        <jsonData>{"targetNamespaceScheme":"processApp","policySetList":["BPC Web Service","BPM DocumentStore Policy Set","BPM FileNet Web Services","BPMHTTPBasicAuthentication","BPM SSO Policy Set","BPM UNT Policy Set","BPM Web Service API Callback Policy Set","BPM Web Service API Policy Set","CMIS Web Service","Kerberos V5 HTTPS default","LTPA WSSecurity default","SSL WSTransaction","Username SecureConversation","Username WSSecurity default","WSAddressing default","WSHTTPS default","WS-I RSP ND","WSReliableMessaging persistent"],"policyBindingList":["BPC Web Service - Provider","BPM FileNet Web Services - Provider","BPM Web Service API Provider_SingleCluster","CMIS Provider Binding","Provider sample","Provider sample SHA256","Provider sample V2","Saml Bearer Provider sample","Saml HoK Symmetric Provider sample"],"bindingStyle":"soapmixed","operations":[{"name":"Hello","id":"2052.4f4cd7af-6f43-4f56-b446-451587b6a939","processRef":"1.30571c8b-6b8a-4cf7-872d-e31f033ba89d","seq":1}],"isProtected":false,"targetNamespace":"##processAppNamespace##","name":"TestWebService","WSDLURI":"https:\/\/pc857.bpm.guide:9443\/teamworks\/webservices\/TDSH\/TestWebService.tws?WSDL","id":"7.8d518733-5e49-434c-bd53-85e19649f5a6","WSExtensionInConfig":".tws"}</jsonData>
+        <description isNull="true" />
+        <guid>bfa0d279-4680-4de6-95de-4095c7a9e729</guid>
+        <versionId>3e5d88b8-144d-42b4-b235-4a927f1ee897</versionId>
+        <webServiceOperation name="Hello">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <webServiceOperationId>2052.cd3ace37-17b6-41b3-8d8b-c694c1dd6c4f</webServiceOperationId>
+            <webServiceId>7.e5246737-66f1-4d1f-9054-b5805b43f5b6</webServiceId>
+            <seq>1</seq>
+            <processRef>/1.1b878447-1a78-4252-84d9-25ef1d0ceeed</processRef>
+            <description isNull="true" />
+            <guid>f3375096-d548-46e5-b2d9-89b85f5681de</guid>
+            <versionId>abd2e523-c3f9-48a6-bf1b-bb5b2293c927</versionId>
+        </webServiceOperation>
+    </webService>
+</teamworks>
+

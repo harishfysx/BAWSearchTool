@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teamworks>
+    <participant id="24.7ace7eff-011b-477d-9a6e-9340540c52df" name="Team">
+        <lastModified>1544491864689</lastModified>
+        <lastModifiedBy>asansanwal</lastModifiedBy>
+        <participantId>24.7ace7eff-011b-477d-9a6e-9340540c52df</participantId>
+        <participantDefinition isNull="true" />
+        <simulationGroupSize>2</simulationGroupSize>
+        <capacityType>1</capacityType>
+        <definitionType>3</definitionType>
+        <percentAvailable isNull="true" />
+        <percentEfficiency isNull="true" />
+        <cost>10</cost>
+        <currencyCode isNull="true" />
+        <image isNull="true" />
+        <serviceMembersRef isNull="true" />
+        <managersRef isNull="true" />
+        <jsonData>{"rootElement":[{"extensionElements":{"team":[{"members":{},"declaredType":"com.ibm.bpmsdk.model.bpmn20.ibmteamext.TTeamDetails","type":"StandardMembers"}]},"documentation":[{"content":[],"textFormat":"text\/plain"}],"name":"Team","declaredType":"resource","id":"24.7ace7eff-011b-477d-9a6e-9340540c52df"}],"targetNamespace":"","typeLanguage":"http:\/\/www.w3.org\/2001\/XMLSchema","expressionLanguage":"http:\/\/www.w3.org\/1999\/XPath","id":"24.7ace7eff-011b-477d-9a6e-9340540c52df"}</jsonData>
+        <externalId isNull="true" />
+        <description isNull="true" />
+        <guid>guid:5f5e005d8ab2e609:45182414:1677e8fc144:7a19</guid>
+        <versionId>e12170a7-63b1-4960-9cc6-43a751c1c7a6</versionId>
+        <teamAssignments />
+    </participant>
+</teamworks>
+

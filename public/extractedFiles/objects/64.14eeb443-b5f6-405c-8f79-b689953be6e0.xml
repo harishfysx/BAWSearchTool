@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teamworks>
+    <coachView id="64.14eeb443-b5f6-405c-8f79-b689953be6e0" name="User Profile">
+        <lastModified>1528548870502</lastModified>
+        <lastModifiedBy>asansanwal</lastModifiedBy>
+        <coachViewId>64.14eeb443-b5f6-405c-8f79-b689953be6e0</coachViewId>
+        <isTemplate>false</isTemplate>
+        <layout>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;&lt;ns2:layout xmlns:ns2="http://www.ibm.com/bpm/CoachDesignerNG" xmlns:ns3="http://www.ibm.com/bpm/coachview"&gt;&lt;ns2:layoutItem xsi:type="ns2:CustomHTML" version="8550" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;&lt;ns2:id&gt;ef17c7a6-cda7-4a1e-807b-184c14012a4d&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;CustomHTML1&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;17266b09-ca25-42a3-8ba5-bf52ec045ea8&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@customHTML.contentType&lt;/ns2:optionName&gt;&lt;ns2:value&gt;TEXT&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;d597fdc9-c768-420a-8c69-fc2fec08f8f2&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@customHTML.textContent&lt;/ns2:optionName&gt;&lt;ns2:value&gt;            &amp;lt;!-- menu profile quick info --&amp;gt;
+            &amp;lt;div class="profile clearfix"&amp;gt;
+              &amp;lt;div id = "profileimage" class="profile_pic"&amp;gt;
+                &amp;lt;img src="" alt="..." class="img-circle profile_img"&amp;gt;
+              &amp;lt;/div&amp;gt;
+              &amp;lt;div class="profile_info"&amp;gt;
+                &amp;lt;span&amp;gt;Welcome,&amp;lt;/span&amp;gt;
+                &amp;lt;h2&amp;gt;&amp;lt;/h2&amp;gt;
+              &amp;lt;/div&amp;gt;
+            &amp;lt;/div&amp;gt;
+            &amp;lt;!-- /menu profile quick info --&amp;gt;
+            &amp;lt;br /&amp;gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;/ns2:layoutItem&gt;&lt;/ns2:layout&gt;</layout>
+        <paletteIcon isNull="true" />
+        <previewImage isNull="true" />
+        <hasLabel>false</hasLabel>
+        <labelPosition>0</labelPosition>
+        <nineSliceX1Coord>0</nineSliceX1Coord>
+        <nineSliceX2Coord>0</nineSliceX2Coord>
+        <nineSliceY1Coord>0</nineSliceY1Coord>
+        <nineSliceY2Coord>0</nineSliceY2Coord>
+        <emitBoundary>false</emitBoundary>
+        <isPrototypeFunc>false</isPrototypeFunc>
+        <enableDevMode>false</enableDevMode>
+        <isMobileReady>true</isMobileReady>
+        <loadJsFunction>var _this = this;&#xD;
+var imagehtml;&#xD;
+var imgheight = 60;&#xD;
+var imgwidth = 60;&#xD;
+var userName = "current";&#xD;
+&#xD;
+if (this.context.binding){&#xD;
+userName = this.context.binding.get("value");&#xD;
+}&#xD;
+if (this.context.options.imageHeight){&#xD;
+imgheight = this.context.options.imageHeight.get("value");&#xD;
+}&#xD;
+if(this.context.options.imageWidth){&#xD;
+imgwidth = this.context.options.imageWidth.get("value");&#xD;
+}&#xD;
+&#xD;
+var xhrArgs = function(config) { return {&#xD;
+url: "/rest/bpm/wle/v1/avatar/" + userName, content: {&#xD;
+accept: "application/json"&#xD;
+},&#xD;
+load: displayImage,&#xD;
+handleAs: "json"} };&#xD;
+&#xD;
+try{&#xD;
+&#xD;
+deferred = dojo.xhrGet(xhrArgs ( { inputs: {}}));&#xD;
+&#xD;
+} catch (error) {&#xD;
+alert(error);&#xD;
+}&#xD;
+&#xD;
+function displayImage(json_results) {&#xD;
+imagehtml = "&lt;img class='img-circle profile_img' height='" + imgheight + "' width='" + imgwidth + "' src='data:image/jpeg;base64," + json_results.data.userAvatarImage + "' /&gt;";&#xD;
+var imgDiv = _this.context.element.querySelectorAll('div[id="profileimage"]')[0];&#xD;
+var nameDiv = _this.context.element.querySelectorAll("h2")[0];&#xD;
+&#xD;
+imgDiv.innerHTML = imagehtml;&#xD;
+nameDiv.innerHTML = json_results.data.userName;&#xD;
+}</loadJsFunction>
+        <unloadJsFunction isNull="true" />
+        <viewJsFunction isNull="true" />
+        <changeJsFunction isNull="true" />
+        <collaborationJsFunction isNull="true" />
+        <description isNull="true" />
+        <validateJsFunction isNull="true" />
+        <previewAdvHtml isNull="true" />
+        <previewAdvJs isNull="true" />
+        <useUrlBinding>false</useUrlBinding>
+        <guid>a4be8e6a-6209-4b67-8a30-d140173c24e0</guid>
+        <versionId>a6aec042-6c8a-420a-b59c-41840ff99317</versionId>
+        <field1 isNull="true" />
+        <field2 isNull="true" />
+        <field3>0</field3>
+        <field4 isNull="true" />
+        <field5>false</field5>
+        <clobField1 isNull="true" />
+        <bindingType name="userName">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <coachViewBindingTypeId>65.1468dc04-b95f-48ff-b5ee-0222b74ee3c5</coachViewBindingTypeId>
+            <coachViewId>64.14eeb443-b5f6-405c-8f79-b689953be6e0</coachViewId>
+            <isList>false</isList>
+            <classId>3eead070-014c-46ed-b858-fe3e6d6b248e/12.db884a3c-c533-44b7-bb2d-47bec8ad4022</classId>
+            <seq>0</seq>
+            <description isNull="true" />
+            <guid>31bb99fb-c3c0-4f5a-ab51-0531b4ce079e</guid>
+            <versionId>06d89f4d-98be-48e9-a784-a49c6ec761a1</versionId>
+        </bindingType>
+        <configOption name="imageHeight">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <coachViewConfigOptionId>66.02f23738-8b46-446d-aec3-2440aea163e4</coachViewConfigOptionId>
+            <coachViewId>64.14eeb443-b5f6-405c-8f79-b689953be6e0</coachViewId>
+            <isList>false</isList>
+            <propertyType>OBJECT</propertyType>
+            <label isNull="true" />
+            <classId>3eead070-014c-46ed-b858-fe3e6d6b248e/12.3fa0d7a0-828a-4d60-99cc-db5ed143fc2d</classId>
+            <processId isNull="true" />
+            <actionflowId isNull="true" />
+            <isAdaptive>false</isAdaptive>
+            <seq>0</seq>
+            <description isNull="true" />
+            <groupName isNull="true" />
+            <guid>e714fb91-7c83-4b50-9fa8-8e2877b52749</guid>
+            <versionId>7d55ed91-6ac2-43e5-bfed-57dee49ea32e</versionId>
+        </configOption>
+        <configOption name="imageWidth">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <coachViewConfigOptionId>66.c547b2ee-a536-4919-a96c-7f2ede6e1142</coachViewConfigOptionId>
+            <coachViewId>64.14eeb443-b5f6-405c-8f79-b689953be6e0</coachViewId>
+            <isList>false</isList>
+            <propertyType>OBJECT</propertyType>
+            <label isNull="true" />
+            <classId>3eead070-014c-46ed-b858-fe3e6d6b248e/12.3fa0d7a0-828a-4d60-99cc-db5ed143fc2d</classId>
+            <processId isNull="true" />
+            <actionflowId isNull="true" />
+            <isAdaptive>false</isAdaptive>
+            <seq>1</seq>
+            <description isNull="true" />
+            <groupName isNull="true" />
+            <guid>90f6eeaf-0186-4d5b-ac10-c29c6d9ea3c1</guid>
+            <versionId>d95b3f9b-377d-41e2-8d7c-415773c95344</versionId>
+        </configOption>
+    </coachView>
+</teamworks>
+

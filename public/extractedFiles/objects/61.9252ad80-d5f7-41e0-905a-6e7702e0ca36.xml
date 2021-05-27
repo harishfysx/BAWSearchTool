@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teamworks>
+    <managedAsset id="61.9252ad80-d5f7-41e0-905a-6e7702e0ca36" name="sendsecuremail.jar">
+        <lastModified>1528548870233</lastModified>
+        <lastModifiedBy>asansanwal</lastModifiedBy>
+        <managedAssetId>61.9252ad80-d5f7-41e0-905a-6e7702e0ca36</managedAssetId>
+        <assetUuid>c0d1f04b-48f8-4f91-9cea-fea743c4ca3c</assetUuid>
+        <mimeType isNull="true" />
+        <charEncoding isNull="true" />
+        <assetTypeCode>J</assetTypeCode>
+        <length>4433</length>
+        <localLastModification>1528073155172</localLastModification>
+        <description isNull="true" />
+        <isDocumentationFile>false</isDocumentationFile>
+        <guid>a66aee3f-29af-4f0e-9058-68fedc5e0a1b</guid>
+        <versionId>cda09507-eb78-479d-89b8-cd60e6911d2f</versionId>
+    </managedAsset>
+</teamworks>
+

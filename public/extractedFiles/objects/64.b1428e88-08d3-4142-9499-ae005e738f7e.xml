@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teamworks>
+    <coachView id="64.b1428e88-08d3-4142-9499-ae005e738f7e" name="DisplayCoachView">
+        <lastModified>1528548870548</lastModified>
+        <lastModifiedBy>asansanwal</lastModifiedBy>
+        <coachViewId>64.b1428e88-08d3-4142-9499-ae005e738f7e</coachViewId>
+        <isTemplate>false</isTemplate>
+        <layout>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;&lt;ns2:layout xmlns:ns2="http://www.ibm.com/bpm/CoachDesignerNG" xmlns:ns3="http://www.ibm.com/bpm/coachview"&gt;&lt;ns2:layoutItem xsi:type="ns2:CustomHTML" version="8550" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;&lt;ns2:id&gt;cedbbc49-2eb2-497f-807d-f446b30803c6&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;CustomHTML1&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;be91c2eb-3bd4-4aef-88d9-d6adec5f9f10&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@customHTML.contentType&lt;/ns2:optionName&gt;&lt;ns2:value&gt;TEXT&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;746c9073-df43-45c8-891f-5a21186c5438&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@customHTML.textContent&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&amp;lt;div&amp;gt;&amp;lt;/div&amp;gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;/ns2:layoutItem&gt;&lt;/ns2:layout&gt;</layout>
+        <paletteIcon isNull="true" />
+        <previewImage isNull="true" />
+        <hasLabel>false</hasLabel>
+        <labelPosition>0</labelPosition>
+        <nineSliceX1Coord>0</nineSliceX1Coord>
+        <nineSliceX2Coord>0</nineSliceX2Coord>
+        <nineSliceY1Coord>0</nineSliceY1Coord>
+        <nineSliceY2Coord>0</nineSliceY2Coord>
+        <emitBoundary>false</emitBoundary>
+        <isPrototypeFunc>false</isPrototypeFunc>
+        <enableDevMode>false</enableDevMode>
+        <isMobileReady>true</isMobileReady>
+        <loadJsFunction>var cv =  this.context.element.getElementsByTagName("DIV");&#xD;
+&#xD;
+alert(this.context.binding.get("value").replace(/(\r\n|\n|\r)/gm,""));&#xD;
+ cv[0].innerHTML = this.context.binding.get("value").replace(/(\r\n|\n|\r)/gm,"");</loadJsFunction>
+        <unloadJsFunction isNull="true" />
+        <viewJsFunction isNull="true" />
+        <changeJsFunction isNull="true" />
+        <collaborationJsFunction isNull="true" />
+        <description isNull="true" />
+        <validateJsFunction isNull="true" />
+        <previewAdvHtml isNull="true" />
+        <previewAdvJs isNull="true" />
+        <useUrlBinding>false</useUrlBinding>
+        <guid>554c5644-15a3-4f31-b33b-0d652bba18f9</guid>
+        <versionId>045c2b1d-fdd4-4d63-b67d-bcb97f2f40e0</versionId>
+        <field1 isNull="true" />
+        <field2 isNull="true" />
+        <field3>0</field3>
+        <field4 isNull="true" />
+        <field5>false</field5>
+        <clobField1 isNull="true" />
+        <bindingType name="HTML">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <coachViewBindingTypeId>65.d17d2ed6-6ed5-4d4c-a645-be967783d9d3</coachViewBindingTypeId>
+            <coachViewId>64.b1428e88-08d3-4142-9499-ae005e738f7e</coachViewId>
+            <isList>false</isList>
+            <classId>3eead070-014c-46ed-b858-fe3e6d6b248e/12.db884a3c-c533-44b7-bb2d-47bec8ad4022</classId>
+            <seq>0</seq>
+            <description isNull="true" />
+            <guid>8bfe89b8-977f-46b1-981a-0d24a01ff358</guid>
+            <versionId>eb9fd095-32dc-47d7-96ce-ab83744e716b</versionId>
+        </bindingType>
+    </coachView>
+</teamworks>
+

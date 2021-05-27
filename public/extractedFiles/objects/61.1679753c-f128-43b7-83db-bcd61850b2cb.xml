@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teamworks>
+    <managedAsset id="61.1679753c-f128-43b7-83db-bcd61850b2cb" name="bootstrap-progressbar.min.js">
+        <lastModified>1528548870496</lastModified>
+        <lastModifiedBy>asansanwal</lastModifiedBy>
+        <managedAssetId>61.1679753c-f128-43b7-83db-bcd61850b2cb</managedAssetId>
+        <assetUuid>2c50d605-b708-499c-b3e7-4b551713dca2</assetUuid>
+        <mimeType>application/javascript</mimeType>
+        <charEncoding isNull="true" />
+        <assetTypeCode>W</assetTypeCode>
+        <length>2333</length>
+        <localLastModification>1506824713525</localLastModification>
+        <description isNull="true" />
+        <isDocumentationFile>false</isDocumentationFile>
+        <guid>8cc8fc50-780d-4677-bd69-79e91613e27b</guid>
+        <versionId>c6d612c1-3ae0-4150-8182-27d24d2be1c8</versionId>
+    </managedAsset>
+</teamworks>
+

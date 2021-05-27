@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teamworks>
+    <managedAsset id="61.01e1d37b-090e-4d36-91cc-739fc0986e92" name="nprogress.js">
+        <lastModified>1528548870737</lastModified>
+        <lastModifiedBy>asansanwal</lastModifiedBy>
+        <managedAssetId>61.01e1d37b-090e-4d36-91cc-739fc0986e92</managedAssetId>
+        <assetUuid>c6bcae87-ba1c-41be-8967-b5265e4f8d32</assetUuid>
+        <mimeType>application/javascript</mimeType>
+        <charEncoding isNull="true" />
+        <assetTypeCode>W</assetTypeCode>
+        <length>11565</length>
+        <localLastModification>1506824703625</localLastModification>
+        <description isNull="true" />
+        <isDocumentationFile>false</isDocumentationFile>
+        <guid>fcf2d8a7-9adb-4a19-8897-187003c957a2</guid>
+        <versionId>cd54bfd8-61c6-4ea8-884e-94d35304b2e5</versionId>
+    </managedAsset>
+</teamworks>
+

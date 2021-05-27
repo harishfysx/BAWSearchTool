@@ -133,15 +133,6 @@ app.post('/serchExtracted', (req, res) => {
                     for(var i=0; i<nodes.length; i++){
                       console.log(nodes[i].ownerElement.nodeName);
                     }
-                   
-                  
-                  //var keys = Object.keys(nodes[0]ownerElement.nodeName);
-                  //var keys = Object.keys(nodes.nodes[0].ownerElement.nodeName);
-                 // console.log("##################", keys);
-                  //console.log(nodes.nodes[0].ownerElement.nodeName);
-                   /*
-                   
-                  */
                 }
                 matchedObj['assetType'] = assetType;
                 matchedObjectNames.push(matchedObj)

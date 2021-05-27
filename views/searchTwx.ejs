@@ -22,6 +22,7 @@
 
      
       <input type="text" name="searchTerm" class="form-control">  </input>
+  
       <button formaction="/serchExtracted" type="submit" style="background-color: #21bb5c;" class="btn">Search</button>
       <br></br>
       <%= typeof msg != 'undefined' ? msg : '' %>
@@ -31,15 +32,28 @@
 
     <% if(typeof matchedObjectNames!= 'undefined') {  %>
       <table class="striped">
-        <tr>
-           <th>Artifact Name </th><th>Artifact Type</th><th>Location</th>
+        <tr >
+           <th>Artifact Name </th><th>Artifact Type</th><th colspan="2">Location</th>
         </tr>
      
         <% for (var i = 0; i < matchedObjectNames.length; i++) { %>
          <tr>
            <td><%= matchedObjectNames[i].objectName %></td>
            <td><%= matchedObjectNames[i].assetType %></td>
-           <td><%= matchedObjectNames[i].objectName %></td>
+           <td><table>
+            <% if(typeof matchedObjectNames[i].tagLocations!= 'undefined') {  %>
+             
+            <% for (var j = 0; j < matchedObjectNames[i].tagLocations.length; j++) { %>
+              <% if(typeof matchedObjectNames[i].tagLocations[j].attrNodeName!= 'undefined') {  %>
+            <tr>
+              
+              <td><%= matchedObjectNames[i].tagLocations[j].attrNodeName %>(<%= matchedObjectNames[i].tagLocations[j].attributVal %>)</td>
+        
+            </tr>
+            <% } %>
+            <% } %>
+            <% } %>
+            </table></td>
          </tr>    
         <% } %>
      </table>

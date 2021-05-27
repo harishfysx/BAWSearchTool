@@ -102,8 +102,9 @@ app.post('/deleteTwx', (req, res) => {
     res.redirect('/')
 });
 app.post('/serchExtracted', (req, res) => {
-    console.log(req.body.searchTerm);
-    exec("grep -nlr " + req.body.searchTerm + " ./public/extractedFiles/objects", (error, stdout, stderr) => {
+    console.log(req.body);
+    searchFileString = "grep -nlr " + req.body.searchTerm + " ./public/extractedFiles/objects";
+    exec(searchFileString, (error, stdout, stderr) => {
         if (error) {
             //console.log(`error: ${error.message}`);
             return;
@@ -115,30 +116,75 @@ app.post('/serchExtracted', (req, res) => {
         var testArray = stdout.split("\n");
         var matchedObjectNames = [];
         testArray.forEach(function(filePath, index) {
-         
             if (filePath) {
-              var matchedObj = {};
-              var data = fs.readFileSync(filePath, {
-                  encoding: 'UTF-8'
-              });
-              var doc = new dom().parseFromString(data);
-              matchedObj.objectName = xpath.select('string((//@name)[1])', doc);
-                //console.log(filePath, index);
+                //console.log(filePath);
+                var matchedObj = {};
                 var assetType = '';
+                var tagLocations = [];
+                var data = fs.readFileSync(filePath, {
+                    encoding: 'UTF-8'
+                });
+                var doc = new dom().parseFromString(data);
+                // To Find the Artifact  Names
+                matchedObj.objectName = xpath.select('string((//@name)[1])', doc);
                 if (filePath.includes('/64.')) {
                     assetType = "CoachView";
-                } else if (filePath.includes('/1.2c48639b')) {
-                    assetType = "Script";
-                    var nodes = xpath.select("//@*[contains(.,'multiDataSeries')]", doc);
-                    for(var i=0; i<nodes.length; i++){
-                      console.log(nodes[i].ownerElement.nodeName);
-                    }
+                } else if (filePath.includes('/1.')) {
+                    assetType = "Service";
                 }
+                // To Find the locations in attribute names start
+                var nodes = xpath.select(`//@*[contains(., '${req.body.searchTerm}')]`, doc);
+                if (nodes) {
+                    for (var i = 0; i < nodes.length; i++) {
+                        // console.log("node Names",nodes[i].value);
+                        if (!nodes[i].ownerElement.nodeName.includes('ns17:')) {
+                            // console.log("nodes[i].ownerElement.nodeName ", nodes[i].ownerElement.nodeName );
+                            var location = nodes[i].ownerElement.nodeName;
+                            if (nodes[i].ownerElement.nodeName == "processParameter") {
+                                location = "input/output variable";
+                            } else if (nodes[i].ownerElement.nodeName == "processVariable") {
+                                location = "private variable";
+                            }
+                            var attrTag = {
+                                'attributVal': nodes[i].value,
+                                'attrNodeName': location
+                            };
+                            tagLocations.push(attrTag);
+                        }
+                        //var attrTag = {'attributVal':nodes[i].value, 'attrNodeName': nodes[i].ownerElement.nodeName }
+                    }
+                    // To Find the locations in attribute names end
+                    var textNodes = xpath.select(`//teamworks//process/item//*[text()[contains(.,'${req.body.searchTerm}')]]/parent::*/parent::*/name`, doc);
+                    // To Find the locations in text start
+                    if (textNodes.length) {
+                        for (var k = 0; k < textNodes.length; k++) {
+                          
+                           // var keys = Object.keys(textNodes[k].firstChild);
+                           //  console.log("##################", keys);
+                            //console.log("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%",textNodes[k].firstChild);
+                            var textScript = xpath.select(`string(//teamworks//process/item[name='${textNodes[k].childNodes[0].data}']/TWComponent/script)`, doc);
+                            var tWComponentName = xpath.select(`string(//teamworks//process/item[name='${textNodes[k].childNodes[0].data}']/tWComponentName[1])`, doc);
+                            var splittedLinesArray = textScript.split("\n");
+                            var matchedLineNumber= splittedLinesArray.findIndex(el => el.includes(req.body.searchTerm)) +1;
+                          //console.log(index+1 );
+                            //console.log("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% matchedLineNumber",tWComponentName);
+                          
+                            var attrTag = {
+                                'attributVal': "Line Number: " + matchedLineNumber,
+                                'attrNodeName': tWComponentName + ": " +textNodes[k].childNodes[0].data
+                                
+                            };
+                            tagLocations.push(attrTag);
+                        }
+                    }
+                    // To Find the locations in text end
+                }
+                matchedObjectNames.push(matchedObj);
                 matchedObj['assetType'] = assetType;
-                matchedObjectNames.push(matchedObj)
+                matchedObj['tagLocations'] = tagLocations;
             }
         });
-        //console.log(matchedObjectNames);
+        // console.log("matchedObjectNames",matchedObjectNames);
         res.render('searchTwx', {
             msg: "serach results for : " + req.body.searchTerm,
             matchedObjectNames
@@ -180,6 +226,6 @@ function testJS() {
       });
       */
 }
-testJS();
+//testJS();
 const port = 3000;
 app.listen(port, () => console.log(`Server started on port ${port}`));

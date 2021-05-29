@@ -15,6 +15,7 @@ var bodyParser = require('body-parser');
 var exec = require('child_process').exec;
 var shell = require('shelljs');
 // Set The Storage Engine
+var fileNames;
 const storage = multer.diskStorage({
     destination: './public/uploads/',
     filename: function(req, file, cb) {
@@ -57,33 +58,60 @@ app.use(express.static('./public'));
 // parse application/json
 app.get('/', (req, res) => {
     var fileStatus;
+    var message;
+    
+
     if (fs.readdirSync('./public/uploads').length === 0) {
-        fileStatus = "File Doesnt Exist"
+        fileStatus = false;
+        //message = "No TWX is detected. "
+        
     } else {
-        fileStatus = "File Exists"
+        fileStatus = true;
+        fileNames = fs.readdirSync('./public/uploads');
+        //message = fileNames + " is detected. "
+
     }
     res.render('index', {
-        msg: fileStatus
+        msg: message , fileStatus, fileNames
     });
 });
 app.get('/searchTwx', (req, res) => {
-    var fileNames = fs.readdirSync('./public/uploads');
+  var fileStatus;
+  var message;
+  var fileNames;
+
+  if (fs.readdirSync('./public/uploads').length === 0) {
+    fileStatus = false;
+    message = "No TWX is detected. "
+    
+} else {
+    fileStatus = true;
+    fileNames = fs.readdirSync('./public/uploads');
+    //message = fileNames + " is detected. "
+
+}
+
     res.render('searchTwx', {
-        fileNames
+      msg: message , fileStatus, fileNames
     })
 });
 app.post('/upload', (req, res) => {
+  var fileStatus =false;;
     upload(req, res, (err) => {
         if (err) {
             res.render('index', {
-                msg: err
+                msg: err,
+                fileStatus
             });
         } else {
             if (req.file == undefined) {
                 res.render('index', {
-                    msg: 'Error: No File Selected!'
+                    msg: 'Error: No File Selected!',
+                    fileStatus,
+                    fileNames
                 });
             } else {
+              fileStatus =true;
                 console.log(req.file.filename);
                 var resolvedUnpackPath = resolve(`./public/extractedFiles`);
                 extract(`./public/uploads/${req.file.filename}`, {
@@ -102,19 +130,27 @@ app.post('/deleteTwx', (req, res) => {
     res.redirect('/')
 });
 app.post('/serchExtracted', (req, res) => {
+   var fileStatus =true;;
     console.log(req.body);
     searchFileString = "grep -nlr " + req.body.searchTerm + " ./public/extractedFiles/objects";
     exec(searchFileString, (error, stdout, stderr) => {
         if (error) {
-            //console.log(`error: ${error.message}`);
+            console.log("errro message", `error: ${error.message}`);
+            res.render('searchTwx', {
+              msg: "No serach results for : " + req.body.searchTerm,
+              fileStatus,
+              fileNames
+          })
             return;
         }
         if (stderr) {
             console.log(`stderr: ${stderr}`);
             return;
         }
+        //console.log("stdotu",stdout);
         var testArray = stdout.split("\n");
-        var matchedObjectNames = [];
+        if(testArray.length){
+          var matchedObjectNames = [];
         testArray.forEach(function(filePath, index) {
             if (filePath) {
                 //console.log(filePath);
@@ -153,8 +189,9 @@ app.post('/serchExtracted', (req, res) => {
                         }
                         //var attrTag = {'attributVal':nodes[i].value, 'attrNodeName': nodes[i].ownerElement.nodeName }
                     }
-                    // To Find the locations in attribute names end
+                    // To Find the locations in attribute names end for service xml - starting with 1. 
                     var textNodes = xpath.select(`//teamworks//process/item//*[text()[contains(.,'${req.body.searchTerm}')]]/parent::*/parent::*/name`, doc);
+                    //var textNodes = xpath.select(`//*[text()[contains(.,'${req.body.searchTerm}')]]/parent::*/parent::*/name`, doc);
                     // To Find the locations in text start
                     if (textNodes.length) {
                         for (var k = 0; k < textNodes.length; k++) {
@@ -164,13 +201,20 @@ app.post('/serchExtracted', (req, res) => {
                             //console.log("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%",textNodes[k].firstChild);
                             var textScript = xpath.select(`string(//teamworks//process/item[name='${textNodes[k].childNodes[0].data}']/TWComponent/script)`, doc);
                             var tWComponentName = xpath.select(`string(//teamworks//process/item[name='${textNodes[k].childNodes[0].data}']/tWComponentName[1])`, doc);
+                            //console.log("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$tWComponentName",tWComponentName);
+                           
                             var splittedLinesArray = textScript.split("\n");
                             var matchedLineNumber= splittedLinesArray.findIndex(el => el.includes(req.body.searchTerm)) +1;
+
+                            if(k==0){
+                              //console.log("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% textNodes[k]",textNodes[k]);
+                              //console.log("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ textScript",matchedLineNumber);
+                            }
                           //console.log(index+1 );
                             //console.log("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% matchedLineNumber",tWComponentName);
                           
                             var attrTag = {
-                                'attributVal': "Line Number: " + matchedLineNumber,
+                                'attributVal': "",
                                 'attrNodeName': tWComponentName + ": " +textNodes[k].childNodes[0].data
                                 
                             };
@@ -178,16 +222,37 @@ app.post('/serchExtracted', (req, res) => {
                         }
                     }
                     // To Find the locations in text end
+                    // To search through coahview xml files starting with 64. start
+                       var coachViewNode = xpath.select(`//teamworks//coachView//*[text()[contains(.,'${req.body.searchTerm}')]]`, doc);
+                       if(coachViewNode.length){
+                        for (var i = 0; i < coachViewNode.length; i++) {
+                          var attrTag = {
+                            'attributVal': "",
+                            'attrNodeName': coachViewNode[i].nodeName
+                            
+                        };
+                        tagLocations.push(attrTag);
+                        }
+                       }
+                       
+                    // To search through coahview xml files starting with 64. end
+
                 }
                 matchedObjectNames.push(matchedObj);
                 matchedObj['assetType'] = assetType;
                 matchedObj['tagLocations'] = tagLocations;
             }
         });
+        } else{
+          console.log("reslts not found")
+        }
+        
         // console.log("matchedObjectNames",matchedObjectNames);
         res.render('searchTwx', {
             msg: "serach results for : " + req.body.searchTerm,
-            matchedObjectNames
+            fileStatus: true,
+            matchedObjectNames,
+            fileNames
         })
     });
 })

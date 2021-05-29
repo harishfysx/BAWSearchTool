@@ -14,22 +14,22 @@
     
     <br>
     <p> </p>
-    
-
+    <a href="/" >Home</a>
+    <% if(fileStatus) { %>
     <form method="POST">
-      <button formaction="/deleteTwx" type="submit" style="background-color: #a62626;" class="btn">Delete <%= typeof fileNames != 'undefined' ? fileNames : '' %></button>
+      
       <div class="form-group">
 
      
       <input type="text" name="searchTerm" class="form-control">  </input>
   
-      <button formaction="/serchExtracted" type="submit" style="background-color: #21bb5c;" class="btn">Search</button>
+      <button formaction="/serchExtracted" type="submit" style="background-color: #21bb5c;" class="btn">Search <%= typeof fileNames != 'undefined' ? fileNames : '' %></button>
       <br></br>
       <%= typeof msg != 'undefined' ? msg : '' %>
       <br></br>
     </div>
     </form>
-
+    <% } %>
     <% if(typeof matchedObjectNames!= 'undefined') {  %>
       <table class="striped">
         <tr >
@@ -47,7 +47,7 @@
               <% if(typeof matchedObjectNames[i].tagLocations[j].attrNodeName!= 'undefined') {  %>
             <tr>
               
-              <td><%= matchedObjectNames[i].tagLocations[j].attrNodeName %>(<%= matchedObjectNames[i].tagLocations[j].attributVal %>)</td>
+              <td><%= matchedObjectNames[i].tagLocations[j].attrNodeName %> : <%= matchedObjectNames[i].tagLocations[j].attributVal %></td>
         
             </tr>
             <% } %>

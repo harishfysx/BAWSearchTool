@@ -12,7 +12,9 @@
   <div class="container">
     <h1>Twx File Upload</h1>
     <%= typeof msg != 'undefined' ? msg : '' %>
+    <br> </br>
     <form method="POST" enctype="multipart/form-data">
+      <% if(!fileStatus) { %>
       <div class="file-field input-field">
         <div class="btn grey">
           <span>File</span>
@@ -23,8 +25,14 @@
         </div>
       </div>
       <button formaction="/upload" type="submit" class="btn">Upload</button>
-      <button formaction="/deleteTwx" type="submit" class="btn">Delete Twx</button>
+      <% } %>
+      <% if(fileStatus) { %>
+        <a href="/searchTwx" style="color: #2559d0; font-size: larger;">Search <%= fileNames %></a>
+       <br></br>
+      <button formaction="/deleteTwx" style="background-color: #a62626;" type="submit" class="btn">Delete <%= typeof fileNames != 'undefined' ? fileNames : '' %></button>
+      <% } %>
     </form>
+    
     <br>
     <p> <%= typeof fileName != 'undefined' ? fileName : '' %></p>
   </div>

@@ -212,7 +212,7 @@ app.post('/serchExtracted', (req, res) => {
                             for (var k = 0; k < textNodes.length; k++) {
                                 // var keys = Object.keys(textNodes[k].firstChild);
                                 //  console.log("##################", keys);(
-                                if(matchedObj.objectName == 'TDSH Save Web Service Monitor'){
+                              
                                     
                                     var itemNameString = String(textNodes[k].childNodes[0].data);
                                    // console.log("item Name ::: ",itemNameString);
@@ -224,6 +224,8 @@ app.post('/serchExtracted', (req, res) => {
                                       var ancestorChain =exactElementInItem[i].nodeName;
                                       var ancestorList = [exactElementInItem[i].nodeName];
                                     console.log("----------------",i);
+                                      var exactEleScript  = exactElementInItem[i].firstChild.data;
+                                    //  console.log("exactEleScript ::::::::: ",exactEleScript);
                                       var matchedNodeName = exactElementInItem[i].nodeName;
                                       var parentNodeEle = exactElementInItem[i].parentNode;
                                       var currentElementName = matchedNodeName;
@@ -238,25 +240,10 @@ app.post('/serchExtracted', (req, res) => {
                                         parentNodeEle = parentNodeEle.parentNode;
                                       } ;
                                       ancestorList.push(itemNameString);
-                                      console.log("ancestorChain", ancestorChain + "<------" +itemNameString);
-                                      console.log("ancestorChain", ancestorList.reverse().join('--->'));
-                                     
-                                    //var keys = Object.keys(exactElementInItem[i]);
-                                 
-                                  }
-                                  
-                                //  console.log("exactElementInItem  elemtn data ::: ",exactElementInItem[0].firstChild.data);
-                                //var exactEleAncestors = xpath2.select('//item[name= "Copy of Script Task"]//script/ancestor::node()/name()', doc); // working
-                                
-                                   //var keys = Object.keys(exactElementInItem[0]);
-                                    //console.log("##################", keys);
-
-                                }
-                                
-                                var textScript = xpath.select(`string(//teamworks//process/item[name='${textNodes[k].childNodes[0].data}']/TWComponent/script)`, doc);
-                                var tWComponentName = xpath.select(`string(//teamworks//process/item[name='${textNodes[k].childNodes[0].data}']/tWComponentName[1])`, doc);
-                                //console.log("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$tWComponentName",tWComponentName);
-                                var splittedLinesArray = textScript.split("\n");
+                                     // console.log("ancestorChain", ancestorChain + "<------" +itemNameString);
+                                     var pathOfMatcheEl = ancestorList.reverse().join('--->')
+                                      console.log("ancestorChain", pathOfMatcheEl);
+                                      var splittedLinesArray = exactEleScript.split("\n");
                                 var matchedLineNumbers = splittedLinesArray.reduce(function(a, e, i) {
                                     if (e.includes(req.body.searchTerm)) a += i + 1 + " ,"
                                     return a;
@@ -266,18 +253,28 @@ app.post('/serchExtracted', (req, res) => {
                                 if (typeof matchedLineNumbers === 'string') {
                                     formattedLineNums = matchedLineNumbers.replace(/\,$/, '');
                                 }
-                                if (k == 0) {
-                                    //console.log("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% textNodes[k]",textNodes[k]);
-                                   // console.log("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ textScript", matchedLineNumbers);
-                                    //console.log("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ textScript",splittedLinesArray);
-                                }
+                                console.log("formattedLineNums", formattedLineNums);
+                                    //var keys = Object.keys(exactElementInItem[i]);
+                                    var attrTag = {
+                                        'attributVal': formattedLineNums,
+                                        'attrNodeName': pathOfMatcheEl
+                                    };
+
+                                    tagLocations.push(attrTag);
+                                 
+                                  }
+                                  
+                                //  console.log("exactElementInItem  elemtn data ::: ",exactElementInItem[0].firstChild.data);
+                                //var exactEleAncestors = xpath2.select('//item[name= "Copy of Script Task"]//script/ancestor::node()/name()', doc); // working
+                                
+                                   //var keys = Object.keys(exactElementInItem[0]);
+                                    //console.log("##################", keys);
+
+                            
                                 //console.log(index+1 );
                                 //console.log("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% matchedLineNumber",tWComponentName);
-                                var attrTag = {
-                                    'attributVal': formattedLineNums,
-                                    'attrNodeName': tWComponentName + "( " + textNodes[k].childNodes[0].data + ")"
-                                };
-                                tagLocations.push(attrTag);
+                               
+                               
                             }
                         }
                         // To Find the locations in text end

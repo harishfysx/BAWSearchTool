@@ -167,30 +167,100 @@ app.post('/serchExtracted', (req, res) => {
                     } else if (filePath.includes('/12.')) {
                         assetType = "Data"; //
                     }
-                    // To Find the locations in attribute names start
-                    var nodes = xpath.select(`//@*[contains(., '${req.body.searchTerm}')]`, doc);
-                    if (nodes) {
-                        for (var i = 0; i < nodes.length; i++) {
-                            //console.log("node Names",nodes[i].value);
-                            if (!nodes[i].ownerElement.nodeName.includes('ns17:')) {
-                                //console.log("nodes[i].ownerElement.nodeName ", nodes[i].ownerElement.nodeName );
-                                var location = nodes[i].ownerElement.nodeName;
-                                if (nodes[i].ownerElement.nodeName == "processParameter") {
+                    //********************************Universal Attribute Level Irrespective of File Type Start *********************************
+                    var attrNodexPath = `//@*[contains(., '${req.body.searchTerm}')]`;
+                    //console.log("nodexPath", nodexPath);
+                    var attrNodes = xpath.select(attrNodexPath, doc);
+                 
+                    if (attrNodes.length) {
+                        
+                        for (var i = 0; i < attrNodes.length; i++) {
+                            //console.log("node Names",attrNodes[i].value);
+                            if (!attrNodes[i].ownerElement.nodeName.includes('ns17:')) {
+                                //console.log("attrNodes[i].ownerElement.nodeName ", attrNodes[i].ownerElement.nodeName );
+                                var location = attrNodes[i].ownerElement.nodeName;
+                                if (attrNodes[i].ownerElement.nodeName == "processParameter") {
                                     location = "input/output variable";
-                                } else if (nodes[i].ownerElement.nodeName == "processVariable") {
+                                } else if (attrNodes[i].ownerElement.nodeName == "processVariable") {
                                     location = "private variable";
                                 }
                                 var attrTag = {
-                                    'attributVal': nodes[i].value,
+                                    'attributVal': attrNodes[i].value,
                                     'attrNodeName': location,
                                     'matchedTerm': 'Do it later'
                                 };
                                 tagLocations.push(attrTag);
                             }
-                            //var attrTag = {'attributVal':nodes[i].value, 'attrNodeName': nodes[i].ownerElement.nodeName }
+                            //var attrTag = {'attributVal':attrNodes[i].value, 'attrNodeName': attrNodes[i].ownerElement.nodeName }
                         }
+                    }
+                     //********************************Universal  Attribute Level Irrespective of File Type End *********************************
+
+                     //********************************Universal Text Level Irrespective of File Type End *********************************
+                     var universalTextNodexPath = `//*[text()[contains(., '${req.body.searchTerm}')]]`;
+                     
+                        //console.log("universalTextNodexPath", universalTextNodexPath);
+                     var universalTextNodes = xpath.select(universalTextNodexPath, doc);
+                     var mergedList = [].concat(universalTextNodes, attrNodes);
+                     //universalTextNodes.concat(attrNodes);
+                     console.log('universalTextNodes.length:: ', mergedList.length ,"universalTextNodes.length::", universalTextNodes.length);
+                    
+                     if(universalTextNodes.length){
+                        for (var i = 0; i < universalTextNodes.length; i++) {
+                           // console.log("universalTextNodes", universalTextNodes[i]);
+                            var matchedExactNodeName = universalTextNodes[i].nodeName;
+                            var matchedExactNodeData = universalTextNodes[i].firstChild.data;
+                           
+                            var ancestorList = [universalTextNodes[i].nodeName];
+                            //console.log("matchedExactNodeName", matchedExactNodeName);
+                            //console.log(".ownerElement.nodeName", universalTextNodes[i].ownerElement);
+                            var parentNodeEle = universalTextNodes[i].parentNode;
+                            while (parentNodeEle != null) {
+                                //console.log("Parent Of ", currentElementName, "is ", parentNodeEle.nodeName);
+                                if(parentNodeEle.nodeName == 'process' || parentNodeEle.nodeName == 'teamworks'){
+                                    break;
+                                }
+                               
+                                ancestorList.push(parentNodeEle.nodeName);
+                                currentElementName = parentNodeEle.nodeName;
+                                parentNodeEle = parentNodeEle.parentNode;
+                            };
+
+                           // console.log("ancestorList", ancestorList);
+                            var pathOfMatcheEl = ancestorList.reverse().join('--->')
+                            //console.log("ancestorChain", pathOfMatcheEl);
+                            if(!pathOfMatcheEl.includes("bpmn2Model") && !pathOfMatcheEl.includes("jsonData")){
+                                var splittedLinesArray = matchedExactNodeData.split("\n");
+                            var matchedLineNumbers = splittedLinesArray.reduce(function(a, e, i) {
+                                if (e.includes(req.body.searchTerm)) a += i + 1 + " ,"
+                                return a;
+                            }, []);
+                            var formattedLineNums = '';
+                            //console.log("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% matchedLineNumbers", matchedLineNumbers);
+                            if (typeof matchedLineNumbers === 'string') {
+                                formattedLineNums = matchedLineNumbers.replace(/\,$/, '');
+                            }
+                           // console.log("formattedLineNums", formattedLineNums);
+                            //var keys = Object.keys(exactElementInItem[i]);
+                            var attrTag = {
+                                'attributVal': formattedLineNums,
+                                'attrNodeName': pathOfMatcheEl
+                            };
+                            tagLocations.push(attrTag);
+                            }
+                            
+                          
+                        }
+                        
+
+                     }
+
+
+                     //********************************Text Level Irrespective of File Type End *********************************
+
+                    //********************************Text Level Irrespective with 12 File Type Start *********************************
                         // Find the node
-                        // Handle Complext object file which starts with 12
+                        // Handle Complext object file which starts 
                         var dataProperties = xpath.select(`//teamworks//twClass//definition/property/*[text()[contains(.,'${req.body.searchTerm}')]]`, doc);
                         if (dataProperties) {
                             for (var i = 0; i < dataProperties.length; i++) {
@@ -202,95 +272,8 @@ app.post('/serchExtracted', (req, res) => {
                                 tagLocations.push(attrTag);
                             }
                         }
-                        //
-                        // To Find the locations in attribute names end for service xml - starting with 1. 
-                        //var textNodes = xpath.select(`//teamworks//process/item//*[text()[contains(.,'${req.body.searchTerm}')]]/parent::*/parent::*/name`, doc);
-                        //item[ .//*[text()[contains(.,'tw.local.WebServeMonitorConfig.monitorSeq')]]]/name
-                        var textNodes = xpath.select(` //item[ .//*[text()[contains(.,'${req.body.searchTerm}')]]]/name`, doc);
-                        // To Find the locations in text start
-                        if (textNodes.length) {
-                            for (var k = 0; k < textNodes.length; k++) {
-                                // var keys = Object.keys(textNodes[k].firstChild);
-                                //  console.log("##################", keys);(
-                              
-                                    
-                                    var itemNameString = String(textNodes[k].childNodes[0].data);
-                                   // console.log("item Name ::: ",itemNameString);
-                                   console.log(">>>>>>>>>>>>>>>>>>>>>>",itemNameString,"<<<<<<<<<<<<<<<");
-                                    var xpathForExactEle = `//item[name='${textNodes[k].childNodes[0].data}']//*[text()[contains(.,'${req.body.searchTerm}')]]`
-                                    //console.log("xpathForExactEle  ::: ",xpathForExactEle);
-                                  var exactElementInItem =  xpath.select(xpathForExactEle, doc);
-                                  for(var i=0; i<exactElementInItem.length; i++){
-                                      var ancestorChain =exactElementInItem[i].nodeName;
-                                      var ancestorList = [exactElementInItem[i].nodeName];
-                                    console.log("----------------",i);
-                                      var exactEleScript  = exactElementInItem[i].firstChild.data;
-                                    //  console.log("exactEleScript ::::::::: ",exactEleScript);
-                                      var matchedNodeName = exactElementInItem[i].nodeName;
-                                      var parentNodeEle = exactElementInItem[i].parentNode;
-                                      var currentElementName = matchedNodeName;
-                                      while(parentNodeEle !=null){
-                                          if(parentNodeEle.nodeName == 'item'){
-                                              break;
-                                          }
-                                        //console.log("Parent Of ", currentElementName, "is ", parentNodeEle.nodeName);
-                                        ancestorList.push(parentNodeEle.nodeName);
-                                        ancestorChain += "<---" + parentNodeEle.nodeName ;
-                                        currentElementName = parentNodeEle.nodeName;
-                                        parentNodeEle = parentNodeEle.parentNode;
-                                      } ;
-                                      ancestorList.push(itemNameString);
-                                     // console.log("ancestorChain", ancestorChain + "<------" +itemNameString);
-                                     var pathOfMatcheEl = ancestorList.reverse().join('--->')
-                                      console.log("ancestorChain", pathOfMatcheEl);
-                                      var splittedLinesArray = exactEleScript.split("\n");
-                                var matchedLineNumbers = splittedLinesArray.reduce(function(a, e, i) {
-                                    if (e.includes(req.body.searchTerm)) a += i + 1 + " ,"
-                                    return a;
-                                }, []);
-                                var formattedLineNums = '';
-                                //console.log("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% matchedLineNumbers", matchedLineNumbers);
-                                if (typeof matchedLineNumbers === 'string') {
-                                    formattedLineNums = matchedLineNumbers.replace(/\,$/, '');
-                                }
-                                console.log("formattedLineNums", formattedLineNums);
-                                    //var keys = Object.keys(exactElementInItem[i]);
-                                    var attrTag = {
-                                        'attributVal': formattedLineNums,
-                                        'attrNodeName': pathOfMatcheEl
-                                    };
-
-                                    tagLocations.push(attrTag);
-                                 
-                                  }
-                                  
-                                //  console.log("exactElementInItem  elemtn data ::: ",exactElementInItem[0].firstChild.data);
-                                //var exactEleAncestors = xpath2.select('//item[name= "Copy of Script Task"]//script/ancestor::node()/name()', doc); // working
-                                
-                                   //var keys = Object.keys(exactElementInItem[0]);
-                                    //console.log("##################", keys);
-
-                            
-                                //console.log(index+1 );
-                                //console.log("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% matchedLineNumber",tWComponentName);
-                               
-                               
-                            }
-                        }
-                        // To Find the locations in text end
-                        // To search through coahview xml files starting with 64. start
-                        var coachViewNode = xpath.select(`//teamworks//coachView//*[text()[contains(.,'${req.body.searchTerm}')]]`, doc);
-                        if (coachViewNode.length) {
-                            for (var i = 0; i < coachViewNode.length; i++) {
-                                var attrTag = {
-                                    'attributVal': "",
-                                    'attrNodeName': coachViewNode[i].nodeName
-                                };
-                                tagLocations.push(attrTag);
-                            }
-                        }
-                        // To search through coahview xml files starting with 64. end
-                    }
+                     //********************************Text Level Irrespective with 12 File Type End *********************************
+                   
                     matchedObjectNames.push(matchedObj);
                     matchedObj['assetType'] = assetType;
                     matchedObj['tagLocations'] = tagLocations;
@@ -328,7 +311,7 @@ function testJS() {
     var doc = new dom().parseFromString(data);
     //var childNodes = xpath.select('/teamworks/process/item', doc);
     var childNodes = xpath2.select('//teamworks//process/item[name= "Exclusive Gateway"]//*[text()[contains(.,"tw.local.WebServeMonitorConfig.monitorSeq")]]/ancestor::*/name()', doc);
-    console.log(childNodes);//
+    console.log(childNodes); //
     //var splittedLinesArray = childNodes[0].firstChild.data.split("\n");
     //var index= splittedLinesArray.findIndex(el => el.includes("InstanceCreationTest"));
     //console.log(index+1 );

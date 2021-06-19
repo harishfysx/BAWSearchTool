@@ -130,7 +130,7 @@ app.post('/deleteTwx', (req, res) => {
 app.post('/serchExtracted', (req, res) => {
     var fileStatus = true;;
     console.log(req.body);
-    searchFileString = "grep -nlr '" + req.body.searchTerm + "*' ./public/extractedFiles/objects";
+    searchFileString = "grep -nlr '/*" + req.body.searchTerm + "/*' ./public/extractedFiles/objects";
     console.log("searchFileString", searchFileString);
     exec(searchFileString, (error, stdout, stderr) => {
         if (error) {
@@ -197,12 +197,14 @@ app.post('/serchExtracted', (req, res) => {
                             if (!attrNodes[i].ownerElement.nodeName.includes('ns17:')) {
                                 //console.log("attrNodes[i].ownerElement.nodeName ", attrNodes[i].ownerElement.nodeName );
                                 var location = attrNodes[i].ownerElement.nodeName;
+                                /*
                                 if (attrNodes[i].ownerElement.nodeName == "processParameter") {
                                     location = "input/output variable";
                                     //console.log("node Names",attrNodes[i]);
                                 } else if (attrNodes[i].ownerElement.nodeName == "processVariable") {
                                     location = "private variable";
                                 }
+                                */
                                 var attrTag = {
                                     'attributVal': attrNodes[i].value,
                                     'attrNodeName': location,
@@ -236,24 +238,25 @@ app.post('/serchExtracted', (req, res) => {
                                     break;
                                 }
                                 var elementIdentifier = parentNodeEle.nodeName;
-                                const result = _.findWhere(parentNodeEle.childNodes, {
+                                // Check if the name exists as child node
+                                var nodeWithNameTag = _.findWhere(parentNodeEle.childNodes, {
                                     nodeName: "name"
                                 });
-                                if (result) {
+                                if (nodeWithNameTag) {
                                     //console.log("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",result.firstChild.data);
-                                    elementIdentifier += "(" + result.firstChild.data + ")";
+                                    elementIdentifier += "(" + nodeWithNameTag.firstChild.data + ")";
                                 }
-                                /*
-                                
-                                var nodeNameXpath= `//name/text()`;
-                                var nameNodes = xpath.select(nodeNameXpath, parentNodeEle);
-                                
-                                if(nameNodes && nameNodes.length){
-                                    console.log("nameNodes **************************************",nameNodes[0].data);
-                                    itemName = nameNodes[0].data;
+                                // Check if name exists as attribute
+                                if(parentNodeEle.attributes[0]){
+                                   // console.log("###########################---------------------->",parentNodeEle.attributes[0].nodeValue);
+                                    elementIdentifier +=  "(" + parentNodeEle.attributes[0].nodeValue + ")";
                                 }
-                                */
-                                //}
+                                    
+                                
+                                
+                               
+                             
+                             
                                 ancestorList.push(elementIdentifier);
                                 currentElementName = parentNodeEle.nodeName;
                                 parentNodeEle = parentNodeEle.parentNode;

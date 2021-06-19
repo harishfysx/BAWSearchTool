@@ -264,7 +264,7 @@ app.post('/serchExtracted', (req, res) => {
                             // console.log("ancestorList", ancestorList);
                             var pathOfMatcheEl = ancestorList.reverse().join('--->')
                             //console.log("ancestorChain", pathOfMatcheEl);
-                            if (!pathOfMatcheEl.includes("bpmn2Model") && !pathOfMatcheEl.includes("jsonData")) {
+                            if (!pathOfMatcheEl.includes("bpmn2Model") && !pathOfMatcheEl.includes("jsonData") && !pathOfMatcheEl.includes("bpmn2Data")) {
                                 var splittedLinesArray = matchedExactNodeData.split("\n");
                                 var matchedLineNumbers = splittedLinesArray.reduce(function(a, e, i) {
                                     if (e.includes(req.body.searchTerm)) a += i + 1 + " ,"

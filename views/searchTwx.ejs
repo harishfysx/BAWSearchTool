@@ -22,7 +22,7 @@
 
      
       <input type="text" name="searchTerm" class="form-control">  </input>
-  
+        <p>Do not include special characters in your search</p>
       <button formaction="/serchExtracted" type="submit" style="background-color: #21bb5c;" class="btn">Search <%= typeof fileNames != 'undefined' ? fileNames : '' %></button>
       <br></br>
       <%= typeof msg != 'undefined' ? msg : '' %>

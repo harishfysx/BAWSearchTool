@@ -15,6 +15,7 @@ const fsExtra = require('fs-extra');
 const bodyParser = require('body-parser');
 const exec = require('child_process').exec;
 const shell = require('shelljs');
+const _ = require('underscore');
 // Set The Storage Engine
 var fileNames;
 const storage = multer.diskStorage({
@@ -129,7 +130,8 @@ app.post('/deleteTwx', (req, res) => {
 app.post('/serchExtracted', (req, res) => {
     var fileStatus = true;;
     console.log(req.body);
-    searchFileString = "grep -nlr " + req.body.searchTerm + " ./public/extractedFiles/objects";
+    searchFileString = "grep -nlr '" + req.body.searchTerm + "*' ./public/extractedFiles/objects";
+    console.log("searchFileString", searchFileString);
     exec(searchFileString, (error, stdout, stderr) => {
         if (error) {
             console.log("errro message", `error: ${error.message}`);
@@ -160,27 +162,44 @@ app.post('/serchExtracted', (req, res) => {
                     var doc = new dom().parseFromString(data);
                     // To Find the Artifact  Names
                     matchedObj.objectName = xpath.select('string((//@name)[1])', doc);
-                    if (filePath.includes('/64.')) {
-                        assetType = "CoachView";
-                    } else if (filePath.includes('/1.')) {
+                    if (filePath.includes('/1.')) {
                         assetType = "Service";
+                    } else if (filePath.includes('/4.')) {
+                        assetType = "UCA"; //
+                    } else if (filePath.includes('/7.')) {
+                        assetType = "Web Service"; //
                     } else if (filePath.includes('/12.')) {
                         assetType = "Data"; //
+                    } else if (filePath.includes('/21.')) {
+                        assetType = "EPV"; //
+                    } else if (filePath.includes('/24.')) {
+                        assetType = "Team"; //
+                    } else if (filePath.includes('/25.')) {
+                        assetType = "BPD"; //
+                    } else if (filePath.includes('/61.')) {
+                        assetType = "Managed Asset"; //
+                    } else if (filePath.includes('/62.')) {
+                        assetType = "ENV"; //
+                    } else if (filePath.includes('/63.')) {
+                        assetType = "projectDefaults"; //
+                    } else if (filePath.includes('/64.')) {
+                        assetType = "CoachView";
+                    } else if (filePath.includes('/72.')) {
+                        assetType = "uiTheme";
                     }
                     //********************************Universal Attribute Level Irrespective of File Type Start *********************************
                     var attrNodexPath = `//@*[contains(., '${req.body.searchTerm}')]`;
                     //console.log("nodexPath", nodexPath);
                     var attrNodes = xpath.select(attrNodexPath, doc);
-                 
                     if (attrNodes.length) {
-                        
                         for (var i = 0; i < attrNodes.length; i++) {
-                            //console.log("node Names",attrNodes[i].value);
+                            //
                             if (!attrNodes[i].ownerElement.nodeName.includes('ns17:')) {
                                 //console.log("attrNodes[i].ownerElement.nodeName ", attrNodes[i].ownerElement.nodeName );
                                 var location = attrNodes[i].ownerElement.nodeName;
                                 if (attrNodes[i].ownerElement.nodeName == "processParameter") {
                                     location = "input/output variable";
+                                    //console.log("node Names",attrNodes[i]);
                                 } else if (attrNodes[i].ownerElement.nodeName == "processVariable") {
                                     location = "private variable";
                                 }
@@ -194,86 +213,91 @@ app.post('/serchExtracted', (req, res) => {
                             //var attrTag = {'attributVal':attrNodes[i].value, 'attrNodeName': attrNodes[i].ownerElement.nodeName }
                         }
                     }
-                     //********************************Universal  Attribute Level Irrespective of File Type End *********************************
-
-                     //********************************Universal Text Level Irrespective of File Type End *********************************
-                     var universalTextNodexPath = `//*[text()[contains(., '${req.body.searchTerm}')]]`;
-                     
-                        //console.log("universalTextNodexPath", universalTextNodexPath);
-                     var universalTextNodes = xpath.select(universalTextNodexPath, doc);
-                     var mergedList = [].concat(universalTextNodes, attrNodes);
-                     //universalTextNodes.concat(attrNodes);
-                     console.log('universalTextNodes.length:: ', mergedList.length ,"universalTextNodes.length::", universalTextNodes.length);
-                    
-                     if(universalTextNodes.length){
+                    //********************************Universal  Attribute Level Irrespective of File Type End *********************************
+                    //********************************Universal Text Level Irrespective of File Type End *********************************
+                    var universalTextNodexPath = `//*[text()[contains(., '${req.body.searchTerm}')]]`;
+                    //console.log("universalTextNodexPath", universalTextNodexPath);
+                    var universalTextNodes = xpath.select(universalTextNodexPath, doc);
+                    var mergedList = [].concat(universalTextNodes, attrNodes);
+                    //universalTextNodes.concat(attrNodes);
+                    //console.log('universalTextNodes.length:: ', mergedList.length ,"universalTextNodes.length::", universalTextNodes.length);
+                    if (universalTextNodes.length) {
                         for (var i = 0; i < universalTextNodes.length; i++) {
-                           // console.log("universalTextNodes", universalTextNodes[i]);
+                            // console.log("universalTextNodes", universalTextNodes[i]);
                             var matchedExactNodeName = universalTextNodes[i].nodeName;
                             var matchedExactNodeData = universalTextNodes[i].firstChild.data;
-                           
                             var ancestorList = [universalTextNodes[i].nodeName];
                             //console.log("matchedExactNodeName", matchedExactNodeName);
                             //console.log(".ownerElement.nodeName", universalTextNodes[i].ownerElement);
                             var parentNodeEle = universalTextNodes[i].parentNode;
                             while (parentNodeEle != null) {
                                 //console.log("Parent Of ", currentElementName, "is ", parentNodeEle.nodeName);
-                                if(parentNodeEle.nodeName == 'process' || parentNodeEle.nodeName == 'teamworks'){
+                                if (parentNodeEle.nodeName == 'process' || parentNodeEle.nodeName == 'teamworks') {
                                     break;
                                 }
-                               
-                                ancestorList.push(parentNodeEle.nodeName);
+                                var elementIdentifier = parentNodeEle.nodeName;
+                                const result = _.findWhere(parentNodeEle.childNodes, {
+                                    nodeName: "name"
+                                });
+                                if (result) {
+                                    //console.log("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",result.firstChild.data);
+                                    elementIdentifier += "(" + result.firstChild.data + ")";
+                                }
+                                /*
+                                
+                                var nodeNameXpath= `//name/text()`;
+                                var nameNodes = xpath.select(nodeNameXpath, parentNodeEle);
+                                
+                                if(nameNodes && nameNodes.length){
+                                    console.log("nameNodes **************************************",nameNodes[0].data);
+                                    itemName = nameNodes[0].data;
+                                }
+                                */
+                                //}
+                                ancestorList.push(elementIdentifier);
                                 currentElementName = parentNodeEle.nodeName;
                                 parentNodeEle = parentNodeEle.parentNode;
                             };
-
-                           // console.log("ancestorList", ancestorList);
+                            // console.log("ancestorList", ancestorList);
                             var pathOfMatcheEl = ancestorList.reverse().join('--->')
                             //console.log("ancestorChain", pathOfMatcheEl);
-                            if(!pathOfMatcheEl.includes("bpmn2Model") && !pathOfMatcheEl.includes("jsonData")){
+                            if (!pathOfMatcheEl.includes("bpmn2Model") && !pathOfMatcheEl.includes("jsonData")) {
                                 var splittedLinesArray = matchedExactNodeData.split("\n");
-                            var matchedLineNumbers = splittedLinesArray.reduce(function(a, e, i) {
-                                if (e.includes(req.body.searchTerm)) a += i + 1 + " ,"
-                                return a;
-                            }, []);
-                            var formattedLineNums = '';
-                            //console.log("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% matchedLineNumbers", matchedLineNumbers);
-                            if (typeof matchedLineNumbers === 'string') {
-                                formattedLineNums = matchedLineNumbers.replace(/\,$/, '');
-                            }
-                           // console.log("formattedLineNums", formattedLineNums);
-                            //var keys = Object.keys(exactElementInItem[i]);
-                            var attrTag = {
-                                'attributVal': formattedLineNums,
-                                'attrNodeName': pathOfMatcheEl
-                            };
-                            tagLocations.push(attrTag);
-                            }
-                            
-                          
-                        }
-                        
-
-                     }
-
-
-                     //********************************Text Level Irrespective of File Type End *********************************
-
-                    //********************************Text Level Irrespective with 12 File Type Start *********************************
-                        // Find the node
-                        // Handle Complext object file which starts 
-                        var dataProperties = xpath.select(`//teamworks//twClass//definition/property/*[text()[contains(.,'${req.body.searchTerm}')]]`, doc);
-                        if (dataProperties) {
-                            for (var i = 0; i < dataProperties.length; i++) {
+                                var matchedLineNumbers = splittedLinesArray.reduce(function(a, e, i) {
+                                    if (e.includes(req.body.searchTerm)) a += i + 1 + " ,"
+                                    return a;
+                                }, []);
+                                var formattedLineNums = '';
+                                //console.log("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% matchedLineNumbers", matchedLineNumbers);
+                                if (typeof matchedLineNumbers === 'string') {
+                                    formattedLineNums = matchedLineNumbers.replace(/\,$/, '');
+                                }
+                                // console.log("formattedLineNums", formattedLineNums);
+                                //var keys = Object.keys(exactElementInItem[i]);
                                 var attrTag = {
-                                    'attributVal': dataProperties[i].childNodes[0].data,
-                                    'attrNodeName': 'property',
-                                    'matchedTerm': dataProperties[i].childNodes[0].data
+                                    'attributVal': formattedLineNums,
+                                    'attrNodeName': pathOfMatcheEl
                                 };
                                 tagLocations.push(attrTag);
                             }
                         }
-                     //********************************Text Level Irrespective with 12 File Type End *********************************
-                   
+                    }
+                    //********************************Text Level Irrespective of File Type End *********************************
+                    //********************************Text Level Irrespective with 12 File Type Start *********************************
+                    // Find the node
+                    // Handle Complext object file which starts 
+                    var dataProperties = xpath.select(`//teamworks//twClass//definition/property/*[text()[contains(.,'${req.body.searchTerm}')]]`, doc);
+                    if (dataProperties) {
+                        for (var i = 0; i < dataProperties.length; i++) {
+                            var attrTag = {
+                                'attributVal': dataProperties[i].childNodes[0].data,
+                                'attrNodeName': 'property',
+                                'matchedTerm': dataProperties[i].childNodes[0].data
+                            };
+                            tagLocations.push(attrTag);
+                        }
+                    }
+                    //********************************Text Level Irrespective with 12 File Type End *********************************
                     matchedObjectNames.push(matchedObj);
                     matchedObj['assetType'] = assetType;
                     matchedObj['tagLocations'] = tagLocations;
